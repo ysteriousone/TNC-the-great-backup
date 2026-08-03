@@ -1,0 +1,46 @@
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	initial_show_position = {
+		x = 76
+		y = 0
+	}
+	focus = {
+		id = GER_focus_aubenpolitik
+		icon = GFX_focus_GER_weltpolitik
+		x = 20
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = GER_aubenpolitik
+		}
+	}
+	focus = {
+		id = GER_focus_
+	}
+}
