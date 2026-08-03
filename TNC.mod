@@ -4,4 +4,5 @@ tags={
 }
 name="TNC"
 supported_version="1.19.0.0"
+replace_path="common/decisions"
 path="C:/Users/zerfj/Documents/Paradox Interactive/Hearts of Iron IV/mod/TNC"
