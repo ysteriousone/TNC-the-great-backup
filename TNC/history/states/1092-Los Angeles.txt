@@ -1,0 +1,30 @@
+state={
+	id=1092
+	name="STATE_1092"
+	provinces={
+		9814 
+	}
+	state_category = megalopolis
+	history={
+		owner = MEX
+		add_core_of = CSA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 10
+			9814 = {
+				naval_base = 5
+			}
+		}
+	
+			victory_points = {
+			9814 30
+		}
+	}
+	manpower=1189801
+	buildings_max_level_factor=1
+	local_supplies=0
+}

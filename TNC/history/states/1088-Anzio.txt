@@ -1,0 +1,33 @@
+state={
+	id=1088
+	name="STATE_1088"
+	provinces={
+		923 11846 11882 
+	}
+	state_category = rural
+	manpower=1281738
+	buildings_max_level_factor=1
+	local_supplies=0
+		history = {
+		owner = CLN
+		victory_points = { 11846 2 } #Anzio (was 5)
+		buildings = {
+			infrastructure = 4
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 4
+
+	
+		}
+		add_core_of = CLN
+		add_core_of = PAP
+	
+buildings = {
+			infrastructure = 4
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 4
+		}
+		
+	}
+}

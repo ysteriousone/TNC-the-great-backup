@@ -1,4 +1,4 @@
-﻿capital = 46
+﻿capital = 1090
 
 if = {
 	limit = {
