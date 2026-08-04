@@ -11,6 +11,7 @@ state= {
 
 	history= {
 		owner = GRE
+		add_core_of = GRE
 		victory_points = {
 			11842 5
 		}
@@ -37,7 +38,7 @@ state= {
 	}
 	provinces=
 	{
-849 922 3879 3893 6895 11842 	}
+ 849 922 3879 3893 6895 11842  	}
 
 	local_supplies=0.0 
 }

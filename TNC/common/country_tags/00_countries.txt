@@ -1,4 +1,3 @@
-CLN = "countries/CLN.txt"
 NFA = "countries/National France.txt"
 ALA = "countries/Alabama.txt"
 GGR = "countries/Georgia_US.txt"

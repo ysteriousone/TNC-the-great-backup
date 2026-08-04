@@ -239,42 +239,7 @@ template = faction_template_generic_dominance
 	}
 	
 news_event = {
-id = world.8
-days = 3
- }
- 
- TUR = {
- country_event = {
- id = proxy.7
- days = 29
-  }
-	
- }
-  } 
- 
-}
-
- #Ottomans join Balkan War
-country_event = {
-	id = proxy.7
-	title = proxy.7.t
-	desc = proxy.7.d
-	picture = GFX_report_event_spain_civil_war_soldiers
-    is_triggered_only = yes 
-	fire_only_once = yes
-
-	option = { 
-		name = proxy.7.a
- 
-  }
- 
-BUL = {
-add_to_faction = TUR
- }
- 
-	
-news_event = {
-id = world.9
+id = world.7
 days = 3
  }
 	
