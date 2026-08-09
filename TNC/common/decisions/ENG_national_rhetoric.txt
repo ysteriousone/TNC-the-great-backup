@@ -33,5 +33,6 @@ ENG_national_rhetoric_cat = {
 	}
 
 }
+
 }
 }
