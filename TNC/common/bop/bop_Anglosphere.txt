@@ -1,0 +1,48 @@
+ENG_national_rhetoric = {
+    initial_value = 0
+    left_side = national_rhetoric_left_side
+    right_side = national_rhetoric_right_side
+    decision_category = ENG_national_rhetoric_cat
+    
+    range = {
+        id = ENG_national_rhetoric_centre_range
+        min = -0.25
+        max = 0.25
+    }
+    
+    side = { 
+        id = national_rhetoric_left_side # Fixed to match left_side string above
+        icon = GFX_bop_FIN_bad_rubble_side
+        
+        range = {
+            id = ENG_national_rhetoric_left_half
+            min = -0.75
+            max = -0.25 # Fixed inversion (-0.25 is larger than -0.75)
+        }
+        
+        range = {
+            id = ENG_national_rhetoric_left_full
+            min = -1.0
+            max = -0.75
+            modifier = { }
+        } # Fixed missing brace
+    }
+    
+    side = { 
+        id = national_rhetoric_right_side # Fixed to match right_side string above
+        icon = GFX_PRC_bop_left_side_max
+        
+        range = {
+            id = ENG_national_rhetoric_right_half # Fixed duplicate ID
+            min = 0.25 # Fixed inversion
+            max = 0.75 # Fixed inversion
+        }
+        
+        range = {
+            id = ENG_national_rhetoric_right_full
+            min = 0.75 # Fixed inversion
+            max = 1.0 # Fixed inversion
+            modifier = { }
+        } # Fixed missing brace
+    }
+}

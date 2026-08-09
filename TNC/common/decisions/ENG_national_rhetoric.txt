@@ -1,0 +1,37 @@
+ENG_national_rhetoric_cat = {
+
+	Show_off_victories_at_Malaysia = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+	NOT = {
+	has_government_type = neutrality
+	country_exists = MAL
+		}
+	power_balance_value = {
+	id = ENG_national_rhetoric
+	value > -1
+		
+	}
+
+		complete_effect = {
+	add_power_balance_value  ={
+	id = ENG_national_rhetoric
+	value = 0.5
+		
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
+}
+}
