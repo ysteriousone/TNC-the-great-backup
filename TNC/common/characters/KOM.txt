@@ -23,7 +23,7 @@ characters = {
                                                                                              
 
 	KOM_Zhukov = {
-		name = KOM_Zhukov
+		name = "Georgy Zhukov"
 		portraits = {
 			army = {
 				small = GFX_portrait_KOM_Zhukov
@@ -72,9 +72,59 @@ characters = {
 		}
 	}
 	
+		KOM_Rokossovsky = {
+		name = "Konstantin Rokossovsky"
+		portraits = {
+			army = {
+				small = GFX_Portrait_KOM_Rokossovsky
+				large = GFX_Portrait_KOM_Rokossovsky
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = Rokossovsky
+			ledger = army
+			allowed = {
+				tag = KOM
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+			ai_will_do = {
+				base = 0.000
+			}
+		}
+
+		field_marshal = {
+			traits = { trait_cautious politically_connected offensive_doctrine desert_fox }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+		
+    country_leader = {
+			ideology = anti_revisionism
+			traits = { moderate_reformist }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_KOM_Rokossovsky
+				small = GFX_Portrait_KOM_Rokossovsky
+			}
+			
+		}
+	}
+	
 	KOM_Supreme_Soviet={
 
-			name = KOM_Supreme_Soviet
+			name = "The Presidium of the Supreme Soviet"
 			portraits={
 				civilian={
 					large = GFX_portrait_KOM_Supreme_Soviet

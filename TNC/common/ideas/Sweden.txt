@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		SWE_German_King = {
+			allowed = {
+				always = yes
+			}
+			picture = GFX_idea_SWE_German_Gustav
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.15
+				conscription_factor = 0.15
+				army_attack_factor = 0.05
+				army_defence_factor = 0.03
+			}
+		}
+	}
+}

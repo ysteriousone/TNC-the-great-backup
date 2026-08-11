@@ -1,5 +1,8 @@
 capital = 271
-
+country_event = {
+ id = proxy.9
+ days = 1140
+  }
 IF = {
 	limit = {
 		has_dlc = "By Blood Alone"

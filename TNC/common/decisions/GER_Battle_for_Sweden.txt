@@ -56,6 +56,41 @@ Spies_to_Stockholm = {
 
 } 
 
+Support_to_the_King = {
+		icon = generic_industry
+		cost = 500
+		fire_only_once = yes
+		visible = {
+			always = yes
+		}
+
+		available = {
+	has_completed_focus = GER_focus_aubenpolitik
+		}
+    days_remove = 20
+		complete_effect = {
+	SWE = {
+	 add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			
+		 add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+	add_ideas = {
+	SWE_German_King
+	 }
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+} 
+
 Arm_Sapmi_people = {
 		icon = generic_industry
 		cost = 360

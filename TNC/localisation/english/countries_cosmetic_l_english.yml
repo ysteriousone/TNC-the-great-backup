@@ -8,6 +8,18 @@
  West_Russia_yay_neutrality_DEF: "The Grand Duchy of West Russia"
  West_Russia_yay_fascism: "Westrussisches Reich"
  West_Russia_yay_fascism_DEF: "The West Russian Reich"
+ 
+ Europe_Russia_yay: "Russian Union"
+ Europe_Russia_yay_DEF: "The Russian Union"
+ Europe_Russia_yay_ADJ: "Russian"
+ Europe_Russia_yay_Popular_Socialism: "Russian Soviet Federative Republic"
+ Europe_Russia_yay_Popular_Socialism_DEF: "The Russian Soviet Federative Republic"
+ Europe_Russia_fascism: "Russisches Reichstaat"
+ Europe_Russia_fascism_DEF: "The Russian Reich-State"
+ Europe_Russia_yay_neutrality: "Russian straight-faced Empire"
+ Europe_Russia_yay_neutrality_DEF: "Depressive Russian Empire but it's slowly becoming happy"
+ Europe_Russia_yay_communism: "Russian SSR"
+ Europe_Russia_yay_communism_DEF: "The Russian SSR"
 
 
  Cascadia_united_neutrality: "Cascadia Home Base"

@@ -1,0 +1,106 @@
+focus_tree = {
+	id = GFR_Civil_War
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WGR
+		}
+	}
+	default = no
+
+
+	focus = {
+		id = WGR_The_Civil_War
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 0
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WGR_Help_from_the_Void
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -3
+		y = 1
+	prerequisite = {
+	focus = WGR_The_Civil_War
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WGR_The_People_Rise
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 3
+		y = 1
+	prerequisite = {
+	focus = WGR_The_Civil_War
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WGR_The_Red_White_and_Blue
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 2
+	prerequisite = {
+	focus = WGR_Help_from_the_Void
+	 }
+	 
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = WGR_The_Danish_deal
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -2
+		y = 2
+	prerequisite = {
+	focus = WGR_Help_from_the_Void
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+}

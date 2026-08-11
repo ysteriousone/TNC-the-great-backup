@@ -20,3 +20,17 @@ West_Russian_unification_cat = {
 		}
 	}
 }
+
+European_Russian_unification_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+		OR = {
+			tag = KOM
+			tag = RUS
+			tag = URL
+			tag = ZLT
+			tag = NPL
+		}
+	}
+}

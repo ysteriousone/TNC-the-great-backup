@@ -6,7 +6,8 @@ Ultranationalism  = {
 
 		ukrainian_nationalism  = {
 			}
-
+		Chetnik_nationalism  = {
+			}
 
 		}
 
@@ -315,6 +316,10 @@ Ultranationalism  = {
 			}
 	popular_socialism = {
 			}
+			
+	Sablinism = {
+	color = {119 0 57 }
+			}
 	Military_socialism = {
 			}
 
@@ -546,6 +551,9 @@ Ultranationalism  = {
 	Ultranational_Communism = {
 			}
 	Orwellian_Nihlism = {
+	}
+	
+	NKVD_Reformism = {
 	}
 
 		}

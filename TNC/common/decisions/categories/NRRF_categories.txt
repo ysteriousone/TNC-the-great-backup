@@ -15,6 +15,14 @@ KOM_The_New_Red_Army = {
 	}
 }
 
+KOM_Finding_Yezhov = {
+	icon = generic_political_actions
+	
+	allowed = {
+    tag = KOM
+	}
+}
+
 KOM_power_struggle = {
 	icon = generic_political_actions
 	
