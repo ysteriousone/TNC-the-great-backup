@@ -2440,7 +2440,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_strengthen_the_commonwealth_ties
-		mutually_exclusive = { focus = CAN_patriation }
+		mutually_exclusive = { focus = CAN_expel_the_monarch }
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		x = 21
 		y = 0
@@ -2455,10 +2455,10 @@ focus_tree = {
 			}
 		}
 
-		available = {
-			ENG = { has_government = ROOT }
-			is_in_tech_sharing_group = commonwealth_research
-		}
+		# available = {
+		# 	ENG = { has_government = ROOT }
+		# 	is_in_tech_sharing_group = commonwealth_research
+		# }
 		
 		bypass = {
 
@@ -2474,13 +2474,16 @@ focus_tree = {
          		id = commonwealth_research
          		bonus = 0.03
 			}
-			ENG = {
+			HOL = {
 				add_opinion_modifier = {
 					target = ROOT
 					modifier = CAN_strengthen_the_commonwealth_ties
 				}
 			}
 		}
+
+		
+		
 	}
 
 	focus = {
@@ -2869,7 +2872,7 @@ focus_tree = {
 	############################
 
 	focus = {
-		id = CAN_patriation
+		id = CAN_expel_the_monarch
 		icon = GFX_goal_tfv_sever_ties_with_uk #GFX_goal_generic_demand_territory
 		mutually_exclusive = { focus = CAN_strengthen_the_commonwealth_ties }
 		x = 2
@@ -2921,12 +2924,12 @@ focus_tree = {
 	focus = {
 		id = CAN_permanent_joint_defense_board
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = CAN_patriation }
+		prerequisite = { focus = CAN_expel_the_monarch }
 		mutually_exclusive = { focus = CAN_burn_the_royal_portraits }
 		mutually_exclusive = { focus = CAN_swastika_clubs }
 		x = 0
 		y = 1
-		relative_position_id = CAN_patriation
+		relative_position_id = CAN_expel_the_monarch
 
 		cost = 10
 
@@ -3330,12 +3333,12 @@ focus_tree = {
 	focus = {
 		id = CAN_swastika_clubs
 		icon = GFX_goal_support_fascism
-		prerequisite = { focus = CAN_patriation }
+		prerequisite = { focus = CAN_expel_the_monarch }
 		mutually_exclusive = { focus = CAN_burn_the_royal_portraits }
 		mutually_exclusive = { focus = CAN_permanent_joint_defense_board }
 		x = 4
 		y = 1
-		relative_position_id = CAN_patriation
+		relative_position_id = CAN_expel_the_monarch
 
 		cost = 10
 
@@ -3752,12 +3755,12 @@ focus_tree = {
 	focus = {
 		id = CAN_burn_the_royal_portraits
 		icon = GFX_goal_tfv_burn_the_royal_portraits #GFX_goal_support_communism
-		prerequisite = { focus = CAN_patriation }
+		prerequisite = { focus = CAN_expel_the_monarch }
 		mutually_exclusive = { focus = CAN_swastika_clubs }
 		mutually_exclusive = { focus = CAN_permanent_joint_defense_board }
 		x = 11
 		y = 1
-		relative_position_id = CAN_patriation
+		relative_position_id = CAN_expel_the_monarch
 
 		cost = 10
 
@@ -5369,5 +5372,402 @@ focus_tree = {
 			}
 		}
 	}
+	
+	############################
+    #### GO TORIES! SECTION ####
+	############################
 
+
+	
+	############################
+	#### GO WITH LABOUR/CCF ####
+	############################
+
+	focus = {
+		id = CAN_reform_the_ccf
+		icon = GFX_focus_CAN_rifle_association
+		x = 18         
+		y = 8
+
+		cost = 10
+
+		mutually_exclusive = {
+			focus = CAN_social_creditism
+			focus = CAN_the_kings_party
+		}
+	}
+
+	focus = {
+		id = CAN_reunite_as_one
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 17
+		y = 10
+		completion_reward = { }
+		prerequisite = {
+			focus = CAN_reform_the_ccf
+		}
+	}
+
+	focus = {
+		id = CAN_hold_the_stand
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 19
+		y = 10
+		completion_reward = { }
+		prerequisite = {
+			focus = CAN_reform_the_ccf
+		}
+	}
+
+	
+	############################
+	####SOCIALCREDS SECTION ####
+	############################
+
+	focus = {
+		id = CAN_social_creditism
+		icon = GFX_focus_CAN_rifle_association
+
+		cost = 10
+		x = 24
+		y = 8
+
+		completion_reward = {
+			
+		}
+
+		mutually_exclusive = {
+			focus = CAN_reform_the_ccf
+			focus = CAN_the_kings_party
+		}
+	}
+
+	
+	focus = {
+		id = CAN_a_new_leadership
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 26
+		y = 10
+
+	prerequisite = {
+		focus = CAN_social_creditism
+	}
+	}
+
+	focus = {
+		id = CAN_a_new_currency
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 22
+		y = 10
+
+	prerequisite = {
+		focus = CAN_social_creditism
+	}
+	}
+
+	focus = {
+		id = CAN_can_the_guns
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 24
+		y = 10
+
+	prerequisite = {
+		focus = CAN_social_creditism
+	}
+	}
+
+		focus = {
+		id = CAN_new_hope
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 24
+		y = 12
+
+	prerequisite = {
+		focus = CAN_can_the_guns
+		focus = CAN_a_new_currency
+		focus = CAN_a_new_leadership
+	}
+	}
+
+	
+	############################
+	#### KINGS PARTY SECTION ###
+	############################
+
+	focus = {
+		id = CAN_the_kings_party
+		icon = GFX_focus_eng_the_kings_party
+
+		cost = 10 
+
+		x = 30
+		y = 8
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		mutually_exclusive = {
+			focus = CAN_reform_the_ccf
+			focus = CAN_sociaL_creditism
+		}
+	}
+
+	### LOCAL GOVERNANCE BRANCH ###
+
+	focus = {
+		id = CAN_local_governance
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 30
+		y = 10
+
+		prerequisite = {
+			focus = CAN_the_kings_party
+		}
+
+		mutually_exclusive = {
+			focus = CAN_rule_by_self_decree
+			focus = CAN_abolish_colonial_rule
+		}
+	}
+
+	focus = {
+		id = CAN_rally_the_elections
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 28
+		y = 12
+
+		prerequisite = {
+			focus = CAN_local_governance
+		}
+
+
+	}
+	
+
+	focus = {
+		id = CAN_support_fallen_dominions
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 30
+		y = 12
+
+		prerequisite = {
+			focus = CAN_local_governance
+		}
+
+
+	}
+
+	focus = {
+		id = CAN_offer_help
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 32
+		y = 12
+
+		prerequisite = {
+			focus = CAN_local_governance
+		}
+
+
+	}
+	
+	focus = {
+		id = CAN_offer_help_2
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 30
+		y = 14
+
+
+		prerequisite = {
+			focus = CAN_support_fallen_dominions
+			focus = CAN_rally_the_elections
+			focus = CAN_offer_help
+		}
+
+
+	}
+
+	### ABSOLUTE MONARCHY BRANCH ##
+	focus = {
+		id = CAN_rule_by_self_decree
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 35
+		y = 10
+
+		prerequisite = {
+			focus = CAN_the_kings_party
+		}
+
+		mutually_exclusive = {
+			focus = CAN_local_governance
+			focus = CAN_rule_by_self_decree
+		}
+	}
+
+	focus = {
+		id = CAN_general_affairs
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 35
+		y = 11
+
+		prerequisite = {
+			focus = CAN_rule_by_self_decree
+		}
+	}
+
+	focus = {
+		id = CAN_2_months
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 37
+		y = 11
+
+		prerequisite = {
+			focus = CAN_rule_by_self_decree
+		}
+	}
+
+	focus = {
+		id = CAN_3_new_ideas
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 33
+		y = 11
+
+		prerequisite = {
+			focus = CAN_rule_by_self_decree
+		}
+	}
+
+	
+	focus = {
+		id = CAN_4
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 35
+		y = 12
+
+		prerequisite = {
+			focus = CAN_general_affairs
+			focus = CAN_3_new_ideas
+			focus = CAN_2_months
+		}
+	}
+
+	focus = {
+		id = CAN_5
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 35
+		y = 13
+
+		prerequisite = {
+		focus = CAN_4
+		}
+	}
+
+	focus = {
+		id = CAN_6
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 33
+		y = 14
+
+		prerequisite = {
+			focus = CAN_4
+		}
+	}
+
+	focus = {
+		id = CAN_7
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 37
+		y = 14
+
+		prerequisite = {
+			focus = CAN_4
+		}
+	}
+
+	focus = {
+		id = CAN_8
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 35
+		y = 14
+
+		prerequisite = {
+			focus = CAN_4
+		}
+	}
+
+	focus = {
+		id = CAN_9
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 35
+		y = 15
+
+		prerequisite = {
+			focus = CAN_6
+		}
+		prerequisite = { 
+			focus = CAN_8
+		}
+		prerequisite = {
+			focus = CAN_7
+		}
+	}
+
+
+
+
+
+	### ANTI-COLONIAL CONSTITUTIONAL MONARCHY ###
+
+	focus = {
+		id = CAN_abolish_colonial_rule
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 40
+		y = 10
+
+		prerequisite = {
+			focus = CAN_the_kings_party
+		}
+
+		mutually_exclusive = {
+			focus = CAN_local_governance
+			focus = CAN_rule_by_self_decree
+		}
+	}
+
+	focus = {
+		id = CAN_end_focus_branch
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 35
+		y = 16
+
+		prerequisite = {
+			focus = CAN_9
+		}
+		prerequisite = {
+			focus = CAN_offer_help_2
+		}
+	}
 }		
