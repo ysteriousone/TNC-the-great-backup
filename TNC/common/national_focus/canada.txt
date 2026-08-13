@@ -5724,11 +5724,7 @@ focus_tree = {
 
 		prerequisite = {
 			focus = CAN_6
-		}
-		prerequisite = { 
 			focus = CAN_8
-		}
-		prerequisite = {
 			focus = CAN_7
 		}
 	}
