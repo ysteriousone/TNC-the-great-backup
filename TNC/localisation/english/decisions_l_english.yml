@@ -55,16 +55,19 @@
  #Hispaniolan war
  
  Hispaniola_war_cat: "The Hispaniolan Unification"
+ Hispaniola_war_GER_cat: "The Hispaniolan War"
+ Support_Ramfis: "Support Ramfis"
+ Undermine_the_Father: "Undermine the Father"
  
  #Battle for Sweden
  
  Battle_for_Sweden_GER_cat: "The Battle for Sweden"
  Battle_for_Sweden_GER_cat_desc: "While effectively functioning as a Republic, Sweden’s Monarchy still somewhat stirs one’s imagination. The King, a certain Gustav V, holds a vast array of tools he could use against his Parliament, but he chooses not to after being outmanoeuvred early in his rule. That is why many Swedes adore him, and that is why we can use him.\n\nThe King, who refused a coronation, would not be one to leave Germania hanging. If we nudge his supporters into nudging him to take action, the Swedish Monarchy’s reserve powers can be of use to us. Or we can nudge the fledgling Third Positionists into accepting parliamentarism, neutralising a threat both to the Monarchy and our warm relationship.\n\nBut, ultimately, the choice rests with the Fuhrer."
  Steer_power_away_from_parliament: "Steer power away from Parliament"
- Steer_power_away_from_parliament_desc: "t is painfully clear that Sweden is stubborn. Too stubborn, infact. It is why we must seek to eliminate the Swedish republic all together, and destroy the parliaments existence, which will allow us to fully secure Sweden within our Reich."
+ Steer_power_away_from_parliament_desc: "it is painfully clear that Sweden is stubborn. Too stubborn, infact. It is why we must seek to eliminate the Swedish republic all together, and destroy the parliaments existence, which will allow us to fully secure Sweden within our Reich."
  Spies_to_Stockholm: "Send spies to Stockholm"
  Spies_to_Stockholm_desc: While we're focusing on collaborating with the Swedish fascists, and anyone who may join our cause. It is still important to have a watchful eye, and many more. To know any surprising moves Sweden may do. Which is why we shall send available spies to Sweden."
- 
+ Force_Gustavs_hand: "Force Gustav's hand!"
  
  decision_cost_CP_15: "£command_power  §Y15§!"
  decision_cost_CP_15_blocked: "£command_power  §R15§!"
