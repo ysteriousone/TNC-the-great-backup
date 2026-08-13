@@ -1,0 +1,139 @@
+focus_tree = {
+	id = kaiser_focus
+	
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = KAI
+		}
+	}
+	initial_show_position = {
+		x = 76
+		y = 0
+	}
+	focus = {
+		id = KAI_focus_the_imperial_fight
+		icon = GFX_focus_GER_german_hegemony_in_the_middle_east_neutrality
+		x = 40
+		y = 0
+		cost = 2
+		available = {
+			NOT = {
+				has_war_with = GER
+				has_war_with = DDR
+				has_war_with = WGR
+				has_war_with = BGR
+				has_war_with = GGR
+				has_war_with = AUS
+			}
+		}
+
+		available_if_capitulated = no
+
+		bypass = {
+
+		}
+		completion_reward = {
+			add_ideas = KAI_fighting_for_the_kaiser
+		}
+	}
+	focus = {
+		id = KAI_focus_prussian_fan_militarism
+		icon = GFX_focus_GER_prussian_legacy
+		x = 39
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = KAI_focus_the_imperial_fight
+		}
+		available = {
+		}
+
+		available_if_capitulated = no
+
+		bypass = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KAI_bismarcks_movement
+				add_idea = KAI_bismarcks_movement_good
+			}
+		}
+	}
+	focus = {
+		id = KAI_focus_rebuilding_the_country 
+		icon = GFX_goal_continuous_repairments
+		x = 41
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = KAI_focus_the_imperial_fight
+		}
+		available = {
+		}
+
+		available_if_capitulated = no
+
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = KAI_rebuilding
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = KAI_focus_restablish_the_reichstag
+		icon = ger_revive_the_kaiserreich
+		x = 40
+		y = 2
+		cost = 3
+		prerequisite = {
+			focus = KAI_focus_prussian_fan_militarism
+		}
+		prerequisite = {
+			focus = KAI_focus_rebuilding_the_country
+		}
+		available = {
+		}
+		available_if_capitulated = no
+
+		bypass = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KAI_political_instability
+				add_idea = KAI_reichstag_reformed
+			}
+		}
+	}
+	focus = {
+		id = KAI_focus_bismarcks_movement_takeover
+		icon = GFX_focus_POL_prussia_line
+		x = 18
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = KAI_focus_restablish_the_reichstag
+		}
+		available = {
+		}
+
+		available_if_capitulated = no
+
+		bypass = {
+		}
+
+		completion_reward = {
+		}
+	}
+}
