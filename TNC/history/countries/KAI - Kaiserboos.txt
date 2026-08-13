@@ -184,6 +184,7 @@ set_popularities = {
 
 add_ideas = {
 	german_civil_war
+	KAI_political_instability
 	KAI_bismarcks_movement
 	KAI_loyal_generals
 	KAI_socialist_gangsters

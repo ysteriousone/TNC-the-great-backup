@@ -47,22 +47,13 @@ if = { #DLC
 	set_cosmetic_tag = BUL_neutrality
 
 	#IDEAS SETUP
-	if = {
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-		}
-		add_ideas = BUL_army_restrictions_aat
-	}
-	if = {
-		limit = {
-			NOT = {	has_dlc = "Arms Against Tyranny" }
-		}
-		add_ideas = BUL_army_restrictions
-	}
 	add_ideas = { #DLC
-		BUL_second_national_catastrophe
-		BUL_imro_01
-		volunteer_only
+		BUL_bulgarian_hegemony
+		BUL_prussia_of_the_balkans
+		BUL_cooperation_with_UBNL
+		BUL_stagnant_economy
+		BUL_industrial_struggle
+		limited_conscription
 	}
 
 	#Army limitations due to Treaty of Neuilly sur Seine
