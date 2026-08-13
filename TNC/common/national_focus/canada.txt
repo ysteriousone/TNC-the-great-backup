@@ -5523,7 +5523,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_local_governance
-		icon = GFX_focus_CAN_local_governance
+		icon = GFX_goal_CAN_local_governance
 		cost = 5
 		x = 30
 		y = 10
@@ -5540,7 +5540,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_rally_the_elections
-		icon = GFX_focus_CAN_rally_the_elections
+		icon = GFX_goal_CAN_rally_the_elections
 		cost = 5
 		x = 28
 		y = 12

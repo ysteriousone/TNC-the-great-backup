@@ -98692,7 +98692,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CAN_rally_the_elections_shine"
+		name = "GFX_goal_CAN_rally_the_elections_shine"
 		texturefile = "gfx/interface/goals/canada_elections.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -98723,7 +98723,7 @@ spriteTypes = {
 }
 
 		SpriteType = {
-		name = "GFX_focus_CAN_rally_the_elections_shine"
+		name = "GFX_goal_CAN_local_governance_shine"
 		texturefile = "gfx/interface/goals/canadian_self_governance.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
