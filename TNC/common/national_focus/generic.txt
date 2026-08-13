@@ -20,8 +20,21 @@ focus_tree = {
 	
 	country = {
 		factor = 1
-	}
-	
+	   modifier = {
+            add = 2
+		NOT = {
+            tag = CAN
+			tag = FRA
+			tag = ENG
+			tag = ZLT
+			tag = RUS
+			tag = KOM
+			tag = RKA
+			tag = URL
+			tag = NPL
+			 }
+			}
+        }
 	default = yes
 	reset_on_civilwar = no	
 

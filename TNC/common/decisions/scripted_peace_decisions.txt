@@ -11,6 +11,9 @@ Malaysian_insurgency_peace_cat = {
 
 		available = {
 	original_tag = BML
+	NOT = {
+	country_exists = MAL
+	 }
 		}
 
 		complete_effect = {
@@ -66,3 +69,88 @@ Malaysian_insurgency_peace_cat = {
 	}
 
 }
+
+
+
+
+Balkan_war_peace_cat = {
+
+	Turkish_victory = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+    TUR = {
+	controls_state = 797
+		}
+
+}
+		complete_effect = {
+	every_country = {
+	white_peace = TUR
+	 }
+	TUR = {
+	transfer_state = 797
+	transfer_state = 341
+	transfer_state = 340
+	transfer_state = 339
+	transfer_state = 342
+	transfer_state = 164
+		}
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	
+	Bulgaria_peaces_out = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+	NOT = {
+    BUL = {
+	controls_state = 48
+		}
+ }
+}
+		complete_effect = {
+	every_country = {
+	white_peace =  BUL
+	 }
+   YUG = {
+   annex_country = {
+   target = BUL
+    }
+	 }
+	every_state = {
+	limit = {
+	is_core_of = BUL
+	 }
+	add_core_of = YUG
+	 }
+	 
+	GRE = {
+	transfer_state = 184
+	 }
+	ROM = {
+	transfer_state =77
+	 }
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}

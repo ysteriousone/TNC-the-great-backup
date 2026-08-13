@@ -17,3 +17,15 @@ Malaysian_insurgency_peace_cat = {
 		}
 	}
 }
+
+Balkan_war_peace_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+		OR = {
+			tag = BUL
+			tag = GRE
+			tag = TUR
+		}
+	}
+}

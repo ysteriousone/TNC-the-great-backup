@@ -23,4 +23,61 @@ country_event = {
 
 }
 
+# Canada invites
+country_event = {
+	id = proxywin.2
+	title = proxywin.2.t
+	desc = proxywin.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # House in New Berlin
+		name = proxywin.1.a  
+  CAN = {
+  add_to_faction = ROOT
+  }
+}
+
+
+}
+
+# Picasso invites
+country_event = {
+	id = proxywin.3
+	title = proxywin.3.t
+	desc = proxywin.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # House in New Berlin
+		name = proxywin.1.a  
+  FRA = {
+  add_to_faction = ROOT
+  }
+}
+
+
+}
+
+# Mosley invites
+country_event = {
+	id = proxywin.4
+	title = proxywin.4.t
+	desc = proxywin.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # House in New Berlin
+		name = proxywin.1.a  
+  ENG = {
+  add_to_faction = ROOT
+  }
+}
+
+
+}
+
 

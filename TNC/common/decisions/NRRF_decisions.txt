@@ -2,7 +2,7 @@ KOM_The_New_Red_Army = {
 
 	recruit_local_populations = {
 		icon = generic_industry
-		cost = 0
+		cost = 100
 		fire_only_once = no
 
 		visible = {
@@ -16,6 +16,7 @@ KOM_The_New_Red_Army = {
 
 		complete_effect = {
     add_manpower = 8000
+
 		}
 
 		ai_will_do = {
@@ -25,7 +26,7 @@ KOM_The_New_Red_Army = {
 	
 	Form_Militia_in_Sytvakar = {
 		icon = generic_industry
-		cost = 0
+		cost = 70
 		fire_only_once = no
 
 		visible = {
@@ -38,7 +39,12 @@ KOM_The_New_Red_Army = {
 		}
 
 		complete_effect = {
-    add_manpower = 1000
+    397 = {
+		create_unit = { 
+		division = "name = \"Krasnaya Armiya\" division_template = \"Krasnaya Armiya\" start_experience_factor = 0.5" 
+		owner = KOM
+							}
+						}
 		}
 
 		ai_will_do = {

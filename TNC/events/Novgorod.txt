@@ -1,0 +1,29 @@
+﻿###########################
+# nov Events
+###########################
+
+add_namespace = nov
+
+# Bryansk uprising
+country_event = {
+	id = nov.1
+	title = nov.1.t
+	desc = nov.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = nov.1.a  
+    
+224 = {
+set_demilitarized_zone = yes
+ }
+}
+
+
+}
+
+
+
+

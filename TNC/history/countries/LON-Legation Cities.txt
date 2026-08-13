@@ -1,6 +1,6 @@
 ﻿capital = 219
 
-OOB = "RUS_1936"
+OOB = "LON_1945"
 
 # Starting tech
 set_technology = {
@@ -24,3 +24,13 @@ set_popularities = {
 	communism = 5
 	neutrality = 75
 }
+
+	create_country_leader = {
+			name = "League of Nations Mandated Council in China"
+			desc = ""
+			picture = LON_Mandated_Council.dds		
+			expire = "1965.1.1"
+			ideology = LON_Mandate
+			traits = {
+			}
+		}

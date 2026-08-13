@@ -316,6 +316,43 @@ country_event = {
 	 }
 	
  }
+ 
+  # Cuban Revolution
+country_event = {
+	id = proxy.9
+	title = proxy.9.t
+	desc = proxy.9.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+	# Movement crushed
+		name = proxy.6.a
+	CUB = {
+	declare_war_on = {
+	target = SOM
+	type = annex_everything 
+	
+	 }
+	 
+	}
+	 }
+	 
+option = { 
+	# Castro victorious
+		name = proxy.6.a
+	ETH = {
+	declare_war_on = {
+	target = SOM
+	type = annex_everything 
+	
+	 }
+	 
+	}
+	 }
+	
+ }
   
  
 }

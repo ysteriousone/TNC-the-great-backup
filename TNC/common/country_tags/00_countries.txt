@@ -1,4 +1,6 @@
 NFA = "countries/National France.txt"
+SAV = "countries/Kaiserreich Russia.txt"
+GOT = "countries/Gotland.txt"
 ALA = "countries/Alabama.txt"
 GGR = "countries/Georgia_US.txt"
 GMJ = "countries/Goring.txt"

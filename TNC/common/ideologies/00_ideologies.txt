@@ -8,6 +8,9 @@ Ultranationalism  = {
 			}
 		Chetnik_nationalism  = {
 			}
+		
+		Savinkovyte_tendency  = {
+			}
 
 		}
 
@@ -692,7 +695,10 @@ Ultranationalism  = {
 	    colonial_dictatorship = {
 			can_be_randomly_selected = no
 			}
-	militarism = {
+	     militarism = {
+			}
+			
+			LON_Mandate = {
 			}
 
 			japan_militarism_ideology = {
