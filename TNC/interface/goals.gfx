@@ -975,6 +975,17 @@ SpriteType = {
 		name = "GFX_goal_tfv_saf_support_ossebrandwag"
 		texturefile = "gfx/interface/goals/focus_SAF_support_ossewabrandwag.dds"
 	}
+
+    ### Canada
+	spriteType = {
+		name = "GFX_focus_CAN_rally_the_elections"
+		textureFile = "gfx/interface/goals/canada_elections.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_CAN_local_governance"
+		textureFile = "gfx/interface/goals/canadian_self_governance.dds"
+	}
 	
 	### Romania
 	
