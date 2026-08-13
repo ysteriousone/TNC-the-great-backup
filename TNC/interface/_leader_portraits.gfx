@@ -29,6 +29,11 @@ spriteTypes = {
 		name = "GFX_portrait_KOM_Supreme_Soviet"
 		texturefile = "gfx/leaders/KOM/Presidium_of_the_Supreme_Soviet.dds"
 	}
+	
+		spriteType = {
+		name = "GFX_Portrait_KOM_Rokossovsky"
+		texturefile = "gfx/leaders/KOM/Rokossovsky.dds"
+	}
 
 
 	### GER

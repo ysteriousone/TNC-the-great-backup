@@ -8,6 +8,29 @@ West_Russian_unification_cat = {
 		visible = {
 			always = yes
 		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+		state = 825
+		state = 581
+		state = 262
+		state = 397
+		state = 398
+		state = 573
+		state = 400
+		state = 833
+		state = 249
+		state = 399
+		state = 651
+		state = 251
+		state = 652
+		state = 582
+		state = 407
+		state = 406
+		
+	}
+	
+	 }
 
 		available = {
 		controls_state = 825

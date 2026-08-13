@@ -36,12 +36,16 @@ Malayan_insurgency_cat = {
 	type = annex_everything
 	}
 
-		ai_will_do = {
-			base = 10
-		}
+
 	}
+  ai_will_do = {
+			base = 10
+		modifier = {
+	date > 1946.1.3
+		}
 
 }
+ }
 
 	Fortress_Singapore = {
 		icon = generic_industry
@@ -67,13 +71,12 @@ Malayan_insurgency_cat = {
 
 		complete_effect = {
 
-
+ }
 		ai_will_do = {
 			base = 10
 		}
 	}
 
-}
 
 Establish_a_Foothold_in_Brunei = {
 		icon = generic_industry
@@ -105,11 +108,10 @@ Establish_a_Foothold_in_Brunei = {
 	add_state_core = 1059
 	add_state_core = 1024
 	}
-
+}
 		ai_will_do = {
 			base = 10
 		}
-	}
 
 }
 
@@ -139,11 +141,10 @@ Build_up_Johor = {
     1060 = {
 	add_core_of = BML
 	}
-
+}
 		ai_will_do = {
 			base = 10
 		}
-	}
 
 }
 
@@ -175,11 +176,11 @@ Kuala_Lampur_Fortifications = {
 	add_core_of = BML
 	}
 
+
+	}
 		ai_will_do = {
 			base = 10
 		}
-	}
-
 }
 
 Garrisons_to_Malaysia = {
@@ -209,11 +210,10 @@ Garrisons_to_Malaysia = {
 	add_manpower = 1500
 	
 	}
-
+	}
 		ai_will_do = {
 			base = 10
 		}
-	}
 
 }
 
@@ -249,7 +249,6 @@ Covert_Arms_output = {
 			}
 	
 	}
-
 		ai_will_do = {
 			base = 10
 		}
@@ -373,11 +372,13 @@ Prepare_Evacuation = {
 
 	}	
 	}
+
+
+}
+
 			ai_will_do = {
 			base = 1
 		}
-
-}
 
 
  }

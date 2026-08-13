@@ -84,17 +84,25 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = communism
-	last_election = "1936.1.1"
+	ruling_party = Popular_Socialism
+	last_election = "1945.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 60
+	Popular_Socialism = 60
 	fascism = 0
 	communism = 40
 }
+
+create_country_leader = {
+			name = "Valery Sablin"
+			desc = "SABLIN_DESC"
+			picture = Sablin.dds	
+			expire = "1965.1.1"
+			ideology = Sablinism
+			}
 
 
 

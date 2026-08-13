@@ -2,7 +2,7 @@ KOM_The_New_Red_Army = {
 
 	recruit_local_populations = {
 		icon = generic_industry
-		cost = 0
+		cost = 100
 		fire_only_once = no
 
 		visible = {
@@ -16,6 +16,7 @@ KOM_The_New_Red_Army = {
 
 		complete_effect = {
     add_manpower = 8000
+
 		}
 
 		ai_will_do = {
@@ -25,7 +26,7 @@ KOM_The_New_Red_Army = {
 	
 	Form_Militia_in_Sytvakar = {
 		icon = generic_industry
-		cost = 0
+		cost = 70
 		fire_only_once = no
 
 		visible = {
@@ -38,7 +39,12 @@ KOM_The_New_Red_Army = {
 		}
 
 		complete_effect = {
-    add_manpower = 1000
+    397 = {
+		create_unit = { 
+		division = "name = \"Krasnaya Armiya\" division_template = \"Krasnaya Armiya\" start_experience_factor = 0.5" 
+		owner = KOM
+							}
+						}
 		}
 
 		ai_will_do = {
@@ -83,7 +89,7 @@ KOM_power_struggle = {
 		}
 
 		ai_will_do = {
-			base = 10
+			base = 0
 		}
 	}
 	
@@ -174,6 +180,62 @@ KOM_power_struggle = {
 			ruling_party = Schizo_Communism
 			elections_allowed = no
 		}
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+    Solidify_Zhukovs_control = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = no
+
+		visible = {
+	has_completed_focus = KOM_and_time_for_another
+		}
+	days_re_enable = 25
+
+		available = {
+    Popular_Socialism > 0.6
+		}
+
+		complete_effect = {
+    set_politics = {
+			ruling_party = Popular_Socialism
+			elections_allowed = no
+		}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	Solidify_Red_Army_control = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = no
+
+		visible = {
+	has_completed_focus = KOM_and_time_for_another
+		}
+	days_re_enable = 25
+
+		available = {
+    Popular_Socialism > 0.6
+		}
+
+		complete_effect = {
+    set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+	country_event = {
+	id = NRRF.3
+	days = 0
+	 }
 		}
 
 		ai_will_do = {

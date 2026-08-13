@@ -1,4 +1,7 @@
 ﻿l_english:
+ SAV: "Kaiserreich Russia"
+ SAV_DEF: "Kaiserreich Russia"
+ SAV_ADJ: "Russian"
  KAI:0 "German Empire"
  KAI_DEF:0 "Kaiserboo Germany"
  KAI_ADJ:0 "German"
@@ -252,6 +255,9 @@
  USA_fascism_subject_DEF:0 "the $OVERLORDADJ$ Protectorate of America"
  USA_communism_subject:0 "North American Socialist Republic"
  USA_communism_subject_DEF:0 "the North American Socialist Republic"
+ GOT: "Gotland"
+ GOT_DEF: "The Kingdom of Gotland"
+ GOT_ADJ: "Swedish"
  SWE:0 "Kingdom of Sweden"
  SWE_DEF:0 "The Kingdom of Sweden"
  SWE_ADJ:0 "Swedish"

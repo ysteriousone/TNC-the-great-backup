@@ -1,0 +1,70 @@
+European_Russian_unification_cat = {
+
+	unite_European_Russia = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+		
+	highlight_states = {
+			highlight_state_targets = {
+		state = 825
+		state = 581
+		state = 262
+		state = 397
+		state = 398
+		state = 573
+		state = 400
+		state = 833
+		state = 249
+		state = 399
+		state = 651
+		state = 251
+		state = 652
+		state = 582
+		state = 407
+		state = 406
+		state = 572
+		state = 653
+		state = 580
+		state = 579
+		state = 403
+		state = 571
+		
+	}
+	
+	 }	
+
+		available = {
+		controls_state = 572
+		controls_state = 653
+		controls_state = 580
+		controls_state = 579
+		controls_state = 403
+		controls_state = 571
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = Europe_Russia_yay
+		every_state = {
+		limit = {
+	OR = {
+		is_owned_by = ROOT
+		}
+	OR = {
+	is_core_of = KAZ
+	 }
+	}
+		add_core_of = ROOT
+		}
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

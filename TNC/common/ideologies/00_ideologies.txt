@@ -6,7 +6,11 @@ Ultranationalism  = {
 
 		ukrainian_nationalism  = {
 			}
-
+		Chetnik_nationalism  = {
+			}
+		
+		Savinkovyte_tendency  = {
+			}
 
 		}
 
@@ -315,6 +319,10 @@ Ultranationalism  = {
 			}
 	popular_socialism = {
 			}
+			
+	Sablinism = {
+	color = {119 0 57 }
+			}
 	Military_socialism = {
 			}
 
@@ -547,6 +555,9 @@ Ultranationalism  = {
 			}
 	Orwellian_Nihlism = {
 	}
+	
+	NKVD_Reformism = {
+	}
 
 		}
 
@@ -684,7 +695,10 @@ Ultranationalism  = {
 	    colonial_dictatorship = {
 			can_be_randomly_selected = no
 			}
-	militarism = {
+	     militarism = {
+			}
+			
+			LON_Mandate = {
 			}
 
 			japan_militarism_ideology = {

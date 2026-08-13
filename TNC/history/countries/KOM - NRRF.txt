@@ -125,4 +125,5 @@ create_country_leader = {
 
 recruit_character = KOM_Zhukov
 recruit_character = KOM_Supreme_Soviet
+recruit_character = KOM_Rokossovsky
 
