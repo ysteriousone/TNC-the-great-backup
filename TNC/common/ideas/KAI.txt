@@ -88,19 +88,8 @@ ideas = {
 			modifier = {
 				neutrality_drift = 0.03
 				stability_factor = 0.05
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = 0.05
 				production_speed_buildings_factor = 0.05
-			}
-		}
-		KAI_fighting_for_the_kaiser = {
-			allowed = {
-				always = yes
-			}
-			picture = f
-			modifier = {
-				war_support_factor = 0.05
-				army_attack_factor = 0.03
-				neutrality_drift = 0.01
 			}
 		}
 		KAI_rebuilding = {
@@ -131,6 +120,19 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.1
 				stability_factor = 0.15
+			}
+		}
+		KAI_bismarckism = {
+			allowed = {
+				always = yes
+			}
+			picture = f
+			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
 			}
 		}
 	}

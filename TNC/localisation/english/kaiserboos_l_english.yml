@@ -19,4 +19,13 @@
  KAI_focus_rebuilding_the_country:0 "Rebuilding The Country"
  KAI_focus_restablish_the_reichstag:0 "Reform The Reichstag"
  KAI_focus_bismarcks_movement_takeover:0 "Coup of Prussian Greatness"
+ KAI_focus_question_of_the_kaiser:0 "Question of the Kaiser?"
+ KAI_focus_establish_the_iron_bluttrupp:0 "Establish the Bluttrup"
+ KAI_focus_set_up_the_iron_division:0 "Return of the Freikorps"
+
+
+ kai.1.t:0 "Question of the Kaiser"
+ kai.1.d:0 "I will write something here just you wait."
+ kai.1.a:0 "Killing him would be lunatic, make him a figurehead."
+ kai.1.b:0 "Was Bismarck a kaiser? No! Exile him!"
 

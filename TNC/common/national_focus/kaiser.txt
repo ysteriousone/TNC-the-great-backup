@@ -29,6 +29,9 @@ focus_tree = {
 				has_war_with = AUS
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
 
 		available_if_capitulated = no
 
@@ -36,7 +39,12 @@ focus_tree = {
 
 		}
 		completion_reward = {
-			add_ideas = KAI_fighting_for_the_kaiser
+			add_stability = 0.05
+			add_political_power = 70
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
 		}
 	}
 	focus = {
@@ -47,6 +55,9 @@ focus_tree = {
 		cost = 4
 		prerequisite = {
 			focus = KAI_focus_the_imperial_fight
+		}
+		ai_will_do = {
+			factor = 1
 		}
 		available = {
 		}
@@ -75,6 +86,9 @@ focus_tree = {
 		}
 		available = {
 		}
+		ai_will_do = {
+			factor = 1
+		}
 
 		available_if_capitulated = no
 
@@ -101,6 +115,9 @@ focus_tree = {
 		prerequisite = {
 			focus = KAI_focus_rebuilding_the_country
 		}
+		ai_will_do = {
+			factor = 1
+		}
 		available = {
 		}
 		available_if_capitulated = no
@@ -114,6 +131,14 @@ focus_tree = {
 				remove_idea = KAI_political_instability
 				add_idea = KAI_reichstag_reformed
 			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.1
+			}
+			add_popularity = {
+				ideology = Ultranationalism
+				popularity = -0.1
+			}
 		}
 	}
 	focus = {
@@ -125,6 +150,9 @@ focus_tree = {
 		prerequisite = {
 			focus = KAI_focus_restablish_the_reichstag
 		}
+		ai_will_do = {
+			factor = 1
+		}
 		available = {
 		}
 
@@ -133,6 +161,71 @@ focus_tree = {
 		bypass = {
 		}
 
+		completion_reward = {
+			remove_ideas = KAI_bismarcks_movement_good
+			add_ideas = KAI_bismarckism
+			add_stability = -0.1
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = KAI_focus_question_of_the_kaiser
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 23
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = KAI_focus_bismarcks_movement_takeover
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAI_focus_establish_the_iron_bluttrupp
+		icon = f
+		x = 18
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = KAI_focus_bismarcks_movement_takeover
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = KAI_set_up_the_iron_division
+		icon = GFX_focus_GER_end_european_communism
+		x = 21
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = KAI_focus_bismarcks_movement_takeover
+		}
+		available = {
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
 		completion_reward = {
 		}
 	}
