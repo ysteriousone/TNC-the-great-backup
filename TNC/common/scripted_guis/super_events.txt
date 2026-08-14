@@ -11,15 +11,9 @@ scripted_gui = {
 			Super_Event_Image_Second_World_War_visible = {
 				has_global_flag = GER_WW2
 			}
-		}
-		
-		triggers = {
 			Super_Event_Image_Sino_Japanese_visible = {
 				has_global_flag = JAP_Sino_Japanese
 			}
-		}
-		
-		triggers = {
 			Super_Event_Image_Spanish_Civil_War_visible = {
 				has_global_flag = SPA_Civil_War
 			}
@@ -117,13 +111,13 @@ scripted_gui = {
 
 		triggers = {
 			Russian_unification_POL_visible = {
-				has_global_flag = RUS_POL
+				has_country_flag = RUS_POL_visible
 			}
 		}
 		
 	    triggers = {
-			Russian_unification_KDT_visible = {
-				has_global_flag = RUS_KDT
+			Russian_Unification_KDT_visible = {
+				has_country_flag = RUS_KDT_visible
 			}
 		}
 		
