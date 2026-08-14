@@ -1879,7 +1879,7 @@ country_event = { #Turan
 	}
 }
 
-country_event = { #Balkan Unification
+country_event = { #Balkany Unification
 	id = super.53
 	title = super.53.t
 	desc = super.53.d
@@ -1924,6 +1924,7 @@ country_event = {	# Russian Unification - Nowa Polksa
 		name = super.54.a
 		
         set_global_flag = RUS_POL
+		set_country_flag = RUS_POL_visible
 		set_global_flag = Super_Event_Visible
 		play_song = "super_russian_unification_pol"
 	}
@@ -1946,11 +1947,11 @@ country_event = {	# Russian Unification - Nowa Polksa
 	}
 	
 	option = {
-		name = super.54.a
+		name = super.55.a
 		
         set_global_flag = RUS_KDT
 		set_global_flag = Super_Event_Visible
-		set_global_flag = RUS_KDT_visible
+		set_country_flag = RUS_KDT_visible
 		play_song = "super_russian_unification_Kadets"
 	}
 }

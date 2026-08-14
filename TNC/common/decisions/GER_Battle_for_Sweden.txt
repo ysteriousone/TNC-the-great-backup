@@ -160,24 +160,19 @@ Arm_Sapmi_people = {
 
 		available = {
 	has_completed_focus = GER_focus_aubenpolitik
-	
+	SWE  = {
+	fascism > 0.7
+	 }
 		}
     days_remove = 20
 		complete_effect = {
-    add_manpower = -1000
-	
-	138 = {
-	set_demilitarized_zone = yes
-	 }
 	 
 	SWE = {
 	country_event = {
-	id = swe.1
+	id = swe.2
 	days = 5
 	 }
 	  }
-	  
-	custom_effect_tooltip = ger_danish_belt_tt
 	 }
 		ai_will_do = {
 			base = 10
