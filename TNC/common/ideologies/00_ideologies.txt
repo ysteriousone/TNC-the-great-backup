@@ -5,11 +5,14 @@ Ultranationalism  = {
 		types = {
 
 		ukrainian_nationalism  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 		Chetnik_nationalism  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 		
 		Savinkovyte_tendency  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
 		}
@@ -53,9 +56,8 @@ Ultranationalism  = {
 
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
-		
 		ai_give_core_state_control_threshold = 10000
-	can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+	# Won't be ramdomly selected moved - won't be assigned to randomly generated country leaders
 	}
 
  Whiggism  = {
@@ -63,6 +65,7 @@ Ultranationalism  = {
 		types = {
 
 		natural_whiggs  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
 
@@ -107,9 +110,7 @@ Ultranationalism  = {
 
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
-		
 		ai_give_core_state_control_threshold = 10000
-	can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 	}
 
  
@@ -118,9 +119,11 @@ Ultranationalism  = {
 		types = {
 
 		fiume_acceleration  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 	Accelerationism  = {
+		can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
 
@@ -165,9 +168,7 @@ Ultranationalism  = {
 
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
-		
 		ai_give_core_state_control_threshold = 10000
-	can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 	}
 
 	democratic = {

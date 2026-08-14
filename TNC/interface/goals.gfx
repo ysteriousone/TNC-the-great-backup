@@ -986,6 +986,11 @@ SpriteType = {
 		name = "GFX_goal_CAN_local_governance"
 		textureFile = "gfx/interface/goals/canadian_self_governance.dds"
 	}
+
+	spriteType = {
+		name = "GFX_goal_CAN_support_fallen_dominions"
+		textureFile = "gfx/interface/goals/support_dominions.dds"
+	}
 	
 	### Romania
 	
