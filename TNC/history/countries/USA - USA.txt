@@ -66,6 +66,27 @@ USA_recalc_congress_icon_frames = yes
 USA = {
 	country_event = { id = usa.50 days = 2 }
 	country_event = { id = usa.51 days = 2 }
+	
+	country_event = { #
+		id = USA_reg.1
+		days = 1540
+	}
+	country_event = { # 
+		id = USA_reg.2
+		days = 1540
+	}
+	country_event = { # 
+		id = USA_reg.3
+		days = 1540
+	}
+	country_event = { # 
+		id = USA_reg.4
+		days = 1540
+	}
+	country_event = { # 
+		id = USA_reg.5
+		days = 1540
+	}	
 }
 
 # Starting tech
