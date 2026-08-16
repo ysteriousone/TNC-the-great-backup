@@ -1,0 +1,1755 @@
+﻿###########################
+# USA Regional Events
+###########################
+
+add_namespace = USA_reg
+
+
+	country_event = { #never heard of a west us but whatever
+		id = USA_reg.1
+		title = USA_reg.1.t
+		desc = USA_reg.1.d				
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = USA_reg.1.a
+		 
+		hidden_effect = {
+			MNA = {
+				declare_war_on = {	
+					type = annex_everything  
+					target = WYO 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = CLR 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 388 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = PREV
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = PREV
+					}
+				}			
+			}
+			WYO = {
+				declare_war_on = {	
+					type = annex_everything  
+					target = MNA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = CLR 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 381 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = WYO
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = WYO
+					}
+				}				
+			}
+			CLR = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = WYO 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MNA 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 382 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = CLR
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = CLR
+					}
+				}				
+			}			
+		}
+	}
+}
+
+	country_event = { #never heard of a central us but whatever
+		id = USA_reg.2
+		title = USA_reg.2.t
+		desc = USA_reg.2.d				
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = USA_reg.2.a
+		 
+		hidden_effect = {
+			DKT = {
+				declare_war_on = {	
+					type = annex_everything  
+					target = SKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEB 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KAN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MIN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IOW 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSY 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 389 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = DKT
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = DKT
+					}
+				}				
+			}
+			SKT = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = DKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEB 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KAN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MIN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IOW 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSY 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 390 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = SKT
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = SKT
+					}
+				}				
+			}
+			NEB = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = SKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = DKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KAN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MIN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IOW 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSY 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 384 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NEB
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NEB
+					}
+				}				
+			}
+			KAN = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = SKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEB 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = DKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MIN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IOW 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSY 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 383 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = KAN
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = KAN
+					}
+				}				
+			}
+			MIN = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = SKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEB 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KAN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = DKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IOW 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSY 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 391 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = MIN
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = MIN
+					}
+				}				
+			}
+			IOW = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = SKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEB 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KAN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MIN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = DKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSY 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 392 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = IOW
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = IOW
+					}
+				}				
+			}
+			MSY = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = SKT 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEB 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KAN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MIN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IOW 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = DKT 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 373 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = MSY
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = MSY
+					}
+				}				
+			}			
+		}
+	}
+}
+
+	country_event = { #great lakes
+		id = USA_reg.3
+		title = USA_reg.3.t
+		desc = USA_reg.3.d				
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = USA_reg.3.a
+		 
+		hidden_effect = {
+			WSC = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = ILL 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MHG 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IND 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = OHO 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 394 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = WSC
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = WSC
+					}
+				}				
+			}
+			ILL = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = WSC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MHG 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IND 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = OHO 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 395 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = ILL
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = ILL
+					}
+				}				
+			}
+			IND = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = ILL 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MHG 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = WSC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = OHO 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 396 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = IND
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = IND
+					}
+				}				
+			}
+			MHG = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = ILL 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = WSC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IND 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = OHO 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 393 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = MHG
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = MHG
+					}
+				}				
+			}
+			OHO = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = ILL 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MHG 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = IND 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = WSC 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 261 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = OHO
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = OHO
+					}
+				}				
+			}			
+		}
+	}
+}
+
+	country_event = { #new england 
+		id = USA_reg.4
+		title = USA_reg.4.t
+		desc = USA_reg.4.d				
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = USA_reg.4.a
+		 
+		hidden_effect = {
+			WVG = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = USA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = PSY 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NJS 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NYC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEE 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 816 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = WVG
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = WVG
+					}
+				}				
+			}
+			USA = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = WVG 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = PSY 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NJS 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NYC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEE 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 361 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = USA
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = USA
+					}
+				}				
+			}
+			PSY = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = USA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = WVG 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NJS 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NYC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEE 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 360 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = PSY
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = PSY
+					}
+				}				
+			}
+			NJS = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = USA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = PSY 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = WVG 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NYC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEE 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 359 }					
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NJS
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NJS
+					}
+				}				
+			}
+			NYC = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = USA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = PSY 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NJS 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = WVG 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NEE 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 358 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NYC
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NYC
+					}
+				}				
+			}
+			NEE = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = USA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = PSY 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NJS 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NYC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = WVG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 357 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NEE
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NEE
+					}
+				}				
+			}			
+		}
+	}
+}
+
+country_event = { #upper and deep south
+		id = USA_reg.5
+		title = USA_reg.5.t
+		desc = USA_reg.5.d				
+		is_triggered_only = yes
+		fire_only_once = yes
+		option = {
+		name = USA_reg.5.a
+		 
+		hidden_effect = {
+			FLR = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 366 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = FLR
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = FLR
+					}
+				}				
+			}
+			GGR = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}	
+				
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 365 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = GGR
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = GGR
+					}
+				}				
+			}
+			SLA = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 364 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = SLA
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = SLA
+					}
+				}				
+			}
+			NLA = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 363 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NLA
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = NLA
+					}
+				}				
+			}
+			VIR = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 362 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = VIR
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = VIR
+					}
+				}				
+			}
+			KFC = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 369 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = KFC
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = KFC
+					}
+				}				
+			}
+			TSE = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 368 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = TSE
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = TSE
+					}
+				}				
+			}
+			ALA = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 367 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = ALA
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = ALA
+					}
+				}				
+			}
+			MSI = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 370 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = MSI
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = MSI
+					}
+				}				
+			}
+			AKN = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = LNG 
+				}
+
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 372 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = AKN
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = AKN
+					}
+				}				
+			}
+			LNG = {
+				
+				declare_war_on = {	
+					type = annex_everything  
+					target = GGR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = SLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = NLA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = VIR 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = KFC 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = TSE 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = ALA 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = MSI 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = AKN 
+				}
+				declare_war_on = {	
+					type = annex_everything  
+					target = FLR 
+				}
+				division_template = {
+					name = "Infantry Division"		
+					division_names_group = USA_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+
+					prioritize = { 371 }
+					create_unit = {
+						division = "name = \"1. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = LNG
+					}
+					create_unit = {
+						division = "name = \"2. Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5" 
+						owner = LNG
+					}
+				}				
+			}			
+		}
+	}
+}
