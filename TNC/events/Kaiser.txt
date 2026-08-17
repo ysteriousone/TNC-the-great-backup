@@ -20,3 +20,21 @@ country_event = {
 		add_war_support = 0.05
 	}
 }
+#INTRODUCTION OF BISMARCK YOUTH
+country_event = {
+	id = kai.2
+	title = kai.2.t
+	desc = kai.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #Ages go from 13 to 19
+		name = kai.2.a
+		add_ideas = KAI_bismarck_youth_1
+	}
+	option = { #Ages go from 11 to 20!
+		name = kai.2.b
+		add_ideas = KAI_bismarck_youth_2
+	}
+}

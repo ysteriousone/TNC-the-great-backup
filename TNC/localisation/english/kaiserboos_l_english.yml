@@ -11,21 +11,31 @@
  KAI_fighting_for_the_kaiser:0 "Fighting For The Kaiser"
  KAI_rebuilding:0 "Rebuilding The Country"
  KAI_political_instability:0 "Political Instability"
- KAI_reichstag_reformed:0 "Reformed Reichstag"
+ KAI_reichstag_reformed:0 "Stable Reichstag"
+ KAI_agriculture:0 "Agricultrual Focus"
+ KAI_industrial:0 "Industrial Focus"
+ KAI_bismarck_youth_1:0 "Bismarck Youth"
+ KAI_bismarck_youth_2:0 "Bismarck Youth"
 
  
  KAI_focus_the_imperial_fight:0 "The Imperial Fight"
  KAI_focus_prussian_fan_militarism:0 "Prussian Fan Militarism"
  KAI_focus_rebuilding_the_country:0 "Rebuilding The Country"
- KAI_focus_restablish_the_reichstag:0 "Reform The Reichstag"
+ KAI_focus_restablish_the_reichstag:0 "Convene The Reichstag"
  KAI_focus_bismarcks_movement_takeover:0 "Coup of Prussian Greatness"
  KAI_focus_question_of_the_kaiser:0 "Question of the Kaiser?"
  KAI_focus_establish_the_iron_bluttrupp:0 "Establish the Bluttrup"
  KAI_focus_set_up_the_iron_division:0 "Return of the Freikorps"
+ KAI_focus_agriculture:0 "Focus on Agriculture"
+ KAI_focus_industrial:0 "Focus on Industrial Matters"
 
 
  kai.1.t:0 "Question of the Kaiser"
  kai.1.d:0 "I will write something here just you wait."
  kai.1.a:0 "Killing him would be lunatic, make him a figurehead."
  kai.1.b:0 "Was Bismarck a kaiser? No! Exile him!"
+ kai.2.t:0 "Introduction of Bismarck Youth"
+ kai.2.d:0 "Otto von Bismarck, the glorious leader who brought us to this great country, is popular around the youth, children play as general like Bismarck in the fields, and teenagers or young adults, often write about his legacy. Creating an organization for the young fellas, will only be able to strengthen us. However, in the Reichstag, some are debating what the age limit should go to. Some debate that it should be 13 to 19, whilst some debate it should be all the way down to 11, to 20."
+ kai.2.a:0 "It should be 13 to 19."
+ kai.2.b:0 "The more the merrier! 11 to 20."
 
