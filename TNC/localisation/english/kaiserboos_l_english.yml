@@ -16,6 +16,7 @@
  KAI_industrial:0 "Industrial Focus"
  KAI_bismarck_youth_1:0 "Bismarck Youth"
  KAI_bismarck_youth_2:0 "Bismarck Youth"
+ KAI_corruption_scandale:0 "Corruption Scandale"
 
  
  KAI_focus_the_imperial_fight:0 "The Imperial Fight"
@@ -31,14 +32,19 @@
  KAI_focus_crackdown_on_socialist_gangs:0 "Crackdown on Socialist Gangs"
  KAI_focus_bismarck_youth:0 "Bismarck Youth"
  KAI_focus_ally_zentrum:0 "Ally Zentrum"
+ KAI_focus_the_corruption_scandale:0 "The Corruption Scandale" 
+ KAI_focus_clamp_down_on_corruption:0 "Clamp Down on Corruption"
 
 
  kai.1.t:0 "Question of the Kaiser"
- kai.1.d:0 "I will write something here just you wait."
+ kai.1.d:0 "Kaiser Wilhelm II, despite his legendary legacy, isn't really pleasant when it comes to politics. Not only is he expensive, but he's also pricey, Germans have to pay their taxes to Wilhelm, and now, there's debates if the Kaiser should step down, or he should be strpped away from political influence, and focus more on being Germany's figurehead."
  kai.1.a:0 "Killing him would be lunatic, make him a figurehead."
  kai.1.b:0 "Was Bismarck a kaiser? No! Exile him!"
  kai.2.t:0 "Introduction of Bismarck Youth"
  kai.2.d:0 "Otto von Bismarck, the glorious leader who brought us to this great country, is popular around the youth, children play as general like Bismarck in the fields, and teenagers or young adults, often write about his legacy. Creating an organization for the young fellas, will only be able to strengthen us. However, in the Reichstag, some are debating what the age limit should go to. Some debate that it should be 13 to 19, whilst some debate it should be all the way down to 11, to 20."
  kai.2.a:0 "It should be 13 to 19."
  kai.2.b:0 "The more the merrier! 11 to 20."
+ kai.3.t:0 "Rising Corruption"
+ kai.3.d:0 "A few of the "loyal" politicians have been caught making economic deals with our opponents! The people of Germany are certainly not happy, as they have taken it to the street to protest! We must do something about this."
+ kai.3.a:0 "You son of a gun, you thought i was gonna say bitch?"
 

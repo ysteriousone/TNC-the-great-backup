@@ -185,5 +185,16 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
+		KAI_corruption_scandale = {
+			allowed = {
+				always = yes
+			}
+			picture = f
+			modifier = {
+				consumer_goods_factor = 0.25
+				weekly_stability_factor = -0.050
+				neutrality_drift = -0.2
+			}
+		}
 	}
 }

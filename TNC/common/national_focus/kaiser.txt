@@ -347,4 +347,45 @@ focus_tree = {
 			add_stability = 0.05
 		}
 	}
+	focus = {
+		id = KAI_focus_the_corruption_scandale
+		icon = f
+		x = 22
+		y = 6
+		cost = 0
+		prerequisite = {
+			focus = KAI_focus_crackdown_on_socialist_gangs
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		available_if_capitulated = yes
+		bypass = {
+		}
+		completion_reward = {
+			custom_effect_tooltip = unlock_focuses
+		}
+	}
+	focus = {
+		id = KAI_focus_clamp_down_on_corruption
+		icon = f
+		x = 22
+		y = 7
+		cost = 8
+		prerequisite = {
+			focus = KAI_focus_the_corruption_scandale
+		}
+		available = {
+			has_idea = KAI_corruption_scandale
+		}
+		available_if_capitulated = yes
+		bypass = {
+		}
+		completion_reward = {
+			add_stability = 0.2
+			remove_ideas = KAI_corruption_scandale
+		}
+	}
 }

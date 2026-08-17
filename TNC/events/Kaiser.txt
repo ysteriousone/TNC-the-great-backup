@@ -38,3 +38,21 @@ country_event = {
 		add_ideas = KAI_bismarck_youth_2
 	}
 }
+#CORRUPT POLITICIANS CAUGHT!
+country_event = {
+	id = kai.3
+	title = kai.3.t
+	desc = kai.3.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	fire_only_once = yes
+	is_triggered only = yes
+	date > 1947.5.23
+
+	option = { #Absolute outrage!
+		name = kai.3.a
+		unlock_national_focus = KAI_focus_the_corruption_scandale
+		add_ideas = KAI_corruption_scandale
+	}
+}
+#
