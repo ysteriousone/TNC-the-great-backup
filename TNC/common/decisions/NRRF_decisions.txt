@@ -173,6 +173,9 @@ KOM_power_struggle = {
 
 		available = {
     Schizo_Communism > 0.6
+		has_idea = {
+	RUS_Regional
+	 }
 		}
 
 		complete_effect = {
@@ -199,6 +202,9 @@ KOM_power_struggle = {
 
 		available = {
     Popular_Socialism > 0.6
+		has_idea = {
+	RUS_Regional
+	 }
 		}
 
 		complete_effect = {
@@ -224,7 +230,10 @@ KOM_power_struggle = {
 	days_re_enable = 25
 
 		available = {
-    Popular_Socialism > 0.6
+    communism > 0.6
+	has_idea = {
+	RUS_Regional
+	 }
 		}
 
 		complete_effect = {
@@ -236,6 +245,7 @@ KOM_power_struggle = {
 	id = NRRF.3
 	days = 0
 	 }
+	complete_focus = KOM_Empathy_Victorious
 		}
 
 		ai_will_do = {

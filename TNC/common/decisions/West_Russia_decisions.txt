@@ -53,6 +53,9 @@ West_Russian_unification_cat = {
 
 		complete_effect = {
 			set_cosmetic_tag = West_Russia_yay
+		add_ideas = {
+		RUS_Regional
+		 }
 		every_state = {
 		limit = {
 		is_owned_by = ROOT

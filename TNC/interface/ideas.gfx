@@ -41,6 +41,11 @@ spriteTypes = {
     }
 	
 	spriteType = {
+        name = "GFX_idea_TNC_RUS_regional"
+        texturefile = "gfx/interface/ideas/RUS_regional.dds"
+    }
+	
+	spriteType = {
         name = "GFX_idea_TNC_the_jewish_haven"
         texturefile = "gfx/interface/ideas/Jewish_Haven.dds"
     }
