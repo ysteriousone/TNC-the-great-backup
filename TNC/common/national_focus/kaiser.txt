@@ -322,4 +322,26 @@ focus_tree = {
 			country_event = kai.2
 		}
 	}
+	focus = {
+		id = KAI_focus_ally_zentrum
+		icon = f
+		x = 18
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		available_if_capitulated = yes
+		bypass = {
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = conservative_democratic
+				popularity = 0.05
+			}
+			add_stability = 0.05
+		}
+	}
 }

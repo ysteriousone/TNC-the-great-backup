@@ -1,9 +1,9 @@
 ﻿l_english:
 
 
- KAI_bismarcks_movement:0 "Bismarck's Movement"
- KAI_bismarcks_movement_good:0 "Bismarck's Movement"
- KAI_bismarcks_movement_bad:0 "Bismarck's Movement"
+ KAI_bismarcks_movement:0 "Bismarck's Movement (Normal)"
+ KAI_bismarcks_movement_good:0 "Bismarck's Movement (Satisfied)"
+ KAI_bismarcks_movement_bad:0 "Bismarck's Movement (Outraged)"
  german_civil_war:0 "The German Civil War"
  KAI_loyal_generals:0 "Loyal Generals"
  KAI_socialist_gangsters:0 "Socialist Gangsters"
@@ -30,6 +30,7 @@
  KAI_focus_industrial:0 "Focus on Industrial Matters"
  KAI_focus_crackdown_on_socialist_gangs:0 "Crackdown on Socialist Gangs"
  KAI_focus_bismarck_youth:0 "Bismarck Youth"
+ KAI_focus_ally_zentrum:0 "Ally Zentrum"
 
 
  kai.1.t:0 "Question of the Kaiser"
