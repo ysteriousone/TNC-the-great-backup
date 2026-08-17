@@ -250,7 +250,7 @@ focus_tree = {
 		bypass = {
 		}
 		completion_reward = {
-			remove_ideas = KAI_focus_crackdown_on_socialist_gangs
+			remove_ideas = KAI_socialist_gangsters
 		}
 	}
 	focus = {
@@ -330,6 +330,9 @@ focus_tree = {
 		cost = 5
 		ai_will_do = {
 			factor = 1
+		}
+		prerequisite = {
+			focus = KAI_focus_crackdown_on_socialist_gangs
 		}
 		available = {
 		}
