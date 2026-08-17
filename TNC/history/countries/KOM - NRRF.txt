@@ -96,6 +96,10 @@ set_politics = {
 	elections_allowed = yes
 }
 
+	add_ideas = {
+		RUS_Terror_bombings
+	}
+
 set_popularities = {
 	democratic = 50
 	fascism = 10

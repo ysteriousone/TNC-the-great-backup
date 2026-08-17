@@ -24,6 +24,10 @@ spriteTypes = {
         name = "GFX_idea_SWE_German_Gustav"
         texturefile = "gfx/interface/ideas/SWE_German_King.dds"
     }
+	spriteType = {
+        name = "GFX_idea_TNC_RUS_terror_bombings"
+        texturefile = "gfx/interface/ideas/RUS_terror_bombings.dds"
+    }
 	
 	spriteType = {
         name = "GFX_idea_UKR_A_Broken_East"

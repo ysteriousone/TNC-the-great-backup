@@ -14,6 +14,11 @@ Ultranationalism  = {
 		Savinkovyte_tendency  = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
+			
+		Imperial_Cultism  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			color = {  14 0 56}
+			}
 
 		}
 

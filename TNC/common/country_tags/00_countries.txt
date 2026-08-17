@@ -1,4 +1,5 @@
 NFA = "countries/National France.txt"
+HRE = "countries/Taboritsky.txt"
 SAV = "countries/Kaiserreich Russia.txt"
 GOT = "countries/Gotland.txt"
 ALA = "countries/Alabama.txt"

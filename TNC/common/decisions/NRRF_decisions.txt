@@ -173,7 +173,11 @@ KOM_power_struggle = {
 
 		available = {
     Schizo_Communism > 0.6
+<<<<<<< Updated upstream
 		has_idea = {
+=======
+		has_ideas = {
+>>>>>>> Stashed changes
 	RUS_Regional
 	 }
 		}
@@ -231,9 +235,12 @@ KOM_power_struggle = {
 
 		available = {
     communism > 0.6
+<<<<<<< Updated upstream
 	has_idea = {
 	RUS_Regional
 	 }
+=======
+>>>>>>> Stashed changes
 		}
 
 		complete_effect = {
