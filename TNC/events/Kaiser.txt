@@ -56,7 +56,7 @@ country_event = {
 }
 #GOTTFRIED MEETS TIGER
 country_event = {
-	kai.4
+	id = kai.4
 	title = kai.4.t
 	desc = kai.4.d
 	picture = cat
@@ -70,7 +70,7 @@ country_event = {
 }
 #BISMARCKIST REVOLUTION
 country_event = {
-	kai.5
+	id = kai.5
 	title = kai.5.t
 	desc = kai.5.d
 	picture = f

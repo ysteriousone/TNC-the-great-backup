@@ -21,6 +21,9 @@ focus_tree = {
 		cost = 2
 		available = {
 			NOT = {
+				has_ideas = german_civil_war
+			}
+			NOT = {
 				has_war_with = GER
 				has_war_with = DDR
 				has_war_with = WGR
