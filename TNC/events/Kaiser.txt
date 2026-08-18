@@ -46,7 +46,6 @@ country_event = {
 	picture = GFX_report_event_german_reichstag_gathering
 
 	fire_only_once = yes
-	is_triggered only = yes
 	date > 1947.5.23
 
 	option = { #Absolute outrage!
@@ -55,4 +54,31 @@ country_event = {
 		add_ideas = KAI_corruption_scandale
 	}
 }
-#
+#GOTTFRIED MEETS TIGER
+country_event = {
+	kai.4
+	title = kai.4.t
+	desc = kai.4.d
+	picture = cat
+
+	fire_only_once = yes
+	date > 1947.6.14
+
+	option = { #Adorable
+		name = kai.4.a
+	}
+}
+#BISMARCKIST REVOLUTION
+country_event = {
+	kai.5
+	title = kai.5.t
+	desc = kai.5.d
+	picture = f
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = kai.5.a
+	}
+}

@@ -166,6 +166,7 @@ focus_tree = {
 			add_ideas = KAI_bismarckism
 			add_stability = -0.1
 			add_war_support = 0.1
+			country_event = kai.5
 		}
 	}
 	focus = {
