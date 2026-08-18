@@ -165,6 +165,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			set_party_name = {
+				ideology = neutrality
+				name = BISMARCK_PARTY_SHORT
+				long_name = BISMARCK_PARTY_LONG
+			}
 			remove_ideas = KAI_bismarcks_movement_good
 			add_ideas = KAI_bismarckism
 			add_stability = -0.1
@@ -369,7 +374,7 @@ focus_tree = {
 		bypass = {
 		}
 		completion_reward = {
-			custom_effect_tooltip = unlock_focuses
+			custom_effect_tooltip = unlock_focus_tt
 		}
 	}
 	focus = {
