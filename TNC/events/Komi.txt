@@ -55,6 +55,38 @@ country_event = {
 
 }
 
+# Beria wins
+country_event = {
+	id = NRRF.4
+	title = NRRF.4.t
+	desc = NRRF.4.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = NRRF.4.a  
+}
+
+
+}
+
+# Initial Events
+country_event = {
+	id = NRRF.5
+	title = NRRF.5.t
+	desc = NRRF.5.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = NRRF.5.a  
+}
+
+
+}
+
 
 }
 

@@ -1,0 +1,39 @@
+﻿
+
+focus_tree = {
+	id = Rokossovsky_regional
+	
+		modifier = {
+			add = 10
+			tag = KOM
+		}
+		
+		focus = {
+		id = KOM_The_Era_of_Rokossovsky
+		icon = GFX_goal_generic_consumer_goods
+		x = 10
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no	
+
+}

@@ -4,7 +4,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = "GFX_idea_TNC_RUS_regional"
+			picture = TNC_RUS_regional
 			modifier = {
 				stability_factor = 0.005
 				war_support_factor = 0.2
@@ -12,9 +12,9 @@ ideas = {
 				monthly_population_factor = 0.03
 			}
 		}
-	}
 	
-	country = {
+	
+	
 		RUS_Terror_bombings = {
 			allowed = {
 				always = yes
@@ -28,5 +28,7 @@ ideas = {
 				monthly_stability_factor = -0.02
 			}
 		}
-	}
+	
 }
+
+ }

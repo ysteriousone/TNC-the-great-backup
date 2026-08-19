@@ -35,6 +35,15 @@ country_event = {
     is_triggered_only = yes 
 	option = { # Alan we are so cooked
 		name = nov.2.a  
+	release = CHU
+	release = YSL
+	release = MCW
+	release = HRE
+	release = LEN
+	release = IOR
+	release = LNR
+	release = BLK
+	release = SAV
     
 
 }

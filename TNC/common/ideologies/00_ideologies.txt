@@ -19,6 +19,10 @@ Ultranationalism  = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			color = {  14 0 56}
 			}
+			
+	    Antichrist_Satanism  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
 
 		}
 

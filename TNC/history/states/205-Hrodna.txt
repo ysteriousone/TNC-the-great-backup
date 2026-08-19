@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = RKM
+		add_core_of = MCW
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

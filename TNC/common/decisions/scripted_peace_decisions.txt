@@ -148,6 +148,7 @@ Balkan_war_peace_cat = {
 	ROM = {
 	transfer_state =77
 	 }
+	play_song = "Belisarius"
 	}
 
 		ai_will_do = {

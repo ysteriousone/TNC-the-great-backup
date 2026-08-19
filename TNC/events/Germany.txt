@@ -69,6 +69,7 @@ ZZZ = {
 release = DEN
 release = CRI
 release = SER
+release = LEN
   }
   
 RKN = {
