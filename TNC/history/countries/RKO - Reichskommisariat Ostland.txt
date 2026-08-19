@@ -1,7 +1,7 @@
 ﻿capital = 808 # Riga
 
-set_stability = 0.4
-set_war_support = 0.7
+set_stability = 0.5
+set_war_support = 0.4
 
 # Starting tech
 set_technology = {
@@ -91,8 +91,6 @@ set_research_slots = 3
 set_convoys = 0
 
 1939.1.1 = {
-
-	add_political_power = 1197
 	add_command_power = 100
 
 	set_technology = {
@@ -164,6 +162,13 @@ recruit_character = RKO_hinrich_lohse
 add_ideas = {
 	war_economy
 	extensive_conscription
+	RKO_idea_heavily_disorganized_army
+	RKO_idea_german_funding
+	RKO_idea_lithuanian_resistance
+	RKO_idea_latvian_resistance
+	RKO_idea_estonian_resistance
+	RKO_idea_belarussian_resistance
+	RKO_idea_forest_brothers
 }
 
 
