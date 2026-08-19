@@ -195,9 +195,9 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "GER_wilhelm_ii"
+	name = "GER_wilhelm_iii"
 	desc = "WILHELM_DESC"
-	picture = GFX_portrait_ger_wilhelm_ii
+	picture = GFX_portrait_ger_wilhelm_iii
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
