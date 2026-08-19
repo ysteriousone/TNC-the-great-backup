@@ -172,7 +172,7 @@ focus_tree = {
 			}
 			recruit_character = gottfried_graf_von_bismarck_schonhausen
 			promote_character = gottfried_graf_von_bismarck_schonhausen
-			retire_character = GER_wilhelm_ii
+			retire_character = GER_wilhelm_iii
 			remove_ideas = KAI_bismarcks_movement_good
 			add_ideas = KAI_bismarckism
 			add_stability = -0.1
