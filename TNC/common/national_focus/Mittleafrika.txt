@@ -629,7 +629,7 @@ focus = {
 		x = 8
 		y = 8
     available = {
-	date > 1947.1.1
+	date > 1947.8.1
 	NOT = {
 	country_exists = GER
 	}
@@ -661,6 +661,7 @@ focus = {
 		
 
 		completion_reward = {
+	load_focus_tree = Mittleafrika_focus_post_fall
 		}
 	}
 
