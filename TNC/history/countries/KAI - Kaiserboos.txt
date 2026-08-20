@@ -212,3 +212,4 @@ set_variable = { KAI_reform_prod_gain_variable = 0 }
 set_variable = { KAI_reform_prod_eff_variable = 0 }
 set_variable = { KAI_reform_demo_drift_variable = 0 }
 set_variable = { KAI_reform_month_pop_variable = 0 }
+set_variable = { KAI_reform_research_variable = 0 }

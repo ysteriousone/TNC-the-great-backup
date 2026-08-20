@@ -7,6 +7,7 @@ KAI_var_nationale_reformen = {
     # Scale a modifier using a saved scope variable
     stability_factor = KAI_reform_stability_var
     political_power_gain = KAI_reform_pp_variable
+	research_speed_factor = KAI_reform_research_variable
 	monthly_population = KAI_reform_month_pop_variable
 	consumer_goods_factor = KAI_reform_consumer_goods_variable
 	production_speed_buildings_factor = KAI_reform_construction_variable
