@@ -13,11 +13,14 @@ KAI_nationale_reformen_cat = {
 		}
 		days_remove = 90
 		complete_effect = {
+			political_power_cost = 0.1
+		}
+		remove_effect = {
 			add_to_variable = {
 				KAI_reform_stability_var = 0.05
 			}
 			add_to_variable = {
-				KAI_reform_month_pop_variable = 0.1
+				KAI_reform_month_pop_variable = 0.10
 			}
 		}
 	}
@@ -34,11 +37,14 @@ KAI_nationale_reformen_cat = {
 		}
 		days_remove = 90
 		complete_effect = {
+			political_power_cost = 0.1
+		}
+		remove_effect = {
 			add_to_variable = {
 				KAI_reform_research_variable = 0.05
 			}
 			add_to_variable = {
-				KAI_reform_month_pop_variable = 0.1
+				KAI_reform_month_pop_variable = 0.10
 			}
 		}
 	}
