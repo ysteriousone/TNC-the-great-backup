@@ -18,17 +18,38 @@ units = {
 
 	division = {
 		division_name = {
-			is_name_ordered = yes
-			name_order = 1
+			is_name_ordered = no
 		}
-		location = 11537
-		division_template = "Brygada Nowej Polski"
+		location = 2196
+		division_template = "Shock Troopers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+
+	}
+	
+division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2196
+		division_template = "Shock Troopers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+
+	}
+	
+division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2115
+		division_template = "Shock Troopers"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
 	}
 		
-	
+	}
 
 ### Starting Production ###
 instant_effect = {
