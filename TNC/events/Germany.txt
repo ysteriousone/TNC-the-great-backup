@@ -156,9 +156,9 @@ country_event = {
  every_state = {
  limit = {
  is_owned_by = AUS
- add_core_of = AUS
 
 }
+ add_core_of = AUS
 
 }
 
@@ -191,9 +191,8 @@ country_event = {
  every_state = {
  limit = {
  is_owned_by = GER
- add_core_of = WGR
-
 }
+ add_core_of = WGR
 
 }
 
@@ -225,9 +224,9 @@ country_event = {
  every_state = {
  limit = {
  is_owned_by = GER
- add_core_of = KAI
 
 }
+ add_core_of = KAI
 
 }
 
@@ -268,9 +267,9 @@ country_event = {
  every_state = {
  limit = {
  is_owned_by = GER
- add_core_of = GMJ
 
 }
+ add_core_of = GMJ
 
 }
 
@@ -303,9 +302,9 @@ country_event = {
  every_state = {
  limit = {
  is_owned_by = GER
- add_core_of = BGR
-
 }
+
+ add_core_of = BGR
 
 }
 
@@ -315,4 +314,3 @@ news_event = { id = world.4 days = 3 }
 
 
  }
-
