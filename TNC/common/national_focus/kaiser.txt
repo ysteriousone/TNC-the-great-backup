@@ -170,7 +170,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			mark_focus_tree_layout_dirty = yes
 			set_party_name = {
 				ideology = neutrality
 				name = BISMARCK_PARTY_SHORT
@@ -183,7 +182,7 @@ focus_tree = {
 					traits = { bismarckist_revolutionary }
 					expire="1965.1.1.1"
 				}
-				promote_leader
+				promote_leader = yes
 			}
 			remove_ideas = KAI_bismarcks_movement_good
 			add_ideas = KAI_bismarckism
