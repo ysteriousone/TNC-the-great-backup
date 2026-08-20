@@ -170,6 +170,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
 			set_party_name = {
 				ideology = neutrality
 				name = BISMARCK_PARTY_SHORT
@@ -419,6 +420,31 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.2
 			remove_ideas = KAI_corruption_scandale
+		}
+	}
+	focus = {
+		id = KAI_focus_the_nationale_reformprogramm
+		icon = f
+		x = 20
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = KAI_focus_crackdown_on_socialist_gangs
+		}
+		available = {
+			has_stability > 60
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+			custom_effect_tooltip = KAI_reform_decision_unlock_tt
+			unlock_decision_category_tooltip = KAI_nationale_reformen_cat
+			custom_effect_tooltip = KAI_var_nationale_reformen_tt
+			effect_tooltip = {
+				add_dynamic_modifier = KAI_var_nationale_reformen
+			}
 		}
 	}
 }

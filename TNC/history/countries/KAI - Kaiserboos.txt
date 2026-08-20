@@ -203,3 +203,12 @@ create_country_leader = {
 	traits = {
 	}
 }
+set_variable = { KAI_reform_stability_var = 0.05 }
+set_variable = { KAI_reform_pp_variable = 0.03 }
+set_variable = { KAI_reform_consumer_goods_variable = -0.05 }
+set_variable = { KAI_reform_construction_variable = 0 }
+set_variable = { KAI_reform_fac_out_variable = 0 }
+set_variable = { KAI_reform_prod_gain_variable = 0 }
+set_variable = { KAI_reform_prod_eff_variable = 0 }
+set_variable = { KAI_reform_demo_drift_variable = 0 }
+set_variable = { KAI_reform_month_pop_variable = 0 }
