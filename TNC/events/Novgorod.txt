@@ -44,6 +44,10 @@ country_event = {
 	release = LNR
 	release = BLK
 	release = SAV
+	release = LIP
+	NOV = {
+	transfer_state = 246
+	 }
     
 
 }

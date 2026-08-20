@@ -662,6 +662,13 @@ focus = {
 
 		completion_reward = {
 	load_focus_tree = Mittleafrika_focus_post_fall
+	hidden_effect = {
+	RKA = {
+	country_event = {
+	id = rka_saf.1
+	days = 8
+	 }
+	  }
 		}
 	}
 

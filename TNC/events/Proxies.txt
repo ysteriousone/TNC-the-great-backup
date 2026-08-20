@@ -254,20 +254,23 @@ days = 3
  
 }
  
- # Turkey joins the Balkan War
+ # South African War
 country_event = {
-	id = proxy.7
-	title = proxy.7.t
-	desc = proxy.7.d
+	id = proxy.8
+	title = proxy.8.t
+	desc = proxy.8.d
 	picture = GFX_report_event_spain_civil_war_soldiers
     is_triggered_only = yes 
 	fire_only_once = yes
 
 	option = { 
-		name = proxy.6.a
-	BUL = {
-	add_to_faction = TUR
-	 }
+		name = proxy.8.a
+  BOT = {
+  declare_war_on = {
+  target = SAF
+  type = annex_everything
+   }
+    }
 	
  }
   

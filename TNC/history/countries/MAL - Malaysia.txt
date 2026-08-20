@@ -7,7 +7,6 @@ set_research_slots = 3
 recruit_character = MAL_onn_jaafar
 recruit_character = MAL_lai_teck
 recruit_character = MAL_ibrahim_hj_yaacob
-recruit_character = MAL_winston_tyron
 
 
 # Starting tech
@@ -120,6 +119,17 @@ set_popularities = {
 	communism = 34
 	Popular_Socialism = 33
 }
+
+	create_country_leader = {
+			name = "Chin Peng"
+			desc = "CHIN_PENG_DESC"
+			picture = Chin_Peng.dds		
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+				
+			}
+		}
 
 set_politics = {
 	ruling_party = communism

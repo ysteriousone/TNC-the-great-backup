@@ -1,0 +1,70 @@
+Ties_with_Berlin_cat = {
+	
+	Strengthen_The_Dar_Es_Salam_Pipeline = {
+		icon = generic_industry
+		cost = 20
+		days_re_enable = 120
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+		}
+		
+	complete_effect = {
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+	
+Bring_Settlers_to_Africa = {
+		icon = generic_industry
+		cost = 120
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+		}
+		
+	complete_effect = {
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+	
+	The_Jewish_Plan = {
+		icon = generic_industry
+		cost = 60
+		highlight_states = { state = 123 }
+    days_remove = 365
+	days_re_enable = 365
+		visible = {
+			always = yes
+		}
+		
+        complete_effect = {
+            add_manpower = 100000
+            log = "Oh you love displacing jews dont you?"
+        }
+		
+	        remove_effect = {
+  add_manpower = 100000
+        }
+
+		available = {
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+}
