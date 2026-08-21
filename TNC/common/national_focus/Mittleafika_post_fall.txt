@@ -44,6 +44,38 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = RKA_Hitlers_Wild_Ride
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 6
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    NOT = {
+	country_exists = SAF
+	 }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = RKA_The_Industry_to_Reclaim_a_Reich
 		icon = GFX_focus_GER_realize_mittelafrika
 		x = 15
