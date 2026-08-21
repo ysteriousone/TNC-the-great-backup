@@ -1,0 +1,27 @@
+state={
+	id=1087
+	name="STATE_1087"
+	provinces={
+		5128 5222 8188 
+	}
+	
+		state_category = wasteland
+	history={
+		add_core_of = MAD
+		owner = RKA
+		victory_points = {
+			5128 10
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			5222 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	manpower=100000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

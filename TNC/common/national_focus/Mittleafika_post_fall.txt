@@ -70,7 +70,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		
-
+    prerequisite = {
+	focus = RKA_It_Begins
+	 }
 		completion_reward = {
 		}
 	}
@@ -137,7 +139,7 @@ focus_tree = {
 	
 	focus = {
 		id = RKA_The_Battle_With_Africa
-		icon = GFX_focus_GER_realize_mittelafrika
+		icon = GFX_RKA_War_with_Africa
 		x = 30
 		y = 0
 
@@ -167,7 +169,7 @@ focus_tree = {
 	
 	focus = {
 		id = RKA_The_Home_Front
-		icon = GFX_focus_GER_realize_mittelafrika
+		icon = GFX_RKA_homefront
 		x = 28
 		y = 1
 
@@ -235,7 +237,7 @@ focus_tree = {
 	focus = {
 		id = RKA_The_Manpower_Problem
 		icon = GFX_focus_GER_realize_mittelafrika
-		x = 30
+		x = 32
 		y = 1
 
 		cost = 2

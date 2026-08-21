@@ -156,6 +156,8 @@ Balkan_war_peace_cat = {
 		}
 	}
 	
+	 }
+	
 	South_African_war_peace_cat = {
 	
 	South_Africa_victory = {
