@@ -6,7 +6,7 @@ set_research_slots = 3
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = Popular_Socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -14,9 +14,24 @@ set_politics = {
 
 set_popularities = {
 	democratic = 50
-	fascism = 10
-	communism = 40
+	Popular_Socialism = 50
 }
+
+add_ideas = {
+RUS_The_Eastern_SMUTA
+RUS_Partisans_Song
+ }
+
+create_country_leader = {
+			name = "Yakov Sverdlov"
+			desc = ""
+			picture = Sverdlov.dds		
+			expire = "1965.1.1"
+			ideology = Democratic_Socialism
+			traits = {
+			}
+		}
+
 
 
 

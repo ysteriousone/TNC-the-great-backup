@@ -1,13 +1,15 @@
 ﻿
 division_template = {
 	name = "Reich Garrision"
-	division_names_group = NPL_INF_01
+	division_names_group = RKM_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
@@ -21,8 +23,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11537
-		division_template = "Brygada Nowej Polski"
+		location = 117
+		division_template = "Reich Garrision"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -33,8 +35,20 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 576
-		division_template = "Brygada Nowej Polski"
+		location = 117
+		division_template = "Reich Garrision"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6380
+		division_template = "Reich Garrision"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -45,8 +59,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 464
-		division_template = "Brygada Nowej Polski"
+		location = 413
+		division_template = "Reich Garrision"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -59,7 +73,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "NPL"
+			creator = "RKM"
 		}
 		requested_factories = 1
 		progress = 0.50

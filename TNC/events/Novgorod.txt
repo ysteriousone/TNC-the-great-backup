@@ -48,6 +48,12 @@ country_event = {
 	NOV = {
 	transfer_state = 246
 	 }
+	 
+	RKM = {
+	add_ideas = {
+	RUS_The_Eastern_SMUTA
+	 }
+	  }
     
 
 }

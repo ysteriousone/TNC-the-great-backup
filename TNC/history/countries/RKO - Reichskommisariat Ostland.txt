@@ -169,6 +169,7 @@ add_ideas = {
 	RKO_idea_estonian_resistance
 	RKO_idea_belarussian_resistance
 	RKO_idea_forest_brothers
+	UKR_A_Broken_East
 }
 
 

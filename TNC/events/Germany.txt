@@ -3,6 +3,24 @@
 ###########################
 
 add_namespace = ger
+add_namespace = ger_reich
+
+# 1st Nuke made
+country_event = {
+	id = ger_reich.1
+	title = ger_reich.1.t
+	desc = ger_reich.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Wunderbar!
+		name = ger_reich.1.a  
+}
+
+
+
+}
 
 # Maurice is dead
 country_event = {

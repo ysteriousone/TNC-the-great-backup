@@ -36,3 +36,8 @@ set_popularities = {
 				dictator
 			}
 		}
+	
+	add_ideas = {
+	RUS_The_Eastern_SMUTA
+	SAV_PSR_Saviors
+	 }

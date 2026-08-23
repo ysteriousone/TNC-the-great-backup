@@ -40,6 +40,26 @@ Bring_Settlers_to_Africa = {
 		}
 	}
 	
+Civillizing_Mission_in_Tanzania = {
+		icon = generic_industry
+		cost = 90
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+		}
+		
+	complete_effect = {
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+	
 	The_Jewish_Plan = {
 		icon = generic_industry
 		cost = 60

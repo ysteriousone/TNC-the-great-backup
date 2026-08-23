@@ -21,3 +21,17 @@ set_politics = {
 set_popularities = {
 	Libtardism = 100
 }
+
+add_ideas = {
+RUS_The_Eastern_SMUTA
+}
+
+create_country_leader = {
+			name = "Konstantin Simonov"
+			desc = ""
+			picture = Simonov.dds		
+			expire = "1965.1.1"
+			ideology = creative_liberalism
+			traits = {
+			}
+		}

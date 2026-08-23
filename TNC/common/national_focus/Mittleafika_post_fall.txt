@@ -200,11 +200,45 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	
+	focus = {
+		id = RKA_All_Sons_of_The_Reich
+		icon = GFX_RKA_homefront
+		x = 27
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    has_war_with = SAF
+		}
+
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = RKA_The_Home_Front
+	 }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
 	focus = {
 		id = RKA_The_Southern_Front
 		icon = GFX_focus_GER_realize_mittelafrika
 		x = 30
-		y = 1
+		y = 2
 
 		cost = 2
 
@@ -222,6 +256,39 @@ focus_tree = {
 		
 	prerequisite = {
 	focus = RKA_The_Battle_With_Africa
+	 }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RKA_Find_A_Weakness
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 31
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    has_war_with = SAF
+		}
+
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = RKA_The_Southern_Front
 	 }
 
 		cancel_if_invalid = yes

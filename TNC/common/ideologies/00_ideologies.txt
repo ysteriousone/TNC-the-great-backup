@@ -261,6 +261,9 @@ Ultranationalism  = {
 
 			autocratic_populism = {
 			}
+			
+			scientific_conservatism = {
+			}
 
 			de_gaullism = {
 			}
@@ -334,6 +337,12 @@ Ultranationalism  = {
 	color = {119 0 57 }
 			}
 	Military_socialism = {
+			}
+			
+	Democratic_Socialism = {
+			}
+			
+	Social_Revanchism = {
 			}
 
 		}
