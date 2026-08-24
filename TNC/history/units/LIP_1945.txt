@@ -1,0 +1,182 @@
+﻿
+division_template = {
+	name = "Prison Inmates"
+	division_names_group = PARTISAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6398
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6398
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6398
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6398
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6398
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3346
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3199
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 358
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 356
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3580
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3580
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3580
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+		
+	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "LIP"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}	
+}

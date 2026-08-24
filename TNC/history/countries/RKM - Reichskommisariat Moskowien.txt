@@ -4,6 +4,8 @@ country_event  = { id = nov.1 days = 130 }
 
 country_event = { id = nov.2 days = 820 }
 
+OOB = "RKM_1945"
+
 
 
 set_stability = 0.4

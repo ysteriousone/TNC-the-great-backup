@@ -106,7 +106,6 @@ country_event = {
     ITA = {
 	leave_faction = yes
 	}
-}
 	ITA = {
 	declare_war_on = {
 	target =  TTS

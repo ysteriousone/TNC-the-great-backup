@@ -28,3 +28,22 @@ free_country = yes
 }
 
   }
+ 
+# The Collapse - SAW loss version
+country_event = {
+	id = rka_saf.1
+	title = rka_saf.1.t
+	desc = rka_saf.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # HOLY TNO BROO
+		name = rka_saf.1.a  
+	hidden_effect = {
+
+ }
+
+}
+
+  }

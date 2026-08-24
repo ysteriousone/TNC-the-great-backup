@@ -1,0 +1,102 @@
+﻿
+division_template = {
+	name = "PSR Militia"
+	division_names_group = SAV_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3335
+		division_template = "PSR Militia"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3335
+		division_template = "PSR Militia"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3335
+		division_template = "PSR Militia"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9355
+		division_template = "PSR Militia"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 328
+		division_template = "PSR Militia"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9328
+		division_template = "PSR Militia"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+		
+	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SAV"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}	
+}
