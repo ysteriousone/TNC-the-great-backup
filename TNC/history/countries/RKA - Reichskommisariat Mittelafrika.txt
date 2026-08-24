@@ -1,4 +1,4 @@
-capital = 546 # Dar-es-salam
+capital = 1089 # Dar-es-salam
 
 OOB = "RKA_1945"
 
