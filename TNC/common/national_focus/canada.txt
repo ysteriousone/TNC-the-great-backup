@@ -4266,7 +4266,7 @@ focus_tree = {
 					has_wargoal_against = FRA
 				}
 			}
-			NOT = { has_country_flag = britain_enforced_our_loyalty }
+			# NOT = { has_country_flag = britain_enforced_our_loyalty }
 	
 		
 		bypass = {
@@ -5387,9 +5387,317 @@ focus_tree = {
 	############################
     #### GO TORIES! SECTION ####
 	############################
+    focus = {
+		id = CAN_another_victory
+		icon = GFX_focus_eng_home_defense
 
+		cost = 10 
+
+		x = 50
+		y = 8
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		mutually_exclusive = {
+			focus = CAN_reform_the_ccf
+			focus = CAN_sociaL_creditism
+		}
+
+		filter = { 
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	focus = {
+		id = CAN_formalise_a_coalition_with_the_liberals
+		icon = GFX_focus_unknown
+
+		cost = 10 
+
+		x = 45
+		y = 9
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		# mutually_exclusive = {
+		# 	focus = CAN_reform_the_ccf
+		# 	focus = CAN_sociaL_creditism
+		# }
+
+		# filter = { 
+		# 	FOCUS_FILTER_POLITICAL
+		# }
+		available = {
+			has_government = democratic
+		}
+
+		prerequisite = {
+			focus = CAN_another_victory
+		}
+
+		# allow_branch = {
+		# 	has_government = democratic
+		# }
+	}
+
+		focus = {
+		id = CAN_betray_the_coalition
+		icon = GFX_focus_unknown
+
+		cost = 10 
+
+		x = 44
+		y = 10
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		# mutually_exclusive = {
+		# 	focus = CAN_reform_the_ccf
+		# 	focus = CAN_sociaL_creditism
+		# }
+
+		# filter = { 
+		# 	FOCUS_FILTER_POLITICAL
+		# }
+		available = {
+			has_government = democratic
+		}
+
+		prerequisite = {
+			focus = CAN_formalise_a_coalition_with_the_liberals
+		}
+
+		# allow_branch = {
+		# 	has_government = democratic
+		# }
+	}
+
+	focus = {
+		id = CAN_cement_liberal_popularity
+		icon = GFX_focus_unknown
+
+		cost = 10 
+
+		x = 46
+		y = 10
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		# mutually_exclusive = {
+		# 	focus = CAN_reform_the_ccf
+		# 	focus = CAN_sociaL_creditism
+		# }
+
+		# filter = { 
+		# 	FOCUS_FILTER_POLITICAL
+		# }
+		available = {
+			has_government = democratic
+		}
+
+		prerequisite = {
+			focus = CAN_formalise_a_coalition_with_the_liberals
+		}
+
+		# allow_branch = {
+		# 	has_government = democratic
+		# }
+	}
+
+	focus = {
+		id = CAN_cement_liberal_popularity
+		icon = GFX_focus_unknown
+
+		cost = 10 
+
+		x = 46
+		y = 10
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		# mutually_exclusive = {
+		# 	focus = CAN_reform_the_ccf
+		# 	focus = CAN_sociaL_creditism
+		# }
+
+		# filter = { 
+		# 	FOCUS_FILTER_POLITICAL
+		# }
+		available = {
+			has_government = democratic
+		}
+
+		prerequisite = {
+			focus = CAN_formalise_a_coalition_with_the_liberals
+		}
+
+		# allow_branch = {
+		# 	has_government = democratic
+		# }
+	}
+
+	focus = {
+		id = CAN_believe_in_mackenzie_king
+		icon = GFX_focus_unknown
+
+		cost = 10 
+
+		x = 45
+		y = 11
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		# mutually_exclusive = {
+		# 	focus = CAN_reform_the_ccf
+		# 	focus = CAN_sociaL_creditism
+		# }
+
+		# filter = { 
+		# 	FOCUS_FILTER_POLITICAL
+		# }
+		available = {
+			has_government = democratic
+		}
+
+		prerequisite = {
+			focus = CAN_betray_the_coalition
+		}
+		prerequisite = {
+			focus = CAN_cement_liberal_popularity
+		}
+
+		# allow_branch = {
+		# 	has_government = democratic
+		# }
+	}
+
+		focus = {
+		id = CAN_force_resignation_of_governor_of_canada
+		icon = GFX_focus_unknown
+
+		cost = 10 
+
+		x = 45
+		y = 12
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		# mutually_exclusive = {
+		# 	focus = CAN_reform_the_ccf
+		# 	focus = CAN_sociaL_creditism
+		# }
+
+		# filter = { 
+		# 	FOCUS_FILTER_POLITICAL
+		# }
+		available = {
+			has_government = democratic
+		}
+
+		prerequisite = {
+			focus = CAN_betray_the_coalition
+		}
+		prerequisite = {
+			focus = CAN_cement_liberal_popularity
+		}
+
+		# allow_branch = {
+		# 	has_government = democratic
+		# }
+	}
+
+	focus = {
+		id = CAN_protest_tory_led_byelections
+		icon = GFX_focus_unknown
+
+		cost = 10 
+
+		x = 43
+		y = 13
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		available = {
+			has_government = democratic
+		}
+
+		prerequisite = {
+			focus = CAN_force_resignation_of_governor_of_canada
+	}
+
+		}
 
 	
+	focus = {
+		id = CAN_rally_loyalist_remnants_of_canada_and_quebec
+		icon = GFX_focus_unknown
+
+		cost = 10 
+
+		x = 47
+		y = 13
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+		available = {
+			has_government = democratic
+		}
+
+		prerequisite = {
+			focus = CAN_force_resignation_of_governor_of_canada
+	}
+
+	}
+
+	focus = {
+			id = CAN_rally_around_the_party
+			icon = GFX_focus_unknown
+			cost = 10
+			x = 45
+			y = 14
+			completion_reward = { set_ruling_party = libtardism }
+
+			prerequisite = {
+				focus = CAN_protest_tory_led_byelections
+				focus = CAN_rally_loyalist_remnants_of_canada_and_quebec
+				
+			}
+		}
+
+  focus = {
+		id = CAN_a_loyal_position
+		icon = GFX_focus_CAN_rifle_association
+
+		cost = 10 
+
+		x = 50
+		y = 8
+
+		completion_reward = {
+			add_political_power = 0.05
+		}
+
+	}
+
+
 	############################
 	#### GO WITH LABOUR/CCF ####
 	############################
@@ -5405,6 +5713,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CAN_social_creditism
 			focus = CAN_the_kings_party
+			focus = CAN_another_victory
 		}
 	}
 
@@ -5452,6 +5761,11 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CAN_reform_the_ccf
 			focus = CAN_the_kings_party
+			focus = CAN_another_victory
+		}
+
+		filter = {
+			FOCUS_FILTER_POLITICAL
 		}
 	}
 
@@ -5527,6 +5841,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CAN_reform_the_ccf
 			focus = CAN_sociaL_creditism
+			focus = CAN_another_victory
 		}
 
 		filter = { 
@@ -5570,7 +5885,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_support_fallen_dominions
-		icon = GFX_focus_support_fallen_dominions
+		icon = GFX_goal_CAN_support_fallen_dominions
 		cost = 5
 		x = 30
 		y = 12
@@ -5742,6 +6057,10 @@ focus_tree = {
 			focus = CAN_8
 			focus = CAN_7
 		}
+
+		prerequisite = {
+			focus = CAN_a_new_citadel
+		}
 	}
 
 
@@ -5764,6 +6083,101 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CAN_local_governance
 			focus = CAN_rule_by_self_decree
+		}
+	}
+
+	focus = {
+		id = CAN_develop_technology
+		icon = GFX_focus_CAN_rifle_association
+		x = 40
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = CAN_abolish_colonial_rule
+		}
+	}
+
+	focus = {
+		id = CAN_form_a_cross_country_alliance
+		icon = GFX_focus_CAN_rifle_association
+		x = 38
+		y = 12
+		prerequisite = {
+			focus = CAN_develop_technology
+		}
+	}
+
+	focus = {
+		id = CAN_reestablish_triple_entente
+		icon = GFX_focus_CAN_rifle_association
+		x = 42
+		y = 12
+		prerequisite = {
+			focus = CAN_develop_technology
+		}
+	}
+
+	focus = {
+		id = CAN_reestablish_triple_entente
+		icon = GFX_focus_CAN_rifle_association
+		x = 42
+		y = 12
+		prerequisite = {
+			focus = CAN_develop_technology
+		}
+	}
+
+	focus = {
+		id = CAN_vengeance_for_1918
+		icon = GFX_focus_CAN_rifle_association
+		x = 40
+		y = 12
+		prerequisite = {
+			focus = CAN_develop_technology
+		}
+	}
+
+	focus = {
+		id = CAN_now_or_never
+		icon = GFX_focus_CAN_rifle_association
+		x = 41
+		y = 13
+		prerequisite = {
+			focus = CAN_vengeance_for_1918
+		}
+		prerequisite = {
+			focus = CAN_reestablish_triple_entente
+		}
+	}
+
+	focus = {
+		id = CAN_canada_and_britain_reunited
+		icon = GFX_focus_CAN_rifle_association
+		x = 39
+		y = 13
+		prerequisite = {
+			focus = CAN_form_a_cross_country_alliance
+		}
+		prerequisite = {
+			focus = CAN_vengeance_for_1918
+		}
+
+		completion_reward = {
+			set_cosmetic_tag = CNK ## REQUIRES TEMPORARY FILE IN LOCALISATION
+			add_war_support = -0.5
+		}
+	}
+
+	focus = {
+		id = CAN_a_new_citadel
+		icon = GFX_focus_CAN_rifle_association
+		x = 40
+		y = 14
+		prerequisite = {
+			focus = CAN_canada_and_britain_reunited
+		}
+		prerequisite = {
+			focus = CAN_now_or_never
 		}
 	}
 
