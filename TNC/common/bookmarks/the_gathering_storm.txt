@@ -5,9 +5,10 @@ bookmarks = {
 		date = 1945.1.1.1
 		picture = "GFX_select_date_1936"
 		default_country = "RUS"
+		default = yes
 
 		"KOM"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "KOM_DESC"
 			ideology = communism
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
@@ -18,6 +19,25 @@ bookmarks = {
 		"ZLT"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = Capitalism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+	"GER"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { has_dlc = "La Resistance" } 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+	"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { has_dlc = "La Resistance" } 
 			ideas = {
 			}
 			focuses = {

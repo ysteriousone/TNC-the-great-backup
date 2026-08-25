@@ -1,0 +1,101 @@
+ideas = {
+	country = {
+		RUS_The_Eastern_SMUTA = {
+			allowed = {
+				always = yes
+			}			
+			removal_cost = -1
+			picture = RUS_Eastern_smuta
+			modifier = {
+				weekly_war_support = -0.0002
+				army_defence_factor = -0.002
+				army_attack_factor = -0.008
+				stability_weekly = -0.01
+				monthly_manpower = -1000
+			
+		}
+	}
+	
+	RUS_Partisans_Song = {
+			allowed = {
+				always = yes
+			}			
+			removal_cost = -1
+			picture = RUS_Partisans_Song
+			modifier = {
+				weekly_war_support = 0.0002
+				army_defence_factor = 0.002
+				army_attack_factor = 0.008
+				core_defence_factor = 0.0002
+				monthly_manpower = 10
+			
+		}
+	}
+	
+	NOV_Bastion_of_Liberty = {
+			allowed = {
+				always = yes
+			}			
+			removal_cost = -1
+			picture = NOV_Bastion_of_Liberty
+			modifier = {
+				monthly_manpower = 1000
+			
+		}
+	}
+		
+	HRE_Search_for_Alexei = {
+			allowed = {
+				always = yes
+			}			
+			removal_cost = -1
+			picture = HRE_Search_for_Alexei
+			modifier = {
+				weekly_war_support = 0.0002
+				army_defence_factor = 0.002
+				army_attack_factor = 0.008
+				stability_weekly = 0.001
+				monthly_manpower = 1000
+				drift_factor = 100
+			}
+		}
+		
+	LEN_Leninist_Remnants = {
+			allowed = {
+				always = yes
+			}			
+			removal_cost = -1
+			picture = LEN_Leninist_remnants
+			modifier = {
+			communism_support = 0.0002
+			}
+		}
+		
+	LIP_Fight_For_The_World = {
+			allowed = {
+				always = yes
+			}			
+			removal_cost = -1
+			picture = LIP_Fight_for_The_World
+			modifier = {
+				monthly_manpower = 1000
+				war_support = 1
+			
+		}
+	}
+	
+	SAV_PSR_Saviors = {
+			allowed = {
+				always = yes
+			}			
+			removal_cost = -1
+			picture = SAV_PSR_Saviors
+			modifier = {
+				monthly_manpower = 100
+				war_support = 1
+				stability_weekly = 0.001
+			
+		}
+	}
+	
+}

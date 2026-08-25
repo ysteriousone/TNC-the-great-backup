@@ -1,0 +1,22 @@
+state={
+	id=1088
+	name="STATE_1088"
+	provinces={
+		5185 8180 11015 
+	}
+	
+ state_category = rural
+	
+	history={
+		add_core_of = MAD
+		owner = RKA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+
+	}
+	manpower=1234235
+	buildings_max_level_factor=1
+	local_supplies=0
+}

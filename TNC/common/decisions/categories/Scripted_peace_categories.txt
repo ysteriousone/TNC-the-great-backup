@@ -29,3 +29,11 @@ Balkan_war_peace_cat = {
 		}
 	}
 }
+
+South_African_war_peace_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+			tag = SAF
+	}
+}

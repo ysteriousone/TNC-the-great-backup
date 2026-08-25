@@ -1,0 +1,51 @@
+KAI_nationale_reformen_cat = {
+
+	healthcare_reforms = {
+		icon = generic_industry
+		cost = 100
+		fire_only_once = yes
+		visible = {
+			always = yes
+		}
+
+		available = {
+			has_completed_focus = KAI_focus_the_nationale_reformprogramm
+		}
+		days_remove = 90
+		complete_effect = {
+			political_power_cost = 0.1
+		}
+		remove_effect = {
+			add_to_variable = {
+				KAI_reform_stability_var = 0.05
+			}
+			add_to_variable = {
+				KAI_reform_month_pop_variable = 0.10
+			}
+		}
+	}
+	school_reforms = {
+		icon = generic_industry
+		cost = 100
+		fire_only_once = yes
+		visible = {
+			always = yes
+		}
+
+		available = {
+			has_completed_focus = KAI_focus_the_nationale_reformprogramm
+		}
+		days_remove = 90
+		complete_effect = {
+			political_power_cost = 0.1
+		}
+		remove_effect = {
+			add_to_variable = {
+				KAI_reform_research_variable = 0.05
+			}
+			add_to_variable = {
+				KAI_reform_month_pop_variable = 0.10
+			}
+		}
+	}
+}

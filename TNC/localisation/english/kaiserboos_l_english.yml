@@ -1,22 +1,70 @@
 ﻿l_english:
 
 
- KAI_bismarcks_movement:0 "Bismarck's Movement"
- KAI_bismarcks_movement_good:0 "Bismarck's Movement"
- KAI_bismarcks_movement_bad:0 "Bismarck's Movement"
+ KAI_bismarcks_movement:0 "Bismarck's Movement (Normal)"
+ KAI_bismarcks_movement_good:0 "Bismarck's Movement (Satisfied)"
+ KAI_bismarcks_movement_bad:0 "Bismarck's Movement (Outraged)"
  german_civil_war:0 "The German Civil War"
  KAI_loyal_generals:0 "Loyal Generals"
  KAI_socialist_gangsters:0 "Socialist Gangsters"
- KAI_peoples_king:0 "The People's King"
+ KAI_peoples_king:0 "The People's Kaiser"
  KAI_fighting_for_the_kaiser:0 "Fighting For The Kaiser"
  KAI_rebuilding:0 "Rebuilding The Country"
  KAI_political_instability:0 "Political Instability"
- KAI_reichstag_reformed:0 "Reformed Reichstag"
+ KAI_reichstag_reformed:0 "Stable Reichstag"
+ KAI_agriculture:0 "Agricultrual Focus"
+ KAI_industrial:0 "Industrial Focus"
+ KAI_bismarck_youth_1:0 "Bismarck Youth"
+ KAI_bismarck_youth_2:0 "Bismarck Youth"
+ KAI_corruption_scandale:0 "Corruption Scandale"
+ kAI_bismarckism:0 "Bismarckism"
 
  
  KAI_focus_the_imperial_fight:0 "The Imperial Fight"
  KAI_focus_prussian_fan_militarism:0 "Prussian Fan Militarism"
  KAI_focus_rebuilding_the_country:0 "Rebuilding The Country"
- KAI_focus_restablish_the_reichstag:0 "Reform The Reichstag"
+ KAI_focus_restablish_the_reichstag:0 "Convene The Reichstag"
  KAI_focus_bismarcks_movement_takeover:0 "Coup of Prussian Greatness"
+ KAI_focus_question_of_the_kaiser:0 "Question of the Kaiser?"
+ KAI_focus_establish_the_iron_bluttrupp:0 "Establish the Bluttrup"
+ KAI_focus_set_up_the_iron_division:0 "Return of the Freikorps"
+ KAI_focus_agriculture:0 "Focus on Agriculture"
+ KAI_focus_industrial:0 "Focus on Industrial Matters"
+ KAI_focus_crackdown_on_socialist_gangs:0 "Crackdown on Socialist Gangs"
+ KAI_focus_bismarck_youth:0 "Bismarck Youth"
+ KAI_focus_ally_zentrum:0 "Ally Zentrum"
+ KAI_focus_the_corruption_scandale:0 "The Corruption Scandale" 
+ KAI_focus_clamp_down_on_corruption:0 "Clamp Down on Corruption"
 
+
+ kai.1.t:0 "Question of the Kaiser"
+ kai.1.d:0 "Kaiser Wilhelm II, despite his legendary legacy, isn't really pleasant when it comes to politics. Not only is he a bit power hungry, but he's also pricey, Germans have to pay their taxes to Wilhelm, and now, there's debates if the Kaiser should step down, or he should be strpped away from political influence, and focus more on being Germany's figurehead."
+ kai.1.a:0 "Killing him would be lunatic, make him a figurehead."
+ kai.1.b:0 "Was Bismarck a kaiser? No! Exile him!"
+ kai.2.t:0 "Introduction of Bismarck Youth"
+ kai.2.d:0 "Otto von Bismarck, the glorious leader who brought us to this great country, is popular around the youth, children play as general like Bismarck in the fields, and teenagers or young adults, often write about his legacy. Creating an organization for the young fellas, will only be able to strengthen us. However, in the Reichstag, some are debating what the age limit should go to. Some debate that it should be 13 to 19, whilst some debate it should be all the way down to 11, to 20."
+ kai.2.a:0 "It should be 13 to 19."
+ kai.2.b:0 "The more the merrier! 11 to 20."
+ kai.3.t:0 "Rising Corruption"
+ kai.3.d:0 "A few of the "loyal" politicians have been caught making economic deals with our opponents! The people of Germany are certainly not happy, as they have taken it to the street to protest! We must do something about this."
+ kai.3.a:0 "You son of a gun, you thought i was gonna say bitch?"
+ kai.4.t:0 "Gottfried Meets Tiger"
+ kai.4.d:0 "Gottfried was taking a walk home, when he spotted a orange little kitten, meowing, he couldn't help but kneel down to the little feline. The kitten was fierce though, the little thing hissed and even tried scratching him. If a person had tried insulting Gottfried or attack him, it would be the death penalthy, no questions asked, which no one dared anyways, which was why Gottfried admired the little kitten. He went into the local store that wasn't far away, and bought some fish for the little cat. The kitten was very happy and licked Gottfried's hand. Gottfried realized the little thing was homeless, he picked the kitten up and stated "You're a fierce orange thing, alright. Your name is... Tiger." Tiger would always be at the Reichstag at his desk, sleeping, or licking Gottfried's hand, but if the other politicians tried petting Tiger, it would be met with a hiss and a disapproving glare from Gottfried."
+ kai.4.a:0 "Adorable"
+ kai.5.t:0 "Bismarckist Revolution!"
+ kai.5.d:0 "placeholder"
+ kai.5.a:0 "The first nation of Bismarckism is born."
+
+
+ KAI_nationale_reformen_cat:0 "Die Nationale Reformprogramm"
+ healthcare_reforms:0 "Healthcare Reforms"
+
+ 
+ gottfried_graf_von_bismarck_schonhausen:0 "Gottfried Graf von Bismarck-Schönhausen"
+
+
+ bismarckist_revolutionary:0 "Bismarckist Revolutionary"
+
+
+ BISMARCK_PARTY_SHORT:0 "BM"
+ BISMARCK_PARTY_LONG:0 "Bismarck's Movement"

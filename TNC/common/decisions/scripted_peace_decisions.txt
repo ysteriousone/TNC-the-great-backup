@@ -148,9 +148,82 @@ Balkan_war_peace_cat = {
 	ROM = {
 	transfer_state =77
 	 }
+	play_song = "Belisarius"
 	}
 
 		ai_will_do = {
 			base = 10
 		}
+	}
+	
+	 }
+	
+	South_African_war_peace_cat = {
+	
+	South_Africa_victory = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+    SAF = {
+	controls_state = 893
+	controls_state = 541
+	controls_state = 894
+	controls_state = 895
+	controls_state = 544
+	controls_state = 542
+		}
+
+}
+		complete_effect = {
+	every_country = {
+	white_peace = SAF
+	 }
+	SAF = {
+	transfer_state = 893
+	transfer_state = 541
+	transfer_state = 894
+	transfer_state = 895
+	transfer_state = 544
+	transfer_state = 542
+	country_event = {
+	id = proxywin.2
+	days = 2
+	 }
+		
+	ZIM = {
+	transfer_state = 545
+	 }
+	 
+	MZB = {
+	transfer_state = 896
+	transfer_state = 897
+	 }
+	 
+	set_autonomy = {
+		target = ZIM
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.1
+	} 
+	
+   set_autonomy = {
+		target = MZB
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.1
+	} 
+	
+	}
+	 }
+
+		ai_will_do = {
+			base = 10
+		}
+	}	
+	
+	
 	}

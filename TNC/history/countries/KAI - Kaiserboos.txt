@@ -100,7 +100,8 @@ if = {
 
 set_research_slots = 4
 set_convoys = 50
-set_stability = 0.7
+set_stability = 0.34
+set_war_support = 0.4
 
 1939.1.1 = {
 
@@ -176,9 +177,10 @@ set_politics = {
 
 }
 set_popularities = {
-	neutrality = 80
+	neutrality = 42
 	fascism = 10
-	communism = 10
+	communism = 18
+	democratic = 30
 }
 
 
@@ -193,11 +195,21 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Hans Oster"
-	desc = "OSTER_DESC"
-	picture = GFX_portrait_Konrad_Adenauer
+	name = "GER_wilhelm_iii"
+	desc = "WILHELM_DESC"
+	picture = GFX_portrait_wilhem_iii.dds
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = despotism
 	traits = {
 	}
 }
+set_variable = { KAI_reform_stability_var = 0.05 }
+set_variable = { KAI_reform_pp_variable = 0.03 }
+set_variable = { KAI_reform_consumer_goods_variable = -0.05 }
+set_variable = { KAI_reform_construction_variable = 0 }
+set_variable = { KAI_reform_fac_out_variable = 0 }
+set_variable = { KAI_reform_prod_gain_variable = 0 }
+set_variable = { KAI_reform_prod_eff_variable = 0 }
+set_variable = { KAI_reform_demo_drift_variable = 0 }
+set_variable = { KAI_reform_month_pop_variable = 0 }
+set_variable = { KAI_reform_research_variable = 0 }

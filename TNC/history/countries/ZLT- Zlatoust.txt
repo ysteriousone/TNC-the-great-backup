@@ -15,6 +15,10 @@ set_convoys = 10
 
 recruit_character = ZLT_yevgeny_dragunov
 
+	add_ideas = {
+		RUS_Terror_bombings
+	}
+
 set_politics = {
 	ruling_party = Capitalism
 	last_election = "1936.1.1"

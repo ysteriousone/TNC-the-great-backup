@@ -1,6 +1,6 @@
-﻿capital = 397 #Syktyvkar
+﻿capital = 439 #Syktyvkar
 
-#oob = "KOM_1936"
+oob = "CPI_1945"
 
 set_research_slots = 3
 
@@ -98,7 +98,5 @@ set_popularities = {
 	communism = 40
 }
 
-
-recruit_character = KOM_pavel_murashev
 
 

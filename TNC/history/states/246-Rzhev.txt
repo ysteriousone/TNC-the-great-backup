@@ -11,6 +11,7 @@ state={
 
 	history={
 		owner = RKM
+		add_core_of = NOV
 		victory_points = {
 			11349 1
 		}

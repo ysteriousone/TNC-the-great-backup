@@ -1,0 +1,186 @@
+﻿
+division_template = {
+	name = "Russian Partisans"
+	division_names_group = PARTISAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Russian Partisans-Tanks" 					
+	division_names_group = SOV_ARM_02
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }	
+		light_armor = { x = 1 y = 0 }			
+		light_armor = { x = 1 y = 1 }		
+		light_armor = { x = 1 y = 2 }			
+		motorized = { x = 2 y = 0 }		
+		motorized = { x = 2 y = 1 }		
+		motorized = { x = 3 y = 0 }		
+		motorized = { x = 3 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 } 		
+	}
+}
+
+units = {
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9301
+		division_template = "Russian Partisans"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 352
+		division_template = "Russian Partisans"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3072
+		division_template = "Russian Partisans"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6252
+		division_template = "Russian Partisans"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6262
+		division_template = "Russian Partisans"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 366
+		division_template = "Russian Partisans"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3358
+		division_template = "Russian Partisans"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9378
+		division_template = "Russian Partisans"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6380
+		division_template = "Russian Partisans-Tanks"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6380
+		division_template = "Russian Partisans-Tanks"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6380
+		division_template = "Russian Partisans-Tanks"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+		
+	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MCW"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}	
+}

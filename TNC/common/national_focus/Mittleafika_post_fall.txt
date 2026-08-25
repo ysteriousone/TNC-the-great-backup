@@ -1,0 +1,338 @@
+﻿
+focus_tree = {
+	id = Mittleafrika_focus_post_fall
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = RKA
+		}
+	}
+	default = no
+	reset_on_civilwar = no	
+	
+	focus = {
+		id = RKA_It_Begins
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 6
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_Hitlers_Wild_Ride
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 6
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    NOT = {
+	country_exists = SAF
+	 }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+    prerequisite = {
+	focus = RKA_It_Begins
+	 }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_The_Industry_to_Reclaim_a_Reich
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 15
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_The_Army_to_Reclaim_a_Reich
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 25
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_The_Battle_With_Africa
+		icon = GFX_RKA_War_with_Africa
+		x = 30
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    has_war_with = SAF
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_The_Home_Front
+		icon = GFX_RKA_homefront
+		x = 28
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    has_war_with = SAF
+		}
+
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = RKA_The_Battle_With_Africa
+	 }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_All_Sons_of_The_Reich
+		icon = GFX_RKA_homefront
+		x = 27
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    has_war_with = SAF
+		}
+
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = RKA_The_Home_Front
+	 }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RKA_The_Southern_Front
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 30
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    has_war_with = SAF
+		}
+
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = RKA_The_Battle_With_Africa
+	 }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RKA_Find_A_Weakness
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 31
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    has_war_with = SAF
+		}
+
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = RKA_The_Southern_Front
+	 }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_The_Manpower_Problem
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 32
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    has_war_with = SAF
+		}
+
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = RKA_The_Battle_With_Africa
+	 }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+
+}

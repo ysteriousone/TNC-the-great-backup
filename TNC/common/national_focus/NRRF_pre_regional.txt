@@ -268,12 +268,13 @@ focus = {
 			factor = 1
 		}
 	available = {
-	always = no
-	}
+  communism > 0.6
+	 }
 	prerequisite = { focus = KOM_and_time_for_another}
 
 		completion_reward = {
 	retire_character = KOM_Supreme_Soviet
+	load_focus_tree = Rokossovsky_regional
 		}
 	}
 	

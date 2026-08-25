@@ -1,1 +1,84 @@
-add_namespace = kaiser
+add_namespace = kai
+
+##QUESTION OF THE KAISER
+country_event = {
+	id = kai.1
+	title = kai.1.t
+	desc = kai.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { #Make him a figurehead
+		name = kai.1.a
+		add_stability = 0.05
+	}
+	option = { #Bismarck wasn't a kaiser, so why should we have one?
+		name = kai.1.b 
+		remove_ideas = KAI_peoples_king
+		add_political_power = 50
+		add_war_support = 0.05
+	}
+}
+#INTRODUCTION OF BISMARCK YOUTH
+country_event = {
+	id = kai.2
+	title = kai.2.t
+	desc = kai.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #Ages go from 13 to 19
+		name = kai.2.a
+		add_ideas = KAI_bismarck_youth_1
+	}
+	option = { #Ages go from 11 to 20!
+		name = kai.2.b
+		add_ideas = KAI_bismarck_youth_2
+	}
+}
+#CORRUPT POLITICIANS CAUGHT!
+country_event = {
+	id = kai.3
+	title = kai.3.t
+	desc = kai.3.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	fire_only_once = yes
+	date > 1947.5.23
+
+	option = { #Absolute outrage!
+		name = kai.3.a
+		unlock_national_focus = KAI_focus_the_corruption_scandale
+		add_ideas = KAI_corruption_scandale
+	}
+}
+#GOTTFRIED MEETS TIGER
+country_event = {
+	id = kai.4
+	title = kai.4.t
+	desc = kai.4.d
+	picture = cat
+
+	fire_only_once = yes
+	date > 1947.6.14
+
+	option = { #Adorable
+		name = kai.4.a
+	}
+}
+#BISMARCKIST REVOLUTION
+country_event = {
+	id = kai.5
+	title = kai.5.t
+	desc = kai.5.d
+	picture = f
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = kai.5.a
+	}
+}

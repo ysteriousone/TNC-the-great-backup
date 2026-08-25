@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		RUS_Regional = {
+			allowed = {
+				always = yes
+			}
+			picture = TNC_RUS_regional
+			modifier = {
+				stability_factor = 0.005
+				war_support_factor = 0.2
+				conscription_factor = 0.2
+				monthly_population_factor = 0.03
+			}
+		}
+	
+	
+	
+		RUS_Terror_bombings = {
+			allowed = {
+				always = yes
+			}
+			picture = TNC_RUS_terror_bombings
+			modifier = {
+				stability_factor = -0.005
+				war_support_factor = -0.5
+				conscription_factor = -0.2
+				monthly_population_factor = -0.03
+				monthly_stability_factor = -0.02
+			}
+		}
+	
+}
+
+ }

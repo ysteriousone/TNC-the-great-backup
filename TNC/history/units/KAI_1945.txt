@@ -1,0 +1,116 @@
+﻿division_template = {
+	name = "Junker Brigades"	# Infantry Division	
+
+	division_names_group = KAI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 }  
+	}
+}
+division_template = {
+	name = "Aristocratic Militia"		# Mountain Brigade
+
+	division_names_group = KAI_INF_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Heer Tank Brigades" 			# Tank Battalion
+	# Note: 1st Armor Battalion had FT-17s in 1936, 
+	#	2nd battalion formed when R-35s added in 1940
+
+	division_names_group = KAI_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 1 y = 0 }       # added infantry to not make it a death trap
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+
+	
+	division = {
+		#name = "Junker Brigades"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 589
+		division_template = "Junker Brigades"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+		
+	division = {
+		#name = "Junker Brigades"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11560
+		division_template = "Junker Brigades"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+		
+	division = {
+		#name = "Tank Brigades"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 495
+		division_template = "Heer Tank Brigades"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+#Dancia add the rest
+}  
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = YUG
+		}
+		requested_factories = 1
+		progress = 0.37
+		efficiency = 100
+		industrial_manufacturer = mio:YUG_zastava_arms_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = YUG
+		}
+		requested_factories = 1
+		progress = 0.76
+		efficiency = 100
+	}
+	
+}

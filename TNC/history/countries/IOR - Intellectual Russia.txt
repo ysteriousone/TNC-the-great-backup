@@ -1,0 +1,37 @@
+﻿capital = 64
+
+OOB = "BGR_1945"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	camelry = 1
+}
+
+add_manpower = 15000
+set_convoys = 10
+
+
+set_politics = {
+	ruling_party = Libtardism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	Libtardism = 100
+}
+
+add_ideas = {
+RUS_The_Eastern_SMUTA
+}
+
+create_country_leader = {
+			name = "Konstantin Simonov"
+			desc = ""
+			picture = Simonov.dds		
+			expire = "1965.1.1"
+			ideology = creative_liberalism
+			traits = {
+			}
+		}

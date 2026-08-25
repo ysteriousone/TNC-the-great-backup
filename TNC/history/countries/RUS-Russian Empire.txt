@@ -18,6 +18,10 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+	add_ideas = {
+		RUS_Terror_bombings
+	}
+
 add_manpower = 15000
 set_convoys = 10
 

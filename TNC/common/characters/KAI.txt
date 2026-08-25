@@ -1,0 +1,17 @@
+characters = {
+	character_id = {
+		name = gottfried_graf_von_bismarck_schonhausen
+		portraits = {
+			civilian = {
+				large = GFX_portrait_gottfried
+			}
+		}
+
+		country_leader = {
+			ideology = militarism
+			traits = {
+				bismarckist_revolutionary
+			}
+		}
+	}
+}

@@ -11,7 +11,9 @@ set_technology = {
 add_manpower = 15000
 set_convoys = 10
 
-
+	add_ideas = {
+		RUS_Terror_bombings
+	}
 set_politics = {
 	ruling_party = Ultranationalism
 	last_election = "1936.1.1"

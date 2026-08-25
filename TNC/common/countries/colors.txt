@@ -1,5 +1,45 @@
 #reload countrycolors
 
+BLK = {
+	color = rgb {84 70 0 }
+	color_ui = rgb {84 70 0 }
+}
+
+LEN = {
+	color = rgb {214 96 77 }
+	color_ui = rgb {214 96 77 }
+}
+
+MCW = {
+	color = rgb {252 78 42}
+	color_ui = rgb {252 78 42 }
+}
+
+YSL = {
+	color = rgb {82 82 82}
+	color_ui = rgb {82 82 82 }
+}
+
+LNR = {
+	color = rgb {179 0 0}
+	color_ui = rgb {179 0 0 }
+}
+
+IOR = {
+	color = rgb {54 144 192}
+	color_ui = rgb {54 144 192 }
+}
+
+LIP = {
+	color = rgb {4 90 141 }
+	color_ui = rgb {4 90 141}
+}
+
+NOV = {
+	color = rgb {156 203 134 }
+	color_ui = rgb {156 203 134}
+}
+
 GNA = {
 	color = rgb { 99 39 0 }
 	color_ui = rgb {99 39 0 }
@@ -8,6 +48,11 @@ GNA = {
 UPR = {
 	color = rgb { 0  80  230 }
 	color_ui = rgb { 0  80  230 }	
+}
+
+HRE = {
+	color = rgb { 20 0 81 }
+	color_ui = rgb { 20 0 81 }	
 }
 
 UKH = {
@@ -214,8 +259,8 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
-	color_ui = rgb { 121 235 255 }
+	color = rgb { 47 0 68 }
+	color_ui = rgb { 47 0 68}
 }
 ALB = {
 	color = rgb { 149 45 102 }

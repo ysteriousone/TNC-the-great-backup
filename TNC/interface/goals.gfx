@@ -29,6 +29,16 @@ SpriteType = {
 	texturefile = "gfx/interface/goals/The_ONE_Exception.dds"			
 	}
 	
+	SpriteType = {
+	name = "GFX_RKA_homefront"
+	texturefile = "gfx/interface/goals/homefront.dds"			
+	}
+	
+    SpriteType = {
+	name = "GFX_RKA_War_with_Africa"
+	texturefile = "gfx/interface/goals/war_with_Africa.dds"			
+	}
+	
     SpriteType = {
 	name = "GFX_RKA_send_a_complaint"
 	texturefile = "gfx/interface/goals/send_a_complaint.dds"			

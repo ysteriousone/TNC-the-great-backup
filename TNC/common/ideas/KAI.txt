@@ -88,19 +88,8 @@ ideas = {
 			modifier = {
 				neutrality_drift = 0.03
 				stability_factor = 0.05
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = 0.05
 				production_speed_buildings_factor = 0.05
-			}
-		}
-		KAI_fighting_for_the_kaiser = {
-			allowed = {
-				always = yes
-			}
-			picture = f
-			modifier = {
-				war_support_factor = 0.05
-				army_attack_factor = 0.03
-				neutrality_drift = 0.01
 			}
 		}
 		KAI_rebuilding = {
@@ -120,7 +109,9 @@ ideas = {
 			picture = f
 			modifier = {
 				political_power_cost = 0.25
-				stability_factor = -0.2
+				stability_factor = -0.35
+				weekly_stability_factor = -0.0010
+				neutrality_drift = -0.15
 			}
 		}
 		KAI_reichstag_reformed = {
@@ -131,6 +122,78 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.1
 				stability_factor = 0.15
+				neutrality_drift = 0.01
+			}
+		}
+		KAI_bismarckism = {
+			allowed = {
+				always = yes
+			}
+			picture = f
+			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
+			}
+		}
+		KAI_agriculture = {
+			allowed = {
+				always = yes
+			}
+			picture = GFX_focus_generic_agricultural_subsidies
+			modifier = {
+				consumer_goods_factor = -0.3
+				stability_factor = 0.05
+				monthly_population = 0.25
+				research_speed_factor = -0.05
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		KAI_industrial = {
+			allowed = {
+				always = yes
+			}
+			picture = GFX_focus_generic_military_industry
+			modifier = {
+				consumer_goods_factor = 0.2
+				stability_factor = -0.1
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		KAI_bismarck_youth_1 = {
+			allowed = {
+				always = yes
+			}
+			picture = f
+			modifier = {
+				conscription_factor = 0.1
+				stability_factor = 0.03
+			}
+		}
+		KAI_bismarck_youth_2 = {
+			allowed = {
+				always = yes
+			}
+			picture = f
+			modifier = {
+				conscription_factor = 0.2
+				stability_factor = -0.05
+			}
+		}
+		KAI_corruption_scandale = {
+			allowed = {
+				always = yes
+			}
+			picture = f
+			modifier = {
+				consumer_goods_factor = 0.25
+				weekly_stability_factor = -0.050
+				neutrality_drift = -0.2
 			}
 		}
 	}

@@ -2,17 +2,36 @@ The_SS_in_Africa_cat = {
 
 	Bring_Shock_troopers = {
 		icon = generic_industry
-		cost = 0
+		cost = 10
 		days_re_enable = 40
 
 		visible = {
 			always = yes
-		}
-
-		available = {
+	
 		}
 		
+		custom_cost_text = decision_cost_manpower_3k
+	custom_cost_trigger = {
+		has_manpower > 3000
+	}
+
+		available = {
+	NOT = {
+	has_completed_focus = RKA_Work_with_Hutting
+		}
+		
+	}
+		
 	complete_effect = {
+	add_manpower = -3000 
+546 = {
+					create_unit = {
+						division = "name = \"Shock Troopers\" division_template = \"Shock Troopers\" start_experience_factor = 1"
+						owner = RKA
+						count = 2
+					
+					}					
+				}
 		}
 
 		ai_will_do = {
@@ -33,6 +52,10 @@ The_SS_in_Africa_cat = {
 		}
 		
 	complete_effect = {
+	add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.09
+			}
 		}
 
 		ai_will_do = {
@@ -50,7 +73,7 @@ The_SS_in_Africa_cat = {
 			always = yes
 		}
 	available = {
-	completed_focus = RKA_Work_with_Hutting }
+	has_completed_focus = RKA_Work_with_Hutting }
 		
 complete_effect = {
    release = MAD

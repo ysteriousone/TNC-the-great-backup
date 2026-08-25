@@ -16,10 +16,13 @@ focus_tree = {
 	focus = {
 		id = KAI_focus_the_imperial_fight
 		icon = GFX_focus_GER_german_hegemony_in_the_middle_east_neutrality
-		x = 40
+		x = 30
 		y = 0
 		cost = 2
 		available = {
+			NOT = {
+				has_ideas = german_civil_war
+			}
 			NOT = {
 				has_war_with = GER
 				has_war_with = DDR
@@ -28,6 +31,10 @@ focus_tree = {
 				has_war_with = GGR
 				has_war_with = AUS
 			}
+			has_ideology = neutrality
+		}
+		ai_will_do = {
+			factor = 1
 		}
 
 		available_if_capitulated = no
@@ -36,19 +43,28 @@ focus_tree = {
 
 		}
 		completion_reward = {
-			add_ideas = KAI_fighting_for_the_kaiser
+			add_stability = 0.05
+			add_political_power = 70
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
 		}
 	}
 	focus = {
 		id = KAI_focus_prussian_fan_militarism
 		icon = GFX_focus_GER_prussian_legacy
-		x = 39
+		x = 29
 		y = 1
 		cost = 4
 		prerequisite = {
 			focus = KAI_focus_the_imperial_fight
 		}
+		ai_will_do = {
+			factor = 1
+		}
 		available = {
+			has_ideology = neutrality
 		}
 
 		available_if_capitulated = no
@@ -67,13 +83,17 @@ focus_tree = {
 	focus = {
 		id = KAI_focus_rebuilding_the_country 
 		icon = GFX_goal_continuous_repairments
-		x = 41
+		x = 31
 		y = 1
 		cost = 4
 		prerequisite = {
 			focus = KAI_focus_the_imperial_fight
 		}
 		available = {
+			has_ideology = neutrality
+		}
+		ai_will_do = {
+			factor = 1
 		}
 
 		available_if_capitulated = no
@@ -92,7 +112,7 @@ focus_tree = {
 	focus = {
 		id = KAI_focus_restablish_the_reichstag
 		icon = ger_revive_the_kaiserreich
-		x = 40
+		x = 30
 		y = 2
 		cost = 3
 		prerequisite = {
@@ -101,7 +121,11 @@ focus_tree = {
 		prerequisite = {
 			focus = KAI_focus_rebuilding_the_country
 		}
+		ai_will_do = {
+			factor = 1
+		}
 		available = {
+			has_ideology = neutrality
 		}
 		available_if_capitulated = no
 
@@ -114,6 +138,14 @@ focus_tree = {
 				remove_idea = KAI_political_instability
 				add_idea = KAI_reichstag_reformed
 			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.1
+			}
+			add_popularity = {
+				ideology = Ultranationalism
+				popularity = -0.1
+			}
 		}
 	}
 	focus = {
@@ -125,7 +157,11 @@ focus_tree = {
 		prerequisite = {
 			focus = KAI_focus_restablish_the_reichstag
 		}
+		ai_will_do = {
+			factor = 1
+		}
 		available = {
+			has_ideology = neutrality
 		}
 
 		available_if_capitulated = no
@@ -134,6 +170,280 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			set_party_name = {
+				ideology = neutrality
+				name = BISMARCK_PARTY_SHORT
+				long_name = BISMARCK_PARTY_LONG
+			}
+			add_country_leader_role = {
+				character = "gottfried_graf_von_bismarck_schonhausen"
+				country_leader = {
+					ideology=militarism
+					traits = { bismarckist_revolutionary }
+					expire="1965.1.1.1"
+				}
+				promote_leader = yes
+			}
+			remove_ideas = KAI_bismarcks_movement_good
+			add_ideas = KAI_bismarckism
+			add_stability = -0.1
+			add_war_support = 0.1
+			country_event = kai.5
+		}
+	}
+	focus = {
+		id = KAI_focus_question_of_the_kaiser
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 23
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = KAI_focus_bismarcks_movement_takeover
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_ideology = neutrality
+			has_ideas = KAI_peoples_king
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+			country_event = kai.1
+		}
+	}
+	focus = {
+		id = KAI_focus_establish_the_iron_bluttrupp
+		icon = f
+		x = 18
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = KAI_focus_bismarcks_movement_takeover
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = KAI_focus_set_up_the_iron_division
+		icon = GFX_focus_GER_end_european_communism
+		x = 21
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = KAI_focus_bismarcks_movement_takeover
+		}
+		available = {
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = KAI_focus_crackdown_on_socialist_gangs
+		icon = f
+		x = 20
+		y = 5
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = KAI_focus_establish_the_iron_bluttrupp
+		}
+		available = {
+			NOT = {
+				has_ideology = communism
+			}
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+			remove_ideas = KAI_socialist_gangsters
+		}
+	}
+	focus = {
+		id = KAI_focus_agriculture 
+		icon = f
+		x = 15
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = KAI_focus_establish_the_iron_bluttrupp
+		}
+		mutually_exclusive = {
+			focus = KAI_focus_industrial
+		}
+		available = {
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+			add_ideas = KAI_agriculture
+		}
+	}
+	focus = {
+		id = KAI_focus_industrial
+		icon = f
+		x = 17
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = KAI_focus_establish_the_iron_bluttrupp
+		}
+		mutually_exclusive = {
+			focus = KAI_focus_agriculture
+		}
+		available = {
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+			add_ideas = KAI_industrial
+		}
+	}
+	focus = {
+		id = KAI_focus_bismarck_youth
+		icon = f
+		x = 16
+		y = 6
+		cost = 5
+		prerequisite = {
+			focus = KAI_focus_crackdown_on_socialist_gangs
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+			country_event = kai.2
+		}
+	}
+	focus = {
+		id = KAI_focus_ally_zentrum
+		icon = f
+		x = 18
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = KAI_focus_crackdown_on_socialist_gangs
+		}
+		available = {
+			has_ideology = neutrality
+		}
+		available_if_capitulated = yes
+		bypass = {
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = conservative_democratic
+				popularity = 0.05
+			}
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = KAI_focus_the_corruption_scandale
+		icon = f
+		x = 22
+		y = 6
+		cost = 0
+		prerequisite = {
+			focus = KAI_focus_crackdown_on_socialist_gangs
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		available_if_capitulated = yes
+		bypass = {
+		}
+		completion_reward = {
+			custom_effect_tooltip = unlock_focus_tt
+		}
+	}
+	focus = {
+		id = KAI_focus_clamp_down_on_corruption
+		icon = f
+		x = 22
+		y = 7
+		cost = 8
+		prerequisite = {
+			focus = KAI_focus_the_corruption_scandale
+		}
+		available = {
+			has_idea = KAI_corruption_scandale
+			has_ideology = neutrality
+		}
+		available_if_capitulated = yes
+		bypass = {
+		}
+		completion_reward = {
+			add_stability = 0.2
+			remove_ideas = KAI_corruption_scandale
+		}
+	}
+	focus = {
+		id = KAI_focus_the_nationale_reformprogramm
+		icon = f
+		x = 20
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = KAI_focus_crackdown_on_socialist_gangs
+		}
+		available = {
+			has_stability > 60
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+			custom_effect_tooltip = KAI_reform_decision_unlock_tt
+			unlock_decision_category_tooltip = KAI_nationale_reformen_cat
+			custom_effect_tooltip = KAI_var_nationale_reformen_tt
+			effect_tooltip = {
+				add_dynamic_modifier = KAI_var_nationale_reformen
+			}
 		}
 	}
 }
