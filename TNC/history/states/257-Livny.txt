@@ -12,7 +12,6 @@ state={
 
 	history={
 		owner = RKM
-		add_core_of = IOR
 		buildings = {
 			infrastructure = 2
 		}

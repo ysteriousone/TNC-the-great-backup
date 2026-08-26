@@ -13,7 +13,6 @@ state={
 
 	history={
 		owner = RKM
-		add_core_of = SAV
 		victory_points = {
 			9355 10
 		}

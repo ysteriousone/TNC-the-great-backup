@@ -8,7 +8,6 @@ state={
 
 	history={
 		owner = RKM
-		add_core_of = HRE
 		victory_points = {
 			3140 1 
 		}
