@@ -49,7 +49,7 @@
 		focus = {
 			id = FRA_Black_White_Red
 			icon = GFX_goal_generic_construct_civilian
-			x = -8
+			x = -12
 			y = 2
 			
 			prerequisite = { focus = FRA_State_Primier_meeting }
@@ -113,7 +113,7 @@
 		focus = {
 			id = FRA_Destroy_Extremists
 			icon = GFX_goal_generic_construct_civilian
-			x = -4
+			x = 4
 			y = 2
 			
 			prerequisite = { focus = FRA_State_Primier_meeting }
@@ -145,7 +145,7 @@
 		focus = {
 			id = FRA_OG_Revolution
 			icon = GFX_goal_generic_construct_civilian
-			x = -8
+			x = 8
 			y = 2
 			
 			prerequisite = { focus = FRA_State_Primier_meeting }
