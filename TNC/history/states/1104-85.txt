@@ -6,7 +6,8 @@ state={
 	}
 	manpower = 5000
 	history={
-		owner = ZZZ
+		owner = SME
+		add_core_of = SME
 	}
 	state_category = rural
 	local_supplies=0
