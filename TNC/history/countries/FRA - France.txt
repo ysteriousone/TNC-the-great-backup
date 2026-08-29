@@ -1,5 +1,7 @@
 ﻿capital = 16 # Paris/Ile de France
 
+load_focus_tree = french_focus
+
 starting_train_buffer = 2
 
 add_ideas = TNC_bitter_loser
@@ -18,6 +20,8 @@ if = {
 		set_war_support = 0.15
 	}
 }
+
+OOB = "FRA_1945"
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -216,9 +220,10 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 20
-	fascism = 1
-	neutrality = 15
-	acceleration = 64
+	fascism = 0
+	communism = 10
+	neutrality = 20
+	acceleration = 50
 }
 
 create_faction_from_template = { template = faction_template_comintern
@@ -231,7 +236,7 @@ create_faction_from_template = { template = faction_template_comintern
 
 create_country_leader = {
 	name = "Pablo Picasso"
-	desc = "OSTER_DESC"
+	desc = "PICASSO_DESC"
 	picture = Picasso.dds
 	expire = "1965.1.1"
 	ideology = Accelerationism

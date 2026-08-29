@@ -46,7 +46,7 @@
 			}
 		}
 		
-		focus = {
+			focus = {
 			id = FRA_Black_White_Red
 			icon = GFX_goal_generic_construct_civilian
 			x = -12
@@ -74,9 +74,486 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-				add_stability = 0.05
+		1 = {
+		set_demilitarized_zone = yes
+		 }
+		851 = {
+		set_demilitarized_zone = yes
+		 }
+		15 = {
+		set_demilitarized_zone = yes
+		 }
+		14 = {
+		set_demilitarized_zone = yes
+		 }
+		30 = {
+		set_demilitarized_zone = yes
+		}
+		31 = {
+		set_demilitarized_zone = yes
+		}
+		25 = {
+		set_demilitarized_zone = yes
+		}
+		22 = {
+		set_demilitarized_zone = yes
+		}
+	country_event = {id = fra.1 days = 7
+	 }
+		}
+			}
+			
+				focus = {
+			id = FRA_Unite_The_Communes
+			icon = GFX_goal_generic_construct_civilian
+			x = -2
+			y = 1
+		relative_position_id = FRA_Black_White_Red
+			prerequisite = { focus = FRA_Black_White_Red }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+	focus = {
+			id = FRA_Raid_Bases
+			icon = GFX_goal_generic_construct_civilian
+			x = -2
+			y = 2
+		relative_position_id = FRA_Black_White_Red
+			prerequisite = { focus = FRA_Unite_The_Communes }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+	focus = {
+			id = FRA_for_a_Free_France
+			icon = GFX_goal_generic_construct_civilian
+			x = -3
+			y = 4
+		relative_position_id = FRA_Black_White_Red
+			prerequisite = { focus = FRA_Raid_Bases }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+				focus = {
+			id = FRA_Valois_Theory
+			icon = GFX_goal_generic_construct_civilian
+			x = 2
+			y = 1
+		relative_position_id = FRA_Black_White_Red
+			prerequisite = { focus = FRA_Black_White_Red }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+	focus = {
+			id = FRA_Worker_Districts
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 2
+		relative_position_id = FRA_Black_White_Red
+			prerequisite = { focus = FRA_Valois_Theory }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+			
+	focus = {
+			id = FRA_Form_of_Platformism
+			icon = GFX_goal_generic_construct_civilian
+			x = 2
+			y = 2
+		relative_position_id = FRA_Black_White_Red
+			prerequisite = { focus = FRA_Valois_Theory }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+  focus = {
+			id = FRA_Aux_Armes_Milces
+			icon = GFX_goal_generic_construct_civilian
+			x = -1
+			y = 3
+		relative_position_id = FRA_Black_White_Red
+			prerequisite = { focus = FRA_Form_of_Platformism }
+			prerequisite = {focus = FRA_Worker_Districts }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+	focus = {
+			id = FRA_No_more_Red_Flood
+			icon = GFX_goal_generic_construct_civilian
+			x = 2
+			y = 3
+		relative_position_id = FRA_Black_White_Red
+			prerequisite = { focus = FRA_Form_of_Platformism }
+			prerequisite = {focus = FRA_Worker_Districts }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+		focus = {
+			id = FRA_World_Revolution
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 0
+			y = 6	
+			
+			prerequisite = { focus = FRA_Aux_Armes_Milces }
+            prerequisite = { focus = FRA_for_a_Free_France }
+            prerequisite = { focus = FRA_No_more_Red_Flood }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		create_faction = "Anarchist Internationale"
+		add_to_faction = SPR
 			}
 		}
+				
+		focus = {
+			id = FRA_Special_Bastards
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -2
+			y = 7	
+			
+			prerequisite = { focus = FRA_World_Revolution}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = NFA
+		type = annex_everything
+		 }
+			}
+		}
+
+	focus = {
+			id = FRA_End_of_France_at_the_Line
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -2
+			y = 8
+			
+			prerequisite = { focus = FRA_Special_Bastards}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = NFA
+		type = annex_everything
+		 }
+			}
+		}		
+		
+	focus = {
+			id = FRA_Involuntary_exiles
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 0
+			y = 7	
+			
+			prerequisite = { focus = FRA_World_Revolution}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = FFR
+		type = annex_everything
+		 }
+			}
+		}
+		
+	focus = {
+			id = FRA_Evil_no_More
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 0
+			y = 8
+			
+			prerequisite = { focus = FRA_Involuntary_exiles}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = NFA
+		type = annex_everything
+		 }
+			}
+		}
+		
+		
+	focus = {
+			id = FRA_Vestor_Idea
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 2
+			y = 7
+			
+			prerequisite = { focus = FRA_World_Revolution}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+		
+	focus = {
+			id = FRA_Invest_in_Army
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 2
+			y = 8
+			
+			prerequisite = { focus = FRA_Vestor_Idea}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+	
 		
 		focus = {
 			id = FRA_Organize_the_Left
@@ -145,7 +622,7 @@
 		focus = {
 			id = FRA_OG_Revolution
 			icon = GFX_goal_generic_construct_civilian
-			x = 8
+			x = 12
 			y = 2
 			
 			prerequisite = { focus = FRA_State_Primier_meeting }
@@ -173,6 +650,8 @@
 				add_stability = 0.05
 			}
 		}
+		
+
 		
 		
 

@@ -30,6 +30,9 @@
  
  world.10.t: "Riots in Stockholm!"
  world.10.t: ""
+ 
+ 
+ 
 
 # KOMI COUNTRY EVENTS
  NRRF.1.t: "Voroshilov's Exit"
@@ -55,3 +58,12 @@
  NRRF.6.t: "The Round Table forms"
  NRRF.6.desc: ""
  
+ 
+ 
+ 
+ 
+ # FRENCH COUNTRY EVENTS
+ 
+ fra.1.t: "Irony"
+ fra.1.d: "‘Soldier-Comrade Theodore came from a family of workers’.\n‘Soldier-Comrade Leon’s relatives have all perished during the last war.’\n‘Soldier-Comrade Lehmeyer does not have any troublesome immediate family’.n\nSoldier-Comrade Jean-Paul quickly shuffled through the documents he laid on a piece of wood. Several days before, Jean-Paul the steelworker had come all the way from Toulon to Paris to hear Geroge Valois’ speech. How well did he lay bare to the average Parisian the irony of Picasso’s regime! For all the talk of benefitting workers, Paris still looks nothing different from when it was run by a bunch of crypto-royalists and class traitors! While the Government spends the majority of its time beautifying the Louvre, the workers still suffer! He was one of those who marched to the Hotel de Ville, one of those shot by Picasso’s army, and one of those who chose to stand their ground. He is now a political officer, in charge of keeping the Milice clean of class traitors and fellow travellers. He is to liberate all Frenchme–n\nA bullet slammed through Jean-Paul’s temple on one side and came out the other. He slammed onto the ground, his brains and blood already watering the soil below him. His subordinates immediately clasped their Fusil Gras while haphazardly rushing for cover – only to then get shot one by one. Men in khaki uniform soon appeared, peeking and rushing ever closer to Jean-Paul’s dead corpse. They confidently and professionally moved forward, their commands short and sharp, and their fire crisp and incredulously accurate. The troops then signalled safety to their officer, who promptly retrieved Jean-Paul’s case – not before scanning the documents and laughing to himself for the fact that even the Anarchists have a state security apparatus. He couldn’t help but smirk at the dead corpse next to him with his brains blown out and his eyes wide open – what an absolute idiot! His wonders on why fresh troops are often sent to fight the Milice Anarquistas were dashed as his men marched back to base. It’s too easy.n\nNot afar stood an Englishman, hiding behind a massive tree, observing the combat. He looked at the charade in front of him – some dreamers with antique guns in trenches not even dug properly getting mowed down by fresh recruits dressing in hastily-recoloured Great War apparel, with an officer overconfident in his abilities. Oh, how the great had fallen! As France lost its balance, he hoped that the French folk would still have some sense left in them – they needed a leader, not a gang of posers – and they still hadn’t woken up. He soon scribbled details of the ambush on his scrapbook, ending with…"
+ fra.1.a: " …the French killing the French is the greatest irony of all."

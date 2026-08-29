@@ -160,6 +160,8 @@ LBV = {
  
 }
 
+ }
+
 # Desert War
 country_event = {
 	id = proxy.5

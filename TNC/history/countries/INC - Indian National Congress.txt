@@ -1,6 +1,11 @@
 ﻿capital = 397 #Syktyvkar
 
-#oob = "KOM_1936"
+oob = "INC_1945"
+
+country_event = {
+	id = proxy.3
+	days = 735
+}
 
 set_research_slots = 3
 

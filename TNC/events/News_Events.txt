@@ -157,3 +157,53 @@ news_event = {
 		play_song = "The_Battle_Has_Begun"
 	}
 }
+
+# East African War
+news_event = {
+	id = world.9
+	title = world.9.t
+	desc = world.9.desc
+	picture = GFX_news_balkan_war 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.9.a
+	}
+}
+
+# Swedish Civil War - 1
+news_event = {
+	id = world.10
+	title = world.10.t
+	desc = world.10.desc
+	picture = GFX_news_balkan_war 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.10.a
+		play_song = "The_Battle_Has_Begun"
+	}
+}
+
+# Balkan War
+news_event = {
+	id = world.11
+	title = world.11.t
+	desc = world.11.desc
+	picture = GFX_news_balkan_war 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.11.a
+		play_song = "The_Battle_Has_Begun"
+	}
+}
