@@ -31,6 +31,7 @@ focus_tree = {
 				has_war_with = GGR
 				has_war_with = AUS
 			}
+			has_ideology = neutrality
 		}
 		ai_will_do = {
 			factor = 1
@@ -63,6 +64,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			has_ideology = neutrality
 		}
 
 		available_if_capitulated = no
@@ -88,6 +90,7 @@ focus_tree = {
 			focus = KAI_focus_the_imperial_fight
 		}
 		available = {
+			has_ideology = neutrality
 		}
 		ai_will_do = {
 			factor = 1
@@ -122,6 +125,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			has_ideology = neutrality
 		}
 		available_if_capitulated = no
 
@@ -157,6 +161,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			has_ideology = neutrality
 		}
 
 		available_if_capitulated = no
@@ -170,9 +175,15 @@ focus_tree = {
 				name = BISMARCK_PARTY_SHORT
 				long_name = BISMARCK_PARTY_LONG
 			}
-			recruit_character = gottfried_graf_von_bismarck_schonhausen
-			promote_character = gottfried_graf_von_bismarck_schonhausen
-			retire_character = GER_wilhelm_iii
+			add_country_leader_role = {
+				character = "gottfried_graf_von_bismarck_schonhausen"
+				country_leader = {
+					ideology=militarism
+					traits = { bismarckist_revolutionary }
+					expire="1965.1.1.1"
+				}
+				promote_leader = yes
+			}
 			remove_ideas = KAI_bismarcks_movement_good
 			add_ideas = KAI_bismarckism
 			add_stability = -0.1
@@ -193,6 +204,8 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			has_ideology = neutrality
+			has_ideas = KAI_peoples_king
 		}
 		available_if_capitulated = no
 		bypass = {
@@ -214,6 +227,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			has_ideology = neutrality
 		}
 		available_if_capitulated = no
 		bypass = {
@@ -234,6 +248,7 @@ focus_tree = {
 			focus = KAI_focus_bismarcks_movement_takeover
 		}
 		available = {
+			has_ideology = neutrality
 		}
 		available_if_capitulated = no
 		bypass = {
@@ -257,6 +272,7 @@ focus_tree = {
 			NOT = {
 				has_ideology = communism
 			}
+			has_ideology = neutrality
 		}
 		available_if_capitulated = no
 		bypass = {
@@ -281,6 +297,7 @@ focus_tree = {
 			focus = KAI_focus_industrial
 		}
 		available = {
+			has_ideology = neutrality
 		}
 		available_if_capitulated = no
 		bypass = {
@@ -305,6 +322,7 @@ focus_tree = {
 			focus = KAI_focus_agriculture
 		}
 		available = {
+			has_ideology = neutrality
 		}
 		available_if_capitulated = no
 		bypass = {
@@ -326,6 +344,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
+			has_ideology = neutrality
 		}
 		available_if_capitulated = no
 		bypass = {
@@ -347,6 +366,7 @@ focus_tree = {
 			focus = KAI_focus_crackdown_on_socialist_gangs
 		}
 		available = {
+			has_ideology = neutrality
 		}
 		available_if_capitulated = yes
 		bypass = {
@@ -391,6 +411,7 @@ focus_tree = {
 		}
 		available = {
 			has_idea = KAI_corruption_scandale
+			has_ideology = neutrality
 		}
 		available_if_capitulated = yes
 		bypass = {
@@ -398,6 +419,31 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.2
 			remove_ideas = KAI_corruption_scandale
+		}
+	}
+	focus = {
+		id = KAI_focus_the_nationale_reformprogramm
+		icon = f
+		x = 20
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = KAI_focus_crackdown_on_socialist_gangs
+		}
+		available = {
+			has_stability > 60
+			has_ideology = neutrality
+		}
+		available_if_capitulated = no
+		bypass = {
+		}
+		completion_reward = {
+			custom_effect_tooltip = KAI_reform_decision_unlock_tt
+			unlock_decision_category_tooltip = KAI_nationale_reformen_cat
+			custom_effect_tooltip = KAI_var_nationale_reformen_tt
+			effect_tooltip = {
+				add_dynamic_modifier = KAI_var_nationale_reformen
+			}
 		}
 	}
 }

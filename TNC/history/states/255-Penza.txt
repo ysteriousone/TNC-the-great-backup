@@ -10,7 +10,6 @@ state={
 
 	history={
 		owner = RKM
-		add_core_of = LNR
 		buildings = {
 			infrastructure = 2
 		}

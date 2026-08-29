@@ -32,7 +32,9 @@
  world.10.t: ""
  
  
- 
+ world.11.t: "Valois Marches on Paris, Revolutionary Alliance Collapse!"
+ world.11.d: "The precarious facade of stability in the French Artistic State breathed its last, as heavy-handed responses by the Picasso cabinet to what it described as ‘riots in Paris’ instead incited violence around the country.n\nLeader of the Anarchist Faction in the Assemblee nationale, George Valois, called the Picasso ministry ‘corrupt Bohemians’ while promising a ‘swift end to the traitors of the true Revolution’ on a radio message after what’s been dubbed the ‘second Commune’. Reports of disobedience and attacks on authorities had increased over the last few days.n\nSo far, the Picasso ministry maintains that the Armed Forces still have full control of the situation – a claim demonstrably proven to be false outside of Paris by secondary sources. As France collapses into instability, Europe’s final major relative democracy may as well breathe its last."
+ world.11.a: "The Left infighting? Meh, nothing new."
 
 # KOMI COUNTRY EVENTS
  NRRF.1.t: "Voroshilov's Exit"

@@ -443,9 +443,9 @@ IF = {
 					rear_1_custom_slot = empty
 				}
 			}
-			set_naval_oob = "PHI_1939_naval_mtg"
+			set_naval_oob = "" # = "PHI_1939_naval_mtg"
 		else = {
-			set_naval_oob = "PHI_1939_naval_legacy"
+			set_naval_oob = "" # = "PHI_1939_naval_legacy"
 		}
 	}
 

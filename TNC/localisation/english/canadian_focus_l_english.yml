@@ -1,6 +1,6 @@
 l_english:
  CAN_reform_the_ccf:0 "Reform The CCF"
- CAN_reform_the_ccf_desc:0 "Come, staple comrades! And bask in the glory of our electoral victory! (excuse the terminology, the person who wrote this is British.)"
+ CAN_reform_the_ccf_desc:0 "Come, fellow comrades! And bask in the glory of our electoral victory!"
  CAN_reunite_as_one:0 "Reunite As One"
  CAN_reunite_as_one_desc:0 "We must reunite as one body, one party, and more importantly, one Labour movement."
  CAN_hold_the_stand:0 "Hold The Stand"
@@ -30,3 +30,4 @@ l_english:
  CAN_3_new_ideas:0 "Prosperity, Hope, Freedom"
  CAN_3_new_ideas_desc:0  "These are ideas all citizens of our country should aspire to follow and believe in."
  CAN_general_affairs:0 "General Affairs"
+ 

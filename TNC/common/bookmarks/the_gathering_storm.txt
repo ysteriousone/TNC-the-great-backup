@@ -5,6 +5,7 @@ bookmarks = {
 		date = 1945.1.1.1
 		picture = "GFX_select_date_1936"
 		default_country = "RUS"
+		default = yes
 
 		"KOM"={
 			history = "KOM_DESC"

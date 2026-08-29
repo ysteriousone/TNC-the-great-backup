@@ -21,3 +21,17 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+add_ideas = {
+RUS_The_Eastern_SMUTA
+RUS_Partisans_Song
+ }
+
+create_country_leader = {
+			name = "Dimitry Medvedev"
+			desc = ""
+			picture = Dimitry_Medvedev.dds		
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+			}
+		}

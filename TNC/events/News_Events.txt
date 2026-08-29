@@ -191,7 +191,7 @@ news_event = {
 	}
 }
 
-# Balkan War
+# French Civil War
 news_event = {
 	id = world.11
 	title = world.11.t

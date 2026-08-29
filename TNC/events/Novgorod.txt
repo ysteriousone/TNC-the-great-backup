@@ -44,13 +44,280 @@ country_event = {
 	release = LNR
 	release = BLK
 	release = SAV
+	release = LIP
+	NOV = {
+	transfer_state = 246
+	 }
+	 	GER  = {
+	set_autonomy = {
+             target = RKM
+             autonomous_state = autonomy_free
+        }
+	}
+	RKM = {
+	add_ideas = {
+	RUS_The_Eastern_SMUTA
+	 }
+
+	declare_war_on = {
+	target = MCW
+	type = annex_everything
+	 }
+	declare_war_on = {
+	target = LIP
+	type = annex_everything
+	 }
+	 
+   declare_war_on = {
+	target = BLK
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = NOV
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LEN
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LNR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = IOR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = YSL
+	type = annex_everything
+	 }
+declare_war_on = {
+	target = HRE
+	type = annex_everything
+	 }
+declare_war_on = {
+	target = SAV
+	type = annex_everything
+	 } 	 
+	leave_faction = yes
+	  }
+	  
+	SAV = {
+	load_oob = "SAV_1945"
+	declare_war_on = {
+	target = MCW
+	type = annex_everything
+	 }
+	declare_war_on = {
+	target = LIP
+	type = annex_everything
+	 }
+	 
+   declare_war_on = {
+	target = BLK
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = NOV
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LEN
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LNR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = IOR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = YSL
+	type = annex_everything
+	 }
+declare_war_on = {
+	target = HRE
+	type = annex_everything
+	 }
+	 }
+	 
+NOV = {
+	load_oob = "NOV_1945"
+	declare_war_on = {
+	target = MCW
+	type = annex_everything
+	 }
+	declare_war_on = {
+	target = LIP
+	type = annex_everything
+	 }
+	 
+   declare_war_on = {
+	target = BLK
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LEN
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LNR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = IOR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = YSL
+	type = annex_everything
+	 }
+declare_war_on = {
+	target = HRE
+	type = annex_everything
+	 }
+	 }
+
+LEN = {
+	load_oob = "LEN_1945"
+	declare_war_on = {
+	target = MCW
+	type = annex_everything
+	 }
+	declare_war_on = {
+	target = LIP
+	type = annex_everything
+	 }
+	 
+   declare_war_on = {
+	target = BLK
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LNR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = IOR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = YSL
+	type = annex_everything
+	 }
+declare_war_on = {
+	target = HRE
+	type = annex_everything
+	 }
+	 }
+	 
+MCW = {
+	load_oob = "MCW_1945"
+	declare_war_on = {
+	target = LIP
+	type = annex_everything
+	 }
+	 
+   declare_war_on = {
+	target = BLK
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LNR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = IOR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = YSL
+	type = annex_everything
+	 }
+declare_war_on = {
+	target = HRE
+	type = annex_everything
+	 }
+	 }
+	 
+LIP = {
+	load_oob = "LIP_1945"
+	 
+   declare_war_on = {
+	target = BLK
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LNR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = IOR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = YSL
+	type = annex_everything
+	 }
+declare_war_on = {
+	target = HRE
+	type = annex_everything
+	 }
+	 }
+YSL = {
+	load_oob = "YSL_1945"
+	 
+   declare_war_on = {
+	target = BLK
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = LNR
+	type = annex_everything
+	 }
+	 
+	declare_war_on = {
+	target = IOR
+	type = annex_everything
+	 }
+declare_war_on = {
+	target = HRE
+	type = annex_everything
+	 }
+	 }	 
+
+	
+	}
     
 
 }
-
-
-}
-
 
 
 

@@ -64,9 +64,9 @@ IF = {
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "CHI_1936_naval_mtg"
+		set_naval_oob = "" # = "CHI_1936_naval_mtg"
 	else = {
-		set_naval_oob = "CHI_1936_naval_legacy"
+		set_naval_oob = "" # = "CHI_1936_naval_legacy"
 	}
 }
 if = {
@@ -807,9 +807,9 @@ set_convoys = 40
 	}
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "CHI_1939_naval_mtg"
+			set_naval_oob = "" # = "CHI_1939_naval_mtg"
 		else = {
-			set_naval_oob = "CHI_1939_naval_legacy"
+			set_naval_oob = "" # = "CHI_1939_naval_legacy"
 		}
 	}
 	set_technology = {

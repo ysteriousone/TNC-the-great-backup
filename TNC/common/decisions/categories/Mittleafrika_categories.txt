@@ -14,3 +14,20 @@ The_SS_in_Africa_cat = {
     tag = RKA
 		}
 	}
+	
+Rebels_in_Africa_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+    tag = RKA
+		}
+	}
+	
+	
+Ties_with_Berlin_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+    tag = RKA
+		}
+	}

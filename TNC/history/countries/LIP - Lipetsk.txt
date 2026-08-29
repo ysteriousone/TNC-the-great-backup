@@ -21,3 +21,19 @@ set_politics = {
 set_popularities = {
 	Popular_Socialism = 100
 }
+
+create_country_leader = {
+			name = "Dimitry Karbyshev"
+			desc = ""
+			picture = Karbyshev.dds		
+			expire = "1965.1.1"
+			ideology = Social_Revanchism
+			traits = {
+			}
+		}
+		
+add_ideas = {
+RUS_The_Eastern_SMUTA
+RUS_Partisans_Song
+LIP_Fight_For_The_World
+ }

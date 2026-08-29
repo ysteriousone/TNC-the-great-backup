@@ -12,7 +12,6 @@ state={
 
 	history={
 		owner = RKM
-		add_core_of = MCW
 		victory_points = {
 			6380 50 
 		}

@@ -6,7 +6,7 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "FRA_1936"
+	set_oob = "NFA_1945"
 }
 if = {
 	limit = {
@@ -19,10 +19,10 @@ starting_train_buffer = 2
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "FRA_1936_naval_mtg"
+		set_naval_oob = "" # = "FRA_1936_naval_mtg"
 		set_war_support = 0.1
 	else = {
-		set_naval_oob = "FRA_1936_naval_legacy"
+		set_naval_oob = "" # = "FRA_1936_naval_legacy"
 		set_war_support = 0.15
 	}
 }
@@ -248,9 +248,9 @@ if = {
 
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "FRA_1939_naval_mtg"
+			set_naval_oob = "" # = "FRA_1939_naval_mtg"
 		else = {
-			set_naval_oob = "FRA_1939_naval_legacy"
+			set_naval_oob = "" # = "FRA_1939_naval_legacy"
 		}
 	}
 	if = {
