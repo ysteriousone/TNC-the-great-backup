@@ -492,9 +492,8 @@ focus_tree = {
 		x = 17
 		y = 7
 		cost = 10
-		prerequisite = { focus = RUS_limited_corporations focus = RUS_no_more_grain_crises}
-		prerequisite = { focus = RUS_land_reform }
-		prerequisite = { focus = RUS_surplus }
+		prerequisite = { focus = RUS_surplus focus = RUS_no_more_grain_crises}
+		prerequisite = { focus = RUS_land_reform focus = RUS_limited_corporations}
 		available = { }
 		completion_reward = {
 			add_stability = 0.1
