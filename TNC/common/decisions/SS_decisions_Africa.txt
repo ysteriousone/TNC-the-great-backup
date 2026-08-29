@@ -73,7 +73,7 @@ The_SS_in_Africa_cat = {
 			always = yes
 		}
 	available = {
-	has_completed_focus = RKA_Work_with_Hutting }
+	completed_focus = RKA_Work_with_Hutting }
 		
 complete_effect = {
    release = MAD
