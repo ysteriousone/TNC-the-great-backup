@@ -237,8 +237,7 @@ focus_tree = {
 		x = 2
 		y = 7
 		cost = 10
-		prerequisite = { focus = RUS_ensuring_the_tsars_safety }
-		prerequisite = { focus = RUS_a_more_natural_role }
+		prerequisite = { focus = RUS_ensuring_the_tsars_safety focus = RUS_a_more_natural_role }
 		prerequisite = { focus = RUS_restore_the_zemsky_sobor }
 		prerequisite = { focus = RUS_visit_the_people_2 }
 		prerequisite = { focus = RUS_progress }
@@ -300,10 +299,7 @@ focus_tree = {
 		y = 5
 		cost = 10
 		prerequisite = {
-			focus = RUS_reconvene_the_old_ways
-		}
-		prerequisite = {
-			focus = RUS_focus_on_social_security
+			focus = RUS_reconvene_the_old_ways focus = RUS_focus_on_social_security
 		}
 		available = { }
 		completion_reward = {
@@ -346,10 +342,7 @@ focus_tree = {
 		y = 7
 		cost = 10
 		prerequisite = {
-			focus = RUS_watch_over_any_suspects
-		}
-		prerequisite = {
-			focus = RUS_trust_the_process
+			focus = RUS_watch_over_any_suspects focus = RUS_trust_the_process
 		}
 		available = { }
 		completion_reward = {
@@ -499,10 +492,9 @@ focus_tree = {
 		x = 17
 		y = 7
 		cost = 10
-		prerequisite = { focus = RUS_limited_corporations }
+		prerequisite = { focus = RUS_limited_corporations focus = RUS_no_more_grain_crises}
 		prerequisite = { focus = RUS_land_reform }
 		prerequisite = { focus = RUS_surplus }
-		prerequisite = { focus = RUS_no_more_grain_crises }
 		available = { }
 		completion_reward = {
 			add_stability = 0.1
@@ -521,7 +513,11 @@ focus_tree = {
 		cost = 20
 		prerequisite = {
 			focus = RUS_god_save_the_tsar
+		}
+		prerequisite = {
 			focus = RUS_love_the_tsar_and_the_tsar_will_love_you
+		}
+		prerequisite = {
 			focus = RUS_imperial_rebirth
 		}
 		available = { }
