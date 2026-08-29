@@ -413,7 +413,7 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "" # = "ITA_1936_naval_legacy"
+	set_naval_oob = "ITA_1936_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -440,7 +440,7 @@ if = {
 		coastal_defense_ships = 1
 		#improved_airplane_launcher = 1
 	}
-	set_naval_oob = "" # = "ITA_1936_naval_mtg"
+	set_naval_oob = "ITA_1936_naval_mtg"
 }
 
 if = {
@@ -717,7 +717,7 @@ add_mastery = {
 			basic_battleship = 1
 			improved_battleship = 1
 		}
-		set_naval_oob = "" # = "ITA_1939_naval_legacy"
+		set_naval_oob = "ITA_1939_naval_legacy"
 	}
 	if = {
 		limit = {
@@ -727,7 +727,7 @@ add_mastery = {
 			#improved_airplane_launcher = 1
 			
 		}
-		set_naval_oob = "" # = "ITA_1939_naval_mtg"
+		set_naval_oob = "ITA_1939_naval_mtg"
 	}
 	
 	set_stability = 0.8

@@ -51,7 +51,7 @@ if = {
 		early_submarine = 1
 		transport = 1
 	}
-	set_naval_oob = "" # = "AST_1936_naval_legacy"
+	set_naval_oob = "AST_1936_naval_legacy"
 }
 if = {
 	limit = {
@@ -70,7 +70,7 @@ if = {
 		basic_cruiser_armor_scheme = 1
 		mtg_transport = 1
 	}
-	set_naval_oob = "" # = "AST_1936_naval"
+	set_naval_oob = "AST_1936_naval"
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -352,7 +352,7 @@ add_ideas = AST_unratified_westminster_act_idea
 		set_technology = {
 			basic_destroyer = 1
 		}
-		set_naval_oob = "" # = "AST_1939_naval_legacy"
+		set_naval_oob = "AST_1939_naval_legacy"
 	}
 	if = {
 		limit = {
@@ -365,7 +365,7 @@ add_ideas = AST_unratified_westminster_act_idea
 			improved_sonar = 1
 			improved_depth_charges = 1
 		}
-		set_naval_oob = "" # = "AST_1939_naval"
+		set_naval_oob = "AST_1939_naval"
 	}
 }
 

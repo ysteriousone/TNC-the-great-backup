@@ -4,9 +4,9 @@ oob = "MEX_1936"
 
 IF = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "" # = "MEX_1936_naval_mtg"
+		set_naval_oob = "MEX_1936_naval_mtg"
 	ELSE = {
-		set_naval_oob = "" # = "MEX_1936_naval_legacy"
+		set_naval_oob = "MEX_1936_naval_legacy"
 	}
 }
 IF = {
@@ -155,9 +155,9 @@ IF = {
 	}
 	IF = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "" # = "MEX_1939_naval_mtg"
+			set_naval_oob = "MEX_1939_naval_mtg"
 		ELSE = {
-			set_naval_oob = "" # = "MEX_1939_naval_legacy"
+			set_naval_oob = "MEX_1939_naval_legacy"
 		}
 	}
 	

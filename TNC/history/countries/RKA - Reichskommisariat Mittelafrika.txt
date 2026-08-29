@@ -1,6 +1,4 @@
-capital = 1089 # Dar-es-salam
-
-OOB = "RKA_1945"
+capital = 546 # Dar-es-salam
 
 set_stability = 0.4
 set_war_support = 0.7

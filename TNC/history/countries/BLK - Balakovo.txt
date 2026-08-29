@@ -11,9 +11,7 @@ set_technology = {
 add_manpower = 15000
 set_convoys = 10
 
-add_ideas = {
-RUS_The_Eastern_SMUTA
-}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -26,13 +24,3 @@ set_popularities = {
 	communism = 5
 	neutrality = 75
 }
-
-create_country_leader = {
-			name = "Jaba Ioseliani"
-			desc = ""
-			picture = Jobba.dds		
-			expire = "1965.1.1"
-			ideology = oligarchism
-			traits = {
-			}
-		}

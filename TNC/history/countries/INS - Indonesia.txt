@@ -5,9 +5,9 @@ oob = "INS_1936"
 # Starting Tech
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		#set_naval_oob = "" # = "HOL_1936_naval_mtg"
+		#set_naval_oob = "HOL_1936_naval_mtg"
 	else = {
-		#set_naval_oob = "" # = "HOL_1936_naval_legacy"
+		#set_naval_oob = "HOL_1936_naval_legacy"
 	}
 }
 if = {

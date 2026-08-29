@@ -17,7 +17,6 @@ country_event = {
 		name = proxywin.1.a  
   GER = {
   add_to_faction = ROOT
-  add_political_power = 1000
   }
 }
 
@@ -37,7 +36,6 @@ country_event = {
 		name = proxywin.1.a  
   CAN = {
   add_to_faction = ROOT
-  add_political_power = 1000
   }
 }
 
@@ -57,7 +55,6 @@ country_event = {
 		name = proxywin.1.a  
   FRA = {
   add_to_faction = ROOT
-  add_political_power = 1000
   }
 }
 
@@ -77,7 +74,6 @@ country_event = {
 		name = proxywin.1.a  
   ENG = {
   add_to_faction = ROOT
-  add_political_power = 1000
   }
 }
 

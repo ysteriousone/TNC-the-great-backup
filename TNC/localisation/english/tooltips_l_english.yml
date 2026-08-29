@@ -1,5 +1,2 @@
 ﻿l_english:
- unlock_focus_tt: "§GThis focus will unlock by an event.§!"
- KAI_reform_decision_unlock_tt: "§RYou will be able to unlock decisions, so you can reform Germany.§!"
- KAI_var_nationale_reformen_intro: "Modify §Y$KAI_var_nationale_reformen§$! by:"
- KAI_var_nationale_reformen_tt: "Nationale Reformen"
+ unlock_focus_tt: "This focus will unlock by an event."

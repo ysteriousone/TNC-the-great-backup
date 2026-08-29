@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = RKO
+		add_core_of = NOV
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

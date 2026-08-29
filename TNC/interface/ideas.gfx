@@ -9,41 +9,6 @@ spriteTypes = {
 	}
 
 	### new tfv nat spirit icons
-	
-		spriteType = {
-		name = "GFX_idea_RUS_Eastern_smuta"
-		texturefile = "gfx/interface/ideas/RUS_Eastern_Smuta.dds"
-	}
-	
-		spriteType = {
-		name = "GFX_idea_HRE_Search_for_Alexei"
-		texturefile = "gfx/interface/ideas/HRE_Search_for_Alexei.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_LEN_Leninist_remnants"
-		texturefile = "gfx/interface/ideas/Leninist_remnants.dds"
-	}
-	
-   spriteType = {
-		name = "GFX_idea_RUS_Partisans_Song"
-		texturefile = "gfx/interface/ideas/Partisans_song.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_NOV_Bastion_of_Liberty"
-		texturefile = "gfx/interface/ideas/Bastion_of_Liberty.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_LIP_Fight_for_The_World"
-		texturefile = "gfx/interface/ideas/Fight_For_The_World.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_SAV_PSR_Saviors"
-		texturefile = "gfx/interface/ideas/PSR_Saviors.dds"
-	}
-	
 
 	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"

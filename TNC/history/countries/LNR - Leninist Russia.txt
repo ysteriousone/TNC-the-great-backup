@@ -21,19 +21,3 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
-
-add_ideas = {
-RUS_The_Eastern_SMUTA
-LEN_Leninist_Remnants
-RUS_Partisans_Song
-}
-
-create_country_leader = {
-			name = "Olga Ulyanova"
-			desc = ""
-			picture = Ulyanovsky.dds		
-			expire = "1965.1.1"
-			ideology = leninism
-			traits = {
-			}
-		}

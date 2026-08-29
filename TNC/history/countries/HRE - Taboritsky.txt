@@ -25,10 +25,6 @@ create_country_leader = {
 			traits = {
 			}
 		}
-add_ideas = {
-RUS_The_Eastern_SMUTA
-HRE_Search_for_Alexei
-}
 
 set_popularities = {
 	Ultranationalism = 100

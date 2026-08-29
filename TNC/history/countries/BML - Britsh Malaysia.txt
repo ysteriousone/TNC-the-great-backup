@@ -1,9 +1,12 @@
 ﻿capital = 336 #Kuala Lumpur
 
-oob = "BML_1945"
+oob = "MAL_1936"
 
 set_research_slots = 3
 
+recruit_character = MAL_onn_jaafar
+recruit_character = MAL_lai_teck
+recruit_character = MAL_ibrahim_hj_yaacob
 recruit_character = MAL_winston_tyron
 
 
@@ -174,17 +177,6 @@ add_ideas = {
 		dispersed_industry2 = 1
 	}
 }
-
-	create_country_leader = {
-			name = "Shenton Thomas"
-			desc = ""
-			picture = Shenton_Thomas.dds		
-			expire = "1965.1.1"
-			ideology = colonial_dictatorship
-			traits = {
-				
-			}
-		}
 
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being

@@ -4,9 +4,9 @@
 oob = "SWE_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "" # = "SWE_1936_naval_mtg"
+		set_naval_oob = "SWE_1936_naval_mtg"
 	else = {
-		set_naval_oob = "" # = "SWE_1936_naval_legacy"
+		set_naval_oob = "SWE_1936_naval_legacy"
 	}
 }
 if = {
@@ -187,9 +187,9 @@ if = {
 	oob = "SWE_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "" # = "SWE_1939_naval_mtg"
+			set_naval_oob = "SWE_1939_naval_mtg"
 		else = {
-			set_naval_oob = "" # = "SWE_1939_naval_legacy"
+			set_naval_oob = "SWE_1939_naval_legacy"
 		}
 	}
 	if = {

@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = RKM
+		add_core_of = LNR
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1

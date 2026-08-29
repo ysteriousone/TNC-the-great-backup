@@ -18,21 +18,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-add_ideas = {
-RUS_The_Eastern_SMUTA
-NOV_Bastion_of_Liberty
- }
-
-create_country_leader = {
-			name = "Boris Patersnak"
-			desc = ""
-			picture = Boris_Pasternak.dds		
-			expire = "1965.1.1"
-			ideology = democratic_conservatism
-			traits = {
-			}
-		}
 set_popularities = {
 	conservative_democratic = 100
 }

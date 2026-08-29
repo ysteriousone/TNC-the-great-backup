@@ -1,6 +1,6 @@
-﻿capital = 219
+﻿capital = 64
 
-OOB = "SAV_1945"
+OOB = "BGR_1945"
 
 # Starting tech
 set_technology = {
@@ -24,20 +24,3 @@ set_popularities = {
 	communism = 5
 	Ultranationalism = 75
 }
-
-
-	create_country_leader = {
-			name = "Boris Savinkov"
-			desc = "SAVINKOV_DESC"
-			picture = Savinkov.dds
-			expire = "1965.1.1"
-			ideology = Savinkovyte_tendency
-			traits = {
-				dictator
-			}
-		}
-	
-	add_ideas = {
-	RUS_The_Eastern_SMUTA
-	SAV_PSR_Saviors
-	 }

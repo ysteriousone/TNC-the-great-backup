@@ -67,9 +67,6 @@ Ultranationalism  = {
 		ai_ideology_wanted_units_factor = 1.15
 		ai_give_core_state_control_threshold = 10000
 	# Won't be ramdomly selected moved - won't be assigned to randomly generated country leaders
-	can_join_factions = {
-	default = no
-}
 	}
 
  Whiggism  = {
@@ -123,9 +120,6 @@ Ultranationalism  = {
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
 		ai_give_core_state_control_threshold = 10000
-		can_join_factions = {
-	default = no
-}
 	}
 
  
@@ -184,9 +178,6 @@ Ultranationalism  = {
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
 		ai_give_core_state_control_threshold = 10000
-	can_join_factions = {
-	default = no
-}
 	}
 
 	democratic = {
@@ -256,9 +247,6 @@ Ultranationalism  = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 		
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
-		can_join_factions = {
-	default = no
-}
 	}
 	
 		conservative_democratic = {
@@ -272,9 +260,6 @@ Ultranationalism  = {
 			}
 
 			autocratic_populism = {
-			}
-			
-			scientific_conservatism = {
 			}
 
 			de_gaullism = {
@@ -334,9 +319,6 @@ Ultranationalism  = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 		
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
-		can_join_factions = {
-	default = no
-}
 	}
 	
     Popular_Socialism = {
@@ -352,12 +334,6 @@ Ultranationalism  = {
 	color = {119 0 57 }
 			}
 	Military_socialism = {
-			}
-			
-	Democratic_Socialism = {
-			}
-			
-	Social_Revanchism = {
 			}
 
 		}
@@ -402,9 +378,6 @@ Ultranationalism  = {
 		}
 
 		ai_give_core_state_control_threshold = 10
-		can_join_factions = {
-	default = no
-}
 	}
 	
    Libtardism = {
@@ -458,9 +431,6 @@ Ultranationalism  = {
 		}
 
 		ai_give_core_state_control_threshold = 10
-	can_join_factions = {
-	default = no
-}
 	}
 	 Capitalism = {
 
@@ -515,9 +485,6 @@ Ultranationalism  = {
 		}
 
 		ai_give_core_state_control_threshold = 10
-		can_join_factions = {
-	default = no
-}
 	}
 
 
@@ -644,9 +611,6 @@ Ultranationalism  = {
 		}
 
 		ai_give_core_state_control_threshold = 10
-	can_join_factions = {
-	default = no
-}
 	}
 
 	fascism = {
@@ -717,9 +681,6 @@ Ultranationalism  = {
 		ai_ideology_wanted_units_factor = 1.65
 		
 		ai_give_core_state_control_threshold = 10000
-	can_join_factions = {
-	default = no
-}
 	}
 
 	neutrality = {
@@ -797,9 +758,6 @@ Ultranationalism  = {
 		ai_ideology_wanted_units_factor = 1.15
 		
 		ai_give_core_state_control_threshold = 10000
-	can_join_factions = {
-	default = no
-}
 	}
 	burgundian_ideas = {
 
@@ -855,7 +813,5 @@ Ultranationalism  = {
 		ai_ideology_wanted_units_factor = 1.15
 		
 		ai_give_core_state_control_threshold = 10000
-can_join_factions = no
-can_puppet = no
 	}
 }
