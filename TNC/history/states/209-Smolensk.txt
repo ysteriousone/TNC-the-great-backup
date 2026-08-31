@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = RKO
+		add_core_of = NOV
 		victory_points = {
 			11202 3
 		}

@@ -7,6 +7,7 @@ state={
 
 	history={
 		owner = RKM
+		add_core_of = LIP
 		victory_points = {
 			3580 5
 		}
