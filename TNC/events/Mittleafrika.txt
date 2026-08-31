@@ -2,7 +2,7 @@ add_namespace = rka
 add_namespace = hitler
 add_namespace = rka_saf
 
-# Malayan insurgency - Part 2
+# I see a red door and I want it painted black
 country_event = {
 	id = rka_saf.1
 	title = rka_saf.1.t
@@ -31,17 +31,23 @@ free_country = yes
  
 # The Collapse - SAW loss version
 country_event = {
-	id = rka_saf.1
-	title = rka_saf.1.t
-	desc = rka_saf.1.d
+	id = rka_saf.2
+	title = rka_saf.2.t
+	desc = rka_saf.2.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 
 	fire_only_once = yes
     is_triggered_only = yes 
 	option = { # HOLY TNO BROO
-		name = rka_saf.1.a  
+		name = rka_saf.2.a  
 	hidden_effect = {
-
+   release = ISR
+   release = KAT
+   release = BRD
+   release = RWA
+  MAD = {
+  release = ISR
+   }
  }
 
 }

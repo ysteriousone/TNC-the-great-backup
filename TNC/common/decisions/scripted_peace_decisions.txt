@@ -56,6 +56,7 @@ Malaysian_insurgency_peace_cat = {
 	MAL = {
 	transfer_state = 1060
 	transfer_state = 336
+	set_cosmetic_tag = MAL_free
 	}
 	
 	ENG = {
@@ -184,6 +185,12 @@ Balkan_war_peace_cat = {
 	every_country = {
 	white_peace = SAF
 	 }
+	RKA = {
+	country_event = {
+	id = ger_saf.2
+	days = 10
+	 }
+	  }
 	SAF = {
 	transfer_state = 893
 	transfer_state = 541

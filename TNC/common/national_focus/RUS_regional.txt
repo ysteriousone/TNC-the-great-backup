@@ -511,7 +511,10 @@ focus_tree = {
 		available = { }
 		prerequisite = { focus = RUS_last_minute_revisions focus = RUS_draft_plan_against_the_others }
 		completion_reward = {
-			add_political_power = -50
+	declare_war_on = {
+	target = KOM
+	type = annex_everything
+	 }
 		}
 	}
 	focus = {
@@ -523,7 +526,10 @@ focus_tree = {
 		available = { }
 		prerequisite = { focus = RUS_off_to_sytvakar}
 		completion_reward = {
-			add_political_power = -50
+		declare_war_on = {
+	target = ZLT
+	type = annex_everything
+	 }
 		}
 	}
 	focus = {
@@ -535,7 +541,13 @@ focus_tree = {
 		available = { }
 		prerequisite = { focus = RUS_off_to_sytvakar}
 		completion_reward = {
-			add_political_power = -50
+	NPL = {
+	country_event = {
+	id = rus.1
+	days = 3
+	}
+	
+	 }
 		}
 	}
 	focus = {
@@ -547,7 +559,10 @@ focus_tree = {
 		available = { }
 		prerequisite = {  focus = RUS_zlatoust_free_real_estate focus = RUS_offer_poles_autonomy }
 		completion_reward = {
-			add_political_power = -50
+		declare_war_on = {
+	target = URL
+	type = annex_everything
+	 }
 		}
 	}
 	focus = {

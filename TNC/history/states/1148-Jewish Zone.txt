@@ -1,13 +1,14 @@
-
 state={
-	id=543
-	name="STATE_543"
-	manpower = 3694611
-	
-	state_category = rural
+	id=1148
+	name="STATE_1148"
+	provinces={
+		2200 8180 12956 
+	}
+		state_category = rural
 	
 	history={
 		add_core_of = MAD
+		add_core_of = ISR
 		owner = RKA
 		victory_points = {
 			5128 1
@@ -21,10 +22,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		 5128   8246 10993   
-	}
-
-	local_supplies=0.0 
+	manpower=100000
+	buildings_max_level_factor=1
+	local_supplies=0
 }

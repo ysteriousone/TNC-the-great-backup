@@ -68,6 +68,9 @@
  FRA_anarchy: "French Free Territory"
  FRA_anarchy_DEF: "The French Free Territory"
  
+ MAL_free: "Republic of Malaysia"
+ MAL_FREE_DEF: "The Republic of Malaysia"
+ 
  INS_HOL: "Dutch East Indies"
  INS_HOL_DEF: "the Dutch East Indies"
  INS_HOL_autonomy_dominion: "Dominion of Indonesia"

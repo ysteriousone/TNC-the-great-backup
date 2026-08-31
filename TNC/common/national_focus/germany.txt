@@ -428,6 +428,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+	country_event = {
+	id = ger_reich.1
+	days = 0
+	 }
 hidden_effect = {
 			goto_province = 3544
 		}
@@ -435,7 +439,7 @@ hidden_effect = {
 			entity = nuke_entity
 			id = 0401447
 			province = 3544
-			scale = .40
+			scale = .90
 			min_zoom = -1
 		}
 		set_entity_animation = {

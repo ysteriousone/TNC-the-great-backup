@@ -1,36 +1,35 @@
-﻿capital = 773
-
-
-OOB = "CMR_1945"
-
+﻿capital = 778
+country_event = {
+id = ffr.1
+days = 1450
+ }
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 20
+set_convoys = 0
 
-recruit_character = CMR_aa2
-recruit_character = CMR_democratic_guy
-recruit_character = CMR_acgs
-recruit_character = CMR_ncm
-recruit_character = CMR_nt
-recruit_character = CMR_acas
-recruit_character = CMR_awt
-recruit_character = CMR_pot
-recruit_character = CMR_stc
-recruit_character = CMR_acd2
-recruit_character = CMR_communist_guy
-recruit_character = CMR_aco2
-recruit_character = CMR_fascist_guy
-recruit_character = CMR_coi
-recruit_character = CMR_ar
-recruit_character = CMR_nccr
-recruit_character = CMR_mt
-recruit_character = CMR_ai2
-recruit_character = CMR_ncs
-recruit_character = CMR_acr
-
+recruit_character = VOL_acd2
+recruit_character = VOL_ncm
+recruit_character = VOL_nccr
+recruit_character = VOL_ai2
+recruit_character = VOL_stc
+recruit_character = VOL_pot
+recruit_character = VOL_aco2
+recruit_character = VOL_aa2
+recruit_character = VOL_nt
+recruit_character = VOL_communist_guy
+recruit_character = VOL_democratic_guy
+recruit_character = VOL_mt
+recruit_character = VOL_acgs
+recruit_character = VOL_coi
+recruit_character = VOL_fascist_guy
+recruit_character = VOL_ar
+recruit_character = VOL_acr
+recruit_character = VOL_ncs
+recruit_character = VOL_awt
+recruit_character = VOL_acas
 
 1939.1.1 = {
 	
@@ -64,7 +63,6 @@ recruit_character = CMR_acr
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		fuel_silos = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -81,12 +79,11 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
 	democratic = 25
 	fascism = 20

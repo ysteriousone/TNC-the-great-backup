@@ -280,7 +280,7 @@
 		relative_position_id = FRA_Black_White_Red
 			prerequisite = { focus = FRA_Form_of_Platformism }
 			prerequisite = {focus = FRA_Worker_Districts }
-			cost = 3
+			cost = 9
 	
 			ai_will_do = {
 				factor = 1
@@ -309,7 +309,7 @@
 		relative_position_id = FRA_Black_White_Red
 			prerequisite = { focus = FRA_Form_of_Platformism }
 			prerequisite = {focus = FRA_Worker_Districts }
-			cost = 3
+			cost = 10
 	
 			ai_will_do = {
 				factor = 1
@@ -340,7 +340,7 @@
 			prerequisite = { focus = FRA_Aux_Armes_Milces }
             prerequisite = { focus = FRA_for_a_Free_France }
             prerequisite = { focus = FRA_No_more_Red_Flood }
-			cost = 3
+			cost = 10
 	
 			ai_will_do = {
 				factor = 1
@@ -371,14 +371,14 @@
 			y = 7	
 			
 			prerequisite = { focus = FRA_World_Revolution}
-			cost = 3
+			cost = 7
 	
 			ai_will_do = {
 				factor = 1
 			}
 	
 			available = {
-				
+		date > 1948.1.1		
 			}
 			
 			bypass = {
@@ -422,10 +422,6 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-		declare_war_on = {
-		target = NFA
-		type = annex_everything
-		 }
 			}
 		}		
 		
@@ -444,11 +440,18 @@
 			}
 	
 			available = {
-				
+		 date > 1949.1.1
+     NOT = {
+           FFR = {
+        has_war = yes
+                      }
+         } 
 			}
 			
 			bypass = {
-	
+	    NOT = {
+		country_exists = FFR
+		}
 			}
 	
 			cancel_if_invalid = yes
@@ -488,10 +491,6 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-		declare_war_on = {
-		target = NFA
-		type = annex_everything
-		 }
 			}
 		}
 		
@@ -551,6 +550,76 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
+			}
+		}
+		
+		
+		focus = {
+			id = FRA_World_Revolution_act
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 0
+			y = 9
+			
+			prerequisite = { focus = FRA_Invest_in_Army}
+			prerequisite = { focus = FRA_Evil_no_More }
+			prerequisite = { focus =  FRA_End_of_France_at_the_Line }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+		
+		focus = {
+			id = FRA_Plans_for_Mussolini
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 2
+			y = 10
+			
+			prerequisite = { focus = FRA_World_Revolution_act}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+		NOT = {
+     country_exists = TTS
+    country_exists = LBV
+    country_exists = FIU 
+     country_exists = SME
+ }	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+	country_event = {
+	id = fra_anarchists.1
+	days = 10
+	 }
 			}
 		}
 	
