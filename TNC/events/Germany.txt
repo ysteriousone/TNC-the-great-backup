@@ -60,7 +60,8 @@ country_event = {
 	    set_politics = {
 			ruling_party = burgundian_ideas
 			elections_allowed = no
-		}	
+		}
+    load_focus_tree = GER_Heydrich		
 	news_event = {
 	}
 }

@@ -31,7 +31,14 @@ country_event = {
   ADU = {
   transfer_state = 173
   transfer_state = 169
+  add_state_core = 173
+  add_state_core = 169
   }
+  ASU = {
+  transfer_state = 790
+  add_state_core = 790
+   }
+  release = NAV
 	}
  		custom_effect_tooltip = cooked
 }

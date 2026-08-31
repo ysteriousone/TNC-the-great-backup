@@ -223,7 +223,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 12
+	burgundian_ideas = 12
 	fascism = 74
 	communism = 9
 	neutrality = 5
@@ -237,6 +237,17 @@ set_popularities = {
 			ideology = nazism
 			traits = {
 				dictator
+			}
+		}
+		
+		
+	create_country_leader = {
+			name = "Reinhardt Heydrich"
+			desc = "HEYDRICH_DESC"
+			picture = Heydrich.dds		
+			expire = "1965.1.1"
+			ideology = heydrich_branch
+			traits = {
 			}
 		}
 

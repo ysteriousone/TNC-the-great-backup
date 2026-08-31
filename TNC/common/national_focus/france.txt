@@ -622,6 +622,65 @@
 	 }
 			}
 		}
+		
+	focus = {
+			id = FRA_The_Italian_Defence_Authority
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 2
+			y = 11
+			
+			prerequisite = { focus = FRA_Plans_for_Mussolini}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+		
+	focus = {
+			id = FRA_The_Iberian_War
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 0
+			y = 12
+			
+			prerequisite = { focus = FRA_World_Revolution_act}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+		SPR = {
+		has_war = yes
+		 }
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
 	
 		
 		focus = {
