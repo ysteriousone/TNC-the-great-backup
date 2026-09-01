@@ -1,5 +1,11 @@
 ﻿capital = 41 # Madrid
 
+
+country_event = { 
+id = spain.1
+days = 1590
+ }
+
 oob = "SPR_1936"
 
 if = {
