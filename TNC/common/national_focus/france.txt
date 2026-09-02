@@ -128,6 +128,14 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
+						16 = {
+					create_unit = {
+						division = "name = \"Anarchist Militia\" division_template = \"Division d'Infanterie\" start_experience_factor = 1"
+						owner = FRA
+						count = 5
+					
+					}					
+				}
 		}
 			}
 			
@@ -445,14 +453,16 @@
            FFR = {
         has_war = yes
                       }
+	country_exists = CMR
+	 }
          } 
-			}
 			
 			bypass = {
-	    NOT = {
-		country_exists = FFR
-		}
+	CMR = {
+	in_faction_with = FRA
+
 			}
+	}
 	
 			cancel_if_invalid = yes
 			continue_if_invalid = no
@@ -463,7 +473,7 @@
 		type = annex_everything
 		 }
 			}
-		}
+		 }
 		
 	focus = {
 			id = FRA_Evil_no_More
@@ -702,13 +712,15 @@
 				factor = 1
 			}
 	
-			available = {	 
+			available = {
+      OR = {			
 		SPR = {
 		has_war = yes
 		 }
 		country_exists = CAT
-			}
 			
+		}
+	}
 			bypass = {
 	
 			}
@@ -719,10 +731,11 @@
 			completion_reward = {
 				declare_war_on = {
 		target = CAT
+		type = annex_everything
 		 }
 		}
-			}
-			
+
+	}		
 		focus = {
 			id = FRA_Catalonian_Socialist_Republic
 			icon = GFX_goal_generic_construct_civilian
@@ -739,10 +752,13 @@
 			}
 	
 			available = {	 
+      OR = {			
 		SPR = {
 		has_war = yes
 		 }
 		country_exists = CAT
+			
+		}
 			}
 			
 			bypass = {
@@ -787,6 +803,7 @@
 			completion_reward = {
 				declare_war_on = {
 		target = SWI
+		type = annex_everything
 		 }
 		}
 			}
@@ -821,7 +838,188 @@
 			completion_reward = {
 		}
 			}
+			
+
+			focus = {
+			id = FRA_Shiskov_Theory
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 2
+			y = 14
+			
+			prerequisite = { focus = FRA_Assembly_of_European_Anarchists}
+			cost = 3
 	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}	
+			
+	
+		focus = {
+			id = FRA_Valois_Theory_2
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -2
+			y = 14
+			
+			prerequisite = { focus = FRA_Assembly_of_European_Anarchists}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}	
+
+	focus = {
+			id = FRA_Free_Industrial_Law
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -2
+			y = 15
+			
+			prerequisite = { focus = FRA_Valois_Theory_2}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}	
+
+	focus = {
+			id = FRA_Build_the_Centre
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -4
+			y = 16
+			
+			prerequisite = { focus = FRA_Free_Industrial_Law}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}			
+			
+	focus = {
+			id = FRA_Black_Sea_Black_Danube
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 4
+			y = 15
+			
+			prerequisite = { focus = FRA_Assembly_of_European_Anarchists}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = HUN
+		type = annex_everything
+		}
+			}
+		}
+		
+	focus = {
+			id = FRA_New_Illyria_New_Hungary
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 4
+			y = 16
+			
+			prerequisite = { focus = FRA_Black_Sea_Black_Danube}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+		NOT = {
+		country_exists = HUN
+		 }
+		 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = HUN
+		type = annex_everything
+		}
+			}
+		}
 		
 		focus = {
 			id = FRA_Organize_the_Left

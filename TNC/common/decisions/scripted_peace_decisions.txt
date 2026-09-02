@@ -57,6 +57,9 @@ Malaysian_insurgency_peace_cat = {
 	transfer_state = 1060
 	transfer_state = 336
 	set_cosmetic_tag = MAL_free
+	country_event = {
+	id = proxywin.3
+	 }
 	}
 	
 	ENG = {

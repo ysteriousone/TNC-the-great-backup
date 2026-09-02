@@ -31,12 +31,6 @@ start_civil_war = {
 	dismantle_faction = yes
 
  set_cosmetic_tag = FRA_anarchy
- 
- 
- news_event = {
- id = world.11 
- days = 9
-  }
 
 }
 
