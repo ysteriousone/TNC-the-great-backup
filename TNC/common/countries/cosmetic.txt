@@ -4,8 +4,8 @@ MAL_UK = {
 }
 
 FRA_anarchy = {
-    color = rgb { 40 40 40 }
-    color_ui = rgb { 40 40 40 }
+    color = rgb { 55 0 0 }
+    color_ui = rgb { 55 0 0 }
 }
 
 RAJ_UK = {

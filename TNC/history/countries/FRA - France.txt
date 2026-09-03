@@ -4,6 +4,8 @@ load_focus_tree = french_focus
 
 starting_train_buffer = 2
 
+recruit_character = FRA_Saulire
+
 add_ideas = TNC_bitter_loser
 add_ideas = TNC_rampant_corruption
 add_ideas = TNC_french_mafia

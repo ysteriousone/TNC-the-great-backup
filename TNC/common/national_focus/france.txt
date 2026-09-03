@@ -306,6 +306,16 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
+	add_manpower = 5000
+	
+						16 = {
+					create_unit = {
+						division = "name = \"People's Militia\" division_template = \"Citizenry\" start_experience_factor = 1"
+						owner = FRA
+						count = 10
+					
+					}					
+				}
 		}
 			}
 			
@@ -868,6 +878,135 @@
 		}
 			}	
 			
+			
+
+			focus = {
+			id = FRA_2_Giants_one_Flag
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 0
+			y = 15
+		mutually_exclusive = { focus = FRA_The_Victors_now_the_Anarchists }
+			prerequisite = { focus = FRA_Shiskov_Theory}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+		NOT = {
+		country_exists = BUL
+		 }
+	YUG = {
+	has_government = neutrality
+	 }
+			}
+			
+			bypass = {
+	   YUG = {
+	   NOT = {
+	   has_government = neutrality
+	 }
+			}
+		}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+	add_to_faction = YUG
+		}
+			}
+			
+			
+	focus = {
+			id = FRA_The_Victors_now_the_Anarchists
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 2
+			y = 15
+		mutually_exclusive = { focus = FRA_2_Giants_one_Flag }	
+			prerequisite = { focus = FRA_Shiskov_Theory}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+	country_exists = BUL
+			}
+			
+			bypass = {
+		}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+	country_event = {
+	id = fra_anarchists.2
+	 days = 10
+	  }
+		}
+			}
+	focus = {
+			id = FRA_The_France_of_The_Balkans
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 1
+			y = 16
+			prerequisite = { focus = FRA_The_Victors_now_the_Anarchists
+			                 focus = FRA_2_Giants_one_Flag}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+		}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+			}
+
+	focus = {
+			id = FRA_New_Decade_new_Look
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 2
+			y = 18
+			prerequisite = { focus = FRA_The_France_of_The_Balkans}
+			prerequisite = { focus = FRA_New_Illyria_New_Hungary }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+        date >  1955.1.1		
+			}
+			
+			bypass = {
+		}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+
+		}
+			}			
 	
 		focus = {
 			id = FRA_Valois_Theory_2
@@ -951,6 +1090,125 @@
 			available_if_capitulated = no
 			completion_reward = {
 		}
+			}	
+			
+		focus = {
+			id = FRA_French_National_Assembly
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -2
+			y = 16
+			
+			prerequisite = { focus = FRA_Free_Industrial_Law}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+			
+	focus = {
+			id = FRA_Be_an_Example
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -2
+			y = 17
+			
+			prerequisite = { focus = FRA_French_National_Assembly}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+			}
+
+	focus = {
+			id = FRA_War_Economy
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -4
+			y = 17
+			
+			prerequisite = { focus = FRA_Build_the_Centre}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+	add_ideas = {
+	war_economy
+	 }
+		}
+			}	
+
+	focus = {
+			id = FRA_Worker_Council_Act
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = -3
+			y = 18
+			
+			prerequisite = { focus = FRA_War_Economy}
+			prerequisite = { focus = FRA_Be_an_Example }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+	add_ideas = {
+	war_economy
+	 }
+		}
 			}			
 			
 	focus = {
@@ -993,6 +1251,45 @@
 			y = 16
 			
 			prerequisite = { focus = FRA_Black_Sea_Black_Danube}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {	 
+		NOT = {
+		country_exists = HUN
+		 }
+		 
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = HUN
+		type = annex_everything
+		}
+			}
+		}
+		
+		
+		
+	focus = {
+			id = FRA_The_New_France_is_Here
+			icon = GFX_goal_generic_construct_civilian
+			relative_position_id = FRA_Black_White_Red
+			x = 0
+			y = 20
+			
+			prerequisite = { focus = FRA_New_Decade_new_Look}
+			prerequisite = { focus = FRA_Worker_Council_Act }
 			cost = 3
 	
 			ai_will_do = {
