@@ -10,6 +10,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_Balkan_War.dds"
 	}
 	
+spriteType = {
+		name = "GFX_news_Japan_War"
+		texturefile = "gfx/event_pictures/event_Japanese_Civil_War.dds"
+	}
+	
     spriteType = {
 		name = "GFX_news_Russian_Unification_Poland"
 		texturefile = "gfx/event_pictures/event_Polish_unifcation_of_Russia.dds"

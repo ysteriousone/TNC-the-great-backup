@@ -207,3 +207,21 @@ news_event = {
 		play_song = "The_Battle_Has_Begun"
 	}
 }
+
+
+# Japanese Civil War
+news_event = {
+	id = world.12
+	title = world.12.t
+	desc = world.12.desc
+	picture = GFX_news_Japan_War 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.12.a
+		play_song = "Sinking Town"
+	}
+}

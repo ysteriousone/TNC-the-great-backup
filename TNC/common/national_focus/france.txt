@@ -468,8 +468,8 @@
          } 
 			
 			bypass = {
-	CMR = {
-	in_faction_with = FRA
+	NOT = {
+	country_exists = FFR
 
 			}
 	}
@@ -1272,10 +1272,14 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-		declare_war_on = {
-		target = HUN
-		type = annex_everything
-		}
+	release = CRO
+	release = HUN
+	CRO = {
+	transfer_state = 104
+	transfer_state = 804
+	transfer_state = 853
+	 }
+	 
 			}
 		}
 		
@@ -1311,10 +1315,12 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-		declare_war_on = {
-		target = HUN
-		type = annex_everything
-		}
+	every_state = {
+	limit = {
+	is_controlled_by = FRA
+	 }
+	 add_core_of = FRA
+	  }
 			}
 		}
 		

@@ -22,19 +22,12 @@ state = {
 			arms_factory = 1
 			industrial_complex = 1
 
-			9950 = {
-				naval_base = 6
-			}
-
 		}
 
 		victory_points = {
 			1025 10 # Kokura
 		}
 
-		victory_points = {
-			9950 15 # Nagasaki
-		}
 
 		victory_points = {
 			7110 5 # Fukuoka
@@ -57,7 +50,7 @@ state = {
 	}
 
 	provinces = {
-		1025 1158 4027 4164 7110 9950 10011 10020 10092 11925 
+		1025 1158 4027 4164 7110 10011 10020 10092 11925 
 	}
 
 	local_supplies = 10.0 

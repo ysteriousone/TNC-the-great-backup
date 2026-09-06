@@ -34,6 +34,16 @@ music = {
 }
 
 music = {
+	song = "Sinking Town"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
 	song = "Belisarius"
 	
 	chance = {

@@ -39,6 +39,11 @@
  world.11.t: "Valois Marches on Paris, Revolutionary Alliance Collapse!"
  world.11.desc: "The precarious facade of stability in the French Artistic State breathed its last, as heavy-handed responses by the Picasso cabinet to what it described as ‘riots in Paris’ instead incited violence around the country.n\nLeader of the Anarchist Faction in the Assemblee nationale, George Valois, called the Picasso ministry ‘corrupt Bohemians’ while promising a ‘swift end to the traitors of the true Revolution’ on a radio message after what’s been dubbed the ‘second Commune’. Reports of disobedience and attacks on authorities had increased over the last few days.n\nSo far, the Picasso ministry maintains that the Armed Forces still have full control of the situation – a claim demonstrably proven to be false outside of Paris by secondary sources. As France collapses into instability, Europe’s final major relative democracy may as well breathe its last."
  world.11.a: "The Left infighting? Meh, nothing new."
+ 
+ 
+ world.12.t: "Imperial Forces storm Nagasaki"
+ world.12.desc: "Breaking news today as Phillipino exile Forces under Hiroo Onoda has landed in the City of Nagasaki, planning a blitz to Tokyo. In other words, a Japanese Civil War has begun. On the other side in Manila, the Second Phillipino Republic rebels have also begun their war of liberation against Japan. The once-thought neutral Ryuku Kingdom has also joined the war on the side of Onoda. As it would seem, the great Buddhist Experiment in Japan has come to an end. Anglosphere tanks and planes have reportedly begun destroying large troop camps and others across all of the Home Islands. On the other hand, Canadian arms have reached the rebels while Germany has begun sending panzers and advisors to the Purified State in hopes of salvaging the situation."
+ world.12.a: "The Town keeps Sinking..."
 
 # KOMI COUNTRY EVENTS
  NRRF.1.t: "Voroshilov's Exit"

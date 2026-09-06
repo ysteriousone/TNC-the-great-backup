@@ -50,6 +50,32 @@ KOM_the_day_after: "The Day After"
 KOM_the_day_after_desc: "With Zhdanov leaving the Union, Russia has now basically fallen into anarchy and disorder. We are one of the few remnants still holding into Communism as a concept and we ought to keep it with us. On the East lies the infamous Wehrmact who have beat and torn our beloved Motherland apart. if we are to avenge Barbarossa, we need to repair the Union first."
 
 
+
+#FRANCE 
+
+FRA_State_Primier_meeting: "The State Primier meeting"
+FRA_State_Primier_meeting_desc: ""
+FRA_Black_White_Red: "Black, White and Red!"
+FRA_Black_White_Red_desc: ""
+FRA_Valois_Theory: "Valois Theory"
+FRA_Valois_Theory_desc: ""
+FRA_Unite_The_Communes: "Unite The Communes"
+FRA_Unite_The_Communes_desc: ""
+FRA_Raid_Bases: "Raid the Bases"
+FRA_for_a_Free_france: "For a Free France"
+FRA_for_a_Free_france_desc: ""
+FRA_Worker_Districts: "Worker Districts"
+FRA_Worker_Districts_desc: ""
+FRA_Form_of_Platformism: "The Form of Platformism"
+FRA_Form_of_Platformism_desc: ""
+FRA_No_more_Red_Flood: "No more Red Flood!"
+FRA_Aux_Armes_Milces: "Aux Armes Milces!"
+FRA_World_Revolution: "The World Revolution"
+
 #MISC
 
 NATIONAL_FOCUS_NO_CURRENT_EFFECT: "This focus doesn't have any effects. things may change in the future"
+
+
+
+
