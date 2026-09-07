@@ -1,5 +1,7 @@
 ﻿capital = 327
 
+country_event = { id = proxy.11 days = 2140 }
+
 
 	set_oob = "PHI_1945"
 

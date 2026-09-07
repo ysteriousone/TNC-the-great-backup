@@ -160,6 +160,55 @@ Balkan_war_peace_cat = {
 		}
 	}
 	
+	Bulgaria_wins = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+    BUL = {
+	controls_state = 46
+	controls_state = 341
+	controls_state = 970
+		}
+}
+		complete_effect = {
+	every_country = {
+	white_peace =  BUL
+	 }
+   SER = {
+   annex_country = {
+   target = YUG
+    }
+	transfer_state =934
+	transfer_state = 44
+	transfer_state = 805
+	
+	 }
+	every_state = {
+	limit = {
+	is_core_of = YUG
+	 }
+	add_core_of = SER
+	 }
+	 
+	BUL = {
+	transfer_state = 731
+	transfer_state = 971
+	transfer_state = 341
+	 }
+	
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
 	 }
 	
 	South_African_war_peace_cat = {
@@ -237,3 +286,141 @@ Balkan_war_peace_cat = {
 	
 	
 	}
+	
+	
+	
+Japanese_Liberation_war_peace_cat = {
+
+Liberation_Success = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+    PHI = {
+	controls_state = 282
+		}
+}
+		complete_effect = {
+	every_country = {
+	white_peace =  PHI
+	 }
+   PHI = {
+   annex_country = {
+   target = JPN
+    }
+	country_event = {
+	id = proxywin.4
+	days = 10
+	 }
+	  }
+	  
+	OKN = {
+	country_event = {
+	id = proxywin.2
+	days = 3
+	 }
+	  }
+	every_state = {
+	limit = {
+	is_core_of = JPN
+	 }
+	add_core_of = PHI
+	 }
+	 
+	
+	
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	
+Failed_Liberation = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+    JPN = {
+	controls_state = 1146
+	has_war = yes
+		}
+}
+		complete_effect = {
+	every_country = {
+	white_peace =  JPN
+	 }
+ JPN = {
+ transfer_state = 1149
+ country_event = {
+ id = proxywin.1
+  }
+   }
+   OKN = {
+   country_event = {
+	id = proxywin.2
+	days = 3
+	 }
+	}
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	
+Phillipine_victory = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+    PSR = {
+	controls_state = 327
+	has_war = yes
+		}
+}
+		complete_effect = {
+	every_country = {
+	white_peace =  PSR
+	 }
+ PSR = {
+ annex_country = {
+ target = PHI
+   }
+  country_event = {
+  id = proxywin.2
+   }
+  }
+  JPN = {
+  transfer_state = 1146
+  country_event = {
+  id = proxywin.1
+   }
+    }
+	
+	
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+}

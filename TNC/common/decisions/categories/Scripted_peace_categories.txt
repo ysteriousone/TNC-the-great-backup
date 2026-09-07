@@ -37,3 +37,17 @@ South_African_war_peace_cat = {
 			tag = SAF
 	}
 }
+
+
+Japanese_Liberation_war_peace_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+	   OR = {
+			tag = JPN
+			tag = PHI
+			tag = PSR
+	}
+}
+
+ }
