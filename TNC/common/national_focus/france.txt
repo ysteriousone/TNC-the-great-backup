@@ -1545,6 +1545,36 @@ focus = {
 			}
 		}
 		
+	focus = {
+			id = FRA_Primcom_thought
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 5
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Second_Age_of_Barbarians }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
 focus = {
 			id = FRA_Primitivism
 			icon = GFX_goal_generic_construct_civilian
@@ -1583,6 +1613,36 @@ focus = {
 			relative_position_id = FRA_Organize_the_Left
 			
 			prerequisite = { focus = FRA_Primitivism }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+focus = {
+			id = FRA_Modern_Cavemen
+			icon = GFX_goal_generic_construct_civilian
+			x = -2
+			y = 7
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Abandon_the_modern_style }
 			cost = 3
 	
 			ai_will_do = {
