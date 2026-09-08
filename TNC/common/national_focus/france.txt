@@ -104,6 +104,9 @@
 			}
 			
 				focus = {
+		allow_branch = {
+		has_government = neutrality
+		 }
 			id = FRA_Unite_The_Communes
 			icon = GFX_goal_generic_construct_civilian
 			x = -2
@@ -197,6 +200,9 @@
 			
 				focus = {
 			id = FRA_Valois_Theory
+				allow_branch = {
+		has_government = neutrality
+		 }
 			icon = GFX_goal_generic_construct_civilian
 			x = 2
 			y = 1
@@ -1355,6 +1361,250 @@
 				add_stability = 0.05
 			}
 		}
+		
+		focus = {
+			id = FRA_Destroy_Acceleration_With_Nationalism
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 1
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Organize_the_Left }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+		
+focus = {
+			id = FRA_The_Right_into_the_Left
+			icon = GFX_goal_generic_construct_civilian
+			x = -2
+			y = 2
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Destroy_Acceleration_With_Nationalism }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+focus = {
+			id = FRA_Become_French_again
+			icon = GFX_goal_generic_construct_civilian
+			x = -2
+			y = 3
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_The_Right_into_the_Left }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+focus = {
+			id = FRA_A_Simple_Life_no_Problems
+			icon = GFX_goal_generic_construct_civilian
+			x = 2
+			y = 2
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Destroy_Acceleration_With_Nationalism }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+focus = {
+			id = FRA_State_controlled_radios
+			icon = GFX_goal_generic_construct_civilian
+			x = 2
+			y = 3
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_A_Simple_Life_no_Problems }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+		
+focus = {
+			id = FRA_Second_Age_of_Barbarians
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 4
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_State_controlled_radios }
+			prerequisite = { focus = FRA_Become_French_again }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+focus = {
+			id = FRA_Primitivism
+			icon = GFX_goal_generic_construct_civilian
+			x = -2
+			y = 5
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Second_Age_of_Barbarians }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+focus = {
+			id = FRA_Abandon_the_modern_style
+			icon = GFX_goal_generic_construct_civilian
+			x = -2
+			y = 6
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Primitivism }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
 		
 		focus = {
 			id = FRA_Destroy_Extremists
