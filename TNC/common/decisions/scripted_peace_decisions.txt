@@ -27,6 +27,7 @@ Malaysian_insurgency_peace_cat = {
 	
 	ENG = {
 	add_to_faction = BML
+	add_political_power = 1000
 	}
 		}
 
@@ -65,6 +66,9 @@ Malaysian_insurgency_peace_cat = {
 	ENG = {
 	add_to_faction = BML
 	}
+	FRA = {
+	add_political_power = 1000
+	 }
 		}
 
 		ai_will_do = {

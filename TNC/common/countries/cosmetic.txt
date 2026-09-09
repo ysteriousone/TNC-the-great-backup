@@ -8,6 +8,14 @@ FRA_anarchy = {
     color_ui = rgb { 55 0 0 }
 }
 
+<<<<<<< Updated upstream
+=======
+FRA_Celtic = {
+    color = rgb { 0 81 8 }
+    color_ui = rgb { 0 81 8 }
+}
+
+>>>>>>> Stashed changes
 RAJ_UK = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }

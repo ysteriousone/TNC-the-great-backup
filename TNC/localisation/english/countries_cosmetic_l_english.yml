@@ -68,6 +68,13 @@
  FRA_anarchy: "French Free Territory"
  FRA_anarchy_DEF: "The French Free Territory"
  
+<<<<<<< Updated upstream
+=======
+ FRA_Celtic: "Gaul"
+ FRA_Celtic_DEF: "Gaul"
+ FRA_Celtic_ADJ: "Gaellic"
+ 
+>>>>>>> Stashed changes
  MAL_free: "Republic of Malaysia"
  MAL_FREE_DEF: "The Republic of Malaysia"
  

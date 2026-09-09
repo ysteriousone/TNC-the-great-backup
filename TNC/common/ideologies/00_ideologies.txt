@@ -539,6 +539,8 @@ Ultranationalism  = {
 
 			anarchist_communism = {
 			}
+		    primcom_theory = {
+			 }
 
 			buddhist_socialism = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
