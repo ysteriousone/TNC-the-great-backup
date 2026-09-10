@@ -16,12 +16,6 @@
 
 	
 	default = no
-<<<<<<< Updated upstream
-	focus = {
-			id = FRA_State_Primier_meeting
-			icon = GFX_goal_generic_construct_civilian
-			x = 0
-=======
 	
 	focus = {
 			id = FRA_Atlantropa
@@ -185,7 +179,6 @@
 			id = FRA_State_Primier_meeting
 			icon = GFX_goal_generic_construct_civilian
 			x = 0
->>>>>>> Stashed changes
 			y = 0
 			
 			mutually_exclusive = { }
@@ -567,9 +560,7 @@
 				factor = 1
 			}
 	
-			available = {
-		date > 1948.1.1		
-			}
+
 			
 			bypass = {
 	
@@ -579,10 +570,7 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-		declare_war_on = {
-		target = NFA
-		type = annex_everything
-		 }
+
 			}
 		}
 
@@ -621,7 +609,9 @@
 			relative_position_id = FRA_Black_White_Red
 			x = 0
 			y = 7	
-			
+				available = {
+		date > 1947.1.1		
+			}		
 			prerequisite = { focus = FRA_World_Revolution}
 			cost = 3
 	
@@ -629,29 +619,12 @@
 				factor = 1
 			}
 	
-			available = {
-		 date > 1949.1.1
-     NOT = {
-           FFR = {
-        has_war = yes
-                      }
-	country_exists = CMR
-	 }
-         } 
-			
-			bypass = {
-	NOT = {
-	country_exists = FFR
-
-			}
-	}
-	
 			cancel_if_invalid = yes
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
 		declare_war_on = {
-		target = FFR
+		target = NFA
 		type = annex_everything
 		 }
 			}
@@ -1524,7 +1497,10 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-				add_stability = 0.05
+		country_event = {
+		id = fra_primcom.1
+		days = 10
+		 }
 			}
 		}
 		
@@ -1707,12 +1683,6 @@ focus = {
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-<<<<<<< Updated upstream
-				add_stability = 0.05
-			}
-		}
-		
-=======
 		set_cosmetic_tag = FRA_Celtic
 			}
 		}
@@ -1791,8 +1761,41 @@ country_exists = NFA
 	}
 			}
 		}
+		
+	focus = {
+			id = FRA_The_Problem
+			icon = GFX_goal_generic_construct_civilian
+			x = 2
+			y = 7
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Reunification_of_France }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+			}
+			
+			bypass = {
+			
+	}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+	every_state = {
+	limit = {
+	is_controlled_by = FRA
+	 }
+	add_core_of = FRA
+	}
+			}
+		}
 
->>>>>>> Stashed changes
 	focus = {
 			id = FRA_Primcom_thought
 			icon = GFX_goal_generic_construct_civilian
@@ -1823,16 +1826,6 @@ country_exists = NFA
 			}
 		}
 		
-<<<<<<< Updated upstream
-focus = {
-			id = FRA_Primitivism
-			icon = GFX_goal_generic_construct_civilian
-			x = -2
-			y = 5
-			relative_position_id = FRA_Organize_the_Left
-			
-			prerequisite = { focus = FRA_Second_Age_of_Barbarians }
-=======
 	focus = {
 			id = FRA_Farm_based_communities
 			icon = GFX_goal_generic_construct_civilian
@@ -1841,7 +1834,6 @@ focus = {
 			relative_position_id = FRA_Organize_the_Left
 			
 			prerequisite = { focus = FRA_Primcom_thought }
->>>>>>> Stashed changes
 			cost = 3
 	
 			ai_will_do = {
@@ -1864,16 +1856,6 @@ focus = {
 			}
 		}
 		
-<<<<<<< Updated upstream
-focus = {
-			id = FRA_Abandon_the_modern_style
-			icon = GFX_goal_generic_construct_civilian
-			x = -2
-			y = 6
-			relative_position_id = FRA_Organize_the_Left
-			
-			prerequisite = { focus = FRA_Primitivism }
-=======
 	focus = {
 			id = FRA_Non_Believers
 			icon = GFX_goal_generic_construct_civilian
@@ -1882,7 +1864,6 @@ focus = {
 			relative_position_id = FRA_Organize_the_Left
 			
 			prerequisite = { focus = FRA_Farm_based_communities }
->>>>>>> Stashed changes
 			cost = 3
 	
 			ai_will_do = {
@@ -1906,15 +1887,6 @@ focus = {
 		}
 		
 focus = {
-<<<<<<< Updated upstream
-			id = FRA_Modern_Cavemen
-			icon = GFX_goal_generic_construct_civilian
-			x = -2
-			y = 7
-			relative_position_id = FRA_Organize_the_Left
-			
-			prerequisite = { focus = FRA_Abandon_the_modern_style }
-=======
 			id = FRA_Primitivism
 			icon = GFX_goal_generic_construct_civilian
 			x = -2
@@ -1922,7 +1894,6 @@ focus = {
 			relative_position_id = FRA_Organize_the_Left
 			
 			prerequisite = { focus = FRA_Second_Age_of_Barbarians }
->>>>>>> Stashed changes
 			cost = 3
 	
 			ai_will_do = {
@@ -1945,19 +1916,6 @@ focus = {
 			}
 		}
 		
-<<<<<<< Updated upstream
-		
-		focus = {
-			id = FRA_Destroy_Extremists
-			icon = GFX_goal_generic_construct_civilian
-			x = 4
-			y = 2
-			
-			prerequisite = { focus = FRA_State_Primier_meeting }
-			mutually_exclusive = { focus = FRA_Black_White_Red}
-			mutually_exclusive = { focus = FRA_Organize_the_Left}
-			mutually_exclusive = { focus = FRA_OG_Revolution}
-=======
 focus = {
 			id = FRA_Abandon_the_modern_style
 			icon = GFX_goal_generic_construct_civilian
@@ -1966,7 +1924,6 @@ focus = {
 			relative_position_id = FRA_Organize_the_Left
 			
 			prerequisite = { focus = FRA_Primitivism }
->>>>>>> Stashed changes
 			cost = 3
 	
 			ai_will_do = {
@@ -1989,18 +1946,6 @@ focus = {
 			}
 		}
 		
-<<<<<<< Updated upstream
-		focus = {
-			id = FRA_OG_Revolution
-			icon = GFX_goal_generic_construct_civilian
-			x = 12
-			y = 2
-			
-			prerequisite = { focus = FRA_State_Primier_meeting }
-			mutually_exclusive = { focus = FRA_Black_White_Red}
-			mutually_exclusive = { focus = FRA_Organize_the_Left}
-		    mutually_exclusive = { focus = FRA_Destroy_Extremists}
-=======
 focus = {
 			id = FRA_Modern_Cavemen
 			icon = GFX_goal_generic_construct_civilian
@@ -2009,7 +1954,6 @@ focus = {
 			relative_position_id = FRA_Organize_the_Left
 			
 			prerequisite = { focus = FRA_Abandon_the_modern_style }
->>>>>>> Stashed changes
 			cost = 3
 	
 			ai_will_do = {
@@ -2032,8 +1976,129 @@ focus = {
 			}
 		}
 		
-<<<<<<< Updated upstream
-=======
+	focus = {
+			id = FRA_Help_Europe_Believe
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 8
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Modern_Cavemen }
+			prerequisite = { focus = FRA_Non_Believers }
+			prerequisite = { focus = FRA_The_Problem}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+	focus = {
+			id = FRA_Introduce_the_Spainards
+			icon = GFX_goal_generic_construct_civilian
+			x = -1
+			y = 9
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Help_Europe_Believe}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+	focus = {
+			id = FRA_Our_Place_in_Italy
+			icon = GFX_goal_generic_construct_civilian
+			x = 1
+			y = 9
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Help_Europe_Believe}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
+	focus = {
+			id = FRA_New_Warfare
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 10
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Introduce_the_Spainards}
+			prerequisite = { focus = FRA_Our_Place_in_Italy }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+				add_stability = 0.05
+			}
+		}
+		
 		
 		focus = {
 			id = FRA_Destroy_Extremists
@@ -2099,7 +2164,6 @@ focus = {
 			}
 		}
 		
->>>>>>> Stashed changes
 
 		
 		
