@@ -4,6 +4,8 @@
 
 add_namespace = fra
 
+add_namespace = fra_primcom
+
 add_namespace = fra_anarchists
 
 # French Civil War
@@ -38,6 +40,43 @@ start_civil_war = {
 	picture = Valois.dds
 	expire = "1965.1.1"
 	ideology = anarchism
+	traits = {
+	}
+}
+
+}
+
+
+}
+
+
+# Augier's Coup
+country_event = {
+	id = fra_primcom.1
+	title = fra_primcom.1.t
+	desc = fra_primcom.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # 2nd French Revolution??
+		name = fra_primcom.1.a  
+				
+    set_politics = {
+			ruling_party = Ultranationalism
+			elections_allowed = no
+		}
+	
+	dismantle_faction = yes
+
+ set_cosmetic_tag = FRA_anarchy
+ 
+  create_country_leader = {
+	name = "Marc Augier"
+	desc = "AUGIER_DESC"
+	picture = Valois.dds
+	expire = "1965.1.1"
+	ideology = Gaullic_Thought
 	traits = {
 	}
 }

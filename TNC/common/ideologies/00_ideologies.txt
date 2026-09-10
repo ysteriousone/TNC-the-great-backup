@@ -23,6 +23,10 @@ Ultranationalism  = {
 	    Antichrist_Satanism  = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
+			
+	    Gaullic_Thought  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
 
 		}
 
@@ -541,7 +545,9 @@ Ultranationalism  = {
 			}
 		    primcom_theory = {
 			 }
-
+			 
+			tukh_bonapartism = {
+               }
 			buddhist_socialism = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
