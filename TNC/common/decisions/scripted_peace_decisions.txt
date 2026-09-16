@@ -428,3 +428,164 @@ Phillipine_victory = {
 	}
 	
 }
+WW3_categories = {
+
+	Rhine_Peace_Offer = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		original_tag = FRA
+			FRA = {
+				controls_state = 8
+				controls_state = 42
+				controls_state = 978
+				controls_state = 51
+				controls_state = 28
+				NOT = {
+					has_government = acceleration
+				}
+				has_war = yes
+			}
+		}
+
+		available = {
+			FRA = {
+				controls_state = 8
+				controls_state = 42
+				controls_state = 978
+				controls_state = 51
+				controls_state = 28
+				NOT = {
+					has_government = acceleration
+				}
+				has_war = yes
+			}
+		}
+
+		complete_effect = {
+			GER = {
+				white_peace = FRA
+			}
+			FRA = {
+				transfer_state = 8
+				transfer_state = 42
+				transfer_state = 51
+				transfer_state = 978
+				transfer_state = 28
+				annex_country = {
+					target = RKB
+					transfer_troops = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 5
+		}
+	}
+	
+	Rhine_and_Netherlands = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		original_tag = FRA
+			FRA = {
+				controls_state = 8
+				controls_state = 42
+				controls_state = 978
+				controls_state = 51
+				controls_state = 28
+				controls_state = 35
+				controls_state = 7
+				controls_state = 36
+				NOT = {
+					has_government = acceleration
+				}
+				has_war = yes
+			}
+		}
+
+		available = {
+			FRA = {
+				controls_state = 8
+				controls_state = 42
+				controls_state = 978
+				controls_state = 51
+				controls_state = 28
+				controls_state = 35
+				controls_state = 7
+				controls_state = 36
+				NOT = {
+					has_government = acceleration
+				}
+				has_war = yes
+			}
+		}
+
+		complete_effect = {
+			GER = {
+				white_peace = FRA
+			}
+			FRA = {
+				transfer_state = 8
+				transfer_state = 42
+				transfer_state = 51
+				transfer_state = 978
+				transfer_state = 28
+				transfer_state = 35
+				transfer_state = 7
+				transfer_state = 36
+				annex_country = {
+					target = RKB
+					transfer_troops = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 20
+		}
+	}
+}
+
+Bolivia_Insurgency_cat = {
+
+
+Bolivia_wins = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		available = {
+		original_tag = BOL
+			BOL = {
+				controls_state = 302
+				controls_state = 951
+				has_war = yes
+			}
+		}
+
+
+		complete_effect = {
+			PRU = {
+				white_peace = BOL
+			}
+			BOL = {
+				transfer_state = 302
+				transfer_state = 951
+			country_event = {
+	id = proxywin.2
+	days = 2
+	 }
+			}
+		
+		}
+
+		ai_will_do = {
+			base = 5
+		}
+	}

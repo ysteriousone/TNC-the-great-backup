@@ -1,0 +1,34 @@
+state={
+	id=1151
+	name="STATE_1151"
+	provinces={
+		3959 6975 9909 
+	}
+		state_category = town
+		history = {
+
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = OCC
+		add_core_of = FRA
+		add_claim_by = SPM
+
+		victory_points = {
+			9909 10 # Nice
+		}
+
+		buildings = {
+			infrastructure = 2
+
+			9909 = {
+				naval_base = 2
+			}	
+
+
+		}
+
+	}
+	manpower=1312431324
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,255 @@
+focus_tree = {
+	id = GER_Heydrich
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = GER
+		}
+	}
+	default = no
+
+
+	focus = {
+		id = GER_A_Thin_Veneer
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 0
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_An_Ominous_Germany
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 0
+		y = 1
+	prerequisite = {
+	focus = GER_A_Thin_Veneer
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_Time_To_Fix
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 0
+		y = 2
+	prerequisite = {
+	focus = GER_An_Ominous_Germany
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_The_Western_Allies
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -8
+		y = 3
+	prerequisite = {
+	focus = GER_Time_To_Fix
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_Unite_The_Administrations
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 0
+		y = 1
+	relative_position_id = GER_The_Western_Allies
+	prerequisite = {
+	focus = GER_The_Western_Allies
+	 }
+	 
+		cost = 15
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	annex_country = {
+	target = RKB
+	transfer_troops = yes
+	 }
+		}
+	}
+	
+	focus = {
+		id = GER_The_Home_Front
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 0
+		y = 3
+	prerequisite = {
+	focus = GER_Time_To_Fix
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_Cleaning_up_Prag
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 4
+	prerequisite = {
+	focus = GER_The_Home_Front
+	 }
+	 
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	custom_effect_tooltip = GER_lebransaum_Czechia_tt
+	hidden_effect = {
+	9 = {
+	add_manpower = -4492600888999
+	add_core_of = GER
+	 }
+	75 = {
+	add_manpower = -2492600999999
+	add_core_of = GER
+		}
+	CZE = {
+	remove_core = 9
+	remove_core = 75
+	 }
+	GER = {
+	add_state_core = 9
+	add_state_core = 75
+	 }
+	}
+	 }
+	}
+	
+	focus = {
+		id = GER_The_Student_Problem_persists
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 4
+	prerequisite = {
+	focus = GER_The_Home_Front
+	 }
+	 
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	 }
+	}
+	
+	focus = {
+		id = GER_The_Student_Problem_persists
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 4
+	prerequisite = {
+	focus = GER_The_Home_Front
+	 }
+	 
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	 }
+	}
+	
+	
+	focus = {
+		id = GER_The_Eastern_Front
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 3
+	prerequisite = {
+	focus = GER_Time_To_Fix
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_The_Rot_at_our_Doorstep
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 4
+	prerequisite = {
+	focus = GER_The_Eastern_Front
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	annex_country = {
+	target = GEN
+	transfer_troops = yes
+	 }
+	every_state = {
+	limit = {
+	is_core_of = POL
+	 }
+	add_core_of = GER
+	}
+		}
+	}
+
+}

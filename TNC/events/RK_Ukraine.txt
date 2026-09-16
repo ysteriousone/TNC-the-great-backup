@@ -15,6 +15,12 @@ country_event = {
     is_triggered_only = yes 
 	option = { # Alan we are so cooked
 		name = ukraine.1.a  
+	 	GER  = {
+	set_autonomy = {
+             target = RKU
+             autonomous_state = autonomy_free
+        }
+	}
   release = DON
   OUN = {
   transfer_state = 94

@@ -1,0 +1,66 @@
+﻿###########################
+# ostland Events
+###########################
+
+add_namespace = ostland
+
+# Polish Civil War
+country_event = {
+	id = ostland.1
+	title = ostland.1.t
+	desc = ostland.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = ostland.1.a  
+    	 	GER  = {
+	set_autonomy = {
+             target = RKO
+             autonomous_state = autonomy_free
+        }
+	}
+ EST = {
+ transfer_state = 812
+ declare_war_on = {
+  target = RKO
+  type = annex_everything
+}
+
+}
+
+UBD = {
+transfer_state = 190
+transfer_state = 809
+transfer_state = 814
+ declare_war_on = {
+ target = RKO
+ type = annex_everything
+  }
+
+}
+LEN = {
+transfer_state = 208
+ }
+LAT = {
+transfer_state = 810
+transfer_state = 12
+declare_war_on = {
+target = RKO
+type = annex_everything 
+}
+ }
+LIT = {
+transfer_state = 189
+declare_war_on = {
+target = RKO
+type = annex_everything
+ }
+  }
+}
+
+
+}
+
+

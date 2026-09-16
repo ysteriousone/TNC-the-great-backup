@@ -132,4 +132,21 @@ country_event = {
 
 }
 
+# The Paving Stones
+country_event = {
+	id = fra_anarchists.3
+	title = fra_anarchists.3.t
+	desc = fra_anarchists.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Valois L
+		name = fra_anarchists.3.a   
+
+}
+
+
+}
+
 

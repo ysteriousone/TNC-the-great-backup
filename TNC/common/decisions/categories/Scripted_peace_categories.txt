@@ -51,3 +51,27 @@ Japanese_Liberation_war_peace_cat = {
 }
 
  }
+ 
+Bolivia_Insurgency_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+	   OR = {
+			tag = BOL
+			tag = PRU
+	}
+}
+
+ }
+ 
+ Pakistan_Liberation_War_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+	   OR = {
+			tag = PAK 
+			tag = AFG
+	}
+}
+
+ }

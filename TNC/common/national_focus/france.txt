@@ -1417,6 +1417,16 @@
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
+	   	set_autonomy = {
+		target = HUN
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.5
+	} 
+	   	set_autonomy = {
+		target = CRO
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.5
+	} 
 	release = CRO
 	release = HUN
 	CRO = {
@@ -1446,9 +1456,6 @@
 			}
 	
 			available = {	 
-		NOT = {
-		country_exists = HUN
-		 }
 		 
 			}
 			
@@ -1510,6 +1517,9 @@
 			x = 0
 			y = 1
 			relative_position_id = FRA_Organize_the_Left
+			allow_branch = {
+		has_completed_focus = FRA_Organize_the_Left
+		 }
 			
 			prerequisite = { focus = FRA_Organize_the_Left }
 			cost = 3
@@ -2021,13 +2031,18 @@ focus = {
 			ai_will_do = {
 				factor = 1
 			}
-	
-			available = {
-				
+				available = {	 
+		SPR = {
+		has_war = yes
+		 }
 			}
 			
 			bypass = {
-	
+	    NOT = {
+		SPR = {
+		has_war =yes
+		 }
+		  }
 			}
 	
 			cancel_if_invalid = yes
@@ -2099,6 +2114,502 @@ focus = {
 			}
 		}
 		
+		focus = {
+			id = FRA_The_Mountains
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 11
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_New_Warfare}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+	declare_war_on = {
+	target = SWI
+	 }
+			}
+		}
+		
+	focus = {
+			id = FRA_A_meeting
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 12
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_The_Mountains}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+	declare_war_on = {
+	target = SWI
+	 }
+			}
+		}
+		
+	focus = {
+			id = FRA_Balkans
+			icon = GFX_goal_generic_construct_civilian
+			x = -2
+			y = 13
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_A_meeting}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+		
+	focus = {
+			id = FRA_Yugoslav_Blues
+			icon = GFX_goal_generic_construct_civilian
+			x = -3
+			y = 14
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Balkans}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+		
+		focus = {
+			id = FRA_Danubia_Influence
+			icon = GFX_goal_generic_construct_civilian
+			x = -3
+			y = 15
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Yugoslav_Blues}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+		
+			focus = {
+			id = FRA_Libyan_Days
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 14
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Balkans
+			                 focus = FRA_Portugal}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = LBA
+		type = annex_everything
+		 }
+			}
+		}
+		
+	focus = {
+			id = FRA_Portugal
+			icon = GFX_goal_generic_construct_civilian
+			x = 2
+			y = 13
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_A_meeting}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+		
+		focus = {
+			id = FRA_Cut_Ties_from_Britain
+			icon = GFX_goal_generic_construct_civilian
+			x = 3
+			y = 14
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Portugal}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			}
+		}
+		
+	focus = {
+			id = FRA_Iberia_United
+			icon = GFX_goal_generic_construct_civilian
+			x = 3
+			y = 15
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Portugal}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {
+		NOT = {
+        country_exists = POR
+ }		
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		SPR = {
+		transfer_state = 179
+		transfer_state = 795
+		transfer_state = 112
+		transfer_state = 181
+		transfer_state = 180
+		transfer_state = 171
+		set_cosmetic_tag = ESU_POR_unified
+			}
+		}
+	}
+	
+	focus = {
+			id = FRA_A_War_of_Cold
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 16
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Iberia_United}
+			prerequisite = { focus = FRA_Libyan_Days}
+			prerequisite = { focus = FRA_Danubia_Influence }
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+	}
+	
+	focus = {
+			id = FRA_Global_War_will_Destroy_us
+			icon = GFX_goal_generic_construct_civilian
+			x = -1
+			y = 17
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_A_War_of_Cold}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+	}
+	
+	focus = {
+			id = FRA_Is_Here
+			icon = GFX_goal_generic_construct_civilian
+			x = 1
+			y = 17
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_A_War_of_Cold}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+	}
+	
+	focus = {
+			id = FRA_Intervening_Foreignly
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 18
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Global_War_will_Destroy_us}
+			prerequisite = { focus = FRA_Is_Here}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+	}
+	
+	focus = {
+			id = FRA_Reclaim_Paris
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 19
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Intervening_Foreignly}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		declare_war_on = {
+		target = RKB
+		type = annex_everything
+		 }
+		}
+	}
+	
+	focus = {
+			id = FRA_The_Gaullic_Idea
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 20
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_Reclaim_Paris}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+		NOT = {
+		country_exists = RKB
+		 }
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+	}
+	
+	focus = {
+			id = FRA_Eyes_on_the_Rhine
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 21
+			relative_position_id = FRA_Organize_the_Left
+			
+			prerequisite = { focus = FRA_The_Gaullic_Idea}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+		NOT = {
+		country_exists = RKB
+		 }
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		add_state_core = 8
+		add_state_core = 42
+		add_state_core = 51
+		add_state_core = 978
+		}
+	}
+		
 		
 		focus = {
 			id = FRA_Destroy_Extremists
@@ -2131,6 +2642,34 @@ focus = {
 				add_stability = 0.05
 			}
 		}
+		
+		focus = {
+			id = FRA_Acceleration_Prevails
+			icon = GFX_goal_generic_construct_civilian
+			x = 0
+			y = 1
+			relative_position_id = FRA_Destroy_Extremists
+			
+			prerequisite = { focus = FRA_Destroy_Extremists}
+			cost = 3
+	
+			ai_will_do = {
+				factor = 1
+			}
+	
+			available = {		
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+		}
+	}
 		
 		focus = {
 			id = FRA_OG_Revolution
