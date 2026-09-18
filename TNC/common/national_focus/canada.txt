@@ -5741,6 +5741,75 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = CAN_deploy_troops_for_britain
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 18
+		y = 12
+		completion_reward = { }
+		prerequisite = {
+			focus = CAN_reform_the_ccf
+		}
+		prerequisite = {
+			focus = CAN_reunite_as_one
+		}
+		prerequisite = {
+			focus = CAN_hold_the_stand
+		}
+	}
+
+	focus = {
+		id = CAN_delay_pax_americana
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 16
+		y = 14
+		prerequisite = {
+			focus = CAN_deploy_troops_for_britain
+		}
+	}
+
+	focus = {
+		id = CAN_canada_united_in_toil
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 18
+		y = 14
+		prerequisite = {
+			focus = CAN_deploy_troops_for_britain
+		}
+	}
+
+	focus = {
+		id = CAN_a_new_golden_age
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 20
+		y = 14
+		prerequisite = {
+			focus = CAN_deploy_troops_for_britain
+		}
+	}
+
+	focus = {
+		id = CAN_leaving_behind_the_great_depression
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 18
+		y = 16
+		prerequisite = {
+			focus = CAN_canada_united_in_toil
+		}
+		prerequisite = {
+			focus = CAN_delay_pax_americana
+		}
+
+		prerequisite = {
+			focus = CAN_a_new_golden_age
+		}
+	}
+	
 	
 	############################
 	####SOCIALCREDS SECTION ####
@@ -5806,7 +5875,7 @@ focus_tree = {
 	}
 	}
 
-		focus = {
+	focus = {
 		id = CAN_new_hope
 		icon = GFX_focus_CAN_rifle_association
 		cost = 5
@@ -5819,6 +5888,56 @@ focus_tree = {
 		focus = CAN_a_new_leadership
 	}
 	}
+
+focus = {
+		id = CAN_social_creditism_empowered
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 24
+		y = 14
+
+	prerequisite = {
+		focus = CAN_new_hope
+	}
+	}
+
+	focus = {
+		id = CAN_revisit_the_newfoundland_treaty
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 22
+		y = 16
+
+	prerequisite = {
+		focus = CAN_social_creditism_empowered
+	}
+}
+
+focus = {
+		id = resent_oligarchy
+		icon = GFX_focus_CAN_rifle_association
+		cost = 5
+		x = 26
+		y = 16
+
+	prerequisite = {
+		focus = CAN_social_creditism_empowered
+	}
+}
+
+focus = {
+	id = CAN_policies_to_end_all_policies
+	icon = GFX_focus_CAN_rifle_association
+	cost = 5
+	x = 22
+	y = 19
+
+	prerequisite = {
+		focus = CAN_revisit_the_newfoundland_treaty
+		focus = resent_oligarchy
+		focus = CAN_leaving_behind_the_great_depression
+	}
+}
 
 	
 	############################
