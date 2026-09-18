@@ -1,0 +1,15 @@
+state={
+	id=528
+	name="STATE_528"
+	resources={
+		chromium=32
+		coal=15
+	}
+	provinces={
+		1025 1158 4027 4164 7110 10011 10020 10092 11925 
+	}
+	manpower=6046000
+	buildings_max_level_factor=1
+	state_category=city
+	local_supplies=10
+}

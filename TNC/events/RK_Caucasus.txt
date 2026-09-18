@@ -15,6 +15,12 @@ country_event = {
     is_triggered_only = yes 
 	option = { # Alan we are so cooked
 		name = caucasus.1.a  
+		 	GER  = {
+	set_autonomy = {
+             target = RKK
+             autonomous_state = autonomy_free
+        }
+	}
   release = KAL
   release = STL
   DON = {

@@ -313,7 +313,10 @@ declare_war_on = {
 	 }
 	 }	 
 
-	
+news_event = {
+id = world.13
+days = 0
+ }
 	}
     
 

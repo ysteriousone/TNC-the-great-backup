@@ -1,0 +1,21 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+Atlantropa_Game_1 = {
+	icon = generic_political_actions
+	
+	allowed = {
+	OR = {
+	tag = ENG
+	tag = FRA
+	tag = GER
+	 }
+}
+	
+ }

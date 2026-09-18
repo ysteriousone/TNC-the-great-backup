@@ -1,4 +1,5 @@
 NFA = "countries/National France.txt"
+ASU = "countries/Asturia.txt"
 BLK = "countries/Balakovo.txt"
 NOV = "countries/Novgorod Republic.txt"
 LIP = "countries/Lipetsk.txt"

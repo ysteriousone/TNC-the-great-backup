@@ -17,6 +17,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 	
+	### FRA
+			spriteType = {
+		name = "GFX_portrait_FRA_Saulire"
+		texturefile = "gfx/leaders/FRA/Saulire.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_portrait_FRA_Maurice_Gamelin"
+		texturefile = "gfx/leaders/FRA/Gamelin.dds"
+	}
 	### KOM
 	
 	

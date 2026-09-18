@@ -120,6 +120,11 @@ country_event = {
 	type = annex_everything
 	}
 	
+	declare_war_on = {
+	target = FIU
+	 type = annex_everything
+	  }
+	
 	}
 	
 TTS = {
@@ -159,6 +164,8 @@ LBV = {
 	}
  
 }
+
+ }
 
 # Desert War
 country_event = {
@@ -278,15 +285,15 @@ country_event = {
 
  # Turkey joins the Balkan War
 country_event = {
-	id = proxy.8
-	title = proxy.8.t
-	desc = proxy.8.d
+	id = proxy.7
+	title = proxy.7.t
+	desc = proxy.7.d
 	picture = GFX_report_event_spain_civil_war_soldiers
     is_triggered_only = yes 
 	fire_only_once = yes
 
 	option = { 
-		name = proxy.6.a
+		name = proxy.7.a
 	BUL = {
 	add_to_faction = TUR
 	 }
@@ -321,9 +328,9 @@ country_event = {
  
   # Cuban Revolution
 country_event = {
-	id = proxy.9
-	title = proxy.9.t
-	desc = proxy.9.d
+	id = proxy.10
+	title = proxy.10.t
+	desc = proxy.10.d
 	picture = GFX_report_event_spain_civil_war_soldiers
     is_triggered_only = yes 
 	fire_only_once = yes
@@ -332,11 +339,10 @@ country_event = {
 	# Movement crushed
 		name = proxy.6.a
 	CUB = {
-	declare_war_on = {
-	target = SOM
-	type = annex_everything 
-	
-	 }
+    set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
 	 
 	}
 	 }
@@ -344,19 +350,72 @@ country_event = {
 option = { 
 	# Castro victorious
 		name = proxy.6.a
-	ETH = {
-	declare_war_on = {
-	target = SOM
-	type = annex_everything 
-	
-	 }
+	CUB = {
+     set_politics = {
+			ruling_party = Popular_Socialism
+			elections_allowed = no
+		}
 	 
 	}
 	 }
 	
  }
-  
+
+
+
+ # Japanese Liberation War
+country_event = {
+	id = proxy.11
+	title = proxy.11.t
+	desc = proxy.11.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+	# The Town keeps sinking
+		name = proxy.6.a
+	PHI = {
+    transfer_state = 1149
+	 
+	}
+	PSR = {
+	declare_war_on = {
+	target = PHI
+	type = annex_everything 
+	 }
+	 
+	 }
+	
+  PHI = {
+  declare_war_on = {
+  target = JPN
+  type = annex_everything
+   }
+   
+  	1149 = {
+		create_unit = {
+						division = "name = \"Rebel Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+						owner = PHI
+						count = 10
+					
+					}					
+				}
+   
+   }
+   
+   OKN = {
+   declare_war_on = {
+   target = JPN
+   type = annex_everything
+    }
+	  }
+	news_event = {
+	id = world.12
+	days = 10
+	 }
+ }
  
-}
+  }
 
  

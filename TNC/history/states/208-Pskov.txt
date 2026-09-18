@@ -8,7 +8,6 @@ state={
 
 	history={
 		owner = RKO
-		add_core_of = LEN
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 3

@@ -271,7 +271,7 @@ focus_tree = {
 		id = RKA_Find_A_Weakness
 		icon = GFX_focus_GER_realize_mittelafrika
 		x = 31
-		y = 2
+		y = 3
 
 		cost = 2
 

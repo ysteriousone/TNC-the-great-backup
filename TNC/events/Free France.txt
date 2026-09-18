@@ -1,0 +1,31 @@
+﻿###########################
+# Free French Events
+###########################
+
+add_namespace = ffr
+
+# Annexing Upper Volta
+country_event = {
+	id = ffr.1
+	title = ffr.1.t
+	desc = ffr.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Degaulle mogged
+		name = ffr.1.a  
+   FFR = {
+   annex_country = {
+   target = VOL 
+   transfer_troops = yes
+   }
+   add_state_core = 778
+    }
+
+}
+
+
+}
+
+

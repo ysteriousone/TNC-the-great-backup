@@ -1,0 +1,28 @@
+state={
+	id=1145
+	name="STATE_1145"
+	provinces={
+		1843 
+	}
+	
+		history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 8
+			1843 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = FLR
+		victory_points = {
+			1843 20 
+		}
+
+	}
+	manpower=12798
+		state_category = city
+	buildings_max_level_factor=1
+	local_supplies=0
+}
