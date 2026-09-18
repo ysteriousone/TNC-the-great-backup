@@ -1,7 +1,7 @@
 focus_tree = {
 	id = QUE_focus
     country = {
-		factor = 0
+		factor = 1
 		modifier = {
 			add = 40
 			tag = QUE
@@ -1950,7 +1950,6 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 20
-				has_idea = SOV_russian_political_influence
 			}
 		}
 
@@ -1998,7 +1997,9 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 10
-				has_idea = SOV_russian_political_influence
+				add_popularity = {
+					fascism = 10
+				}
 			}
 		}
 
@@ -2067,7 +2068,7 @@ focus_tree = {
 		id = liberty_ethos
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = quebecois_effort }
-		mutually_exclusive = { focus = collectivist_ethos }
+		mutually_exclusive = { focus = socialist_ethos }
 		available = {
 			OR = {
 				has_government = democratic
