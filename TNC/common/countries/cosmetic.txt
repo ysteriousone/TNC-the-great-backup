@@ -3,6 +3,11 @@ MAL_UK = {
     color_ui = rgb { 255 73 121 }
 }
 
+GER_RK = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+
 FRA_anarchy = {
     color = rgb { 55 0 0 }
     color_ui = rgb { 55 0 0 }

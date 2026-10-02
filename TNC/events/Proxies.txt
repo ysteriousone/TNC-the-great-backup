@@ -67,7 +67,7 @@ country_event = {
 
 	option = { 
 		name = proxy.1.a
-		
+RAJ = {		
     declare_war_on = {
     target = INC
     type = annex_everything
@@ -85,6 +85,70 @@ declare_war_on = {
  target = CPI
  type = annex_everything
  
+ }
+ }
+ 
+INC = {		
+    declare_war_on = {
+    target = INC
+    type = annex_everything
+}
+declare_war_on = {
+target = RAJ
+type = annex_everything
+}
+declare_war_on = {
+ target = RSS
+type = annex_everything 
+}
+
+declare_war_on = {
+ target = CPI
+ type = annex_everything
+ 
+ }
+ 
+RSS = {		
+    declare_war_on = {
+    target = INC
+    type = annex_everything
+}
+declare_war_on = {
+target = RAJ
+type = annex_everything
+}
+declare_war_on = {
+ target = RSS
+type = annex_everything 
+}
+
+declare_war_on = {
+ target = CPI
+ type = annex_everything
+ 
+ }
+ }
+ 
+CPI = {		
+    declare_war_on = {
+    target = INC
+    type = annex_everything
+}
+declare_war_on = {
+target = RAJ
+type = annex_everything
+}
+declare_war_on = {
+ target = RSS
+type = annex_everything 
+}
+
+declare_war_on = {
+ target = CPI
+ type = annex_everything
+ 
+ }
+ }
  }
  
 }

@@ -34,6 +34,82 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	
+	focus = {
+		id = ENG_Recover_from_our_Losses
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 1
+	prerequisite = {
+	focus = ENG_the_War_ends
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_New_age_old_enemies
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 2
+	prerequisite = {
+	focus = ENG_Recover_from_our_Losses
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Across_the_Pond
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 1
+	prerequisite = {
+	focus = ENG_New_age_old_enemies
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Across_the_Pond
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 1
+	prerequisite = {
+	focus = ENG_New_age_old_enemies
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
 
 
 }

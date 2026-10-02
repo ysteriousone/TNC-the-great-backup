@@ -42,6 +42,32 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = GER_The_Eastern_Suns
+		icon = GFX_focus_GER_weltpolitik
+		x = 28
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_focus_aubenpolitik
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_Asia_tt
+		}
+	}
+	
+	focus = {
 		id = GER_The_American_fiasco
 		icon = GFX_focus_GER_weltpolitik
 		x = 15

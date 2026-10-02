@@ -83,6 +83,9 @@ country_event = {
 		name = ger.1.a  
 	kill_country_leader = yes
 	hidden_effect = {
+GER = {
+dismantle_faction = yes
+ }
 	country_event = {
 	id = ger_reich.3
 	days = 10
