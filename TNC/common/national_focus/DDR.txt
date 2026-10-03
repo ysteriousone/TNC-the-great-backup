@@ -1,0 +1,159 @@
+focus_tree = {
+	id = DDR_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DDR
+		}
+	}
+	default = no
+
+
+	focus = {
+		id = DDR_civilwar_1 # Roter Morgen
+		
+		icon = GFX_focus_ger_great_red_menace
+		x = 10
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_civilwar_2 # The German Revolution
+		
+		icon = GFX_focus_GER_liberate_exploited_colonial_workers
+		relative_position_id = DDR_civilwar_1
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_1}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_civilwar_3 # The Workers
+		
+		icon = GFX_focus_GER_proletarian_solidarity
+		relative_position_id = DDR_civilwar_2
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_2}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_civilwar_4 # The Youth
+		
+		icon = GFX_focus_GER_tend_to_the_future
+		relative_position_id = DDR_civilwar_2
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_2}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_civilwar_5 # The Devil
+		
+		icon = GFX_focus_GER_end_european_communism
+		relative_position_id = DDR_civilwar_2
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_2}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_civilwar_6 # Seize the Means of Production
+		
+		icon = GFX_focus_GER_legacy_of_the_spartacus_league
+		relative_position_id = DDR_civilwar_3
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_3}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_civilwar_7 # Promise of a Free Germany
+		
+		icon = GFX_focus_GER_defender_of_democracy
+		relative_position_id = DDR_civilwar_4
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_4}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_civilwar_8 # Invite Goebbels
+		
+		icon = GFX_focus_GER_hegemony_over_europe
+		relative_position_id = DDR_civilwar_5
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_5}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_civilwar_9 # Risen from Ruin
+		
+		icon = GFX_focus_GER_integrate_volkskommissariats
+		relative_position_id = DDR_civilwar_2
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_6}
+		prerequisite = { focus = DDR_civilwar_7}
+		prerequisite = { focus = DDR_civilwar_8}
+
+		completion_reward = {
+		}
+	}
+}
