@@ -1,0 +1,14 @@
+add_namespace = ddr
+
+country_event = {
+	id = ddr.1
+	title = ddr.1.t
+	desc = ddr.1.d
+	picture = GFX_report_event_gathering_protest
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = ddr.1.a
+	}
+}

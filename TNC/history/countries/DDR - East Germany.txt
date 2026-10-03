@@ -1,4 +1,4 @@
-capital = 64
+capital = 8
 
 # Starting tech
 set_technology = {
@@ -107,12 +107,12 @@ if = {
 
 set_research_slots = 4
 set_convoys = 50
-set_stability = 0.75
+set_stability = 0.32
 
 1939.1.1 = {
 
-	add_political_power = 1197
-	add_command_power = 100
+	add_political_power = 0
+	add_command_power = 0
 	
 
 	#BUILDINGS
@@ -184,62 +184,7 @@ set_popularities = {
 add_ideas = {
 }
 
-create_country_leader = {
-	name = "Jake Richter"
-	desc = ""
-	picture = GFX_portrait_Jake_Richter
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		political_dancer		
-	}
-}
-
-#create_country_leader = {
-#	name = "Dennis Fredauer"
-#	desc = ""
-#	picture = "Portrait_Germany_Konrad_Adenauer.dds"
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#	}
-#}
-#
-create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = "POLITICS_WILHELM_PIECK_DESC"	 
-	picture = GFX_portrait_Wilhelm_Pieck
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
-		exiled # He left in 1933 so he should still be exiled
-	}
-}
-
-#create_country_leader = {
-#	name = "Otto Wels"
-#	desc = "POLITICS_OTTO_WELS_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1939.1.16"
-#	ideology = socialism
-#	traits = {
-#		exiled
-#		union_man
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Ernst Thälmann"
-#	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1956.1.1"
-#	ideology = stalinism
-#	traits = {
-#		assassination_survivor
-#		stalins_puppet
-#		political_prisoner
-#	}
+recruit_character = DDR_bertolt_brecht
 #}
 
 if = {

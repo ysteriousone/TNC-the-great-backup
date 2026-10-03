@@ -9209,4 +9209,9 @@ spriteTypes = {
 		name = GFX_portrait_gottfried
 		texturefile = gfx/leaders/KAI/GFX_portrait_gottfried.dds
 	}
+	## DDR ##
+	spriteType = {
+		name = "GFX_Portrait_DDR_Bertolt_Brecht"
+		texturefile = "gfx/leaders/DDR/Portrait_DDR_Bertolt_Brecht.dds"
+	}
 }

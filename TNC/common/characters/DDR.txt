@@ -1,0 +1,24 @@
+characters = {
+
+
+	DDR_bertolt_brecht = {
+
+		name = "Bertolt Brecht"
+
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_DDR_Bertolt_Brecht
+			}
+		}
+
+		country_leader = {
+			ideology = marxism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+	}
+
+	
+
+}
