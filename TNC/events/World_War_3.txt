@@ -23,7 +23,7 @@ country_event = {
 }
 
 	option = { # Ignore ( Canada)
-		name = ww3_brunei.1.a  
+		name = ww3_brunei.1.b 
 }
 
  }

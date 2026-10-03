@@ -481,7 +481,7 @@ hidden_effect = {
 
 	focus = {
 		id = GER_Deny_the_SS
-		icon = GFX_focus_GER_weltpolitik
+		icon = GFX_GER_deny_SS
 		x = -2
 		y = 3
 		cost = 2

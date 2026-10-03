@@ -72,9 +72,20 @@ FRA_No_more_Red_Flood: "No more Red Flood!"
 FRA_Aux_Armes_Milces: "Aux Armes Milces!"
 FRA_World_Revolution: "The World Revolution"
 
+
+# Anglosphere
+
+ENG_the_War_ends: "The War Ends"
+
+ENG_Appeal_to_David: "Appealing to David"
+
 #MISC
 
 NATIONAL_FOCUS_NO_CURRENT_EFFECT: "This focus doesn't have any effects. things may change in the future"
+
+
+
+
 
 
 

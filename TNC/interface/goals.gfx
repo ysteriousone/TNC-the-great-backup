@@ -12,7 +12,10 @@ SpriteType = {
 	texturefile = "gfx/interface/goals/The_NSDAP_itself.dds"			
 	}
 	
-	
+	SpriteType = {
+	name = "GFX_GER_deny_SS"
+	texturefile = "gfx/interface/goals/Deny_SS.dds"			
+	}
 	
 	SpriteType = {
 	name = "GFX_RKA_Marking_our_Enemies"

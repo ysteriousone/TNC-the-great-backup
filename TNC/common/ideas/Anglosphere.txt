@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		ENG_Post_War_Chaos = {
+			allowed = {
+				always = yes
+			}
+			picture = TNC_RUS_regional
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				conscription_factor = -0.2
+				construction_speed = -0.35
+				consumer_goods_factor = 0.4
+			}
+		}
+	}
+
+}

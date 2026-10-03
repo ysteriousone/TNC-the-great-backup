@@ -818,7 +818,9 @@ Ultranationalism  = {
 
 			heydrich_branch  = {
 			}
-
+			
+			cosmic_rot  = {
+			}
 
 		}
 
