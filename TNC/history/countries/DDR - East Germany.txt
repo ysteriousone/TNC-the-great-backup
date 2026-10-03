@@ -172,19 +172,23 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	democratic = 20
+	fascism = 0
+	neutrality = 10
+	acceleration = 30
+	communism = 40
 }
 
 add_ideas = {
+	german_civil_war
 }
 
 recruit_character = DDR_bertolt_brecht
+recruit_character = DDR_joseph_goebbels
 #}
 
 if = {

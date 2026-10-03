@@ -12,3 +12,27 @@ country_event = {
 		name = ddr.1.a
 	}
 }
+country_event = {
+	id = ddr.2
+	title = ddr.2.t
+	desc = ddr.2.d
+	picture = GFX_report_event_gathering_protest
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = ddr.2.a
+	}
+}
+country_event = {
+	id = ddr.3
+	title = ddr.3.t
+	desc = ddr.3.d
+	picture = GFX_report_event_gathering_protest
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = ddr.3.a
+	}
+}
