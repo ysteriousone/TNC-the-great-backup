@@ -103,6 +103,8 @@ focus_tree = {
 		prerequisite = { focus = DDR_civilwar_2}
 
 		completion_reward = {
+			add_stability = 0.1
+			add_manpower = 50000
 		}
 	}
 	focus = {
@@ -157,6 +159,11 @@ focus_tree = {
 		prerequisite = { focus = DDR_civilwar_4}
 
 		completion_reward = {
+			add_stability = 0.1
+			add_popularity = {
+				ideology = Popular_Socialism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -173,6 +180,12 @@ focus_tree = {
 		prerequisite = { focus = DDR_civilwar_5}
 
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = DDR_joseph_goebbels
+			add_popularity = {
+				ideology = Schizo_Communism
+				popularity = 0.1
+			}
 		}
 	}
 	focus = {

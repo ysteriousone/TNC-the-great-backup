@@ -1,0 +1,11 @@
+leader_traits = {
+	propagandist = {
+		sprite = 13
+		stability_factor = 0.25
+		war_support_factor = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}	

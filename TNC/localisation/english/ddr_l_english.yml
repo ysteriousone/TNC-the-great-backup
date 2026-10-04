@@ -1,8 +1,4 @@
-﻿l_english:
-
-
-
- 
+l_english:
  DDR_civilwar_1:0 "Roter Morgen"
  DDR_civilwar_1_desc:0 "The Second Spartacist Uprising has begun! The proletariat and youth of the Rhine have taken up arms in the chaos ready to bring forward a new Germany. With support from France and the occupation of large industrial lands, the revolution is able to mass produce weapons for their ultimate victory. Come to us, workers! The Red Morning is upon us!"
  DDR_civilwar_2:0 "The German Revolution"
@@ -32,3 +28,4 @@
  ddr.3.a:0 "Putting the 'Socialist' in 'National Socialist'"
  DDR_spartacist_uprising:0 "Second Spartacist Uprising"
  DDR_seized_means:0 "Economic Democracy"
+ propagandist:0 "Enlightened Centrist"

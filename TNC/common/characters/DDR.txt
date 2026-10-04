@@ -36,7 +36,7 @@ characters = {
 					original_tag  = DDR
 				}
 				traits  = {
-					popular_figurehead 
+					propagandist
 				}	
 			available = {
 				has_completed_focus = DDR_civilwar_8
