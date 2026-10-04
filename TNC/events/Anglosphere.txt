@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = eng
+add_namespace = eng_policies
 
 # Malayan Insurgency - Part 1
 country_event = {
@@ -54,5 +55,55 @@ country_event = {
 }
 
   }
+  
+  
+#  BUF Bonus Act
+country_event = {
+	id = eng_policies.1
+	title = eng_policies.1.t
+	desc = eng_policies.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Pass The Act
+		name = eng_policies.1.a  
+
+
+}
+
+	option = { #  The Act Fails
+		name = eng_policies.1.b  
+
+
+}
+
+
+}
+
+
+#  Employment Act
+country_event = {
+	id = eng_policies.2
+	title = eng_policies.2.t
+	desc = eng_policies.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Pass The Act
+		name = eng_policies.2.a  
+
+
+}
+
+	option = { #  The Act Fails
+		name = eng_policies.2.b  
+
+
+}
+
+
+}
 
 
