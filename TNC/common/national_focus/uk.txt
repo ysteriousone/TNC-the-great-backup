@@ -117,6 +117,42 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = ENG_Garisson_Dublin
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 2
+		y = 5
+	prerequisite = {
+	focus = ENG_Rat_Them_Out
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Find_Twomey
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 2
+		y = 6
+	prerequisite = {
+	focus = ENG_Garisson_Dublin
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = ENG_Co_Operate_with_Moderates
 		
 		icon = GFX_focus_generic_cryptologic_bomb

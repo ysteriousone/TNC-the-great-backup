@@ -1,0 +1,25 @@
+state={
+	id=1152
+	name="STATE_1152"
+	provinces={
+		4459 10361 10878 
+	}
+
+	history={
+		owner = BAN
+		add_core_of = BAN
+		add_core_of = CPI
+		victory_points = {
+			4459 6
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+
+		}
+
+	}
+
+	manpower=365745
+	buildings_max_level_factor=1
+	local_supplies=0
+}
