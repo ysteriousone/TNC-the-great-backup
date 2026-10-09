@@ -188,7 +188,9 @@ add_ideas = {
 }
 
 recruit_character = DDR_bertolt_brecht
+recruit_character = DDR_bretolt_brecht2
 recruit_character = DDR_joseph_goebbels
+recruit_character = DDR_ernst_thalmann
 #}
 
 if = {

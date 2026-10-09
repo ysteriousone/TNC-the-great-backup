@@ -207,6 +207,85 @@ focus_tree = {
 		}		
 
 		completion_reward = {
+			news_event = {
+				id = ddrcongress.1
+			}
+		}
+	}
+	focus = {
+		id = DDR_acc1 # The Theatrical State
+		
+		icon = GFX_focus_GER_autarky_achieved
+		relative_position_id = DDR_civilwar_9
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_9}
+		available = {
+			always = no
+		}		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_acc2 # Dictatorship of the Proletariat
+		
+		icon = GFX_focus_GER_the_peoples_victory
+		relative_position_id = DDR_civilwar_9
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_9}
+		available = {
+			always = no
+		}		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_acc3 # The Reich Lives On
+		
+		icon = GFX_focus_GER_extend_mitteleuropa
+		relative_position_id = DDR_civilwar_9
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_9}
+		available = {
+			always = no
+		}		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_acc4 # A Truly Democratic Republic
+		
+		icon = GFX_focus_GER_brothers_in_arms
+		relative_position_id = DDR_civilwar_9
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_9}
+		available = {
+			always = no
+		}		
+
+		completion_reward = {
 		}
 	}
 }

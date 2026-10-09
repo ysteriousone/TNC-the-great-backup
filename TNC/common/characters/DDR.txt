@@ -19,13 +19,49 @@ characters = {
 
 	}
 
+	DDR_bertolt_brecht2 = {
+
+		name = "Bertolt Brecht"
+
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_DDR_Bertolt_Brecht
+			}
+		}
+
+		country_leader = {
+			ideology = Accelerationism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+	}
+
+	DDR_ernst_thalmann = {
+
+		name = "Ernst Thalmann"
+
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_DDR_Bertolt_Brecht
+			}
+		}
+
+		country_leader = {
+			ideology = marxism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+	}
+
 	DDR_joseph_goebbels = {
 
 		name = "Joseph Goebbels"
 
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_DDR_Bertolt_Brecht
+				large = GFX_Portrait_DDR_Joseph_Goebbels
 				small = GFX_DDR_joseph_goebbels
 			}
 		}
@@ -48,6 +84,11 @@ characters = {
 			}
 		}
 	}
+		country_leader = {
+			ideology = Ultranational_Communism
+			expire = "1965.1.1.1"
+			id = -1
+		}	
 }
 }
 					
