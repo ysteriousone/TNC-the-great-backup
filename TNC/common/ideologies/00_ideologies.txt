@@ -667,6 +667,10 @@ Ultranationalism  = {
 		architectural_nazism = {
 		color = { 91 36 0 }
 			}
+		
+		social_creditism = {
+			color = { 144, 238, 144 }
+		}
 
 			gen_nazism = {
 			}

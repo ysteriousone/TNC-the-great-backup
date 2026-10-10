@@ -1,0 +1,16 @@
+
+ideas = {
+
+	country = {
+
+		CAN_coalition_betrayed = {
+			picture = GFX_idea_generic_political_reform
+			allowed = {
+				original_tag = CAN
+			}
+			modifier = {
+				add_political_power_gain = -0.05
+			}
+	}
+}
+}

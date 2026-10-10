@@ -5421,6 +5421,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 0.05
+			set_ruling_party = Libtardism
+			add_party_popularity = {
+				ideology = Libtardism
+				popularity = 1.5 ## MORE THAN TORIES AS THEY HAVE MORE FAVOURABILITY
+			}
 		}
 
 		# mutually_exclusive = {
@@ -5455,6 +5460,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 0.05
+			add_ideas = CAN_coalition_betrayed # Mackenzie King comes to power, ConDems resign
 		}
 
 		# mutually_exclusive = {
@@ -5466,7 +5472,7 @@ focus_tree = {
 		# 	FOCUS_FILTER_POLITICAL
 		# }
 		available = {
-			has_government = democratic
+			has_government = Libtardism
 		}
 
 		prerequisite = {
@@ -5523,7 +5529,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 0.05
+			add_party_popularity = {
+				ideology = Libtardism
+				popularity = 2.5
+			}
 		}
+
+		
+
 
 		# mutually_exclusive = {
 		# 	focus = CAN_reform_the_ccf
@@ -5534,7 +5547,7 @@ focus_tree = {
 		# 	FOCUS_FILTER_POLITICAL
 		# }
 		available = {
-			has_government = democratic
+			has_government = Libtardism
 		}
 
 		prerequisite = {
@@ -5557,6 +5570,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 0.05
+			add_research_slot = 1
 		}
 
 		# mutually_exclusive = {
@@ -5594,6 +5608,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 0.05
+			add_event_target_trigger = {
+				id = CAN.1
+				target = ROOT
+			}
 		}
 
 		# mutually_exclusive = {
@@ -5693,6 +5711,25 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 0.05
+			add_popularity = {
+				ideology = conservative_democratic
+				popularity = 0.5 ## LESS POPULARITY THAN LIBERALS
+		}
+		add_event = {
+			id = CAN.3
+			title = CAN.3.t
+			desc = CAN.3.d
+			picture = GFX_report_event_generic
+			option = {
+				name = CAN.3.a
+				add_political_power = 0.05
+				set_ruling_party = conservative_democratic
+			}
+			option = {
+				name = CAN.3.b
+				add_political_power = 0.05
+				set_ruling_party = Libtardism
+			}
 		}
 
 	}
@@ -5709,6 +5746,14 @@ focus_tree = {
 		y = 8
 
 		cost = 10
+
+		completion_reward = {
+			add_political_power = 0.05
+			add_popularity = {
+				ideology = Democratic_Socialism
+				popularity = 0.1
+			}
+		}
 
 		mutually_exclusive = {
 			focus = CAN_social_creditism
@@ -5818,6 +5863,12 @@ focus_tree = {
 	focus = {
 		id = CAN_social_creditism
 		icon = GFX_focus_CAN_rifle_association
+		completion_reward = {
+			add_popularity = {
+				ideology = social_creditism
+				popularity = 0.56
+			}
+		}
 
 		cost = 10
 		x = 24
@@ -5955,6 +6006,23 @@ focus = {
 
 		completion_reward = {
 			add_political_power = 0.05
+			set_ruling_party = neutrality
+			add_event = {
+				id = CAN.2
+				title = CAN.2.t
+				description = CAN.2.d
+				option = {
+					name = CAN.2.a
+					ai_chance = { factor = 90 }
+				}
+				option = {
+					name = CAN.2.b
+					ai_chance = { factor = 10 }
+				}
+				trigger = {
+					has_government = neutrality
+				}
+			}
 		}
 
 		mutually_exclusive = {
@@ -6314,4 +6382,5 @@ focus = {
 			focus = CAN_offer_help_2
 		}
 	}
+}
 }
