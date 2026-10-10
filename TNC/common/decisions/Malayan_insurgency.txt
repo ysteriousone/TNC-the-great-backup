@@ -21,6 +21,12 @@ Malayan_insurgency_cat = {
 		}
 
 		complete_effect = {
+	CAN = {
+	country_event = {
+	id = ww3_brunei.1
+	days = 3
+	 }
+	  }
     declare_war_on = {
 	target = SAB
 	type = annex_everything

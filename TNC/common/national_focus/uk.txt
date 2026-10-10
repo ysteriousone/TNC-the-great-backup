@@ -23,7 +23,7 @@ focus_tree = {
 	focus = {
 		id = ENG_the_War_ends
 		
-		icon = GFX_focus_generic_cryptologic_bomb
+		icon = GFX_focus_eng_decolonization
 		x = 6
 		y = 0
 		cost = 10
@@ -32,6 +32,688 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Recover_from_our_Losses
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 1
+	prerequisite = {
+	focus = ENG_the_War_ends
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	add_ideas = {
+	ENG_Post_War_Chaos
+	 }
+		}
+	}
+	
+	focus = {
+		id = ENG_Move_on_and_Rebuild
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 2
+	prerequisite = {
+	focus = ENG_Recover_from_our_Losses
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Deal_with_the_IRA
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 3
+		y = 3
+	prerequisite = {
+	focus = ENG_Move_on_and_Rebuild
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Rat_Them_Out
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 2
+		y = 4
+	prerequisite = {
+	focus = ENG_Deal_with_the_IRA
+	 }
+	mutually_exclusive = {
+	focus = ENG_Co_Operate_with_Moderates
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Garisson_Dublin
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 2
+		y = 5
+	prerequisite = {
+	focus = ENG_Rat_Them_Out
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Find_Twomey
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 2
+		y = 6
+	prerequisite = {
+	focus = ENG_Garisson_Dublin
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Co_Operate_with_Moderates
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 4
+	prerequisite = {
+	focus = ENG_Deal_with_the_IRA
+	 }
+	 mutually_exclusive = {
+	focus = ENG_Rat_Them_Out
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_The_Dublin_Truce
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 5
+	prerequisite = {
+	focus = ENG_Co_Operate_with_Moderates
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_The_Good_Friday_Agreement
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 6
+	prerequisite = {
+	focus = ENG_The_Dublin_Truce
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+available = {
+}
+
+
+
+		completion_reward = {
+	every_state = {
+	limit = {
+	is_core_of = IRE
+	}
+	add_core_of = ENG
+}
+		}
+	}
+	
+	focus = {
+		id = ENG_The_Ministry_of_Society
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 9
+		y = 3
+	prerequisite = {
+	focus = ENG_Move_on_and_Rebuild
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Propose_the_Employment_Act
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 11
+		y = 4
+	prerequisite = {
+	focus = ENG_The_Ministry_of_Society
+	 }
+	mutually_exclusive = {
+	focus = ENG_Propose_the_BUF_Bonus_Act
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	country_event = {
+	id = eng_policies.2
+	 }
+		}
+	}
+	
+	focus = {
+		id = ENG_Propose_the_BUF_Bonus_Act
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 7
+		y = 4
+	prerequisite = {
+	focus = ENG_The_Ministry_of_Society
+	 }
+	mutually_exclusive = {
+	focus = ENG_Propose_the_Employment_Act
+	}
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		country_event = {
+	id = eng_policies.1
+	 }
+		}
+	}
+	
+	focus = {
+		id = ENG_Propose_The_Free_Housing_Act
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 10
+		y = 5
+	prerequisite = {
+	focus = ENG_Propose_the_BUF_Bonus_Act
+	focus = ENG_Propose_the_Employment_Act
+	 }
+	mutually_exclusive = {
+	focus = ENG_Propose_The_Colonial_Settlement_Act
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Propose_The_Colonial_Settlement_Act
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 5
+	prerequisite = {
+	focus = ENG_Propose_the_BUF_Bonus_Act
+	focus = ENG_Propose_the_Employment_Act
+	 }
+	mutually_exclusive = {
+	focus = ENG_Propose_The_Free_Housing_Act
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_The_Happy_Drug_act
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 11
+		y = 6
+	prerequisite = {
+	focus = ENG_Propose_The_Free_Housing_Act
+	focus = ENG_Propose_The_Colonial_Settlement_Act
+	 }
+	mutually_exclusive = {
+	focus = ENG_National_Therapy_Act
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_National_Therapy_Act
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 7
+		y = 6
+	prerequisite = {
+	focus = ENG_Propose_The_Free_Housing_Act
+	focus = ENG_Propose_The_Colonial_Settlement_Act
+	 }
+	mutually_exclusive = {
+	focus = ENG_The_Happy_Drug_act
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Question_of_Surveillance
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 9
+		y = 7
+	prerequisite = {
+	focus = ENG_The_Happy_Drug_act
+	focus = ENG_National_Therapy_Act
+	 }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_New_age_old_enemies
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 2
+	prerequisite = {
+	focus = ENG_Recover_from_our_Losses
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Across_the_Pond
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 1
+	prerequisite = {
+	focus = ENG_New_age_old_enemies
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_The_Rambling_Frenchman
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -0
+		y = 1
+	prerequisite = {
+	focus = ENG_New_age_old_enemies
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_The_Unfortunate_Collapse
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -2
+		y = 2
+	prerequisite = {
+	focus = ENG_The_Rambling_Frenchman
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Watch_from_Atlantropa
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -2
+		y = 3
+	prerequisite = {
+	focus = ENG_The_Unfortunate_Collapse
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_our_new_friend
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 2
+		y = 2
+	prerequisite = {
+	focus = ENG_The_Rambling_Frenchman
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_send_petain_his_due
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 0
+		y = 3
+	prerequisite = {
+	focus = ENG_our_new_friend
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_the_Algiers_agreement
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 3
+	prerequisite = {
+	focus = ENG_our_new_friend
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Recognize_Evil_France
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 2
+		y = 4
+	prerequisite = {
+	focus = ENG_the_Algiers_agreement
+	 }
+	prerequisite = {
+	focus = ENG_send_petain_his_due
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	ENG = {
+	give_military_access = NFA
+	give_guarantee = NFA
+		}
+	}
+}
+	
+focus = {
+		id = ENG_Appeal_to_David
+		
+		icon = GFX_focus_eng_god_save_the_king
+		x = -6
+		y = 2
+	prerequisite = {
+	focus = ENG_Across_the_Pond
+	 }
+	mutually_exclusive = {
+	focus = ENG_Ostrasize_Canada
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+  add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_Work_Towards_Detente
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -6
+		y = 3
+	prerequisite = {
+	focus = ENG_Appeal_to_David
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	ENG = {
+		give_guarantee = CAN
+	}
+	CAN = {
+		give_guarantee = ENG
+	}
+	
+    add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_Ostrasize_Canada
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 2
+			mutually_exclusive = {
+	focus = ENG_Appeal_to_David
+	 }
+	prerequisite = {
+	focus = ENG_Across_the_Pond
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
+			}
+	add_popularity = {
+				ideology = democratic
+				popularity = -0.05
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_Consolidate_the_Georgian_line
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 3
+	prerequisite = {
+	focus = ENG_Ostrasize_Canada
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+	add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+			
+	add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.05
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_The_Empire_must_Unite
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -5
+		y = 4
+	prerequisite = {
+	focus = ENG_Work_Towards_Detente
+	focus = ENG_Consolidate_the_Georgian_line
+	 }
+	relative_position_id = ENG_New_age_old_enemies
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	every_state = {
+	limit = {
+	is_controlled_by = CAN
+	 }
+	add_core_of = ENG
+	}
 		}
 	}
 

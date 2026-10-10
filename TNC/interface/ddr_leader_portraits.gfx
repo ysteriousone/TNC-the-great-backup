@@ -1,0 +1,16 @@
+spriteTypes = {
+
+	## DDR ##
+	spriteType = {
+		name = "GFX_Portrait_DDR_Bertolt_Brecht"
+		texturefile = "gfx/leaders/DDR/Portrait_DDR_Bertolt_Brecht.dds"
+	}
+	spriteType = {
+		name = "GFX_DDR_joseph_goebbels"
+		texturefile = "gfx/interface/ideas/DDR_joseph_goebbels.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_DDR_Joseph_Goebbels"
+		texturefile = "gfx/leaders/DDR/Portrait_DDR_Joseph_Goebbels.dds"
+	}
+}

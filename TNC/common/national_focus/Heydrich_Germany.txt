@@ -24,6 +24,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
+	create_faction_from_template = { 
+template = faction_template_axis
+		name = "Stalhtpakt"
+		}
 		}
 	}
 	
@@ -109,6 +113,54 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = GER_All_is_not_Well
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -1
+		y = 2
+	relative_position_id = GER_The_Western_Allies
+	prerequisite = {
+	focus = GER_Unite_The_Administrations
+	 }
+	 
+		cost = 15
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	annex_country = {
+	target = RKB
+	transfer_troops = yes
+	 }
+		}
+	}
+	
+focus = {
+		id = GER_Integrate_HRE_lands
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 1
+		y = 2
+	relative_position_id = GER_The_Western_Allies
+	prerequisite = {
+	focus = GER_Unite_The_Administrations
+	 }
+	 
+		cost = 15
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	annex_country = {
+	target = RKB
+	transfer_troops = yes
+	 }
+		}
+	}
+	
+	focus = {
 		id = GER_The_Home_Front
 		
 		icon = GFX_focus_generic_cryptologic_bomb
@@ -162,6 +214,25 @@ focus_tree = {
 	add_state_core = 75
 	 }
 	}
+	 }
+	}
+	
+	focus = {
+		id = GER_Erase_Bohemian_Culture
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -5
+		y = 5
+	prerequisite = {
+	focus = GER_Cleaning_up_Prag
+	 }
+	 
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
 	 }
 	}
 	
@@ -249,6 +320,125 @@ focus_tree = {
 	 }
 	add_core_of = GER
 	}
+		}
+	}
+	
+	focus = {
+		id = GER_Reclaiming_Riga
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 10
+		y = 4
+	prerequisite = {
+	focus = GER_The_Eastern_Front
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	declare_war_on =  {
+	target = RKO
+	type = annex_everything
+	 }
+		declare_war_on =  {
+	target = EST
+	type = annex_everything
+	 }
+	 
+		declare_war_on =  {
+	target = LIT
+	type = annex_everything
+	 }
+	 
+		declare_war_on =  {
+	target = LAT
+	type = annex_everything
+	 }
+	 
+		declare_war_on =  {
+	target = UBD
+	type = annex_everything
+	 }
+		}
+	}
+	
+focus = {
+		id = GER_Reclaim_the_Breadbasket
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 5
+	prerequisite = {
+	focus = GER_Reclaiming_Riga
+	 }
+	prerequisite = {
+	focus = GER_The_Rot_at_our_Doorstep
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	declare_war_on =  {
+	target = RKU
+	type = annex_everything
+	 }
+		declare_war_on =  {
+	target = UPR
+	type = annex_everything
+	 }
+	 
+		declare_war_on =  {
+	target = UKS
+	type = annex_everything
+	 }
+	 
+		declare_war_on =  {
+	target = OUN
+	type = annex_everything
+	 }
+		}
+	}
+	
+focus = {
+		id = GER_Oil_at_Last
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 6
+	prerequisite = {
+	focus = GER_Reclaim_the_Breadbasket
+	 }
+	 
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	declare_war_on =  {
+	target = RKK
+	type = annex_everything
+	 }
+		declare_war_on =  {
+	target = STL
+	type = annex_everything
+	 }
+	 
+		declare_war_on =  {
+	target = DON
+	type = annex_everything
+	 }
+	 
+		declare_war_on =  {
+	target = KAL
+	type = annex_everything
+	 }
 		}
 	}
 

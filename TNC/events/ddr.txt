@@ -1,0 +1,448 @@
+add_namespace = ddr
+add_namespace = ddrcongress
+
+country_event = {
+	id = ddr.1
+	title = ddr.1.t
+	desc = ddr.1.d
+	picture = GFX_report_event_gathering_protest
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = ddr.1.a
+	}
+}
+country_event = {
+	id = ddr.2
+	title = ddr.2.t
+	desc = ddr.2.d
+	picture = GFX_report_event_gathering_protest
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = ddr.2.a
+	}
+}
+country_event = {
+	id = ddr.3
+	title = ddr.3.t
+	desc = ddr.3.d
+	picture = GFX_report_event_gathering_protest
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = ddr.3.a
+	}
+}
+country_event = { # Congress begins
+	id = ddrcongress.1
+	title = ddrcongress.1.t
+	desc = ddrcongress.1.d
+	picture = GFX_report_event_gathering_protest
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = ddrcongress.1.a
+		hidden_effect = {
+			set_country_flag = { flag = DDR_accelerationist value = 0 }
+			set_country_flag = { flag = DDR_thalmann value = 0 }
+			set_country_flag = { flag = DDR_schizo value = 0 }
+			country_event = { id = ddrcongress.2 days = 7 }
+		}
+	}
+}
+country_event = { # Economic policy
+	id = ddrcongress.2
+	title = ddrcongress.2.t
+	desc = ddrcongress.2.d
+	picture = GFX_report_event_generic_farming
+
+	is_triggered_only = yes
+
+	option = { # Accelerationist
+		name = ddrcongress.2.a
+		ai_chance = {
+			base = 35
+			modifier = {
+			}
+		}
+		add_popularity = {
+			ideology = acceleration
+			popularity = 0.1
+		}
+		modify_country_flag = { flag = DDR_accelerationist value = 1 }
+	}
+	option = { # Thalmann
+		name = ddrcongress.2.b
+		ai_chance = {
+			base = 45
+			modifier = {
+			}
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = Popular_Socialism
+			popularity = 0.05
+		}
+		modify_country_flag = { flag = DDR_thalmann value = 1 }
+	}
+	option = { # Schizo
+		name = ddrcongress.2.c
+		ai_chance = {
+			base = 20
+			modifier = {
+			}
+		}
+		add_popularity = {
+			ideology = Schizo_Communism
+			popularity = 0.1
+		}
+		modify_country_flag = { flag = DDR_schizo value = 1 }
+	}
+	after = {
+		hidden_effect = {
+			country_event = { id = ddrcongress.3 days = 7 }
+		}
+	}
+}
+country_event = { # Internal policy
+	id = ddrcongress.3
+	title = ddrcongress.3.t
+	desc = ddrcongress.3.d
+	picture = GFX_report_event_generic_diplomacy2
+
+	is_triggered_only = yes
+
+	option = {
+		name = ddrcongress.3.a
+		ai_chance = {
+			base = 35
+			modifier = {
+			}
+		}
+		add_popularity = {
+			ideology = acceleration
+			popularity = 0.1
+		}
+		modify_country_flag = { flag = DDR_accelerationist value = 1 }
+	}
+	option = {
+		name = ddrcongress.3.b
+		ai_chance = {
+			base = 45
+			modifier = {
+
+			}
+
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = Popular_Socialism
+			popularity = 0.05
+		}
+		modify_country_flag = { flag = DDR_thalmann value = 1 }
+	}
+	option = {
+		name = ddrcongress.3.c
+		ai_chance = {
+			base = 20
+			modifier = {
+			}
+		}
+		add_popularity = {
+			ideology = Schizo_Communism
+			popularity = 0.1
+		}
+		modify_country_flag = { flag = DDR_schizo value = 1 }
+	}
+	after = {
+		hidden_effect = {
+			country_event = { id = ddrcongress.5 days = 7 }
+		}
+	}
+}
+country_event = { # RK policy
+	id = ddrcongress.5
+	title = ddrcongress.5.t
+	desc = ddrcongress.5.d
+	picture = GFX_report_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	option = {
+		name = ddrcongress.5.a
+		ai_chance = {
+			base = 35
+			modifier = {
+			}
+		}
+		add_popularity = {
+			ideology = acceleration
+			popularity = 0.1
+		}
+		modify_country_flag = { flag = DDR_accelerationist value = 1 }
+	}
+	option = {
+		name = ddrcongress.5.b
+		ai_chance = {
+			base = 45
+			modifier = {
+			}
+
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = Popular_Socialism
+			popularity = 0.05
+		}
+		modify_country_flag = { flag = DDR_thalmann value = 1 }
+	}
+	option = {
+		name = ddrcongress.5.c
+		ai_chance = {
+			base = 20
+			modifier = {
+			}
+
+		}
+		add_popularity = {
+			ideology = Schizo_Communism
+			popularity = 0.1
+		}
+		modify_country_flag = { flag = DDR_schizo value = 1 }
+	}
+	after = {
+		hidden_effect = {
+			country_event = { id = ddrcongress.6 days = 7 }
+			country_event = { id = ddrcongress.10 days = 20 }
+		}
+	}
+}
+country_event = { # Congress preparing result
+	id = ddrcongress.6
+	title = ddrcongress.6.t
+	desc = ddrcongress.6.d
+	picture = GFX_report_event_generic_diplomacy1
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_country_flag = {
+				flag = DDR_accelerationist
+				value > 1
+			}
+			has_country_flag = {
+				flag = DDR_schizo
+				value > 1
+			}
+			has_country_flag = {
+				flag = DDR_thalmann
+				value > 1
+			}
+		}
+	}
+
+	option = {
+		name = ddrcongress.6.a
+		add_political_power = -50
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = {
+						flag = DDR_accelerationist
+						value > 1
+					}
+				}
+				country_event = { id = ddrcongress.7 days = 20 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = {
+						flag = DDR_thalmann
+						value > 1
+					}
+				}
+				country_event = { id = ddrcongress.8 days = 20 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = {
+						flag = DDR_schizo
+						value > 1
+					}
+				}
+				country_event = { id = ddrcongress.9 days = 20 }
+			}
+		}
+	}
+}
+country_event = { # Accele victory
+	id = ddrcongress.7
+	title = ddrcongress.7.t
+	desc = ddrcongress.7.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = DDR_accelerationist
+		clr_country_flag = DDR_thalmann
+		clr_country_flag = DDR_schizo
+	}
+
+	option = {
+		name = ddrcongress.7.a
+		set_politics = {
+			ruling_party = acceleration
+		}
+
+		hidden_effect = {
+			unlock_national_focus = DDR_acc1
+		retire_character = DDR_bertolt_brecht
+		promote_character = DDR_bertolt_brecht2
+		}
+	}
+}
+country_event = { # thalmann Victory
+	id = ddrcongress.8
+	title = ddrcongress.8.t
+	desc = ddrcongress.8.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = DDR_accelerationist
+		clr_country_flag = DDR_thalmann
+		clr_country_flag = DDR_schizo
+	}
+
+	option = { # 
+		name = ddrcongress.8.a
+		set_politics = {
+			ruling_party = communism
+		}
+		promote_character = DDR_ernst_thalmann
+	}
+
+	after = {
+		hidden_effect = {
+			unlock_national_focus = DDR_acc2
+		retire_character = DDR_bertolt_brecht			
+		}
+	}
+}
+country_event = { # schizo Victory
+	id = ddrcongress.9
+	title = ddrcongress.9.t
+	desc = ddrcongress.9.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = DDR_accelerationist
+		clr_country_flag = DDR_thalmann
+		clr_country_flag = DDR_schizo
+	}
+
+	option = {
+		name = ddrcongress.9.a
+
+		set_politics = {
+			ruling_party = Schizo_Communism
+		}
+		hidden_effect = {
+			unlock_national_focus = DDR_acc3
+			promote_character = DDR_joseph_goebbels
+			retire_character = DDR_bertolt_brecht
+		}
+	}
+}
+country_event = { # No majority achieved
+	id = ddrcongress.10
+	title = ddrcongress.10.t
+	desc = ddrcongress.10.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = {
+			flag = DDR_accelerationist
+			value < 2
+		}
+		has_country_flag = {
+			flag = DDR_thalmann
+			value < 2
+		}
+		has_country_flag = {
+			flag = DDR_schizo
+			value < 2
+		}
+	}
+
+	immediate = {
+		clr_country_flag = DDR_accelerationist
+		clr_country_flag = DDR_thalmann
+		clr_country_flag = DDR_schizo
+	}
+
+	option = { # Goebbels coup
+		name = ddrcongress.10.a
+		ai_chance = { base = 50 }
+		set_politics = {
+			ruling_party = Schizo_Communism
+		}
+		hidden_effect = {
+			unlock_national_focus = DDR_acc3
+			promote_character = DDR_joseph_goebbels
+			retire_character = DDR_bertolt_brecht
+		}
+	}
+	option = { # Democratic coup
+		name = ddrcongress.10.b
+		ai_chance = { base = 50 }
+		set_politics = {
+			ruling_party = Popular_Socialism
+		}
+		add_popularity = {
+			ideology = Schizo_Communism
+			popularity = -0.15
+		}
+		add_popularity = {
+			ideology = Accelerationism
+			popularity = -0.15
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = Popular_Socialism
+			popularity = 0.30
+		}
+
+	}
+	after = {
+		hidden_effect = {
+			unlock_national_focus = DDR_acc4
+		}
+	}
+}

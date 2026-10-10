@@ -1,0 +1,291 @@
+focus_tree = {
+	id = DDR_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DDR
+		}
+	}
+	default = no
+
+
+	focus = {
+		id = DDR_civilwar_1 # Roter Morgen
+		
+		icon = GFX_focus_ger_great_red_menace
+		x = 10
+		y = 0
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			news_event = {
+				id = ddr.1
+			}
+		}
+	}
+	focus = {
+		id = DDR_civilwar_2 # The German Revolution
+		
+		icon = GFX_focus_GER_liberate_exploited_colonial_workers
+		relative_position_id = DDR_civilwar_1
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_1}
+		available = {
+			has_war = yes
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+			add_manpower = 25000
+			add_ideas = DDR_spartacist_uprising
+			news_event = {
+				id = ddr.2
+			}
+		}
+	}
+	focus = {
+		id = DDR_civilwar_3 # The Workers
+		
+		icon = GFX_focus_GER_proletarian_solidarity
+		relative_position_id = DDR_civilwar_2
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_2}
+
+		completion_reward = {
+		add_manpower = 50000
+        8 = {
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+				type = industrial_complex
+				level = 4
+				instant_build = yes
+			}
+		}
+        42 = {
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+				type = arms_factory
+				level = 4
+				instant_build = yes
+			}
+		}
+	}
+	}		
+	
+	
+	focus = {
+		id = DDR_civilwar_4 # The Youth
+		
+		icon = GFX_focus_GER_tend_to_the_future
+		relative_position_id = DDR_civilwar_2
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_2}
+
+		completion_reward = {
+			add_stability = 0.1
+			add_manpower = 50000
+		}
+	}
+	focus = {
+		id = DDR_civilwar_5 # The Devil
+		
+		icon = GFX_focus_GER_end_european_communism
+		relative_position_id = DDR_civilwar_2
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_2}
+
+		completion_reward = {
+			add_stability = -0.20
+			add_war_support = -0.15
+			news_event = {
+				id = ddr.3
+			}
+		}
+	}
+	focus = {
+		id = DDR_civilwar_6 # Seize the Means of Production
+		
+		icon = GFX_focus_GER_legacy_of_the_spartacus_league
+		relative_position_id = DDR_civilwar_3
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_3}
+
+		completion_reward = {
+			add_ideas = DDR_seized_means
+		}
+	}
+	focus = {
+		id = DDR_civilwar_7 # Promise of a Free Germany
+		
+		icon = GFX_focus_GER_defender_of_democracy
+		relative_position_id = DDR_civilwar_4
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_4}
+
+		completion_reward = {
+			add_stability = 0.1
+			add_popularity = {
+				ideology = Popular_Socialism
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = DDR_civilwar_8 # Invite Goebbels
+		
+		icon = GFX_focus_GER_hegemony_over_europe
+		relative_position_id = DDR_civilwar_5
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_5}
+
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = DDR_joseph_goebbels
+			add_popularity = {
+				ideology = Schizo_Communism
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = DDR_civilwar_9 # Risen from Ruin
+		
+		icon = GFX_focus_GER_integrate_volkskommissariats
+		relative_position_id = DDR_civilwar_2
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_6}
+		prerequisite = { focus = DDR_civilwar_7}
+		prerequisite = { focus = DDR_civilwar_8}
+		available = {
+			has_war = no
+		}		
+
+		completion_reward = {
+			news_event = {
+				id = ddrcongress.1
+			}
+		}
+	}
+	focus = {
+		id = DDR_acc1 # The Theatrical State
+		
+		icon = GFX_focus_GER_autarky_achieved
+		relative_position_id = DDR_civilwar_9
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_9}
+		available = {
+			always = no
+		}		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_acc2 # Dictatorship of the Proletariat
+		
+		icon = GFX_focus_GER_the_peoples_victory
+		relative_position_id = DDR_civilwar_9
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_9}
+		available = {
+			always = no
+		}		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_acc3 # The Reich Lives On
+		
+		icon = GFX_focus_GER_extend_mitteleuropa
+		relative_position_id = DDR_civilwar_9
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_9}
+		available = {
+			always = no
+		}		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DDR_acc4 # A Truly Democratic Republic
+		
+		icon = GFX_focus_GER_brothers_in_arms
+		relative_position_id = DDR_civilwar_9
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = DDR_civilwar_9}
+		available = {
+			always = no
+		}		
+
+		completion_reward = {
+		}
+	}
+}

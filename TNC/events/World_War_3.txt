@@ -1,0 +1,165 @@
+###########################
+# World War 3 Events
+###########################
+
+add_namespace = ww3_brunei
+
+# Canadian intervention?
+country_event = {
+	id = ww3_brunei.1
+	title = ww3_brunei.1.t
+	desc = ww3_brunei.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Issue a Warning ( Canada) 
+		name = ww3_brunei.1.a  
+	GER = {
+	country_event = { id = ww3_brunei.2
+	days = 9
+	}
+	 }
+}
+
+	option = { # Ignore ( Canada)
+		name = ww3_brunei.1.b 
+}
+
+ }
+ 
+ 
+# Germany gets a whiff
+country_event = {
+	id = ww3_brunei.2
+	title = ww3_brunei.2.t
+	desc = ww3_brunei.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Issue a Warning ( Germany to Canada) 
+		name = ww3_brunei.2.a  
+	ENG = {
+	country_event = { id = ww3_brunei.3
+	days = 5
+}
+ }
+}
+
+	option = { # Support (Germany to Canada)
+		name = ww3_brunei.2.a 
+	ENG = {
+	country_event = { id = ww3_brunei.5
+	days = 5
+	 }
+	 }
+}
+
+ }
+ 
+#  The Final Ultimatum
+country_event = {
+	id = ww3_brunei.3
+	title = ww3_brunei.3.t
+	desc = ww3_brunei.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # So Long!
+		name = ww3_brunei.3.a
+   CAN = {
+declare_war_on = {
+target = ENG
+type = annex_everything
+ }
+add_to_faction = SAR
+add_to_faction = BRN
+add_to_faction = SAB
+ }
+   GER = {
+declare_war_on = {
+target = ENG
+type = annex_everything
+ } 
+declare_war_on = {
+target = CAN
+type = annex_everything
+ }
+}
+FRA = {
+country_event = {
+id  = ww3_brunei.4
+}
+ }
+}
+
+	option = { # Promise no War Crimes
+		name = ww3_brunei.3.a  
+	SAR = {
+	create_faction = "Union of the Three Sultans"
+	add_to_faction = BRN
+	add_to_faction = SAB
+	 }
+}
+
+ }
+ 
+ 
+#  Picasso gets to Larp
+country_event = {
+	id = ww3_brunei.4
+	title = ww3_brunei.4.t
+	desc = ww3_brunei.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # So Long!
+		name = ww3_brunei.4.a
+   FRA = {
+declare_war_on = {
+target = ENG
+type = annex_everything
+ }
+ }
+   FRA = {
+declare_war_on = {
+target = GER
+type = annex_everything
+ } 
+}
+}
+
+ }
+ 
+#  Final Ultimatum ( German Canadian Detente)
+country_event = {
+	id = ww3_brunei.5
+	title = ww3_brunei.5.t
+	desc = ww3_brunei.5.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Reject
+		name = ww3_brunei.5.a
+   CAN = {
+declare_war_on = {
+target = ENG
+type = annex_everything
+ }
+add_to_faction = SAR
+add_to_faction = BRN
+add_to_faction = SAB
+ }
+   GER = {
+declare_war_on = {
+target = ENG
+type = annex_everything
+ } 
+}
+}
+
+ }

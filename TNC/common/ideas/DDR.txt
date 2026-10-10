@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		DDR_spartacist_uprising = {
+			allowed = {
+				always = yes
+			}
+			picture = GER_wage_war_on_capitalism
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+	}
+	country = {
+		DDR_seized_means = {
+			allowed = {
+				always = yes
+			}
+			picture = GER_limited_democratic_principles
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				economy_cost_factor = 0.25
+				production_factory_start_efficiency_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}

@@ -83,6 +83,9 @@ country_event = {
 		name = ger.1.a  
 	kill_country_leader = yes
 	hidden_effect = {
+GER = {
+dismantle_faction = yes
+ }
 	country_event = {
 	id = ger_reich.3
 	days = 10
@@ -225,7 +228,8 @@ country_event = {
   
  every_state = {
  limit = {
- is_owned_by = GER
+ is_core_of = GER
+}
  add_core_of = AUS
 
 }
@@ -236,7 +240,7 @@ country_event = {
 }
 
 
- }
+ 
  
  # Libtards rise up
 country_event = {
@@ -260,7 +264,8 @@ country_event = {
   
  every_state = {
  limit = {
- is_owned_by = GER
+ is_core_of = GER
+}
  add_core_of = WGR
 
 }
@@ -269,9 +274,6 @@ country_event = {
 
 
 }
-
-
- }
  
  # Kaiserboos rise up
 country_event = {
@@ -294,7 +296,8 @@ country_event = {
   
  every_state = {
  limit = {
- is_owned_by = GER
+ is_core_of = GER
+}
  add_core_of = KAI
 
 }
@@ -303,9 +306,6 @@ country_event = {
 
 
 }
-
-
- }
 
  # Goringites rise up
 country_event = {
@@ -337,13 +337,11 @@ country_event = {
   
  every_state = {
  limit = {
- is_owned_by = GER
+ is_core_of = GER
+}
  add_core_of = GMJ
 
 }
-
-}
-
 
 }
 
@@ -372,10 +370,9 @@ country_event = {
   
  every_state = {
  limit = {
- is_owned_by = GER
- add_core_of = BGR
-
+ is_core_of = GER
 }
+ add_core_of = BGR
 
 }
 
@@ -383,6 +380,57 @@ country_event = {
 news_event = { id = world.4 days = 3 }
 }
 
+
+ }
+ 
+ 
+  # GCW begins
+country_event = {
+	id = ger.9
+	title = ger.9.t
+	desc = ger.9.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # The TNO timeline swap! 
+		name = ger.9.a  
+
+ ROOT = {
+ declare_war_on = {
+ target = DDR
+ type = annex_everything
+}
+
+ declare_war_on = {
+ target = KAI
+ type = annex_everything
+}
+
+ declare_war_on = {
+ target = BGR
+ type = annex_everything
+}
+
+ declare_war_on = {
+ target = GMJ
+ type = annex_everything
+}
+
+ declare_war_on = {
+ target = AUS
+ type = annex_everything
+}
+
+ declare_war_on = {
+ target = WGR
+ type = annex_everything
+}
+
+
+ }
+ 
+}
 
  }
 
