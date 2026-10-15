@@ -199,6 +199,28 @@ add_core_of = DDR
 }
 
 }
+option = { # KR looking ahh 
+		name = ger.3.b  
+   country_event = { id = ger.4 days = 10}
+ DDR = {
+ transfer_state = 28
+ transfer_state = 978
+ transfer_state = 42
+ transfer_state = 51
+ transfer_state = 8
+}
+
+every_state = {
+limit = {
+is_core_of = GER
+}
+add_core_of = DDR
+DDR = {
+	change_tag_from = ZZZ
+}
+}
+
+}
 
 }
 
@@ -215,7 +237,6 @@ country_event = {
 	option = { # The missing cliche! 
 		name = ger.4.a  
 	
- country_event = { id = ger.5 days = 10}
   ZZZ = {
   release = AUS
   country_event = { id = ger.5 days = 10 }
@@ -235,7 +256,29 @@ country_event = {
 }
 
 }
+option = { # The missing cliche! 
+		name = ger.4.b  
+  ZZZ = {
+  release = AUS
+  country_event = { id = ger.5 days = 10 }
+  }
+  AUS = {
+  transfer_state = 850
+  transfer_state = 39
+  transfer_state = 102
+  }
+  AUS = {
+	change_tag_from = ZZZ
+  }
+ every_state = {
+ limit = {
+ is_core_of = GER
+}
+ add_core_of = AUS
 
+}
+
+}
 
 }
 
@@ -271,7 +314,28 @@ country_event = {
 }
 
 }
+option = { # The wholesome chungus option! 
+		name = ger.5.b  
+	 country_event = { id = ger.6 days = 10}
+  WGR = {
+  transfer_state = 909
+  transfer_state = 58
+  transfer_state = 61
+  transfer_state = 62
+  transfer_state = 63
+  }
+  WGR = {
+	change_tag_from = ZZZ
+  }
+ every_state = {
+ limit = {
+ is_core_of = GER
+}
+ add_core_of = WGR
 
+}
+
+}
 
 }
  
@@ -294,6 +358,27 @@ country_event = {
   transfer_state = 55
   }
   
+ every_state = {
+ limit = {
+ is_core_of = GER
+}
+ add_core_of = KAI
+
+}
+
+}
+option = { # The KR timeline swap! 
+		name = ger.5.b  
+	 country_event = { id = ger.7 days = 10}
+  KAI = {
+  transfer_state = 59
+  transfer_state = 56
+  transfer_state = 57
+  transfer_state = 55
+  }
+  KAI = {
+	change_tag_from = ZZZ
+  }
  every_state = {
  limit = {
  is_core_of = GER
@@ -344,6 +429,36 @@ country_event = {
 }
 
 }
+option = { # The TNO timeline swap! 
+		name = ger.5.b  
+	 country_event = { id = ger.8 days = 10}
+  GMJ = {
+  transfer_state = 97
+  transfer_state = 5
+  transfer_state = 98
+  transfer_state = 188
+  transfer_state = 807
+  transfer_state = 85
+  transfer_state = 86
+  transfer_state = 87
+  transfer_state = 742
+  transfer_state = 68
+  transfer_state = 66
+  transfer_state = 67
+  transfer_state = 763
+  }
+  GMJ = {
+	change_tag_from = ZZZ
+  }
+ every_state = {
+ limit = {
+ is_core_of = GER
+}
+ add_core_of = GMJ
+
+}
+
+}
 
 
  }
@@ -358,40 +473,111 @@ country_event = {
 	fire_only_once = yes
     is_triggered_only = yes 
 	option = { # The TNO timeline swap! 
-		name = ger.5.a  
-  BGR = {
-  transfer_state = 53
-  transfer_state = 52
-  transfer_state = 50
-  transfer_state = 54
-  transfer_state = 60
-  transfer_state = 65
-  }
-  
- every_state = {
- limit = {
- is_core_of = GER
+		name = ger.8.a  
+ 		 BGR = {
+ 			transfer_state = 53
+ 	 		transfer_state = 52
+ 	 		transfer_state = 50
+			transfer_state = 54
+ 			transfer_state = 60
+ 			transfer_state = 65
+ 		 }
+ 		every_state = {
+ 			limit = {
+ 				is_core_of = GER
+			}
+ 			add_core_of = BGR
+		}
+		news_event = { id = world.4 days = 3 }
+		DDR = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		KAI = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		BGR = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		GMJ = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		AUS = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		WGR = {
+			country_event = {
+				id = ger.9
+			}
+		}
+	}
+	option = { # The TNO timeline swap! 
+		name = ger.8.b  
+ 		 BGR = {
+ 			transfer_state = 53
+ 	 		transfer_state = 52
+ 	 		transfer_state = 50
+			transfer_state = 54
+ 			transfer_state = 60
+ 			transfer_state = 65
+ 		 }
+ 		every_state = {
+ 			limit = {
+ 				is_core_of = GER
+			}
+ 			add_core_of = BGR
+		}
+		BGR = { change_tag_from = ZZZ }
+		news_event = { id = world.4 days = 3 }
+		DDR = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		KAI = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		BGR = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		GMJ = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		AUS = {
+			country_event = {
+				id = ger.9
+			}
+		}
+		WGR = {
+			country_event = {
+				id = ger.9
+			}
+		}
+	}
 }
- add_core_of = BGR
-
-}
-
-
-news_event = { id = world.4 days = 3 }
-}
-
-
- }
- 
- 
-  # GCW begins
+  	# GCW begins
 country_event = {
 	id = ger.9
 	title = ger.9.t
 	desc = ger.9.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 
-	fire_only_once = yes
+	fire_only_once = no
     is_triggered_only = yes 
 	option = { # The TNO timeline swap! 
 		name = ger.9.a  
