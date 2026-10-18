@@ -8,6 +8,16 @@ GER_RK = {
     color_ui = rgb { 0 0 0 }
 }
 
+AUS_south_gemrany = {
+	color = rgb { 224  228  255 }
+	color_ui = rgb { 224  228  255 }
+}
+
+AUS_german_confederation_puppet = {
+	color = rgb { 218 217 219 }
+	color_ui = rgb { 218 217 219 }
+}
+
 FRA_anarchy = {
     color = rgb { 55 0 0 }
     color_ui = rgb { 55 0 0 }
