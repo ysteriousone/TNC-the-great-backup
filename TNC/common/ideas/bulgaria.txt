@@ -1,11 +1,11 @@
 ideas = {
-    BUL_army_restrictions = { #dont remove, this spirit needs to exist or else the error log will be filled with invalid ideas. Instead of editing a dozen equipment files I just added a useless national spirit. Dont touch - Legoman
+    country = {
+         BUL_army_restrictions = { #dont remove, this spirit needs to exist or else the error log will be filled with invalid ideas. Instead of editing a dozen equipment files I just added a useless national spirit. Dont touch - Legoman
             allowed = {
                 always = no
             } 
             removal_cost = -1
         }
-    country = {
         BUL_bulgarian_hegemony = {
             allowed = {
                 always = yes
