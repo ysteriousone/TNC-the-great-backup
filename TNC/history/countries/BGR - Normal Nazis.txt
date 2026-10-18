@@ -24,3 +24,6 @@ set_popularities = {
 	communism = 5
 	neutrality = 75
 }
+add_ideas = {
+	german_civil_war
+}
