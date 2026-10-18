@@ -183,6 +183,7 @@ set_popularities = {
 
 
 add_ideas = {
+	german_civil_war
 }
 
 create_country_leader = {
