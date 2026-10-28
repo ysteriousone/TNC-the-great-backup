@@ -4,7 +4,7 @@ state={
 
 	history={
 		victory_points = {
-			11399 1 
+			11099 1 
 		}
 		owner = GEN
 		buildings = {
@@ -25,7 +25,7 @@ state={
 	}
 
 	provinces={
-		3521 3559 6484 6580 9452 9521 9544 11399 11466 
+		3453 3491 6343 6439 9232 9301 9324 11099 11166 
 	}
 	manpower=2464600
 

@@ -1,0 +1,26 @@
+state={
+	id=636
+	name="STATE_636"
+
+	history={
+		owner = FRA
+		add_core_of = TUN
+		victory_points = {
+			6864 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+	
+	state_category = pastoral
+
+	provinces={
+		1099 3919 4868 6864 9758 9796 9847 11632 11651 11690 12770 12804 
+	}
+	manpower=427824
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

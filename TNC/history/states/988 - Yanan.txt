@@ -1,0 +1,46 @@
+state = {
+	id=988
+	name = "STATE_988"
+	manpower = 4670800
+	buildings_max_level_factor = 1
+	state_category = town
+
+	history = {
+
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = PRC
+		add_core_of = CHI
+
+		victory_points = {
+			7840 3 # Yanan
+		}
+
+		buildings = {
+
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+
+			10457 = {
+				bunker = 2
+			}
+
+			11832 = {
+				bunker = 2
+			}
+
+			4881 = {
+				bunker = 2
+			}
+
+		}
+
+
+	}
+
+	provinces = {
+		517 4881 7049 7840 10457 11832 
+	}
+	local_supplies = 0
+}

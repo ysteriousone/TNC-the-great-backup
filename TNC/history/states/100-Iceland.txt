@@ -1,5 +1,5 @@
 state = {
-	id = 100
+	id=100
 	name = "STATE_100"
 	manpower = 115870
 	
@@ -8,11 +8,11 @@ state = {
 	
 	history = {
 		owner = CAN
-		victory_points = { 12674 1 }
+		victory_points = { 12326 1 }
 		buildings = {
 			infrastructure = 1
 			dockyard = 1
-			12674 = {
+			12326 = {
 				naval_base = 1
 			}
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state = {
 		add_core_of = ICE
 	}
 	provinces = {
-		4861 12674 12689 13266 13267 13268 13271
+		4747 12326 12341 12890 12891 12892 12895
 	}
 
 	local_supplies = 0.0 

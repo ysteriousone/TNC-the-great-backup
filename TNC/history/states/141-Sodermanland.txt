@@ -1,6 +1,6 @@
 
 state = {
-	id = 141
+	id=141
 	name = "STATE_141" # Svealand
 	manpower = 1488181
 	state_category = city
@@ -14,11 +14,11 @@ state = {
 		owner = SWE
 
 		victory_points = {
-			6050 20 # Stockholm
+			5909 20 # Stockholm
 		}
 
 		victory_points = {
-			9149 3 # Uppsala
+			8929 3 # Uppsala
 		}
 
 		buildings = {
@@ -27,7 +27,7 @@ state = {
 			industrial_complex = 3
 			dockyard = 1
 			air_base = 6
-			6050 = {
+			5909 = {
 				naval_base = 5
 				coastal_bunker = 3
 			}
@@ -38,7 +38,7 @@ state = {
 	}
 
 	provinces = {
-		35 161 3106 3182 6050 6084 6127 6164 6188 6209 9109 9149 9185 9209 11044 11082 11163 11188 11278 13097 13098 
+		35 161 3039 3115 5909 5943 5986 6023 6047 6068 8889 8929 8965 8989 10744 10782 10863 10888 10978 12722 12723 
 	}
 
 	local_supplies = 0.0 

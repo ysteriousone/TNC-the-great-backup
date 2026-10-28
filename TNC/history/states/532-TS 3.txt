@@ -1,0 +1,31 @@
+
+state={
+	id=532
+	name = "STATE_532" # Amur
+	manpower = 454281
+	
+	state_category = rural
+
+	history = {
+
+		owner = UKR
+		add_core_of = UKR
+		add_core_of = FER
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+
+		victory_points = {
+			7655 1 # Albazino
+		}
+
+	}
+
+	provinces = {
+		1684 1693 1799 4617 4733 7496 7559 7590 7655 10403 12195 12243 12309 12312 
+	}
+
+	local_supplies = 6.0 
+}

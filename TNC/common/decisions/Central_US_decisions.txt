@@ -10,23 +10,23 @@ USA_reunification_Central_US_cat = {
 		}
 
 		available = {
-			389 = { is_controlled_by = ROOT }
-			390 = { is_controlled_by = ROOT }
-			391 = { is_controlled_by = ROOT }
-			392 = { is_controlled_by = ROOT }
 			384 = { is_controlled_by = ROOT }
-			383 = { is_controlled_by = ROOT } 
-			373 = { is_controlled_by = ROOT }
+			385 = { is_controlled_by = ROOT }
+			386 = { is_controlled_by = ROOT }
+			387 = { is_controlled_by = ROOT }
+			379 = { is_controlled_by = ROOT }
+			378 = { is_controlled_by = ROOT } 
+			368 = { is_controlled_by = ROOT }
 		}
 
 		complete_effect = {
-			389 = {add_core_of = ROOT }
-			390 = {add_core_of = ROOT }
-			391 = {add_core_of = ROOT }
-			392 = {add_core_of = ROOT }
 			384 = {add_core_of = ROOT }
-			383 = {add_core_of = ROOT } 
-			373 = { add_core_of = ROOT }
+			385 = {add_core_of = ROOT }
+			386 = {add_core_of = ROOT }
+			387 = {add_core_of = ROOT }
+			379 = {add_core_of = ROOT }
+			378 = {add_core_of = ROOT } 
+			368 = { add_core_of = ROOT }
 			set_cosmetic_tag = Central_US_unified
 		}
 

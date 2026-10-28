@@ -1,0 +1,43 @@
+state = {
+	id=591
+	name = "STATE_591"
+
+	history = {
+
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+
+		victory_points = {
+			4052 1 # Mienyang 
+		}
+
+		victory_points = {
+			1569 1 # Yichang 
+		}
+
+		1938.10.25 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 2 #was: 6
+				arms_factory = 2
+			}
+
+		}
+
+	}
+
+	provinces = {
+		1569 3939 4052 6877 7389 7404 7417 7432 7861 9714 10191 10201 12066  
+	}
+	manpower = 20433280 
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 2.0 
+}

@@ -1,0 +1,29 @@
+state = {
+	id=886
+	name = "STATE_886"
+	
+	manpower = 65000
+	state_category = rural
+
+	resources = {
+		steel = 20
+	}
+
+	history = {
+		victory_points = {	
+			10848 1
+		}
+		owner = SWE
+		add_core_of = SWE
+		add_core_of = SMI
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		46 113 168 2972 3044 3095 5869 5988 6044 8847 8934 8951 9009 10749 10752 10816 10848 10887 12742 
+	}
+	local_supplies=0.000
+}

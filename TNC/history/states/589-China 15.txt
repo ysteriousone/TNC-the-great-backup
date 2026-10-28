@@ -1,0 +1,28 @@
+
+state={
+	id=589
+	name="STATE_589" # Dzungaria
+	manpower = 670800
+
+	state_category = pastoral
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			4709 2
+		}
+	}
+
+	provinces={
+		1662 1737 1798 4600 4674 4709 4735 7498 7542 7670 10399 10416 12242 12384 
+	}
+
+	local_supplies=0.0 
+}

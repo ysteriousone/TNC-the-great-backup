@@ -1,0 +1,33 @@
+
+state={
+	id=387
+	name="STATE_387"
+	manpower = 2470938
+	
+	state_category = city
+
+	history={
+		owner = IOW
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 4
+		}
+		add_core_of = IOW
+		victory_points = {
+			1724 3 
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 5
+			}
+		}
+
+	}
+
+	provinces={
+		1544 1632 1724 1785 4577 7138 7273 7350 9672 9690 10205 10391 11488 11664 12076 12298 
+	}
+
+	local_supplies=6.0 
+}

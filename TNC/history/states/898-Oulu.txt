@@ -1,0 +1,42 @@
+state = {
+	id=898
+	name = "STATE_898" #OULU
+	
+	manpower = 318000
+	
+	state_category = rural
+	
+	resources = {
+	}
+
+	history = {
+
+		owner = FIN
+		add_core_of = FIN
+
+		victory_points = { 
+			158 2 # Oulu
+		}
+
+		victory_points = { 
+			3006 1 # Suomussalmi
+		}
+		
+		buildings = {
+			infrastructure = 1
+
+			# Merikoski Power Plant
+			#158 = { dam = 1 }
+		
+		}
+		
+	}
+
+
+	provinces = {
+		7 82 120 132 158 195 2959 3006 3048 3082 3086 3089 5904 5940 5993 6038 6071 9013 10724 10741 10779 10781 10821 10832 
+	}
+	
+	local_supplies = 0.0
+
+}

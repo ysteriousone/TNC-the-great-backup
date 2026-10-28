@@ -1,0 +1,30 @@
+state={
+	id=1009
+	name="STATE_1009"
+	resources={
+		
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+			4211 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			4211 1 #Ende
+		}
+	}
+
+	provinces={
+		1277 4211 9929 7151 11827 9969 13018 13017
+	}
+	manpower = 1385395
+	state_category = small_island
+
+	local_supplies=0.0 
+}

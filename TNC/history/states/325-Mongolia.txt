@@ -1,0 +1,38 @@
+
+state={
+	id=325
+	name="STATE_325"
+	resources={
+		steel=2.000
+		chromium=3.000
+	}
+
+	history={
+		owner = MAO
+		victory_points = {
+			4687 10
+		}
+		victory_points = {
+			7604 1 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+
+		}
+		add_core_of = MON
+		add_core_of = MAO
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		1679 1682 1752 1813 4583 4618 4687 4748 7604 7685 10279 10348 12257 12327 
+	}
+	manpower=435550
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

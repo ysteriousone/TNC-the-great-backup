@@ -1,5 +1,5 @@
 state = {
-	id = 51
+	id=51
 	name = "STATE_51"
 	manpower = 6144743
 	resources = {
@@ -17,7 +17,7 @@ state = {
 		add_core_of = PRE
 
 		victory_points = {
-			6469 10 # Essen
+			6328 10 # Essen
 		}
 
 		victory_points = {
@@ -25,11 +25,11 @@ state = {
 		}
 
 		#victory_points = {
-		#	3444 5 # Düsseldorf
+		#	3377 5 # Düsseldorf
 		#}
 
 		#victory_points = {
-		#	3547 1 # Bonn
+		#	3479 1 # Bonn
 		#}
 
 		buildings = {
@@ -44,13 +44,13 @@ state = {
 				air_base = 6
 				radar_station = 1
 				#Westwall Forts
-				3444 = {
+				3377 = {
 					bunker = 2
 				}
-				9522 = {
+				9302 = {
 					bunker = 2
 				}
-				3547 = {
+				3479 = {
 					bunker = 2
 				}
 			}
@@ -64,7 +64,7 @@ state = {
 	}
 
 	provinces = {
-		529 587 3444 3512 3547 6469 6570 9482 9522 
+		529 587 3377 3444 3479 6328 6429 9262 9302 
 	}
 	
 	local_supplies = 0.0 

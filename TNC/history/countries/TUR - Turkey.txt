@@ -1,4 +1,4 @@
-﻿capital = 49
+capital = 49
 
 country_event = { id = proxy.5 days =1604}
 
@@ -117,52 +117,52 @@ if = {
 	if = { 
 		limit = { has_dlc = "Battle for the Bosporus" }	
 		set_variable = { var = TUR_kemalist_power_variable value = 5 }
-		797 = {
+		766 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
 		}
-		341 = {
+		336 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
 		}
-		340 = {
+		335 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
 		}
-		339 = {
+		334 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
-		}
-		354 = {
-			add_dynamic_modifier = { modifier = kemalist_loyalties }
-		}
-		350 = {
-			add_dynamic_modifier = { modifier = kurdish_agitation }
-		}
-		352 = {
-			add_dynamic_modifier = { modifier = kurdish_separatism }
-		}
-		800 = {
-			add_dynamic_modifier = { modifier = kurdish_separatism }
-		}
-		353 = {
-			add_dynamic_modifier = { modifier = kurdish_agitation }
-		}
-		798 = {
-			add_dynamic_modifier = { modifier = islamist_opposition }
 		}
 		349 = {
-			add_dynamic_modifier = { modifier = islamist_sedition }
-		}
-		348 = {
-			add_dynamic_modifier = { modifier = islamist_sedition }
+			add_dynamic_modifier = { modifier = kemalist_loyalties }
 		}
 		345 = {
+			add_dynamic_modifier = { modifier = kurdish_agitation }
+		}
+		347 = {
+			add_dynamic_modifier = { modifier = kurdish_separatism }
+		}
+		769 = {
+			add_dynamic_modifier = { modifier = kurdish_separatism }
+		}
+		348 = {
+			add_dynamic_modifier = { modifier = kurdish_agitation }
+		}
+		767 = {
 			add_dynamic_modifier = { modifier = islamist_opposition }
 		}
 		344 = {
-			add_dynamic_modifier = { modifier = islamist_opposition }
-		}
-		355 = {
 			add_dynamic_modifier = { modifier = islamist_sedition }
 		}
-		356 = {
+		343 = {
+			add_dynamic_modifier = { modifier = islamist_sedition }
+		}
+		340 = {
+			add_dynamic_modifier = { modifier = islamist_opposition }
+		}
+		339 = {
+			add_dynamic_modifier = { modifier = islamist_opposition }
+		}
+		350 = {
+			add_dynamic_modifier = { modifier = islamist_sedition }
+		}
+		351 = {
 			add_dynamic_modifier = { modifier = islamist_opposition }
 		}
 		add_ideas = {
@@ -181,28 +181,28 @@ if = {
 			days = 837
 		}	
 		
-		353 = {
+		348 = {
 			start_resistance = yes
 			set_compliance = 20
 			set_resistance = 10
 			set_garrison_strength = 1.0
 		}
 		
-		350 = {
+		345 = {
 			start_resistance = yes
 			set_compliance = 25
 			set_resistance = 15
 			set_garrison_strength = 1.0
 		}
 		
-		352 = {
+		347 = {
 			start_resistance = yes
 			set_compliance = 10
 			set_resistance = 15
 			set_garrison_strength = 0.75
 		}
 		
-		800 = {
+		769 = {
 			start_resistance = yes
 			set_compliance = 10
 			set_resistance = 15
@@ -213,10 +213,10 @@ if = {
 			limit = {
 				OR = {
 					state = 49
+					state = 337
+					state = 338
+					state = 341
 					state = 342
-					state = 343
-					state = 346
-					state = 347
 				}
 			}
 			set_state_flag = TUR_ideological_battleground_state
@@ -317,10 +317,10 @@ if = {
 			idea = TUR_second_five_year_plan_inonu
 			days = 730
 		}
-		347 = {
+		342 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
 		}	
-		342 = {
+		337 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
 		}
 		set_variable = { var = TUR_kemalist_officers_loyalty value = 0 }	

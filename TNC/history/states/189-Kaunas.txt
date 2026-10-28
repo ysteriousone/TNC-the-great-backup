@@ -9,14 +9,14 @@ state={
 	history={
 		owner = RKO
 		victory_points = {
-			9483 3
+			9263 3
 		}
 		victory_points = {
-			6314 1
+			6173 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			6314 = {
+			6173 = {
 				naval_base = 1
 
 			}
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		3337 3354 6314 9483 9499 9731 
+		3270 3287 6173 9263 9279 9511 
 	}
 
 	local_supplies=0.0 

@@ -1,0 +1,56 @@
+
+state={
+	id=357
+	name="STATE_357"
+
+	history={
+		owner = VIR
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+			dockyard = 4
+			air_base = 6
+			fuel_silo = 1
+			788 = {
+				naval_base = 10
+				naval_supply_hub = 1
+				naval_headquarters = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+
+		}
+		add_core_of = VIR
+		victory_points = {
+			788 10 
+		}
+		victory_points = {
+			10144 15 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				dockyard = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		788 865 873 951 1472 3755 3849 3857 6705 7369 9559 9711 10080 10144 10169 11438 11541 11573 
+	}
+
+	local_supplies=11.0
+	manpower=2249080
+
+	resources = {
+		coal = 11 #initial distribution = with infra 28.8 / 1280 total
+	}
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

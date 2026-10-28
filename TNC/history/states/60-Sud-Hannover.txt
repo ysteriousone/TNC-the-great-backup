@@ -1,5 +1,5 @@
 state = {
-	id = 60
+	id=60
 	name = "STATE_60"
 	manpower = 3005214
 	resources = {
@@ -18,7 +18,7 @@ state = {
 		add_core_of = THU
 
 		victory_points = { 
-			3561 5 # Erfurt
+			3493 5 # Erfurt
 		}
 
 		victory_points = { 
@@ -45,7 +45,7 @@ state = {
 	}
 
 	provinces = {
-		425 482 538 3500 3561 6501 6524 6582 9497 
+		425 482 538 3432 3493 6360 6383 6441 9277 
 	}
 
 	local_supplies = 0.0 

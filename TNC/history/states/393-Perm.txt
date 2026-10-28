@@ -1,0 +1,34 @@
+
+state = {
+	id=393
+	name = "STATE_393"
+	manpower = 2135879
+	state_category = rural
+	resources = {
+		aluminium = 6 # was: 10
+	}
+
+	history = {
+		owner = ZLT
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+
+		}
+		victory_points = {
+			7199 1 
+		}
+		add_core_of = ZLT
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces = {
+		123 189 206 390 1313 1339 1353 1708 3060 4224 4234 4276 4688 4760 5884 7173 7199 7629 9063 9966 10029 10054 10811 10895 10928 11052 11850 11860 11888 12179 12239 12278 12311 
+	}
+
+	local_supplies = 0.0 
+}

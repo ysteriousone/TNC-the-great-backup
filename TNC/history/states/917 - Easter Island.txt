@@ -1,0 +1,30 @@
+state = {
+	id=917
+	name = "STATE_917"
+	manpower = 6600
+	state_category = small_island
+	
+	history = {
+
+		owner = CHL
+		add_core_of = CHL
+		add_core_of = RAP
+
+		buildings = {
+			infrastructure = 1
+			12918 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			12918 1
+		}
+	}
+
+	provinces = {
+		12918
+	}
+
+	local_supplies = 0.0 
+}

@@ -10,21 +10,21 @@ USA_reunification_North_US_cat = {
 		}
 
 		available = {
-			357 = { is_controlled_by = ROOT }
-			358 = { is_controlled_by = ROOT }
-			359 = { is_controlled_by = ROOT }
-			360 = { is_controlled_by = ROOT }
-			361 = { is_controlled_by = ROOT }
-			816 = { is_controlled_by = ROOT }
+			352 = { is_controlled_by = ROOT }
+			353 = { is_controlled_by = ROOT }
+			354 = { is_controlled_by = ROOT }
+			355 = { is_controlled_by = ROOT }
+			356 = { is_controlled_by = ROOT }
+			785 = { is_controlled_by = ROOT }
 		}
 
 		complete_effect = {
-			357 = { add_core_of = ROOT }
-			358 = { add_core_of = ROOT }
-			359 = { add_core_of = ROOT }
-			360 = { add_core_of = ROOT }
-			361 = { add_core_of = ROOT }
-			816 = { add_core_of = ROOT }
+			352 = { add_core_of = ROOT }
+			353 = { add_core_of = ROOT }
+			354 = { add_core_of = ROOT }
+			355 = { add_core_of = ROOT }
+			356 = { add_core_of = ROOT }
+			785 = { add_core_of = ROOT }
 			set_cosmetic_tag = North_US_united
 		}
 

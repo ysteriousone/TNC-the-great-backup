@@ -1,9 +1,9 @@
-﻿if = {
+if = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
 	set_capital = {
-		state = 622
+		state = 593
 	}
 	set_oob = PRC_1936_TSR
 	set_rule = { can_join_factions = no }
@@ -12,7 +12,7 @@
 			NOT = { has_dlc = "No Compromise, No Surrender" }
 		}
 		set_capital = {
-			state = 1032
+			state = 988
 		}
 		set_oob = PRC_1936
 	}
@@ -142,7 +142,7 @@ IF = { #Recruit only if we have the dlc
 	recruit_character = PRC_ulanhu
 	recruit_character = PRC_zhang_zongxun
 
-	1046 = {
+	1002 = {
 		add_dynamic_modifier = { modifier = PRC_the_yulin_garrison }
 	}
 
@@ -355,7 +355,7 @@ add_opinion_modifier = { target = CHI modifier = hostile_status }
 			has_dlc = "No Compromise, No Surrender"
 		}
 		set_capital = {
-			state = 1032
+			state = 988
 		}
 		set_oob = PRC_1939_TSR
 		set_rule = { can_join_factions = yes }
@@ -364,7 +364,7 @@ add_opinion_modifier = { target = CHI modifier = hostile_status }
 				NOT = { has_dlc = "No Compromise, No Surrender" }
 			}
 			set_capital = {
-				state = 1032
+				state = 988
 			}
 			set_oob = PRC_1939
 		}
@@ -467,19 +467,19 @@ add_opinion_modifier = { target = CHI modifier = hostile_status }
 	}
 	set_country_flag = PRC_joined_CHI_against_JAP
 	remove_opinion_modifier = { target = CHI modifier = hostile_status }
-	add_state_claim = 612
-	add_state_claim = 611
-	add_state_claim = 714
-	add_state_claim = 717
-	add_state_claim = 328
-	add_state_claim = 716
-	add_state_claim = 715
-	add_state_claim = 610
-	add_state_claim = 609
-	add_state_claim = 597
-	add_state_claim = 614
-	add_state_claim = 608
-	add_state_claim = 615
+	add_state_claim = 583
+	add_state_claim = 582
+	add_state_claim = 685
+	add_state_claim = 688
+	add_state_claim = 323
+	add_state_claim = 687
+	add_state_claim = 686
+	add_state_claim = 581
+	add_state_claim = 580
+	add_state_claim = 568
+	add_state_claim = 585
+	add_state_claim = 579
+	add_state_claim = 586
 
 	add_ideas = {
 		#laws

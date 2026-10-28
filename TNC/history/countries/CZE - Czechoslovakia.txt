@@ -699,7 +699,7 @@ if = {
 				OR = {
 					state = 9 #Bohemia
 					state = 69 #North Sudetenland
-					state = 972 #South Sudetenland
+					state = 941 #South Sudetenland
 					state = 74 #Czeske Slezsko
 					state = 70 #Western Slovakia
 				}
@@ -720,7 +720,7 @@ if = {
 				OR = {
 					state = 9 #Bohemia
 					state = 69 #North Sudetenland
-					state = 972 #South Sudetenland
+					state = 941 #South Sudetenland
 					state = 74 #Czeske Slezsko
 					state = 70 #Western Slovakia
 				}
@@ -752,7 +752,7 @@ if = {
 		limit = {
 			OR = {
 				state = 69 #North Sudetenland
-				state = 972 #South Sudetenland
+				state = 941 #South Sudetenland
 				state = 74 #Czeske Slezsko
 			}
 		}
@@ -800,7 +800,7 @@ if = {
 
 	every_owned_state = {
 		limit = {
-			state = 664 #Southern Slovakia
+			state = 635 #Southern Slovakia
 		}
 		add_dynamic_modifier = {
 			modifier = CZE_hungarian_state_modifier

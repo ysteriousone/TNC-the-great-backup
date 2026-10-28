@@ -1,0 +1,24 @@
+state = {
+	id=834
+	name = "STATE_834"
+
+	provinces = {
+		1625 3732 4581 6638 12334 12793 12808 12810 12812
+	}
+
+	history = {
+
+		owner = CAN
+		add_core_of = CAN
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	manpower = 65605
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

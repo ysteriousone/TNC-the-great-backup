@@ -1,0 +1,36 @@
+state = {
+	id=893
+	name = "STATE_893"
+	manpower = 142100 # 355251
+	
+	state_category = rural
+	
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		victory_points = {
+			10750 1
+		}
+		owner = NOR
+		add_core_of = NOR
+		add_core_of = SMI
+		
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			
+			10750 = {
+				naval_base = 2
+			}
+		}
+	}
+
+
+	provinces={
+		44 91 2991 3015 5938 5966 5989 10750 10790 
+	}
+	
+	local_supplies=0.000
+}

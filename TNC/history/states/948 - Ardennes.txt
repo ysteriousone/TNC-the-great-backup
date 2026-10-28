@@ -1,0 +1,35 @@
+state = {
+	id=948
+	name = "STATE_948"
+	manpower = 338130
+	resources={
+		steel=9 # was: 0
+		coal = 7 # initial distribution / 84 total
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = RKB
+		add_core_of = BEL
+
+		victory_points = {
+			9198 1 # Arlons
+		}
+
+		buildings = {
+			infrastructure = 1
+
+			# Gileppe Dam
+			3420 = { dam = 1 }
+		}
+		
+	}
+
+	provinces = {
+		3420 6396 9198 9224 11107
+	}
+
+	local_supplies = 14.0 
+}

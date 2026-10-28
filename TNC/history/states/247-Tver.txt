@@ -9,7 +9,7 @@ state={
 		owner = RKM
 		add_core_of = HRE
 		victory_points = {
-			6245 10 
+			6104 10 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		85 150 344 3143 3176 3323 6022 6122 6203 6245 6346 9046 9144 9256 11084 11154 11250 
+		85 150 344 3076 3109 3256 5881 5981 6062 6104 6205 8827 8924 9036 10784 10854 10950 
 	}
 
 	local_supplies=0.0 

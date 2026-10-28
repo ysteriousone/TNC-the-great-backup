@@ -1,0 +1,35 @@
+
+state = {
+	id=476
+	name = "STATE_476"
+	manpower = 1662200
+	
+	state_category = rural
+
+	resources = {
+		aluminium = 3
+		chromium = 3
+	}
+
+	history = {
+
+		owner = BRA
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			12612 3 
+		}
+
+	}
+
+	provinces = {
+		4976 5009 5068 7921 12584 12612 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
+}

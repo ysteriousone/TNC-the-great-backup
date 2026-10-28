@@ -1,0 +1,27 @@
+
+state={
+	id=561
+	name="STATE_561" # Akmolinsk
+	manpower = 980533
+	
+	state_category = pastoral
+
+	history={
+		owner = KRA
+		add_core_of = KAZ
+		victory_points = {
+			4240 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KRA
+
+	}
+
+	provinces={
+		1207 1212 1288 1349 1363 1387 1616 1634 1648 4148 4153 4193 4219 4240 4736 7130 7156 7207 7228 7245 7546 7678 9961 9988 10049 10358 11828 12271 
+	}
+
+	local_supplies=0.0 
+}

@@ -10,7 +10,7 @@ state={
 		owner = RKM
 		add_core_of = SAV
 		victory_points = {
-			3335 10
+			3268 10
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		288 315 343 371 398 3226 3306 3335 3364 3390 6305 6330 6386 6411 11229 11298 11325 
+		288 315 343 371 398 3159 3239 3268 3297 3323 6164 6189 6245 6270 10929 10998 11025 
 	}
 
 	local_supplies=0.0 

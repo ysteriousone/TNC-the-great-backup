@@ -1,0 +1,29 @@
+
+state={
+	id=415
+	name="STATE_415"
+	manpower = 1314948
+	
+	state_category = rural
+
+	history={
+		owner = PER
+		victory_points = {
+			7769 5
+		}
+		victory_points = {
+			4786 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PER
+		add_core_of = AZR
+	}
+
+	provinces={
+		4444 4497 4524 4786 7769 10183 10248 
+	}
+
+	local_supplies=3.0 
+}

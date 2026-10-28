@@ -1,0 +1,45 @@
+
+state={
+	id=610
+	name="STATE_610"
+	manpower=1035
+	state_category = small_island
+
+	history={
+		owner = ENG
+		add_core_of = FIJ
+		buildings = {
+			infrastructure = 2
+			12646 = {
+				naval_base = 1
+			}
+			4289 = {
+				naval_base = 1
+			}
+			7216 = {
+				naval_base = 1
+			}
+			12645 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12646 1 
+		}
+
+		strategic_province_location = {
+			defensible_coastline = 13021
+		}
+
+		strategic_province_location = {
+			defensible_coastline = 7393
+		}
+
+	}
+
+	provinces={
+		4289 7216 12645 12646 12647 
+	}
+
+	local_supplies=0.0 
+}

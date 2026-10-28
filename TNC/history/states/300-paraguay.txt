@@ -1,0 +1,41 @@
+
+state = {
+	id=300
+	name = "STATE_300"
+	manpower = 890100
+	
+	state_category = town
+	
+	history = {
+
+		owner = PAR
+		add_core_of = PAR
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+		}
+		
+		victory_points = {
+			2086 10 
+		}
+
+		victory_points = {
+			2128 5 
+		}
+
+		victory_points = {
+			10723 1
+		}
+
+	}
+
+	provinces = {
+		2086 2107 2128 10723 12526 
+	}
+	
+
+	local_supplies = 0.0 
+}

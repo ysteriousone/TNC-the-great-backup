@@ -1,4 +1,4 @@
-﻿capital = 361 # Washington DC
+capital = 356 # Washington DC
 
 oob = "USA_1936"
 
@@ -312,13 +312,13 @@ if = {
 	complete_special_project = {
 		project = sp:sp_naval_cruiser_submarine
 		scientist = USA_william_francis_gibbs
-		state = 361 
+		state = 356 
 	}
 
 	complete_special_project = {
 		project = sp:sp_air_radar
 		scientist = USA_vannevar_bush
-		state = 386
+		state = 381
 	}
 
 	IF = {
@@ -328,14 +328,14 @@ if = {
 		complete_special_project = {
 			project = sp:sp_air_helicopter
 			scientist = USA_edward_curtis_wells
-			state = 386
+			state = 381
 		}
 	}
 
 	complete_special_project = {
 		project = sp:sp_land_military_engineering_vehicles
 		scientist = USA_john_walter_christie
-		state = 393
+		state = 388
 	}
 
 	set_technology = {

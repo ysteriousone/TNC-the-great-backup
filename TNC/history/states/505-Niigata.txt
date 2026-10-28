@@ -1,0 +1,42 @@
+state = {
+	id=505
+	name = "STATE_505" # was Hokuriku, is actually Kōshin'etsu
+	manpower = 2064402 # was 1933000
+	
+	state_category = city
+	resources = {
+		oil = 3
+	}
+
+	history = {
+
+		owner = JPN
+		add_core_of = JPN
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			fuel_silo = 1
+		}
+		
+		victory_points = {
+			1109 10 # Niigata
+		}
+
+		victory_points = {
+			9888 1 # Toyama
+		}
+
+		victory_points = {
+			9787 10 # Nagano
+		}
+
+	}
+
+	provinces = {
+		1109 9729 9787 9888 11627 11681 11696 
+	}
+
+	local_supplies = 0.0 
+}

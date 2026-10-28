@@ -1,0 +1,42 @@
+
+state={
+	id=362
+	name="STATE_362"
+	manpower = 2646247
+	
+	resources = {
+		coal = 8 # initial distribution = with infra 28.8 / 1280 total
+	}
+
+	state_category = city
+
+	history={
+		owner = ALA
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 3
+			7293 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = ALA
+		victory_points = {
+			7293 1 
+		}
+		victory_points = {
+			12382 1 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
+		}
+
+	}
+
+	provinces={
+		492 860 1545 4482 4509 4642 4927 7242 7293 7446 9945 10245 11209 11639 12382 12439 
+	}
+
+	local_supplies=0.0 
+}

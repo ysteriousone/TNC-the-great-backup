@@ -1,0 +1,26 @@
+
+state={
+	id=401
+	name="STATE_401" # Gurev
+	manpower = 146494
+	
+	state_category = wasteland
+
+	history={
+		owner = NPL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NPL
+		add_core_of = KAZ
+		victory_points = {
+			3550 1
+		}
+	}
+
+	provinces={
+		464 477 554 615 3391 3550 3554 6357 6373 6382 6474 7152 9233 9249 11142 11155 11169 11278 11291 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=431
+	name="STATE_431" # Constantine
+	manpower = 2343837
+	
+	state_category = town
+
+	history={
+		owner = NFA
+		add_core_of = NFA
+		add_core_of = ALG
+		victory_points = {
+			6933 1 
+		}
+		victory_points = {
+			11735 3 
+		}
+		buildings = {
+			infrastructure = 2
+			6933 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1057 1148 3975 6919 6933 7011 9751 9843 11648 11735 12702 
+	}
+
+	local_supplies=0.0 
+}

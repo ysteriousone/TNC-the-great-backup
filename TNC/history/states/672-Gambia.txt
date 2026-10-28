@@ -1,0 +1,30 @@
+state={
+	id=672
+	name="STATE_672"
+
+	history={
+		owner = ENG
+		add_core_of = GAM
+		victory_points = {
+			4866 1 
+		}
+		buildings = {
+			infrastructure = 2
+			4866 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4866 12837 
+	}
+	manpower=199520
+	buildings_max_level_factor=1.000
+	state_category=enclave
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=324
+	name="STATE_324"
+	manpower = 85000
+	resources={
+		chromium=2 # was: 2
+	}
+	
+	state_category = rural
+
+	history={
+		owner = MAO
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			10352 3
+		}
+		add_core_of = MAO
+	}
+
+	provinces={
+		1630 1831 4566 7508 7536 7609 7624 10322 10352 10371 12262 12277 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		2050 2155 5058 10641 12574 
+	}
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		owner = AST
+		add_core_of = AST
+	}
+	state_category = pastoral
+	manpower=60000 #PreTAOG 10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

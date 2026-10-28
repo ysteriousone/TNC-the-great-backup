@@ -1,4 +1,4 @@
-﻿capital = 397 #Syktyvkar
+capital = 392 #Syktyvkar
 
 country_event = { id = NRRF.1 days = 815 } 
 

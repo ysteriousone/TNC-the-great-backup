@@ -14,13 +14,13 @@ state={
 	history={
 		owner = BUL
 		victory_points = { #Plovdiv
-			6923 10
+			6782 10
 		}
 		victory_points = { #Stara Zagora
-			6814 3
+			6673 3
 		}
 		victory_points = { #Haskovo
-			9862 1
+			9642 1
 		}
 		buildings = {
 			infrastructure = 2
@@ -32,7 +32,7 @@ state={
 	}
 
 	provinces={
-		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 
+		878 893 3869 6673 6716 6782 6811 6841 9598 9642 11513 
 	}
 
 	local_supplies=5.0 

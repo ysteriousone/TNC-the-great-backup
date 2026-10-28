@@ -1,4 +1,4 @@
-﻿
+
 division_template = {
 	name = "People's Battalions"
 	division_names_group = ORE_INF_01
@@ -19,7 +19,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 12211
+		location = 11883
 		division_template = "People's Battalions"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -31,7 +31,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 4826
+		location = 4712
 		division_template = "People's Battalions"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -43,7 +43,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 12553
+		location = 12205
 		division_template = "People's Battalions"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -55,7 +55,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11495
+		location = 11195
 		division_template = "People's Battalions"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

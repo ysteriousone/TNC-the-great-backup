@@ -1,5 +1,5 @@
 state = {
-	id = 4
+	id=4
 	name = "STATE_4"
 	manpower = 2297983 # was 2595983
 
@@ -16,7 +16,7 @@ state = {
 		add_core_of = AUS
 
 		victory_points = {
-			11666 30 
+			11366 30 
 		}
 
 		victory_points = {
@@ -28,7 +28,7 @@ state = {
 			arms_factory = 3
 			industrial_complex = 4
 			air_base = 6
-            11666 = {
+            11366 = {
                 landmark_hofburg_palace = {
                     level = 1
                     allowed = {
@@ -53,7 +53,7 @@ state = {
 	}
 
 	provinces = {
-		704 732 3718 6552 6690 6723 6739 9527 11651 11666 
+		704 732 3650 6411 6549 6582 6598 9307 11351 11366 
 	}
 
 	local_supplies = 0.0 

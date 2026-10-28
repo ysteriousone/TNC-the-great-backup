@@ -1,0 +1,35 @@
+state = {
+	id=697
+	name = "STATE_697"
+	manpower = 113214
+	state_category = small_island
+
+	history = {
+
+		owner = NZL
+		add_core_of = SAM
+
+		buildings = {
+			infrastructure = 2
+			7123 = {
+				naval_base = 1
+			}
+		}
+
+		set_demilitarized_zone = yes 
+
+		victory_points = {
+			7123 2 # Apia 
+		}
+
+		victory_points = {
+			13036 1 # Safotulafai  
+		}
+	}
+
+	provinces = {
+		7123 13036 
+	}
+
+	local_supplies = 0.0 
+}

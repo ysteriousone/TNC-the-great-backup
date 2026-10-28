@@ -1,0 +1,52 @@
+state = {
+	id=568
+	name = "STATE_568"
+	manpower = 12791066
+	state_category = rural
+	
+	resources = {
+		aluminium = 8 
+	}
+	
+	history = {
+
+		owner = SND
+		add_core_of = SND
+		add_core_of = CHI
+		add_core_of = PRC
+
+
+
+		victory_points = {
+			1098 2 # Yantai
+		}
+
+		victory_points = {
+			4122 1 # Weihaiwei
+		}
+
+		buildings = {
+			infrastructure = 2
+
+			4122 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+			}
+
+			1098 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+
+		}
+		
+	}
+
+	provinces = {
+		1098 1143 1171 1185 4015 4077 4105 4122 6940 6955 9748 9790 11757 
+	}
+
+	local_supplies = 4.0 
+}

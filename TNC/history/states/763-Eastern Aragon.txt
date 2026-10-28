@@ -1,0 +1,26 @@
+state={
+	id=763
+	name="STATE_763"
+
+	history={
+		owner = SPR
+		victory_points = {
+			3886 1 
+		}
+		buildings = {
+			infrastructure = 3 #was: 6
+
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		790 798 871 899 915 3841 3886 9593 11493 11519 11521 12846 12847 12849 
+	}
+	manpower=387366
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}

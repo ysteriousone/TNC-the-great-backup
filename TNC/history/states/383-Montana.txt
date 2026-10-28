@@ -1,0 +1,35 @@
+state = {
+	id=383
+	name = "STATE_383"
+	manpower = 537605
+	state_category = rural
+
+	resources = {
+		tungsten = 11 # was: 16
+		coal = 7 # initial distribution = with infra 12.6 / 1280 total
+	}
+
+	history = {
+
+		owner = MNA
+		add_core_of = MNA
+
+		buildings = {
+			infrastructure = 2
+		}
+		
+		victory_points = {
+			4746 1 # Great Falls
+		}
+
+		# Hungry Horse Dam
+		#1854 = { dam = 1 }
+
+	}
+
+	provinces = {
+		1690 1721 1805 1808 1811 4627 4724 4743 4746 4749 6601 7565 7584 7684 7687 10312 10318 10349 10431 11412 12224 12237 12328 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=356
+	name="STATE_356"
+	manpower = 2118394
+	
+	state_category = city
+
+	history={
+		owner = USA
+		victory_points = {
+			3889 40 
+		}
+		victory_points = {
+			6843 5 
+		}
+		buildings = {
+			infrastructure = 4 #was: 7
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 6
+			6843 = {
+				naval_base = 2
+			}
+			3889 = {
+				naval_base = 1
+				# United States Naval Research Laboratory (NRL)
+				naval_facility = 1
+			}
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		3889 6682 6751 6788 6843 9538 9566 11592 
+	}
+
+	local_supplies=0.0 
+}

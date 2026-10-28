@@ -1,0 +1,47 @@
+state= {
+	id=570
+	name="STATE_570"
+	manpower = 8685200
+	state_category = town
+	resources={
+		tungsten=15 # was: 20
+		steel= 15 # was: 20
+		chromium = 3 # was: 4
+	}
+
+	history= {
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+
+		victory_points = { 
+			10136 5 # Guilin  
+		}
+
+		victory_points = { 
+			1555 1 # Liuzhou  
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				CHI = { transfer_state = PREV }
+			}
+		}
+
+	}
+	provinces={
+		1022 1555 4055 4072 6945 6975 7013 7051 9807 10136 10161 12065 12092 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,6 +1,6 @@
 
 state = {
-	id = 158
+	id=158
 	name = "STATE_158"
 	manpower = 4765476
 	
@@ -16,10 +16,10 @@ state = {
 	history = {
 		owner = ITA
 		victory_points = {
-			6788 10 
+			6647 10 
 		}
 		victory_points = {
-			6780 5 
+			6639 5 
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
@@ -27,7 +27,7 @@ state = {
 			industrial_complex = 1
 			dockyard = 2
 			air_base = 8
-			6788 = {
+			6647 = {
 				naval_base = 8
 			}
 		}
@@ -38,7 +38,7 @@ state = {
 				arms_factory = 10
 				industrial_complex = 2
 				dockyard = 3
-				6788 = {
+				6647 = {
 					naval_facility = 1 # Genoa Facilities
 				}
 			}
@@ -46,7 +46,7 @@ state = {
 	}
 
 	provinces = {
-		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11726 11730 11891 
+		611 770 771 776 3704 3714 6494 6639 6647 9518 9521 11270 11421 11423 11426 11430 11591 
 	}
 
 	local_supplies = 0.0 

@@ -1,0 +1,40 @@
+state= {
+	id=314
+	name="STATE_314"
+	manpower = 3607919
+	resources={
+		steel=3 # was: 4
+		chromium=90 # was: 160
+	}
+	
+	state_category = town
+
+	history= {
+		owner = CUB
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			7429 = {
+				naval_base = 3
+			}
+			1512 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CUB
+		victory_points = {
+			7429 5 
+		}
+		victory_points = {
+			7399 1
+		}
+
+	}
+	provinces={
+		1512 4370 4488 7267 7357 7399 7429 10108 10225 12008
+	}
+
+	local_supplies=0.0 
+}

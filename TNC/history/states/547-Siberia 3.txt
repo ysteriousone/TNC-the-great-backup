@@ -1,0 +1,29 @@
+state = {
+	id=547
+	name = "STATE_547" # Yeniseisk
+	manpower = 117195
+	
+	state_category = wasteland
+
+	history = {
+
+		owner = RRR
+		add_core_of = RRR
+		add_core_of = EVE
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = { #Tura
+			7610 1
+		}
+
+	}
+
+	provinces = {
+		1633 1651 1695 1734 1782 1791 4573 4629 4671 4717 4728 7506 7512 7555 7610 7667 10269 10301 10356 10430 12207 12247 12267 12307 12318 
+	}
+
+	local_supplies = 5.0 
+}

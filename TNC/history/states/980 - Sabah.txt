@@ -1,0 +1,60 @@
+state = {
+	id=980
+	name = "STATE_980"
+
+	manpower = 329800
+
+	resources = {
+		rubber = 20
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = SAB
+		add_core_of = MAL
+		add_core_of = SAB
+
+		victory_points = {
+			9952 2 # Sandakan
+		}
+
+		victory_points = {
+			11899 1 # Tawau
+		}
+
+		victory_points = {
+			4194 1 # Kudat
+		}
+
+		victory_points = {
+			9962 3 # Kota Kinabalu/Jesselton
+		}
+
+		buildings = {
+
+			infrastructure = 2
+
+			11899 = {
+				naval_base = 1
+			}
+
+			9952 = {
+				naval_base = 1
+			}
+
+			9962 = {
+				naval_base = 2
+			}
+
+		}
+		
+	}
+
+	provinces = {
+		1285 1312 4194 4245 7185 9901 9962 9952 9989 11846 11859 11899 
+	}
+
+	local_supplies = 0.0 
+}

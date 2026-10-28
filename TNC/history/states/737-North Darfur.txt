@@ -1,0 +1,25 @@
+state = {
+	id=737
+	name = "STATE_737" # North Darfur
+	manpower = 8143
+	
+	state_category = wasteland
+	impassable = yes
+	force_link_ownership_to = 522 # Kharthoum
+	
+	history = {
+
+		owner = EGY
+		add_core_of = SUD
+		
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		7786 7887 10602
+	}
+
+	local_supplies = 0.0 
+}

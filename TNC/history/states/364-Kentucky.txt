@@ -1,0 +1,32 @@
+
+state={
+	id=364
+	name="STATE_364"
+	manpower = 2614588
+	
+	resources = {
+		coal = 56 # initial distribution = with infra 99.2 / 1280 total
+	}
+
+	state_category = city
+
+	history={
+		owner = KFC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 3
+			air_base = 4
+		}
+		add_core_of = KFC
+		victory_points = {
+			6555 1 
+		}
+
+	}
+
+	provinces={
+		1412 1540 4303 4348 4865 6555 6833 7358 9507 10311 10452 12220 12289 12360 
+	}
+
+	local_supplies=0.0 
+}

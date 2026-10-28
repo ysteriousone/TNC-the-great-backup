@@ -8,10 +8,10 @@ state={
 	history={
 		owner = POR
 		victory_points = {
-			11805 20 
+			11505 20 
 		}
 		victory_points = {
-			3798 1 
+			3730 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -19,7 +19,7 @@ state={
 			industrial_complex = 2
 			air_base = 5
 			dockyard = 2
-			11805 = {
+			11505 = {
 				naval_base = 8
 			}
 		}
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		799 3798 3861 6924 11805 
+		799 3730 3793 6783 11505 
 	}
 	manpower=1995800
 	buildings_max_level_factor=1.000

@@ -1,0 +1,42 @@
+
+state={
+	id=639
+	name="STATE_639"
+	manpower = 579100
+	
+	state_category = small_island
+
+	history = {
+
+		owner = INS
+		add_core_of = TNE
+
+		set_resistance = 0
+		set_compliance = 55
+
+		victory_points = {
+			7233 1 # Ternate   
+		}
+
+		buildings = {
+
+			1534 = {
+				naval_base = 1
+			}
+			1326 = {
+				naval_base = 1
+			}
+			7233 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		1326 1388 1405 1534 7195 7233 7368 9899 10079 10141 
+	}
+
+	local_supplies=0.0 
+}

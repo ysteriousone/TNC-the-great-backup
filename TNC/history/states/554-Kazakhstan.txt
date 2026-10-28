@@ -1,0 +1,26 @@
+state={
+	id=554
+	name="STATE_554"
+
+	history={
+		owner = ROA
+		add_core_of = KAZ
+		add_core_of = ROA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			10052 1
+		}
+	}
+
+	provinces={
+		1253 1255 1282 1308 1334 1337 4244 4247 4273 7072 7184 7248 9898 9924 10027 10037 10052 11794 11817 11820 11845 11858 11871 11900 11925 11933 11950 
+	}
+	manpower=315450
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,43 @@
+state={
+	id=492
+	name="STATE_492"
+	resources={
+		tungsten = 2 #starting amount divided better in TAOG
+		coal = 5 #4 > 5
+	}
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			7375 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+			7376 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			7375 15 
+		}
+		victory_points = {
+			7376 1 
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		1439 1518 1530 4375 4396 4409 4422 4437 4449 4519 5087 7334 7347 7375 7376 7401 7418 7457 7471 10160 10174 10187 10189 10202 10214 10706 11971 12041 12069 12080 12107 
+	}
+	manpower=720000 #PreTAOG 816800
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

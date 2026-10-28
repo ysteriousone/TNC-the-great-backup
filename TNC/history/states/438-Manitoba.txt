@@ -1,0 +1,28 @@
+
+state={
+	id=438
+	name="STATE_438"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4758 5 
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		1802 1827 3653 4135 4323 4676 4758 4980 11822 12288 12340 12788 
+	}
+	manpower=641071
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=9.0 
+}

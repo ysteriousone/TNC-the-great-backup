@@ -1,0 +1,42 @@
+state={
+	id=731
+	name="STATE_731"
+	provinces={
+		1730 4631 4738 7502 7548 10266 10292 10337 10363 12189 12342 12775 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+
+	history = {
+
+		owner = RFP
+		add_core_of = RFP
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+
+		victory_points = {
+			10337 1 # Manzhouli
+		}
+
+		victory_points = {
+			1730 1 # Genhe
+		}
+
+		victory_points = {
+			12775 1 # Hailar
+		}
+
+		victory_points = {
+			12342 1 # Tauran
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	local_supplies = 0.0 
+}

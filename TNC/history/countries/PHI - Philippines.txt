@@ -1,4 +1,4 @@
-﻿capital = 327
+capital = 322
 
 country_event = { id = proxy.11 days = 2140 }
 

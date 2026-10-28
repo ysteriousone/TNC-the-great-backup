@@ -1,0 +1,42 @@
+state = {
+	id=328
+	name = "STATE_328"
+
+	manpower = 503200
+
+	resources = {
+		rubber = 20 # was: 72, then 40
+		oil = 1
+		coal = 1 # initial distribution
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = SAR
+		add_core_of = MAL
+		add_core_of = SAR
+
+		victory_points = {
+			1193 3 # Kuching
+		}
+
+		buildings = {
+
+			infrastructure = 2
+
+			1193 = {
+				naval_base = 1
+			}
+
+		}
+		
+	}
+
+	provinces = {
+		1193 2051 4133 4297 7260 7877 10028 11948 12530   
+	}
+
+	local_supplies = 0.0 
+}

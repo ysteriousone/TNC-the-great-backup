@@ -1,0 +1,37 @@
+
+state={
+	id=360
+	name="STATE_360"
+	manpower = 2908504
+	
+	state_category = city
+
+	history={
+		owner = GGR
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 3
+			air_base = 2
+			11668 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GGR
+		victory_points = {
+			12043 10 
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
+		}
+
+	}
+
+	provinces={
+		638 968 1401 1447 4954 6967 7392 7420 9727 9769 10127 10167 10194 10219 11668 11987 12043 12124 12150 
+	}
+
+	local_supplies=0.0 
+}

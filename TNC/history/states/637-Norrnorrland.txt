@@ -1,0 +1,56 @@
+state = {
+	id=637
+	name = "STATE_637"
+	manpower = 100222
+	state_category = rural
+
+	resources = {
+		tungsten = 44
+		steel = 50
+		chromium = 25
+	}
+
+	history = { 
+
+		owner = SWE
+		add_core_of = SWE
+		add_core_of = SMI
+		
+
+		victory_points = {
+			8888 2 # Luleå
+		}
+
+		victory_points = {
+			3028 1 # Kiruna
+		}
+
+		victory_points = {
+			10855 1 # Gällivare
+		}
+
+		victory_points = {
+			8927 1 # Haparanda
+		}
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+			8888 = {
+				naval_base = 2
+			}
+
+			# Harsprånget
+			#3054 = { dam = 1 }
+
+		}
+
+	}
+
+	provinces = {
+		58 61 101 148 151 190 201 2987 3028 3037 3112 5914 5933 5984 6014 6024 6027 6029 6065 6067 8864 8888 8927 8958 8966 9006 10760 10773 10802 10855 10908 12744 
+	}
+	
+	local_supplies = 0.000
+}

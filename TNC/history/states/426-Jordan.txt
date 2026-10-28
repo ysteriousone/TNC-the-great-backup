@@ -1,0 +1,36 @@
+state = {
+	id=426
+	name = "STATE_426"
+	manpower = 932000
+	
+	state_category = rural
+
+	history = {
+
+		owner = IRQ
+		add_core_of = IRQ
+		add_core_of = JOR
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4037 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			6997 2 # Amman
+		}
+		victory_points = {
+			11669 1 # Ma'an
+		}
+
+	}
+
+	provinces = {
+		1506 3947 4037 4336 4451 4462 4479 4491 6860 6997 7015 9853 11669 
+	}
+
+	local_supplies = 0.0 
+}

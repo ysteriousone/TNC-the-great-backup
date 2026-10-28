@@ -1,0 +1,27 @@
+state = {
+	id=1029
+	name = "STATE_1029"
+
+	manpower = 325000 #PreTAOG 38000 
+	state_category = enclave
+
+	impassable = yes 
+	force_link_ownership_to = 494 # Papua 
+
+	history = {
+
+		add_core_of = PNG
+		owner = AST
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces = {
+		1361 2063 4226 4295 4316 4522 4996 7191 7230 7422 9999 10154 10654 10704 10718 11787 11830 11866 11908 11911 12058 12084 12556
+	}
+
+	local_supplies = 0.0 
+}

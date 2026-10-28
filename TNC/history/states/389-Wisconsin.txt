@@ -1,0 +1,30 @@
+
+state={
+	id=389
+	name="STATE_389"
+	manpower = 2939004
+	state_category = city
+	
+	resources={
+		steel=53 # was: 84
+	}
+
+	history={
+		owner = WSC
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 3
+		}
+		add_core_of = WSC
+		victory_points = {
+			12018 5 
+		}
+
+	}
+
+	provinces={
+		703 926 1521 1714 1803 3631 3959 4085 4624 4720 7581 7634 9437 9458 10078 10251 12018 12111 
+	}
+
+	local_supplies=0.0 
+}

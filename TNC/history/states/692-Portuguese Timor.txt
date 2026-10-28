@@ -1,0 +1,37 @@
+state = {
+	id=692
+	name = "STATE_692"
+	manpower = 455604
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = POR
+		add_core_of = TML
+
+		victory_points = {
+			11863 2 # Dili
+		}
+
+		victory_points = {
+			11879 1 # Pante Macassar
+		}
+
+		buildings = {
+			infrastructure = 2
+			11863 = {
+				naval_base = 1
+			}
+			11879 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1303 11853 11863 11879 12626 
+	}
+
+	local_supplies = 0.0 
+}

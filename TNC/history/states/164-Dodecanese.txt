@@ -9,15 +9,15 @@ state=
 	history = {
 		owner = GRE
 		victory_points = {
-			10007 1 
+			9779 1 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 1
-			10007 = {
+			9779 = {
 				naval_base = 4
 			}
-			7003 = {
+			6862 = {
 				naval_base = 1
 			}
 		}
@@ -30,7 +30,7 @@ state=
 	}
 
 	provinces = {
-		7003 10007
+		6862 9779
 	}
 
 	local_supplies=0.0 

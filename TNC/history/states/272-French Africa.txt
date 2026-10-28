@@ -13,19 +13,19 @@ state={
 		owner = SEN
 		add_core_of = SEN
 		victory_points = {
-			4948 5 
+			4832 5 
 		}
 		buildings = {
 			infrastructure = 2
 			air_base = 4
-			4948 = {
+			4832 = {
 				naval_base = 3
 			}
 		}
 	}
 
 	provinces={
-		2100 4948 7972 8015 12710 12834 
+		2035 4832 7772 7808 12361 12467 
 	}
 
 	local_supplies=1.0 

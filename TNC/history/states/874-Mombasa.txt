@@ -1,0 +1,30 @@
+state={
+	id=874
+	name="STATE_874"
+	manpower = 1017600
+	state_category = pastoral
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			5070 = {
+				naval_base = 2
+
+			}
+		}
+
+		victory_points = {
+			5070 1 
+		}
+		add_core_of = KEN
+
+	}
+
+	provinces={
+		5056 5070 5879 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

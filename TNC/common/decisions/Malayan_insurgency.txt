@@ -71,7 +71,7 @@ Malayan_insurgency_cat = {
 	NOT = {
 	country_exists = BML
 		}
-	controls_state = 1021
+	controls_state = 977
 			
 		}
 
@@ -102,17 +102,17 @@ Establish_a_Foothold_in_Brunei = {
 	NOT = {
 	country_exists = BML
 		}
-	controls_state = 336
-	controls_state = 1059
-	controls_state = 1024
+	controls_state = 331
+	controls_state = 1015
+	controls_state = 980
 			
 		}
 
 		complete_effect = {
     BML = {
-	add_state_core = 333
-	add_state_core = 1059
-	add_state_core = 1024
+	add_state_core = 328
+	add_state_core = 1015
+	add_state_core = 980
 	}
 }
 		ai_will_do = {
@@ -139,12 +139,12 @@ Build_up_Johor = {
 	NOT = {
 	country_exists = BML
 		}
-	controls_state = 1060
+	controls_state = 1016
 			
 		}
 
 		complete_effect = {
-    1060 = {
+    1016 = {
 	add_core_of = BML
 	}
 }
@@ -173,12 +173,12 @@ Kuala_Lampur_Fortifications = {
 	NOT = {
 	country_exists = BML
 		}
-	controls_state = 336
+	controls_state = 331
 			
 		}
 
 		complete_effect = {
-    336 = {
+    331 = {
 	add_core_of = BML
 	}
 
@@ -284,13 +284,13 @@ Perak_Blitz = {
 		start_border_war = {
 				change_state_after_war = yes
 			 	attacker = {
-			 		state = 336
+			 		state = 331
 					num_provinces = 3
-			 		on_win = transfer_state = 1064 
+			 		on_win = transfer_state = 1020 
 					on_lose = 
 			 	}	
 			 	defender = {
-			 		state = 1064
+			 		state = 1020
 					num_provinces = 4
 				}
 			 }
@@ -333,7 +333,7 @@ Escalate_The_Emergency = {
 				}
 
 		
-	1060 = {
+	1016 = {
 							create_unit = { 
 								division = "name = \"Anglosphere Garrison\" division_template = \"British Colonial Loyalists\" start_experience_factor = 0.5" 
 								owner = BML
@@ -366,15 +366,15 @@ Prepare_Evacuation = {
 		has_offensive_war = yes	
 			
 		}
-	controls_state = 333
-	controls_state = 1059
-	controls_state = 1024
+	controls_state = 328
+	controls_state = 1015
+	controls_state = 980
    }
 		complete_effect = {
     BML = {
-	transfer_state = 333
-	transfer_state = 1059
-	transfer_state = 1024
+	transfer_state = 328
+	transfer_state = 1015
+	transfer_state = 980
 
 	}	
 	}

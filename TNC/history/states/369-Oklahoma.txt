@@ -1,0 +1,40 @@
+
+state={
+	id=369
+	name="STATE_369"
+	manpower = 2396039
+	
+	state_category = city
+	
+	resources={
+		oil=60 # was: 100
+		aluminium=20 # was: 32
+	}
+
+
+	history={
+		owner = OKL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = OKL
+		victory_points = {
+			1760 1 
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+			}
+		}
+
+	}
+
+	provinces={
+		1575 1760 1983 4803 4966 6662 7567 7707 7745 7817 9602 10427 10517 11443 11502 12276 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,47 @@
+state = {
+	id=586
+	name = "STATE_586"
+	manpower = 11601000
+
+	resources = {
+		coal = 19 #initial distribution
+	}
+	
+	state_category = town
+	
+	history = {
+
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			4093 5 # Taiyuan 
+		}
+
+		victory_points = {
+			12088 1 # Datong 
+		}
+
+		victory_points = {
+			1167 1 # Jincheng 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			4093 = {
+				bunker = 1
+			}
+		}
+
+	}
+
+	provinces = {
+		1026 1033 1167 1188 1406 1484 1495 1535 4000 4093 4364 4430 4521 7381 10101 10152 10207 10234 11761 11964 12005 12088 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,17 @@
+state={
+	id=937
+	name="STATE_937"
+	provinces={
+		4882 12901 12962 
+	}
+	history={
+		owner = BRA
+		add_core_of = BRA
+	}
+	manpower=12300
+	impassable = yes
+	force_link_ownership_to = 466 # Amazonas
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=wasteland
+}

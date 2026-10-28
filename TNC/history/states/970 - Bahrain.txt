@@ -1,0 +1,29 @@
+state = {
+	id=970
+	name = "STATE_970"
+	manpower = 89970
+	state_category = pastoral
+
+	history = {
+		
+		owner = ENG
+		add_core_of = BHR
+
+		victory_points = {
+			12937 2 # Manama
+		}
+
+		buildings = {
+			infrastructure = 1
+			12937 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		12937
+	}
+
+	local_supplies = 0.0 
+}

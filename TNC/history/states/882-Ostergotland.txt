@@ -1,0 +1,34 @@
+state = {
+	id=882
+	name = "STATE_882"
+	manpower = 505226
+	state_category = town
+	resources = {
+		steel = 3
+	}
+
+	history={
+		owner = SWE
+		add_core_of = SWE
+		victory_points = {
+			11080 1 
+		}
+		victory_points = {
+			9173 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			11080 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		6170 6256 9088 9173 10989 11011 11080 11090 12720 12888 12889
+	}
+	
+	local_supplies = 11
+}

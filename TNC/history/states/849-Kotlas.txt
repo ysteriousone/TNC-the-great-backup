@@ -1,0 +1,29 @@
+
+state = {
+	id=849
+	name = "STATE_849" # Kotlas
+	manpower = 262721
+	
+	state_category = rural
+
+	history = {
+		owner = RKM
+		victory_points = {
+			10761 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces = {
+		87 183 2997 2998 3014 3099 5947 5959 6025 6052 6058 8881 8904 8910 8993 10742 10761 10774 10789
+	}
+
+	local_supplies = 0.0 
+}

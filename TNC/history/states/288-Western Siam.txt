@@ -1,0 +1,27 @@
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		rubber=8.000
+		tungsten=2.000
+	}
+	state_category=rural
+	history={
+		owner = SIA
+		add_core_of = SIA
+		victory_points = {
+			7143 1 #Mae Sot
+		}
+		buildings ={
+			air_base = 1 
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+	 4228 4254 4455 7143 7167 7193 7355 7370 7396 9946 4294 11801 11892 4290
+	}
+	manpower=1373994 # was 4211200 	#Was: 8422400
+	buildings_max_level_factor=1.000
+
+}

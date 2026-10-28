@@ -1,0 +1,32 @@
+
+state={
+	id=541
+	name="STATE_541" # Novosibirsk
+	manpower = 1765369
+
+	state_category = town
+
+	history={
+		owner = SOL
+		victory_points = {
+			7108 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+		}
+		add_core_of = SOL
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+			}
+		}
+	}
+
+	provinces={
+		1687 1744 1814 4270 4620 4692 4726 4752 7108 7492 7527 7630 10280 10377 12258 12331 
+	}
+
+	local_supplies=0.0 
+}

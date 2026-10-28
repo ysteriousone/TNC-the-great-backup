@@ -1,5 +1,5 @@
 state = {
-	id = 114
+	id=114
 	name = "STATE_114"
 	manpower = 991921
 	
@@ -12,20 +12,20 @@ state = {
 	history = {
 		owner = ENG
 		victory_points = {
-			11773 3 
+			11473 3 
 		}
 		victory_points = {
-			9772 2 
+			9552 2 
 		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0
 			industrial_complex = 1
 			air_base = 5
-			11773 = {
+			11473 = {
 				naval_base = 3
 			}
-			6891 = {
+			6750 = {
 				naval_base = 5
 			}
 		}
@@ -33,7 +33,7 @@ state = {
 		add_core_of = SPM
 	}
 	provinces = {
-		902 6891 9772 9863 11755 11773 11824 11874 	
+		902 6750 9552 9643 11455 11473 11524 11574 	
 	}
 
 	local_supplies = 0.0 

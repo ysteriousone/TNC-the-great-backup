@@ -1,0 +1,34 @@
+
+state={
+	id=585
+	name="STATE_585" # Hebei
+	manpower = 18434900
+
+	resources = {
+		coal = 5 #initial distribution
+	}
+	
+	state_category = town
+
+	history = {
+
+		owner = MAN
+		add_core_of = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			4108 3 # Shijiazhuang
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		1157 1175 3962 4018 4036 4108 4125 6859 6958 9792 9821 11641 11686 11746 
+	}
+
+	local_supplies=0.0 
+}

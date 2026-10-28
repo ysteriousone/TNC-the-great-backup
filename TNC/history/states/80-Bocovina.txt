@@ -23,7 +23,7 @@ state={
 		add_core_of = UKR
 	}
 	provinces={
-		577 9548
+		577 9328
 	}
 
 	local_supplies=0.0 

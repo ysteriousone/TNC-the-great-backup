@@ -1,5 +1,5 @@
 state = {
-	id = 56
+	id=56
 	name = "STATE_56"
 	manpower = 2058467
 	
@@ -17,11 +17,11 @@ state = {
 		}
 
 		victory_points = {
-			11360 1 # Emden
+			11060 1 # Emden
 		}
 
 		victory_points = {
-			11388 5 # Münster
+			11088 5 # Münster
 		}
 
 		buildings = {
@@ -53,7 +53,7 @@ state = {
 	}
 
 	provinces = {
-		241 247 309 336 3234 9281 11233 11264 11360 11388 
+		241 247 309 336 3167 9061 10933 10964 11060 11088 
 	}
 
 	local_supplies = 14.0 

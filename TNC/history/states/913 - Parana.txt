@@ -1,0 +1,31 @@
+
+state = {
+	id=913
+	name = "STATE_913"
+	manpower = 961350
+	
+	state_category = rural
+
+	history = {
+
+		owner = SAO
+		add_core_of = SAO
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+
+		victory_points = {
+			7962 2 
+		}
+		
+	}
+
+	provinces = {
+		2043 4425 4475 5017 5038 7962 8020
+	}
+
+	local_supplies = 0.0 
+}

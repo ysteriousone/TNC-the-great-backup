@@ -1,0 +1,35 @@
+
+state = {
+	id=467
+	name = "STATE_467" # Minas Gerais
+	manpower = 4603600
+	
+	state_category = rural # was town
+	
+	resources = {
+		steel = 3 # was: 4
+		aluminium = 4  
+	}
+
+	history = {
+
+		owner = BRA
+		add_core_of = BRA
+
+		victory_points = {
+			7289 3
+		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+	}
+
+	provinces = {
+		4459 5083 7398 8014 10631 12528 12534 12563 10645 12602 2101 7289 7929 12548 2124 2152 12094 10095 7991 12133 2119 8007 11996
+	}
+
+	local_supplies = 0.0 
+}

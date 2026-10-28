@@ -1,0 +1,39 @@
+state = {
+	id=374
+	name = "STATE_374"
+	manpower = 91057
+	
+	state_category = rural
+	
+	resources = {
+		steel = 70 # was: 136
+		tungsten = 32 # was: 62
+		aluminium = 25 # was: 44
+	}
+
+	history = {
+
+		owner = CSA
+		add_core_of = CSA
+		add_core_of = USA
+
+		buildings = {
+			infrastructure = 2
+
+			# Hoover Dam
+			4685 = { dam_mountain = 1 }
+
+		}
+
+		victory_points = {
+			4685 5 # Las Vegas
+		}
+		
+	}
+
+	provinces = {
+		1816 4413 4495 4622 4685 4702 7561 7632 7683 10153 10316 11813 12057 12081 
+	}
+
+	local_supplies = 0.0 
+}

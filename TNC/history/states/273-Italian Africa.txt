@@ -1,11 +1,11 @@
 state = {
-	id = 273
+	id=273
 	name = "STATE_273" # Libyan Desert
 	manpower = 42633
 	
 	state_category = wasteland
 	impassable = yes
-	force_link_ownership_to = 662 # Sirte
+	force_link_ownership_to = 633 # Sirte
 
 	history = {
 
@@ -19,7 +19,7 @@ state = {
 	}
 
 	provinces = {
-		1057 1060 1140 1994 4191 4962 5004 7985 10104 10754 10785 10884 11951 12022 12082 12866 
+		1056 1058 1131 1940 4109 4844 4878 7784 9867 10476 10505 10589 11647 11710 11764 12496 
 	}
 
 	local_supplies = 0.0 

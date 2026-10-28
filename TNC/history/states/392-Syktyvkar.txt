@@ -1,0 +1,25 @@
+
+state = {
+	id=392
+	name = "STATE_392"
+	manpower = 137203
+	state_category = pastoral
+
+	history = {
+		victory_points = {
+			108 1 
+		}
+		owner = KOM
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KOM
+	}
+
+	provinces = {
+		6 99 108 186 1274 1286 2933 3088 4209 5980 6061 7148 7160 7517 7702 8925 9005 10304 10879 10900 10903 12210 
+	}
+
+	local_supplies = 0.0 
+}

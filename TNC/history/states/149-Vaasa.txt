@@ -1,6 +1,6 @@
 
 state = {
-	id = 149
+	id=149
 	name = "STATE_149" # VAASA
 	manpower = 594860
 	
@@ -13,7 +13,7 @@ state = {
 		add_core_of = FIN
 		
 		victory_points = { #Vaasa
-			3122 2
+			3055 2
 		}
 
 		victory_points = { #Kokkola
@@ -21,17 +21,17 @@ state = {
 		}
 
 		victory_points = { #Seinäjoki
-			6013 1
+			5872 1
 		}
 
 		victory_points = { #Jyväskylä
-			6141 1
+			6000 1
 		}
 
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
-			3122 = {
+			3055 = {
 				naval_base = 1
 			}
 		}
@@ -39,7 +39,7 @@ state = {
 	}
 
 	provinces = {
-		63 66 3119 3122 3172 6013 6138 6141 6198 9038 9156 9166 9219 11033 11065 11126 11144 13113
+		63 66 3052 3055 3105 5872 5997 6000 6057 8819 8936 8946 8999 10733 10765 10826 10844 12738
 	}
 
 	local_supplies = 0.0 

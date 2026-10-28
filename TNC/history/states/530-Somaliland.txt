@@ -1,0 +1,32 @@
+state=
+{
+	id=530
+	name = "STATE_530"
+	manpower = 771671# was 1028895
+	resources = {
+		steel = 1
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = SOM
+		add_core_of = SOM
+		victory_points = {
+			12616 3 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			
+			12616 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		1914 1916 1963 2002 4794 4932 7945 10530 10595 10628  12473  12616 	
+	}
+
+	local_supplies=0.0 
+}

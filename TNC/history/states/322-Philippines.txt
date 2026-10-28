@@ -1,0 +1,49 @@
+state = {
+	id=322
+	name = "STATE_322" # Manila
+	manpower = 2277042 
+
+	resources = {
+		coal = 1 #initial distribution
+	}
+	
+	state_category = large_town
+
+	history = {
+
+		owner = PHI
+		add_core_of = PHI
+
+		buildings = {
+
+			infrastructure = 3 #was: 5
+			industrial_complex = 3
+			dockyard = 1 #was: 0
+			air_base = 6
+
+			10011 = {
+				naval_base = 5
+			}
+
+		}
+
+		victory_points = {
+			10011 15 # Manila
+		}
+
+		victory_points = {
+			1205 1 # Batangas
+		}
+
+		victory_points = {
+			4200 1 # Calapan
+		}
+		
+	}
+
+	provinces = {
+		1205 1267 1360 4149 4200 7153 9985 10011 10017 11907 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,31 @@
+state={
+	id=665
+	name="STATE_665"
+	manpower = 444290
+
+	state_category = rural
+
+	history={
+		add_core_of = GDL
+		owner = FFR
+		victory_points = {
+			9157 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			177 = {
+				naval_base = 3
+			}
+			9157 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		177 9157 12709 
+	}
+
+	local_supplies=3.0 
+}

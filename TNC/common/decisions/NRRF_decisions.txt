@@ -39,7 +39,7 @@ KOM_The_New_Red_Army = {
 		}
 
 		complete_effect = {
-    397 = {
+    392 = {
 		create_unit = { 
 		division = "name = \"Krasnaya Armiya\" division_template = \"Krasnaya Armiya\" start_experience_factor = 0.5" 
 		owner = KOM

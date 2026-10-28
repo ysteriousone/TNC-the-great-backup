@@ -1,0 +1,48 @@
+state = {
+	id=583
+	name = "STATE_583"
+	manpower = 566000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	resources = {
+		coal = 3 # The coal of the Chahar–Suiyuan mines.
+	}
+
+	history = {
+
+		owner = MEN
+		add_core_of = MEN
+		add_core_of = CHI
+		add_core_of = PRC
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				add_core_of = HBC
+			}
+		}
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+
+		victory_points = {
+			10106 1 # Xilinhot
+		}
+
+		victory_points = {
+			12104 1 # Erenhot
+		}
+
+	}
+
+	provinces = {
+		1513 1566 1750 1765 1825 4138 4446 7387 7454 10097 10106 12009 12104 12206 
+	}
+
+	local_supplies = 0.0 
+}

@@ -4,7 +4,7 @@ Restore_SS_rule_in_Rks = {
 		icon = generic_industry
 		cost = 0
 		fire_only_once = yes
-		highlight_states = { state = 189 state = 815 state = 11 state = 784 state = 190 state = 809 state = 808 state = 12 state = 810 state = 12 state = 191 state = 13 state = 812 state = 813 }
+		highlight_states = { state = 189 state = 784 state = 11 state = 754 state = 190 state = 778 state = 777 state = 12 state = 779 state = 12 state = 191 state = 13 state = 781 state = 782 }
 
 		visible = {
 			always = yes

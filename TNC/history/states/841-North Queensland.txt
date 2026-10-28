@@ -1,0 +1,18 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		1467 1479 1599 2100 2121 4399 4412 4534 7318 7337 7349 8011 10075 10086 10099 10112 12015 12027 12582 
+	}
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		owner = AST
+		add_core_of = AST
+	}
+	manpower=220000#PreTAOG 100000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

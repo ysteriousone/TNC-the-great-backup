@@ -1,0 +1,26 @@
+
+state = {
+	id=487
+	name = "STATE_487" # Taymyria / Dudinka
+	manpower = 6004
+	
+	state_category = pastoral
+
+	history = {
+		victory_points = {
+			4745 1
+		}
+		owner = RRR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RRR
+		add_core_of = TAY
+	}
+
+	provinces = {
+		  2856 2905 3269 4578 4619  4745  10332 10360  10961 11028 12295  12689  
+	}
+
+	local_supplies = 0.0 
+}

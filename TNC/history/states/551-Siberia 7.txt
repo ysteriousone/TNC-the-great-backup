@@ -1,0 +1,27 @@
+
+state = {
+	id=551
+	name = "STATE_551" # Tobolsk
+	manpower = 88126
+	
+	state_category = pastoral
+
+	history = {
+		victory_points = {
+			1613 1
+		}
+		owner = HYP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = HYP
+		add_core_of = OVO
+	}
+
+	provinces = {
+		1613 1698 1766 4596 4601 4632 4660 4732 7538 7573 7601 7671 7699 10317 10329 10345 12254 12282 12352 
+	}
+
+	local_supplies = 3.0 
+}

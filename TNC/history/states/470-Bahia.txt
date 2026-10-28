@@ -1,0 +1,35 @@
+
+state={
+	id=470
+	name="STATE_470"
+	manpower = 4233900
+	
+	state_category = large_town
+
+	resources = {
+		chromium = 3
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+			10646 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			10646 1 
+		}
+
+	}
+
+	provinces={
+		4504 5054 7924 7958 7965 7978 8023 10125 10626 10646 5034 7910 5078 12079 10150 10702
+	}
+
+	local_supplies=0.0 
+}

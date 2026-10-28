@@ -1,0 +1,47 @@
+state={
+	id=563
+	name="STATE_563"
+	manpower = 17835200
+	state_category = city
+	resources={
+		tungsten=8 # was: 10
+		steel= 15 # was: 20
+		chromium = 3 # was: 4
+	}
+
+	history={
+		owner = GDC
+		add_core_of = GXC
+        add_core_of = GDC		
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+			1046 = { # Guangzhou
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+			}
+
+		}
+
+		victory_points = {
+			1046 10 # Guangzhou
+		}
+
+		victory_points = {
+			11760 1 # Maoming
+		}
+	}
+
+	provinces={
+		1046 1083 1122 1174 4017 6896 6998 9740 11635 11638 11760 
+	}
+
+	local_supplies=1.0 
+}
+

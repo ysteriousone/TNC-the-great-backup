@@ -1,0 +1,32 @@
+state = {
+	id=496
+	name = "STATE_496"
+	manpower = 6961368 # was 14284105, divided by 3 is 4761368
+	
+	state_category = town
+
+	resources = {
+	}
+
+	history = {
+
+		owner = KOR
+		add_core_of = KOR
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+
+		victory_points = {
+			6972 3 # Seoul/Keijō/Gyeongseong
+		}
+
+	}
+
+	provinces = {
+		1096 6972 7061 9804 
+	}
+
+	local_supplies = 0.0 
+}

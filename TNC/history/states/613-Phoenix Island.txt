@@ -1,0 +1,25 @@
+
+state={
+	id=613
+	name="STATE_613"
+	manpower=24
+	
+	state_category = tiny_island
+
+	history={
+		owner = HAW
+		add_core_of = HAW
+		buildings = {
+			infrastructure = 2
+			12675 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		12675 
+	}
+
+	local_supplies=0.0 
+}

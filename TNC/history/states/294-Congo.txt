@@ -1,0 +1,51 @@
+state = {
+	id=294
+	name = "STATE_294"
+	manpower = 1947522
+	state_category = rural
+
+	history = {
+
+		owner = RKA
+
+		IF = {
+			limit = {
+				has_dlc = "Gotterdammerung"
+			}
+			transfer_state_to = RKA
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10668 = {
+				naval_base = 1
+				# Fort de Shinakasa
+				coastal_bunker = 2
+				bunker = 2
+			}
+		}
+
+		victory_points = {
+			4978 5 # Leopoldville
+		}
+
+		victory_points = {
+			12550 2 # Matadi
+		}
+
+		victory_points = {
+			12989 1 # Nkamba
+		}
+
+		add_core_of = COG
+
+	}
+
+	provinces = {
+		4978 9795 10668 12417 12521 12550 12570 12989 12994
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 2.000
+}

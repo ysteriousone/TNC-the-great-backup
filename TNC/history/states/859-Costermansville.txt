@@ -1,0 +1,33 @@
+state = {
+	id=859
+	name = "STATE_859"
+	manpower = 710035
+	state_category = pastoral
+	
+	resources = {
+		rubber = 3.000
+	}
+	
+	history = {
+
+		owner = RKA
+		add_core_of = COG
+
+
+		victory_points = {
+			4825 1 # Albertville
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	
+	provinces = {
+		1168 4119 4825 7007 10487 12422 12801
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

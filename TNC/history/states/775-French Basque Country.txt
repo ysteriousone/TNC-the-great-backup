@@ -1,0 +1,28 @@
+
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = FRA
+		victory_points = {
+			9490 3 
+		}
+		add_core_of = NAV
+		buildings = {
+			infrastructure = 3 #was: 6
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		743 9490 11397 
+	}
+	manpower=280723
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

@@ -1,5 +1,5 @@
 state = {
-	id = 137
+	id=137
 	name = "STATE_137"
 	manpower = 1061607
 	
@@ -10,15 +10,15 @@ state = {
 		owner = GER
 
 		victory_points = {
-			3686 20 # Sevastopol
+			3618 20 # Sevastopol
 		}
 
 		victory_points = {
-			9680 1 # Kerch
+			9460 1 # Kerch
 		}
 
 		victory_points = {
-			6704 1 # Yalta
+			6563 1 # Yalta
 		}
 
 		victory_points = {
@@ -31,7 +31,7 @@ state = {
 			dockyard = 1
 			air_base = 3
 
-			3686 = {
+			3618 = {
 				naval_base = 10
 				coastal_bunker = 3
 				naval_headquarters = {
@@ -42,7 +42,7 @@ state = {
 				} 
 			}
 
-			9680 = {
+			9460 = {
 				naval_base = 1
 				coastal_bunker = 1
 			}
@@ -53,7 +53,7 @@ state = {
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2
-				3686 = {
+				3618 = {
 					naval_facility = 1 # Sevastopol Naval Facilties
 				}
 			}
@@ -61,7 +61,7 @@ state = {
 	}
 
 	provinces = {
-		705 3686 3722 6704 6724 9677 9680 9718 11649 
+		705 3618 3654 6563 6583 9457 9460 9498 11349 
 	}
 
 	local_supplies = 10.0 

@@ -1,0 +1,22 @@
+state={
+	id=965
+	name="STATE_965"
+	manpower = 562330
+	state_category = rural
+	provinces={
+		4833 4893 4931 7876 10509 
+	}
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1 
+		}
+		add_core_of = AFG
+		victory_points = {
+			4931 1 
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

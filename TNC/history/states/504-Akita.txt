@@ -1,0 +1,49 @@
+state = {
+	id=504
+	name = "STATE_504" # North Tohoku
+	manpower = 4266278 # Unified tohoku is about 6575000 
+	state_category = town # was large_city
+	resources = {
+		steel = 10 # was: 35, then 15
+		oil = 3 #Should be located in the northern state after the split
+		coal = 2 #initial distribution
+	}
+
+	history = {
+
+		owner = JPN
+		add_core_of = JPN
+
+		buildings = {
+			
+			industrial_complex = 1
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 6
+
+			9639 = {
+				naval_base = 6
+			}
+
+		}
+		
+		victory_points = {
+			6853 5 # Aomori
+		}
+
+		victory_points = {
+			1060 2 # Akita
+		}
+
+		victory_points = {
+			9587 1 # Morioka
+		}
+
+	}
+
+	provinces = {
+		1060 1153 3780 6729 6732 6853 9587 9639 9645 11547 11740 
+	}
+
+	local_supplies = 9.0 
+}

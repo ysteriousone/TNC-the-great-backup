@@ -1,5 +1,5 @@
 state = {
-	id = 148
+	id=148
 	name = "STATE_148" #LAPPI
 	manpower = 121737
 	
@@ -17,19 +17,19 @@ state = {
 		add_core_of = SMI
 
 		victory_points = { 
-			11164 2 # Kemi
+			10864 2 # Kemi
 		}
 
 		victory_points = {  
-			6087 1 # Rovaniemi
+			5946 1 # Rovaniemi
 		}
 
 		victory_points = { 
-			11125 1 # Tornio
+			10825 1 # Tornio
 		}
 
 		victory_points = { 
-			6142 1 # Inari
+			6001 1 # Inari
 		}
 
 		buildings = {
@@ -43,7 +43,7 @@ state = {
 	}
 
 	provinces = {
-		30 103 124 162 167 203 2992 3055 3069 3097 3107 3158 3193 6061 6076 6087 6128 6137 6142 9112 9189 9223 11030 11115 11125 11130 11164 11167 11204 
+		30 103 124 162 167 203 2925 2988 3002 3030 3040 3091 3126 5920 5935 5946 5987 5996 6001 8892 8969 9003 10730 10815 10825 10830 10864 10867 10904 
 	}
 
 	local_supplies = 3.0 

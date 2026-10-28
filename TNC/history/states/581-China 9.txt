@@ -1,0 +1,39 @@
+state = {
+	id=581
+	name = "STATE_581" # Jehol
+	manpower = 1975377
+	
+	state_category = pastoral
+
+	resources = {
+		oil = 1
+		coal = 1
+	}
+
+	history = {
+
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+
+		victory_points = {
+			11501 2 # Jehol
+		}
+
+		victory_points = {
+			934 1 # Chaoyang
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces = {
+		814 881 934 972 3746 3760 3813 3866 3887 4407 6696 6711 6757 6796 6828 6847 7384 7440 9548 9653 9707 10069 10157 10226 11501 11555 11586 
+	}
+
+	local_supplies = 0.0 
+}

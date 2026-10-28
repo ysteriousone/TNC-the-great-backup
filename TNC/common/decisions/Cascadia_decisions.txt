@@ -10,15 +10,15 @@ USA_reunification_cascadia_cat = {
 		}
 
 		available = {
-			385 = { is_controlled_by = ROOT }
-			386 = { is_controlled_by = ROOT }
-			387 = { is_controlled_by = ROOT }
+			380 = { is_controlled_by = ROOT }
+			381 = { is_controlled_by = ROOT }
+			382 = { is_controlled_by = ROOT }
 		}
 
 		complete_effect = {
-			385 = { add_core_of = ROOT }
-			386 = { add_core_of = ROOT }
-			387 = { add_core_of = ROOT }
+			380 = { add_core_of = ROOT }
+			381 = { add_core_of = ROOT }
+			382 = { add_core_of = ROOT }
 			set_cosmetic_tag = Cascadia_united
 		}
 

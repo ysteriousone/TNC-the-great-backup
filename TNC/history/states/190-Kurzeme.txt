@@ -7,15 +7,15 @@ state={
 	
 	history={
 		victory_points = {
-			9262 3
+			9042 3
 		}
 		victory_points = {
-			3296 1 #Ventspils
+			3229 1 #Ventspils
 		}
 		owner = RKO
 		buildings = {
 			infrastructure = 3 #was: 5
-			9262 = {
+			9042 = {
 				naval_base = 1
 			}
 			dockyard = 1
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		3194 3296 3319 6322 9262 11246 
+		3127 3229 3252 6181 9042 10946 
 	}
 
 	local_supplies=5.0 

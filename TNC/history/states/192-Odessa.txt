@@ -1,6 +1,6 @@
 
 state = {
-	id = 192
+	id=192
 	name = "STATE_192"
 	manpower = 1286238 #1 8th removed due to Balta-Tiraspol
 	
@@ -9,13 +9,13 @@ state = {
 	history = {
 		owner = ROM
 		victory_points = {
-			11670 10 
+			11370 10 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
 			air_base = 6
-			11670 ={
+			11370 ={
 				naval_base = 3
 				coastal_bunker = 1
 			}
@@ -29,7 +29,7 @@ state = {
 	}
 
 	provinces = {
-		  3575 3738 9698 9714 11670 11703 
+		  3507 3670 9478 9494 11370 11403 
 	}
 
 	local_supplies = 6.0 

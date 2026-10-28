@@ -1,0 +1,36 @@
+
+state={
+	id=460
+	name="STATE_460" # Zulia
+	manpower = 1576373
+	
+	state_category = town
+	
+	resources={
+		oil=35 # was: 126
+		coal = 1 # initial distribution = with infra 1.4 / 1 total
+	}
+
+	history={
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			1895 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = VEN
+		victory_points = {
+			1895 1 
+		}
+
+	}
+
+	provinces={
+		1895 1942 1992 4418 4952 10563 12415 
+	}
+
+	local_supplies=6.0 
+}

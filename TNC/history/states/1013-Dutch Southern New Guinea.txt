@@ -1,0 +1,34 @@
+state={
+	id=1013
+	name="STATE_1013"
+	resources={
+		
+	}
+
+	history={
+	
+		owner = AST
+		add_core_of = AST
+		add_core_of = PNG
+		add_core_of = WPG
+
+		set_resistance = 0
+		set_compliance = 15
+
+		victory_points = {
+			10232 1 # Merauke
+		}
+
+		buildings = {
+
+		}
+	}
+
+	provinces={
+		4481 8016 8031 1560 7434 1574 1585 10232 12112
+	}
+	manpower = 110543
+	state_category = rural
+
+	local_supplies=0.0 
+}

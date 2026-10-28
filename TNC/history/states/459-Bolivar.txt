@@ -1,0 +1,27 @@
+
+state={
+	id=459
+	name="STATE_459"
+	manpower = 245642
+	
+	state_category = pastoral
+
+	history={
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VEN
+		victory_points = {
+			10584 1
+		}
+	}
+
+	provinces={
+		1928 5176 7717 7841 10459 10557 10584 12986
+	}
+
+	local_supplies=0.0 
+}

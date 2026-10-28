@@ -1,0 +1,48 @@
+state = {
+	id=494
+	name = "STATE_494"
+
+	manpower = 185000 # was 1077000
+	state_category = rural
+
+	history = {
+
+		add_core_of = PNG
+		owner = AST
+
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+
+			4236 = {
+				naval_base = 4
+			}
+
+		}
+
+		victory_points = {
+			4236 5 # Port Moresby
+		}
+
+		victory_points = {
+			1262 1 # Daru
+		}
+
+		victory_points = {
+			10006 1 # Alotau
+		}
+
+		victory_points = {
+			7137 1 # Gona 
+		}
+
+	}
+
+	provinces = {
+		1206 1224 1262 1289 4201 4236 4252 7137 7163 7176 7189 7202 9905 9980 9996 10006 11802 11814 12137 12620 10674 
+	}
+
+	
+	buildings_max_level_factor = 1
+	local_supplies = 0.0 
+}

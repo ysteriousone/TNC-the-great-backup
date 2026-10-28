@@ -6,10 +6,10 @@ state={
 	history={
 		owner = RKO
 		victory_points = {
-			6296 5
+			6155 5
 		}
 		victory_points = {
-			9357 1 #Ukmerge
+			9137 1 #Ukmerge
 		}
 		buildings = {
 			infrastructure = 3
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		327 6296 6360 9357 9404 
+		327 6155 6219 9137 9184 
 	}
 
 	local_supplies=10.0 

@@ -1,0 +1,61 @@
+
+state={
+	id=373
+	name="STATE_373"
+	manpower = 5677248
+	
+	state_category = metropolis
+	
+	resources={
+		oil=180 # was: 350
+		aluminium=8 # was: 14
+	}
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 10
+			1523 = {
+				naval_base = 10
+			}
+			9451 = {
+				naval_base = 4
+			}
+			9594 = {
+				naval_base = 5
+			}
+			610 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+		add_core_of = CSA
+		victory_points = {
+			9594 30
+		}
+		victory_points = {
+			1523 15 
+		}
+		victory_points = {
+			9451 25
+		}
+		victory_points = {
+			9493 1 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 7
+			}
+		}
+	}
+
+	provinces={
+		610 677 710 766 768 781 823 941 986 1400 1523 1559 1606 3520 3576 3609 3610 3716 3772 4238 4410 4543 4613 6341 6524 6540 6553 6558 6604 6616 6631 6720 6735 6740 7329 7472 7785 9417 9451 9477 9493 9510 9594 9635 9691 9915 10121 10210 11358 11398 11457 11463 11495 11559 11576 11967 12034 
+	}
+
+	local_supplies=0.0 
+}

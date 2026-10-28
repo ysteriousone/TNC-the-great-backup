@@ -1,0 +1,31 @@
+state = {
+	id=850
+	name = "STATE_850" # Karagandy
+
+	history = {
+		owner = ROA
+		#victory_points = {
+		#	7405 1
+		#}
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces = {
+		1225 1291 1354 1374 4164 4191 4291 4386 4483 7164 9933 9970 10014 10019 10021 10235 11791 11800 11852 11867 12044 12140
+	}
+	manpower = 227016
+
+	resources = {
+		coal = 6 # initial distribution
+	}
+
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 0.0 
+}

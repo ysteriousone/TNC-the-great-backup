@@ -1,5 +1,5 @@
 state = {
-	id = 63
+	id=63
 	name = "STATE_63"
 	manpower = 1124417
 	resources = {
@@ -17,20 +17,20 @@ state = {
 		add_core_of = PRE
 
 		victory_points = {
-			6282 5 # Stettin
+			6141 5 # Stettin
 		}
 
 		victory_points = {
-			11372 3 # Köslin
+			11072 3 # Köslin
 		}
 
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			11372 = {
+			11072 = {
 				naval_base = 1
 			}
-			6282 = {
+			6141 = {
 				naval_base = 4
 
 			}
@@ -40,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		6282 6309 6334 6390 9252 9277 9306 9334 9361 11260 11288 11316 11343 11372 
+		6141 6168 6193 6249 9032 9057 9086 9114 9141 10960 10988 11016 11043 11072 
 	}
 
 	local_supplies = 7.0 

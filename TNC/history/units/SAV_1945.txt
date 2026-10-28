@@ -1,4 +1,4 @@
-﻿
+
 division_template = {
 	name = "PSR Militia"
 	division_names_group = SAV_INF_01
@@ -23,7 +23,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3335
+		location = 3268
 		division_template = "PSR Militia"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -34,7 +34,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3335
+		location = 3268
 		division_template = "PSR Militia"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -45,7 +45,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3335
+		location = 3268
 		division_template = "PSR Militia"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -56,7 +56,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9355
+		location = 9135
 		division_template = "PSR Militia"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -78,7 +78,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9328
+		location = 9108
 		division_template = "PSR Militia"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8

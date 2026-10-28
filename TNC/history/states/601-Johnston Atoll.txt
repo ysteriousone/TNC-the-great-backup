@@ -1,0 +1,24 @@
+state=
+{
+	id=601
+	name="STATE_601"
+	manpower = 100
+	state_category = tiny_island
+
+	history={
+		owner = HAW
+		add_core_of = HAW
+		buildings = {
+			infrastructure = 1
+			12676 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		12676 	
+	}
+
+	local_supplies=0.0 
+}

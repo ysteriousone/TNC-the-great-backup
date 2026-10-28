@@ -1,5 +1,5 @@
 state = {
-	id = 160
+	id=160
 	name = "STATE_160"
 	resources = {
 		steel=20 # was: 32.000
@@ -11,10 +11,10 @@ state = {
 	history = {
 		owner = LBV
 		victory_points = { #Venezia
-			11584 10 
+			11284 10 
 		}
 		victory_points = { #Padova
-			3604 3 
+			3536 3 
 		}
 		victory_points = { #Verona
 			603 1
@@ -26,7 +26,7 @@ state = {
 			industrial_complex = 4
 			dockyard = 1
 			air_base = 3
-			11584 = {
+			11284 = {
 				naval_base = 6
 			}
 		}
@@ -42,7 +42,7 @@ state = {
 	}
 
 	provinces = {
-		603 628 3604 3657 6656 9582 9613 11584 
+		603 628 3536 3589 6515 9362 9393 11284 
 	}
 	manpower = 3963151
 	buildings_max_level_factor = 1.000

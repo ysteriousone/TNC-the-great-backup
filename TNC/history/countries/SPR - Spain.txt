@@ -1,4 +1,4 @@
-﻿capital = 41 # Madrid
+capital = 41 # Madrid
 
 
 country_event = { 
@@ -99,10 +99,10 @@ if = {
 			NOT = {
 				state = 177
 				state = 178
-				state = 290
-				state = 699
-				state = 783
-				state = 297
+				state = 289
+				state = 670
+				state = 753
+				state = 296
 			}
 		}
 		set_variable = { var = SPA_garrison_control value = 1 }
@@ -256,7 +256,7 @@ if = {
 	171 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
 	}
-	792 = {
+	761 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
 	}
 

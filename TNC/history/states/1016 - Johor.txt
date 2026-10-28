@@ -1,0 +1,36 @@
+state = {
+	id=1016
+	name = "STATE_1016"
+	manpower = 1023100
+	
+	
+	state_category = town
+	
+	resources = {
+		rubber = 40 
+		steel = 2
+		aluminium = 2
+	}
+
+	history = {
+
+		owner = ENG
+		add_core_of = MAL
+
+		
+
+		buildings = {
+
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		
+	}
+
+	provinces = {
+		4321 10053 7247 13000
+	}
+
+	local_supplies = 0.0 
+}

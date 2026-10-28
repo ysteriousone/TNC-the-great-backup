@@ -1,5 +1,5 @@
 state = {
-	id = 50
+	id=50
 	name = "STATE_50" # Württemberg
 	manpower = 3076854 # was 5086854
 
@@ -16,11 +16,11 @@ state = {
 		add_core_of = WUR
 
 		victory_points = {
-			9517 20 #Stuttgart
+			9297 20 #Stuttgart
 		}
 
 		victory_points = {
-			11499 3 #Ulm
+			11199 3 #Ulm
 		}
 
 		buildings = {
@@ -40,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		519 694 3690 6555 6581 6934 9517 9545 9655 11486 11499 13126 
+		519 694 3622 6414 6440 6793 9297 9325 9435 11186 11199 12751 
 	}
 	
 	buildings_max_level_factor = 1.000

@@ -1,0 +1,42 @@
+state = {
+	id=1022
+	name = "STATE_1022"
+	resources = {
+		rubber = 33 # was: 94.000
+	}
+
+	manpower = 3245000
+	buildings_max_level_factor=1.000
+	state_category = town
+
+	history = {
+		
+		owner = NAP
+		add_core_of = VIN
+
+		victory_points = {
+			4302 5 # Saigon
+		}
+
+		buildings = {
+
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+
+			4302 = {
+				naval_base = 4
+			}
+
+		}
+
+	}
+
+	provinces = {
+		1368 1392 4139 4196 4248 4302 7077 7135 7161 7174 10007 11812 11903 
+	}
+
+	
+
+	local_supplies=0.0 
+}

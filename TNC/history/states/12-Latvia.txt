@@ -12,7 +12,7 @@ state={
 	history={
 		owner = RKO
 		victory_points = {
-			10493 1 #Valmiera
+			10220 1 #Valmiera
 		}
 		buildings = {
 			infrastructure = 3
@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		3388 9317 9501 10493 11302
+		3321 9097 9281 10220 11002
 	}
 
 	local_supplies=0.0 

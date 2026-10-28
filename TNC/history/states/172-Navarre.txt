@@ -6,7 +6,7 @@ state={
 		owner = SPR
 		add_core_of = NAV
 		victory_points = {
-			3933 1
+			3865 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		932 3737 3931 3933 9857 
+		932 3669 3863 3865 9637 
 	}
 	manpower=359880
 	buildings_max_level_factor=1.000

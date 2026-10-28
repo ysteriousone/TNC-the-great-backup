@@ -1,0 +1,31 @@
+state=
+{
+	id=296
+	name="STATE_296" # Equatorial Guinea
+	manpower = 185000
+	
+	state_category = enclave
+	
+	history=
+	{
+		owner = SPR
+		add_core_of = EQG
+		victory_points = {
+			1856 1 
+		}
+		buildings = {
+			infrastructure = 1
+			1856 = {
+				naval_base = 1
+			}
+			8025 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces=
+	{
+1856 8025 	}
+
+	local_supplies=0.0 
+}

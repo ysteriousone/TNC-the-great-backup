@@ -16,13 +16,13 @@ state={
 			infrastructure = 3 #was: 5
 		}
 		victory_points = {
-			6474 10
+			6333 10
 		}
 		add_core_of = UKR
 	}
 
 	provinces={
-		502 3421 3449 3466 3479 3491 6420 6474 6493 6776 
+		502 3354 3382 3398 3411 3423 6279 6333 6352 6635 
 	}
 
 	local_supplies=10.0 

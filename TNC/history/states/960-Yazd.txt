@@ -1,0 +1,27 @@
+
+state={
+	id=960
+	name="STATE_960" 
+	manpower = 221318
+	resources={
+	}
+	state_category = rural
+	
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			7823 1 
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		7823 1913 10538
+	}
+
+	local_supplies=0.0 
+}

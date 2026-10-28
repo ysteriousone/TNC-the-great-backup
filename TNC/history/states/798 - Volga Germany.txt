@@ -1,0 +1,33 @@
+
+state = {
+	id=798
+	name = "STATE_798" #Volga Germany
+	manpower = 618530
+	
+	state_category = rural
+	
+	resources = {
+		steel = 14 # was: 40
+		tungsten = 6 # was: 34
+	}
+
+	history = {
+		owner = VGE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = VGE
+		victory_points = {
+			11223 2
+		}
+		victory_points = {
+			9212 1
+		}
+	}
+
+	provinces = {
+		3449 3450 6338 6365 6398 6434 6460 9212 9255 11095 11160 11223 
+	}
+
+	local_supplies = 9.0 
+}

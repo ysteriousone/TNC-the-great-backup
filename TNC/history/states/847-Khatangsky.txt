@@ -1,0 +1,23 @@
+
+state = {
+	id=847
+	name = "STATE_847" # Khatangsky
+	manpower = 15974
+	
+	state_category = pastoral
+
+	history = {
+		owner = RRR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RRR
+		add_core_of = TAY
+	}
+
+	provinces = {
+		2833 4698 9004 10822 12339 12690
+	}
+
+	local_supplies = 0.0 
+}

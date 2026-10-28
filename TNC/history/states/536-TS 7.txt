@@ -1,0 +1,31 @@
+state = {
+	id=536
+	name = "STATE_536" # Bodaybo
+
+	manpower = 195325
+
+	state_category = rural
+
+	resources = {
+		steel = 10 # was: 32
+		chromium = 5 # was: 12
+	}
+
+	history = {
+
+		owner = FER
+		add_core_of = FER
+		add_core_of = EVE
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+
+	provinces = {
+		1620 1715 4648 4681 4754 7564 7658 10308 10379 12190  
+	}
+
+	local_supplies = 5.0 
+}

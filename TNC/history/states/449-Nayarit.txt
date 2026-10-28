@@ -1,0 +1,38 @@
+
+state={
+	id=449
+	name="STATE_449" # Jalisco
+	manpower = 2470875
+	
+	state_category = town
+	
+	resources={
+		tungsten=8 # was: 10
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = MEX
+		victory_points = {
+			12714 10
+		}
+		victory_points = {
+			9927 5
+		}
+		victory_points = {
+			12392 1
+		}
+
+	}
+
+	provinces={
+		1991 4921 9927 12392 12502 12714 
+	}
+	
+
+	local_supplies=0.0 
+}

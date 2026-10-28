@@ -1,0 +1,24 @@
+state = {
+	id=879
+	name="STATE_879"
+	state_category = small_island
+	manpower = 45819
+
+	history = {
+		owner = GER
+		add_core_of = DEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		6220 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		6220 
+	}
+	
+	local_supplies = 0.000
+}

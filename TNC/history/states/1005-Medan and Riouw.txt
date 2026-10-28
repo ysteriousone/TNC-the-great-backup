@@ -1,0 +1,40 @@
+state={
+	id=1005
+	name="STATE_1005"
+	resources={
+		rubber = 102 #was 224 #26-02-03: was:171
+		oil = 24 #was:12 #26-02-03: was:20
+	}
+
+	history={
+		owner = INS
+		add_core_of = SSI
+		set_resistance = 0
+		set_compliance = 60
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			11793 = {
+				naval_base = 1
+			}
+			4538 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			4538 10
+		}
+		victory_points = {
+			11884 1
+		}
+	}
+
+	provinces={
+		1321 4269 1347 11884 1309 9975 11857 9960 1256 11843 7278 11966 7478 4538 7157 11793 13026
+	}
+	manpower = 3126543
+	state_category = rural
+
+	local_supplies=0.0 
+}

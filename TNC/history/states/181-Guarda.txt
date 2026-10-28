@@ -1,5 +1,5 @@
 state = {
-	id = 181
+	id=181
 	name = "STATE_181"
 	manpower = 964700
 	
@@ -16,11 +16,11 @@ state = {
 		add_core_of = POR
 
 		victory_points = {
-			9787 1 # Viseu
+			9567 1 # Viseu
 		}
 
 		victory_points = {
-			6996 1 # Guarda
+			6855 1 # Guarda
 		}
 
 		buildings = {
@@ -35,7 +35,7 @@ state = {
 	}
 
 	provinces = {
-		845 889 938 3969 6818 6996 9787 11885 
+		845 889 938 3901 6677 6855 9567 11585 
 	}
 
 	local_supplies = 0.0 

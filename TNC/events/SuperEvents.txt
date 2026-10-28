@@ -1207,79 +1207,79 @@ country_event = { #Communists Unify China
 		AND {
 			#Game Start Controller
 			#Manchurian States
-			event_target:WTT_communist_china = { has_full_control_of_state = 717 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 714 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 328 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 715 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 716 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 761 }		
-			event_target:WTT_communist_china = { has_full_control_of_state = 610 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 688 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 685 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 323 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 686 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 687 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 731 }		
+			event_target:WTT_communist_china = { has_full_control_of_state = 581 }
 			#Japanese States
-			event_target:WTT_communist_china = { has_full_control_of_state = 745 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 609 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 524 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 715 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 580 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 495 }
 			#Mengjiang States
-			event_target:WTT_communist_china = { has_full_control_of_state = 612 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 611 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 583 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 582 }
 			#Shanxi States
-			event_target:WTT_communist_china = { has_full_control_of_state = 621 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 746 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 615 }
-			#Communist China
-			event_target:WTT_communist_china = { has_full_control_of_state = 622 }
-			#Xibei San Ma
-			event_target:WTT_communist_china = { has_full_control_of_state = 283 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 616 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 753 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 756 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 755 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 604 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 754 }
-			#Sinkiang
-			event_target:WTT_communist_china = { has_full_control_of_state = 759 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 760 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 618 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 287 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 619 }
-			#Yunnan
-			event_target:WTT_communist_china = { has_full_control_of_state = 747 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 325 }
-			#Guangxi
-			event_target:WTT_communist_china = { has_full_control_of_state = 599 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 594 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 591 }
 			event_target:WTT_communist_china = { has_full_control_of_state = 592 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 716 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 586 }
+			#Communist China
 			event_target:WTT_communist_china = { has_full_control_of_state = 593 }
+			#Xibei San Ma
+			event_target:WTT_communist_china = { has_full_control_of_state = 282 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 587 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 723 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 726 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 725 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 575 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 724 }
+			#Sinkiang
+			event_target:WTT_communist_china = { has_full_control_of_state = 729 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 730 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 589 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 286 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 590 }
+			#Yunnan
+			event_target:WTT_communist_china = { has_full_control_of_state = 717 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 320 }
+			#Guangxi
+			event_target:WTT_communist_china = { has_full_control_of_state = 570 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 565 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 562 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 563 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 564 }
 			#China
 			#Northern China
-			event_target:WTT_communist_china = { has_full_control_of_state = 608 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 614 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 597 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 743 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 579 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 585 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 568 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 713 }
 			#Eastern China
-			event_target:WTT_communist_china = { has_full_control_of_state = 607 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 598 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 606 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 620 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 613 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 749 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 596 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 600 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 753 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 595 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 578 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 569 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 577 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 591 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 584 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 719 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 567 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 571 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 723 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 566 }
 			#Southern China
-			event_target:WTT_communist_china = { has_full_control_of_state = 750 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 602 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 603 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 748 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 751 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 720 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 573 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 574 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 718 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 721 }
 			#Western China
-			event_target:WTT_communist_china = { has_full_control_of_state = 605 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 744 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 753 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 576 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 714 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 723 }
 			#Qinghai
-			event_target:WTT_communist_china = { has_full_control_of_state = 752 }
-			event_target:WTT_communist_china = { has_full_control_of_state = 601 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 722 }
+			event_target:WTT_communist_china = { has_full_control_of_state = 572 }
 		}
 	}
 	
@@ -1312,77 +1312,77 @@ country_event = { #Nationalists Unify China
 
 			#Game Start Controller
 			#Manchurian States
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 717 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 714 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 328 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 715 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 716 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 761 }		
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 610 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 688 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 685 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 323 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 686 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 687 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 731 }		
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 581 }
 			#Japanese States
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 745 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 609 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 524 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 715 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 580 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 495 }
 			#Mengjiang States
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 612 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 611 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 583 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 582 }
 			#Shanxi States
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 621 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 746 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 615 }
-			#Communist China
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 622 }
-			#Xibei San Ma
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 283 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 616 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 753 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 756 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 755 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 604 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 754 }
-			#Sinkiang
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 759 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 760 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 618 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 287 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 619 }
-			#Yunnan
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 747 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 325 }
-			#Guangxi
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 599 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 594 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 591 }
 			event_target:WTT_current_china_leader = { has_full_control_of_state = 592 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 716 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 586 }
+			#Communist China
 			event_target:WTT_current_china_leader = { has_full_control_of_state = 593 }
+			#Xibei San Ma
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 282 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 587 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 723 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 726 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 725 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 575 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 724 }
+			#Sinkiang
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 729 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 730 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 589 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 286 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 590 }
+			#Yunnan
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 717 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 320 }
+			#Guangxi
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 570 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 565 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 562 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 563 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 564 }
 			#China
 			#Northern China
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 608 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 614 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 597 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 743 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 579 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 585 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 568 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 713 }
 			#Eastern China
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 607 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 598 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 606 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 620 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 613 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 749 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 596 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 600 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 595 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 578 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 569 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 577 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 591 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 584 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 719 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 567 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 571 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 566 }
 			#Southern China
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 750 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 602 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 603 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 748 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 751 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 720 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 573 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 574 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 718 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 721 }
 			#Western China
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 605 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 744 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 576 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 714 }
 			#Qinghai
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 752 }
-			event_target:WTT_current_china_leader = { has_full_control_of_state = 601 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 722 }
+			event_target:WTT_current_china_leader = { has_full_control_of_state = 572 }
 		}
 	}
 	
@@ -1461,114 +1461,108 @@ country_event = { #Co-Prosperity
 		JAP = { has_government = fascism }
 		
 		OR = { #Tokyo
-			JAP = { has_full_control_of_state = 282 }
+			JAP = { has_full_control_of_state = 281 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 282
+				has_full_control_of_state = 281
 			}
 		}
 		
 		OR = { #Beijing
-			JAP = { has_full_control_of_state = 608 }
+			JAP = { has_full_control_of_state = 579 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 608
+				has_full_control_of_state = 579
 			}
 		}
 		
 		OR = { #Nanjing
-			JAP = { has_full_control_of_state = 613 }
+			JAP = { has_full_control_of_state = 584 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 613
+				has_full_control_of_state = 584
 			}
 		}
 		
 		OR = { #Chongqing
-			JAP = { has_full_control_of_state = 605 }
+			JAP = { has_full_control_of_state = 576 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 605
+				has_full_control_of_state = 576
 			}
 		}
 		
 		OR = { #Hong Kong
-			JAP = { has_full_control_of_state = 326 }
+			JAP = { has_full_control_of_state = 321 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 326
+				has_full_control_of_state = 321
 			}
 		}
 		
 		OR = { #Nanning
-			JAP = { has_full_control_of_state = 594 }
+			JAP = { has_full_control_of_state = 565 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 594
+				has_full_control_of_state = 565
 			}
 		}
 		
 		OR = { #Saigon
-			JAP = { has_full_control_of_state = 286 }
+			JAP = { has_full_control_of_state = 285 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 286
+				has_full_control_of_state = 285
 			}
 		}
 		
 		OR = { #Bangkok
-			JAP = { has_full_control_of_state = 289 }
+			JAP = { has_full_control_of_state = 288 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 289
+				has_full_control_of_state = 288
 			}
 		}
 		
-		OR = { #Calcutta
-			JAP = { has_full_control_of_state = 431 }
-			any_other_country = {
-				is_in_faction_with = JAP
-				has_full_control_of_state = 431
-			}
-		}
+		
 		
 		OR = { #Singapore
-			JAP = { has_full_control_of_state = 336 }
+			JAP = { has_full_control_of_state = 331 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 336
+				has_full_control_of_state = 331
 			}
 		}
 		
 		OR = { #Batavia
-			JAP = { has_full_control_of_state = 335 }
+			JAP = { has_full_control_of_state = 330 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 335
+				has_full_control_of_state = 330
 			}
 		}
 		
 		OR = { #Manila
-			JAP = { has_full_control_of_state = 327 }
+			JAP = { has_full_control_of_state = 322 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 327
+				has_full_control_of_state = 322
 			}
 		}
 		
 		OR = { #Iwo Jima
-			JAP = { has_full_control_of_state = 645 }
+			JAP = { has_full_control_of_state = 616 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 645
+				has_full_control_of_state = 616
 			}
 		}
 		
 		OR = { #Hawaii
-			JAP = { has_full_control_of_state = 629 }
+			JAP = { has_full_control_of_state = 600 }
 			any_other_country = {
 				is_in_faction_with = JAP
-				has_full_control_of_state = 629
+				has_full_control_of_state = 600
 			}
 		}
 	}
@@ -1628,13 +1622,13 @@ country_event = { #Chinese Victory Against Japan
 		
 			OR {
 				OR {
-					event_target:WTT_current_china_leader = { owns_state = 745 }
-					event_target:WTT_communist_china = { owns_state = 745 }
+					event_target:WTT_current_china_leader = { owns_state = 715 }
+					event_target:WTT_communist_china = { owns_state = 715 }
 				}
 				
 				OR {
-					event_target:WTT_current_china_leader = { owns_state = 328 }
-					event_target:WTT_communist_china = { owns_state = 328 }
+					event_target:WTT_current_china_leader = { owns_state = 323 }
+					event_target:WTT_communist_china = { owns_state = 323 }
 				}
 			}
 		}

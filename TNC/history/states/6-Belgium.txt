@@ -1,5 +1,5 @@
 state = {
-	id = 6
+	id=6
 	name = "STATE_6" # Flanders
 	manpower = 2947700 # was 4747700
 
@@ -19,11 +19,11 @@ state = {
 		}
 
 		victory_points = { 
-			6560 5 
+			6419 5 
 		}
 
 		victory_points = { 
-			3576 1 
+			3508 1 
 		}
 
 		buildings = {
@@ -31,7 +31,7 @@ state = {
 			arms_factory = 3
 			industrial_complex = 4
 			air_base = 2
-			6560 = {
+			6419 = {
 				naval_base = 3
 			}
 		}
@@ -41,7 +41,7 @@ state = {
 	}
 
 	provinces = {
-		516 3576 6446 6560 
+		516 3508 6305 6419 
 	}
 
 	local_supplies = 0.0 

@@ -1,0 +1,39 @@
+
+state={
+	id=702
+	name="STATE_702"
+
+	history={
+		owner = GRE
+		victory_points = {
+			11518 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 2
+			11518 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = GRE
+		add_claim_by = BUL
+
+	}
+
+	provinces={
+		895 936 966 3458 3776 3868 6849 9919 11518 
+	}
+	manpower=1155700
+
+	resources = {
+		coal = 1 # initial distribution / 1 total
+	}
+
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

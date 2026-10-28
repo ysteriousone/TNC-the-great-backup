@@ -1,0 +1,37 @@
+state={
+	id=562
+	name="STATE_562"
+	manpower = 3480000 #was 4350000
+	state_category = town
+
+	history={
+		owner = LON
+		add_core_of = GXC	
+
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		victory_points = {
+			1067 2 # Haikou
+		}
+
+		victory_points = {
+			994 1 # Yaxian 
+		}
+		
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			1067 = {
+				naval_base = 2
+			}
+
+		}
+	}
+
+	provinces={
+		994 1037 1067 11657 11682 
+	}
+
+	local_supplies=1.0 
+}

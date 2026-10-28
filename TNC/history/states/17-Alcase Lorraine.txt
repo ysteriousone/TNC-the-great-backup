@@ -13,10 +13,10 @@ state={
 	history={
 		owner = RKB
 		victory_points = {
-			9642 5 
+			9422 5 
 		}
 		victory_points = {
-			11516 5 
+			11216 5 
 		}
 		buildings = {
 			infrastructure = 4
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		521 698 3646 3666 6698 9642 9658 11488 11516 11642 
+		521 698 3578 3598 6557 9422 9438 11188 11216 11342 
 	}
 
 	local_supplies=0.0 

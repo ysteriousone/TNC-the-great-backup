@@ -11,7 +11,7 @@ state={
 			industrial_complex = 2
 		}
 		victory_points = {
-			9508 10
+			9288 10
 		}
 		add_core_of = POL
 
@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		493 584 9439 9508 9546 11428 11515 
+		493 584 9219 9288 9326 11128 11215 
 	}
 
 	local_supplies=0.0 

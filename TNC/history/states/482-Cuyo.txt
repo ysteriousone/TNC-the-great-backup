@@ -1,0 +1,30 @@
+state = {
+	id=482
+	name = "STATE_482" # Mendoza
+	manpower = 1090274
+	
+	state_category = rural
+
+	history = {
+
+		owner = ARG
+		add_core_of = ARG
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+
+		victory_points = {
+			10664 2 
+		}
+
+	}
+
+	provinces = {
+		2113 2149 7996 10664 10692  
+	}
+
+	local_supplies = 0.0 
+}

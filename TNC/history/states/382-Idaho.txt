@@ -1,0 +1,32 @@
+
+state={
+	id=382
+	name="STATE_382"
+	manpower = 445031
+	
+	state_category = rural
+	
+	resources={
+		steel=18 # was: 32
+		chromium=1 # was: 2
+		tungsten=18 # was: 34
+	}
+
+	history={
+		owner = IDH
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IDH
+		victory_points = {
+			9396 1
+		}
+	}
+
+	provinces={
+		1743 1786 3713 4664 7650 9396 9475 10281 10327 10397 11803 12187 12259 
+	}
+	
+
+	local_supplies=7.0 
+}

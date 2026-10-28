@@ -1,0 +1,59 @@
+state = {
+	id=642
+	name = "STATE_642"
+	manpower = 8528000 # was 11528000
+	
+	state_category = town
+	
+	resources = {
+		chromium = 2 # was: 8, then 6
+		tungsten = 20 # was: 38, then 27
+		coal = 3
+	}
+
+
+	history = {
+
+		owner = NAP
+		add_core_of = VIN
+		
+		victory_points = {
+			4001 10 # Hanoi 
+		}
+
+		victory_points = {
+			9726 1 # Lang Son 
+		}
+
+		victory_points = {
+			11748 1 # Cao Bang 
+		}
+
+		victory_points = {
+			11982 1 # Lào Cai
+		}
+
+		victory_points = {
+			4041 2 # Haiphong
+		}
+
+		buildings = {
+
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+			4041 = {
+				naval_base = 2
+			}
+
+		}
+
+	}
+
+	provinces = {
+		1070 1146 1172 4001 4041 4421 6873 6943 7330 9726 9841 9866 9889 11697 11733 11748 11758 11982 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,24 @@
+state={
+	id=868
+	name="STATE_868"
+	manpower = 1163674
+	state_category = pastoral
+
+	history={
+		owner = MLI
+		add_core_of = MLI
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1955 10526 10539 10615 12397 12471 
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

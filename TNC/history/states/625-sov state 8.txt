@@ -1,0 +1,25 @@
+
+state={
+	id=625
+	name="STATE_625" # Gorno-Altaysk
+	manpower = 153510
+	
+	state_category = wasteland
+
+	history={
+		owner = ALT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ALT
+		victory_points = {
+			4686 1 #Oyrot-Tura/Gorno-Altaysk
+		}
+	}
+
+	provinces={
+		4667 4686 10256 10438 12161 
+	}
+
+	local_supplies=2.0 
+}

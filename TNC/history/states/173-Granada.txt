@@ -8,23 +8,23 @@ state={
 	history={
 		owner = SPR
 		victory_points = {
-			9979 5
+			9754 5
 		}
 		victory_points = {
-			12038 1 
+			11724 1 
 		}
 		victory_points = {
-			1176 3
+			1164 3
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 2
 			air_base = 4
-			9979 = {
+			9754 = {
 				naval_base = 2
 
 			}
-			12038 = {
+			11724 = {
 				naval_base = 1
 
 			}
@@ -35,7 +35,7 @@ state={
 	}
 
 	provinces={
-		747 1176 4065 7068 7153 7196 9979 10009 10063 11956 12038 
+		747 1164 3992 6922 6999 7039 9754 9781 9830 11650 11724 
 	}
 	manpower=1662292
 	buildings_max_level_factor=1.000

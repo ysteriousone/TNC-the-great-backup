@@ -1,0 +1,45 @@
+state = {
+	id=439
+	name = "STATE_439" # Saint Lawrence
+	manpower = 2432754
+	
+	state_category = city
+	
+	resources = {
+		aluminium = 3 # was: 4
+	}
+
+	history = {
+
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = QUE
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 3
+			11825 = {
+				naval_base = 6
+			}
+		}
+		
+		victory_points = {
+			4251 20
+		}
+		victory_points = {
+			11825 3
+		}
+		victory_points = {
+			9979 1
+		}
+
+	}
+
+	provinces = {
+		1263 4215 4251 4315 4319 7122 7124 7172 7251 9381 9928 9979 10060 11825 11956  
+	}
+
+	local_supplies = 0.0 
+}

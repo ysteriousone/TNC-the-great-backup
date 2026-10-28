@@ -1,0 +1,45 @@
+state = {
+	id=285
+	name = "STATE_285"
+	resources = {
+		rubber = 22 # was: 94.000
+	}
+
+	manpower = 2045000
+	buildings_max_level_factor=1.000
+	state_category = town
+
+	history = {
+		
+		owner = NAP
+		add_core_of = VIN
+		add_core_of = CHM
+
+		victory_points = {
+			11877 1 # Phan Rang
+		}
+
+		victory_points = {
+			10050 2 # Tourane
+		}
+
+		buildings = {
+
+			infrastructure = 2
+
+			10050 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	provinces = {
+		1230 1264 1279 1305 1372 1563 4169 4241 4268 4306 7069 7106 7204 9934 9896 9918 9981 10050 11789 11826 11851 11877 
+	}
+
+	
+
+	local_supplies=0.0 
+}

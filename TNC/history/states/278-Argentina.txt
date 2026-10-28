@@ -1,5 +1,5 @@
 state = {
-	id = 278
+	id=278
 	name = "STATE_278" # Pampas
 	manpower = 5596366
 	
@@ -16,31 +16,31 @@ state = {
 			industrial_complex = 5
 			dockyard = 1
 			air_base = 4
-			12364 = {
+			12025 = {
 				naval_base = 7
 				bunker = 1
 				coastal_bunker = 1
 			}
-			7621 = {
+			7428 = {
 				naval_base = 2
 			}
-			1639 = {
+			1594 = {
 				naval_base = 1
 			}
 		}
 		
 		victory_points = {
-			12364 15 
+			12025 15 
 		}
 
 		victory_points = {
-			7621 2 
+			7428 2 
 		}
 
 	}
 
 	provinces = {
-		1555 1568 1596 1624 1639 4573 4602 4643 7621 10375 10390 10402 10418 12351 12364 12379 12394 12409 12494 12998 
+		1516 1529 1554 1580 1594 4461 4490 4530 7428 10109 10123 10134 10149 12012 12025 12038 12053 12067 12146 12623 
 	}
 
 	local_supplies = 0.0 

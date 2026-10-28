@@ -1,0 +1,30 @@
+state={
+	id=747
+	name="STATE_747"
+
+	history={
+		owner = TOG
+		add_core_of = TOG
+		victory_points = {
+			1901 1
+		}
+		buildings = {
+			infrastructure = 2
+			1901 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1901 12476 12836 
+	}
+	manpower=1101346
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}

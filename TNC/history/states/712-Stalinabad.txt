@@ -1,0 +1,33 @@
+state = {
+	id=712
+	name = "STATE_712"
+
+	resources = {
+		steel = 3.000
+	}
+
+	history = {
+
+		owner = BUK
+		victory_points = {
+			1356 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TAJ
+		add_core_of = BUK
+
+	}
+
+	provinces = {
+		1200 1356 1870 4434 7064 7819 9941 10148 11890 11919 12086 12441 
+	}
+	
+	manpower = 2550000
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+
+	local_supplies = 0.0 
+}

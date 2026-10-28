@@ -1,0 +1,36 @@
+
+state={
+	id=315
+	name="STATE_315"
+	manpower = 503856
+	resources={
+		chromium=1 # was: 1
+	}
+	
+	state_category = town
+	
+
+	history={
+		owner = COS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 1
+			12712 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = COS
+		victory_points = {
+			12712 3
+		}
+
+	}
+
+	provinces={
+		12506 12712 12717 
+	}
+
+	local_supplies=0.0 
+}

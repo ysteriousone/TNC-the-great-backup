@@ -1,0 +1,34 @@
+state = {
+	id=928
+	name = "STATE_928"
+	manpower = 781311
+	
+	state_category = rural
+
+	history = {
+
+		owner = ARG
+		add_core_of = ARG
+		add_claim_by = BOL
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			2158 2 
+		}
+
+		victory_points = {
+			10701 1 
+		}
+
+	}
+
+	provinces = {
+		2158 10701 12932 12935
+	}
+
+	local_supplies = 0.0 
+}

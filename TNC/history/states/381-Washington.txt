@@ -1,0 +1,51 @@
+state = {
+	id=381
+	name = "STATE_381" # Washington State
+	manpower = 1563395
+	
+	state_category = large_town
+
+	history = {
+
+		owner = WSG
+		add_core_of = WSG
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 5
+
+			7146 = {
+				naval_base = 3
+			}
+
+			# Grand Coulee Dam
+			#10327 = { dam = 1 }
+
+		}
+		
+		victory_points = {
+			1644 1 # Spokane
+		}
+
+		victory_points = {
+			7146 10 # Seattle
+		}
+
+		1939.1.1 = {
+			buildings = {
+				7146 = {
+					air_facility = 1 # Boeing Factories
+				}
+			}
+		}
+	}
+
+	provinces = {
+		1298 1644 4207 4299 4633 7092 7146 7210 7234 7259 9911 9913 9951 9991 10016 10065 10412 10415 10418 11831 11886 12325 
+	}
+
+	local_supplies = 0.0 
+}

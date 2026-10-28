@@ -1,0 +1,29 @@
+
+state={
+	id=354
+	name="STATE_354"
+	manpower = 4041332
+	
+	state_category = large_city
+
+	history={
+		owner = NJS
+		victory_points = {
+			6741 5 
+		}
+		buildings = {
+			infrastructure = 4 #was: 7
+			industrial_complex = 7
+			air_base = 4
+
+		}
+		add_core_of = NJS
+	}
+
+	provinces={
+		3625 3795 6741 9581 9644 11440 11482 11600 
+	}
+	
+
+	local_supplies=15.0 
+}

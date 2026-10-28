@@ -16,9 +16,9 @@ Integrating_territories = {
 	add_state_core = 97
 	add_state_core = 87
 	add_state_core = 98
-	add_state_core = 762
+	add_state_core = 732
 	add_state_core = 86
-	add_state_core = 807
+	add_state_core = 776
 	add_state_core = 85
 		}
 

@@ -1,5 +1,5 @@
 state = {
-	id = 244
+	id=244
 	name = "STATE_244" # Volkhov
 	manpower = 195325
 	
@@ -14,17 +14,17 @@ state = {
 			infrastructure = 3 #was: 5
 
 			# Volkhov Hydroelectric Station
-			9197 = { dam = 1 }
+			8977 = { dam = 1 }
 
 		}
 		
 		victory_points = {
-			9197 1 # Volkhov
+			8977 1 # Volkhov
 		}
 	}
 
 	provinces = {
-		70 3072 3110 6035 6095 9164 9197 11174 
+		70 3005 3043 5894 5954 8944 8977 10874 
 	}
 
 	local_supplies = 0.0 

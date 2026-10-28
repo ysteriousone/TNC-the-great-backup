@@ -1,5 +1,5 @@
 state = {
-	id = 65
+	id=65
 	name = "STATE_65"
 	manpower = 5592576
 	resources = {
@@ -27,11 +27,11 @@ state = {
 		}
 
 		victory_points = {
-			3535 5 # Leipzig
+			3467 5 # Leipzig
 		}
 
 		victory_points = {
-			9471 2 # Chemnitz
+			9251 2 # Chemnitz
 		}
 		
 		1939.1.1 = {
@@ -44,7 +44,7 @@ state = {
 	}
 
 	provinces = {
-		514 573 3514 3535 6441 6559 9441 9471 9535 11481 11545 
+		514 573 3446 3467 6300 6418 9221 9251 9315 11181 11245 
 	}
 
 	local_supplies = 0.0 

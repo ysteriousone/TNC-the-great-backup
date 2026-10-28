@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # eng Events
 ###########################
 
@@ -17,8 +17,8 @@ country_event = {
 	option = { # Alan we are so cooked
 		name = eng.1.a  
     BML = {
-	transfer_state = 336
-	transfer_state = 1060
+	transfer_state = 331
+	transfer_state = 1016
 	load_oob = "BML_1945"
 
 }

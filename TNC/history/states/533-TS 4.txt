@@ -1,0 +1,21 @@
+
+state = {
+	id=533
+	name = "STATE_533" # Okhotsk
+	manpower = 63480
+	state_category = pastoral
+
+	history = {
+		owner = FER
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FER
+	}
+
+	provinces = {
+		1668 1759 4696 4767 7577 10297 10323 11307 12170 12203 12302  
+	}
+
+	local_supplies = 0.0 
+}

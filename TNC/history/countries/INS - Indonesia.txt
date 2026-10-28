@@ -1,4 +1,4 @@
-﻿capital = 1058 #Jakarta
+capital = 1014 #Jakarta
 
 oob = "INS_1936"
 
@@ -281,15 +281,15 @@ add_to_array = { INS_releasables = WPG }
 every_state = {
 	limit = {
 		OR = {
-			state = 1060
-			state = 1063
-			state = 336
-			state = 1064
-			state = 1065
-			state = 1062
-			state = 1064
-			state = 1061
-			state = 1021 #Singapore
+			state = 1016
+			state = 1019
+			state = 331
+			state = 1020
+			state = 1021
+			state = 1018
+			state = 1020
+			state = 1017
+			state = 977 #Singapore
 		}
 	}
 

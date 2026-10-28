@@ -1,0 +1,33 @@
+state={
+	id=537
+	name="STATE_537" #Irktusk
+	
+	state_category = rural
+	resources={
+		steel=20 # was: 28.000
+		aluminium=7 # was: 10.000
+	}
+
+	history={
+		owner = MAO
+		victory_points = {
+			4683 3 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = MAO
+
+	}
+
+	provinces={
+		1661 1681 1783 4683 4701 7643 10321 10386 12177 12192 12299 
+	}
+	manpower=755237
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

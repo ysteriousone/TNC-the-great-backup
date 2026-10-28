@@ -1,0 +1,30 @@
+
+state={
+	id=351
+	name="STATE_351" # Kastamonu
+	manpower = 860589
+	state_category = rural
+
+	history={
+		owner = TUR
+		victory_points = {
+			6797 10
+		}
+		victory_points = {
+			6854 3 
+		}
+		buildings = {
+			infrastructure = 2
+			6854 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		979 3899 3914 6779 6797 6837 6854 9624 9651 11539 11597 
+	}
+
+	local_supplies=0.0 
+}

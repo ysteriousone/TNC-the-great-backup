@@ -15,10 +15,10 @@ state={
 		add_core_of = SCO
 		owner = ENG
 		victory_points = {
-			3273 15
+			3206 15
 		}
 		victory_points = {
-			11218 1 #Dumfries
+			10918 1 #Dumfries
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
@@ -26,7 +26,7 @@ state={
 			dockyard = 4
 			anti_air_building = 2
 			air_base = 3
-			6395 = {
+			6254 = {
 				naval_base = 2
 			}
 
@@ -41,7 +41,7 @@ state={
 	}
 
 	provinces={
-		3273 6320 6350 6385 6395 9237 9350 11218 
+		3206 6179 6209 6244 6254 9017 9130 10918 
 	}
 
 	local_supplies=0.0 

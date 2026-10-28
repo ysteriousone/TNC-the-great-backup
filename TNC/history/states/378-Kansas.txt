@@ -1,0 +1,40 @@
+
+state={
+	id=378
+	name="STATE_378"
+	manpower = 1880998
+	resources={
+		oil=30 # was: 42
+		coal = 4 #initial distribution = with infra 5.6 / 1280 total
+	}
+	
+	state_category = city
+
+	history={
+		owner = KAN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = KAN
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
+		victory_points = {
+			4626 3
+		}
+		victory_points = {
+			7639 1
+		}
+	}
+
+	provinces={
+		1327 1707 4474 4626 4643 4697 4700 4757 7639 7696 9582 10077 10257 11712 12165 
+	}
+	
+
+	local_supplies=0.0 
+}

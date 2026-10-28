@@ -1,0 +1,40 @@
+state={
+	id=690
+	name="STATE_690" # Natal
+	manpower = 3962157
+	resources={
+		chromium=60 # was: 116
+		coal = 4 #initial distribution
+	}
+	
+	state_category = city
+
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			air_base = 1
+			1435 = {
+				naval_base = 2
+			}
+			4582 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			1435 3 
+		}
+		victory_points = {
+			4582 1 
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		1435 1461 1787 4447 4472 4582 7385 7704 7959 
+	}
+
+	local_supplies=0.0 
+}

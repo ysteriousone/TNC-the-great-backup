@@ -1,0 +1,28 @@
+state = {
+	id=646
+	name = "STATE_646"
+	manpower = 222093
+	
+	state_category = wasteland
+
+	history = {
+
+		owner = IRQ
+		add_core_of = IRQ
+
+		victory_points = {
+			12507 1 # Samawah
+		}
+
+		buildings = {
+			#infrastructure = 1
+		}
+		
+	}
+	
+	provinces = {
+		10467 12507 12992
+	}
+
+	local_supplies = 0.0 
+}

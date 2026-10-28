@@ -1,0 +1,32 @@
+state = {
+	id=972
+	name = "STATE_972"
+	manpower = 85000
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = OMA
+		add_core_of = OMA
+		add_core_of = FSA
+
+		buildings = {
+			infrastructure = 1
+			2038 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			2038 1 # Salalah
+		}
+		
+	}
+
+	provinces = {
+		1998 2038
+	}
+
+	local_supplies = 0.0 
+}

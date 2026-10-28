@@ -1,4 +1,4 @@
-﻿capital = 303
+capital = 302
 
 set_cosmetic_tag = peru_bolivian_confederation
 

@@ -1,0 +1,41 @@
+
+state={
+	id=303
+	name="STATE_303"
+	manpower = 467459
+	resources={
+		oil=1 # was: 1
+	}
+	
+	state_category = town
+	
+	history={
+		owner = PAN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 1
+			7437 = {
+				naval_base = 4
+			}
+			4499 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PAN
+		victory_points = {
+			7437 5 
+		}
+		victory_points = {
+			4499 1
+		}
+
+	}
+
+	provinces={
+		1589 4499 4511 7437 10209 
+	}
+
+	local_supplies=0.0 
+}

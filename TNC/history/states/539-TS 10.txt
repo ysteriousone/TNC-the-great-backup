@@ -1,0 +1,25 @@
+
+state={
+	id=539
+	name="STATE_539" # Krasnoyarsk
+	manpower = 1726427
+	
+	state_category = town
+
+	history={
+		owner = KRS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4610 1 
+		}
+		add_core_of = KRS
+	}
+
+	provinces={
+		1731 1804 4576 4597 4610 4668 4704 4739 7549 7620 10364 10437 12215 12273 12280 12343 
+	}
+
+	local_supplies=0.0 
+}

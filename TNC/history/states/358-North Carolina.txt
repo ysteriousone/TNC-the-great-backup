@@ -1,0 +1,31 @@
+
+state={
+	id=358
+	name="STATE_358"
+	manpower = 3170274
+	
+	state_category = city
+
+	history={
+		owner = NLA
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 3
+			air_base = 3
+			1123 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NLA
+		victory_points = {
+			6985 3 
+		}
+
+	}
+
+	provinces={
+		1018 1073 1123 1151 4087 6802 6902 6935 6985 7449 9656 9744 9819 9846 9859 10197 10222 11483 11738 12101 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,14 @@
+state={
+	id=1094
+	name="STATE_1094"
+	provinces={
+		7483 13227
+	}
+	manpower = 5000
+	history={
+		owner = GRE
+		add_core_of = GRE
+	}
+	state_category = rural
+	local_supplies=0
+}

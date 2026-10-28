@@ -1,0 +1,34 @@
+state={
+	id=571
+	name="STATE_571"
+
+	history={
+		owner = RNG
+		add_core_of = RNG
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 1 #was 2
+			industrial_complex = 1 #was 2
+		}
+
+		victory_points = {
+			3923 3 # Nanchang 
+		}
+
+		victory_points = {
+			7042 1 # Ganzhou 
+		}
+
+		}
+
+	provinces={
+		1035 1052 1063 1103 1584 3923 3968 4007 4009 4076 4102 4104 6863 6910 7017 7042 7459 9721 9759 9825 9874 9876 10228 11642 11655 11680 11718 12147 12766 
+	}
+	manpower=15820400
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=2.0 #was 3 
+}

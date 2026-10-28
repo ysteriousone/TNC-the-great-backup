@@ -1,0 +1,28 @@
+
+state={
+	id=520
+	name="STATE_520" #Kurdufan / was "Sudan"
+	
+	manpower = 1802132
+
+	history = {
+		victory_points = {
+			2031 1 
+		}
+		owner = EGY
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1959 3963 7843 7871 10462 10514 10537 10559 12390 
+	}
+
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,33 @@
+state=
+{
+	id=616
+	name="STATE_616"
+	manpower=1018
+	state_category = small_island
+	history=
+	{
+		owner = JPN
+		add_core_of = JPN
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			12650 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			12650 5
+		 }
+
+		 strategic_province_location = {
+		 	defensible_coastline = 13025
+		 }
+
+	}
+	provinces={
+		12650
+	}
+
+	local_supplies=0.0 
+}

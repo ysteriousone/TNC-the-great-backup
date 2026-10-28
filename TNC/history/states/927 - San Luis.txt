@@ -1,0 +1,31 @@
+state = {
+	id=927
+	name = "STATE_927"
+	manpower = 602403
+	
+	state_category = rural
+
+	history = {
+
+		owner = ARG
+		add_core_of = ARG
+
+		buildings = {
+			infrastructure = 2
+
+			# Minister Pistarini Reservoir
+			5013 = { dam = 1 }
+		}
+		
+		victory_points = {
+			12567 2 # Córdoba
+		}
+
+	}
+
+	provinces = {
+		2092 5013 5044 5079 7361 10721 10722 12567 12595
+	}
+
+	local_supplies = 0.0 
+}

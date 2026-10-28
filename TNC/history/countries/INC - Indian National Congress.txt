@@ -1,4 +1,4 @@
-﻿capital = 397 #Syktyvkar
+capital = 392 #Syktyvkar
 
 oob = "INC_1945"
 

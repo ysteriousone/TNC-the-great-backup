@@ -1,0 +1,35 @@
+
+state={
+	id=590
+	name="STATE_590" # Yarkand
+	manpower = 1430700
+	
+	state_category = pastoral
+	
+	resources={
+		aluminium=2 # was: 2
+		chromium=2 # was: 3
+	}
+
+	history={
+		owner = KHM
+		add_core_of = KHM
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			1958 2 # Kashgar
+		}
+	}
+
+
+	provinces={
+		1720 1958 4714 4951 7749 11798 
+	}
+
+	local_supplies=0.0 
+}

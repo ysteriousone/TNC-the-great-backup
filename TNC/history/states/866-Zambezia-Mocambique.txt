@@ -1,0 +1,27 @@
+state={
+	id=866
+	name="STATE_866"
+	manpower = 1386000
+	state_category = pastoral 
+
+	history={
+		owner = RKA
+		buildings = {
+			infrastructure = 2
+			2057 = {
+				naval_base = 1
+
+			}
+
+		}
+
+		add_core_of = MZB
+
+	}
+	provinces={
+		2057 2093 2114 2136 2151 5024 10672 12596 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

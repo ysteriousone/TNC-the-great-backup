@@ -1,4 +1,4 @@
-﻿capital = 808 # Riga
+capital = 777 # Riga
 
 set_stability = 0.5
 set_war_support = 0.4

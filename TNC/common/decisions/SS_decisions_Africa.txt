@@ -24,7 +24,7 @@ The_SS_in_Africa_cat = {
 		
 	complete_effect = {
 	add_manpower = -3000 
-546 = {
+517 = {
 					create_unit = {
 						division = "name = \"Shock Troopers\" division_template = \"Shock Troopers\" start_experience_factor = 1"
 						owner = RKA

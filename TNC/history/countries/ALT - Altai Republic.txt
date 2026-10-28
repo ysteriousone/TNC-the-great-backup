@@ -1,4 +1,4 @@
-﻿capital = 654 #Oyrot/Gorno-Altaysk
+capital = 625 #Oyrot/Gorno-Altaysk
 
 #oob = "ALT_1936"
 

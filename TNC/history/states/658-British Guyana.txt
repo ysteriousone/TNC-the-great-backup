@@ -1,0 +1,31 @@
+state={
+	id=658
+	name="STATE_658"
+	manpower = 309000
+	
+	state_category = pastoral
+	
+	resources={
+		aluminium=64 # was: 112
+	}
+
+	history={
+		add_core_of = GYA
+		owner = CAN
+		victory_points = {
+			4861 1
+		}
+		buildings = {
+			infrastructure = 1
+			4861 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		4861 7890 12367 
+	}
+
+	local_supplies=5.0 
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=750
+	name="STATE_750" # Guinea
+	manpower = 195041
+	
+	state_category = pastoral
+	history={
+		owner = GNA
+		add_core_of = GNA
+		victory_points = {
+			1861 1 
+		}
+		buildings = {
+			infrastructure = 2
+			1861 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1861 4839 4911 7804 12438 12489
+	}
+
+	local_supplies=1.0 
+}

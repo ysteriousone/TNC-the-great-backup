@@ -1,0 +1,50 @@
+state={
+	id=707
+	name="STATE_707"
+
+	history={
+		add_core_of = PNG
+		owner = AST
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			7088 = {
+				naval_base = 5
+
+			}
+			4258 = {
+				naval_base = 1
+
+			}
+			7168 = {
+				naval_base = 1
+
+			}			
+
+		}
+		
+		victory_points = {
+			7088 5 
+		}
+
+		strategic_province_location = {
+			defensive_chokepoint = 7251
+		}
+		strategic_province_location = {
+			natural_harbor = 7251
+		}
+		strategic_state_location = {
+			favorable_approach = 10206
+		}
+		
+	}
+
+	provinces={
+		1265 1280 1306 1335 4214 4239 4258 4318 7088 7154 7168 7179 7232 9922 9958 11894 
+	}
+	manpower=165000 #PreTAOG 345640
+	buildings_max_level_factor=1
+	state_category= large_island
+
+	local_supplies=0.0 
+}

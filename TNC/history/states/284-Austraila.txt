@@ -1,0 +1,71 @@
+state = {
+	id=284
+	name = "STATE_284"
+	state_category = large_city
+	manpower = 2650000 #PreTaog 2563100
+
+	resources = {
+		coal = 12 #16 > 12
+		tungsten = 2 #starting amount divided better in TAOG
+		steel = 16 #added 16 steel in TAOG
+	}
+
+	history = {
+
+		owner = AST
+		add_core_of = AST
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 5
+
+			12064 = {
+				naval_base = 6
+				coastal_bunker = 2
+			}
+
+			7663 = {
+				bunker = 1
+			}
+
+			7332 = {
+				coastal_bunker = 1
+			}
+
+		}
+
+		1939.1.1 = {
+			buildings = {
+				infrastructure = 4 #Added 1 from 1936
+				arms_factory = 4 #Added 2 from 1936
+				industrial_complex = 6 #Added 2 from 1936
+			}
+		}
+
+		victory_points = {
+			7663 30 # Canberra
+		}
+
+		victory_points = {
+			12064 20 # Sydney
+		}
+
+		victory_points = {
+			7332 1 # Newcastle
+		}
+		
+
+	}
+
+	provinces = {
+		1501 1568 1621 1815 2048 2080 2097 4349 4372 4394 4544 4559 4649 4722 4750 4995 5021 7266 7285 7309 7332 7345 7455 7469 7663 8015 8030 10122 10158 10184 10227 10407 10677 10691 10719 12036 12064 12091 12184 12212 12559 12593 
+	}
+	
+	buildings_max_level_factor = 1.000
+	
+
+	local_supplies = 0.0 
+}

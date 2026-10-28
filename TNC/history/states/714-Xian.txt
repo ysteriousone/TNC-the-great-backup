@@ -1,0 +1,33 @@
+state = {
+	id=714
+	name = "STATE_714"
+	manpower = 9000000
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	resources = {
+		steel = 2
+	}
+
+	history = {
+
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = PRC
+		add_core_of = CHI
+
+		victory_points = {
+			7133 1 # Xian
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces = {
+		1925 1949 4086 4170 4206 4956 7133 7227 7238 10004 12364 
+	}
+	local_supplies = 0.0 
+}

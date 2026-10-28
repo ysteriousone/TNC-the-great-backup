@@ -1,4 +1,4 @@
-﻿capital = 328 # Hsingking
+capital = 323 # Hsingking
 
 set_variable = { MAN_state_shintoism_surrender_limit = 0 }
 set_variable = { MAN_state_shintoism_war_support_factor = 0 }
@@ -90,19 +90,19 @@ IF = {
 
 set_convoys = 5
 
-328 = { #Kirin
+323 = { #Kirin
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-715 = { #Liaoning
+686 = { #Liaoning
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-714 = { #Heilungkiang
+685 = { #Heilungkiang
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-717 = { #Hungkiang
+688 = { #Hungkiang
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-761 = { #Hulunbuir
+731 = { #Hulunbuir
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
 

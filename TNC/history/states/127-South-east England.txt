@@ -1,5 +1,5 @@
 state = {
-	id = 127
+	id=127
 	name = "STATE_127" # Sussex
 	manpower = 3193383
 
@@ -15,10 +15,10 @@ state = {
 		add_core_of = ENG
 
 		victory_points = { 
-			3501 20 # Dover
+			3433 20 # Dover
 		}
 		victory_points = { 
-			9458 15 # Portsmouth
+			9238 15 # Portsmouth
 		}
 
 		buildings = {
@@ -30,14 +30,14 @@ state = {
 			anti_air_building = 1
 			radar_station = 1
 			air_base = 10
-			3501 = {
+			3433 = {
 				naval_base = 6
 				coastal_bunker = 3
 			}
-			9458 = {
+			9238 = {
 				naval_base = 10
 			}
-			13070 = {
+			12695 = {
 				# HM Dockyard, Chatham
 				naval_facility = 1
 			}
@@ -53,7 +53,7 @@ state = {
 	}
 
 	provinces = {
-		507 3501 6489 9458 11446 13070 
+		507 3433 6348 9238 11146 12695 
 	}
 
 	local_supplies = 16.0 

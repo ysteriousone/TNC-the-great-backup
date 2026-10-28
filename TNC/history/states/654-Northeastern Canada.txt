@@ -1,0 +1,25 @@
+state={
+	id=654
+	name="STATE_654"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		2880 8743 10446 12813 12815 12816 
+	}
+	manpower=46135
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=443
+	name="STATE_443"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		2341 2909 4186 7501 7635 7662 7705 8434 10252 10428 12700 12792 12814 12817 
+	}
+	manpower=27681
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

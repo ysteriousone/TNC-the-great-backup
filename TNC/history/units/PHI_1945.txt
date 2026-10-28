@@ -1,4 +1,4 @@
-﻿division_template = {
+division_template = {
 	name = "Infantry Division"			# Represents both Philippines divisions and U.S. Division as expeditionary force
 	division_names_group = PHI_INF_01
 
@@ -46,7 +46,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 10265
+		location = 10011
 		division_template = "Philippine Scouts Division"		
 		start_experience_factor = 0.1
 	}
@@ -56,7 +56,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 10265
+		location = 10011
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.1
 	}
@@ -66,7 +66,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 10265
+		location = 10011
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.1
 	}
@@ -76,7 +76,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 10265
+		location = 10011
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.1
 	}

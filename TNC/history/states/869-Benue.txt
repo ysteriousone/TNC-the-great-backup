@@ -1,0 +1,30 @@
+state = {
+	id=869
+	name = "STATE_869"
+	manpower = 1163674
+	state_category = pastoral 
+
+	history = {
+
+		owner = CMR
+        add_core_of = CMR
+		add_core_of = NGA
+		add_core_of = BIA
+
+		victory_points = {
+			7826 2 # Enugu
+		} 
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces = {
+		1938 4774 7777 7826 10541 
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

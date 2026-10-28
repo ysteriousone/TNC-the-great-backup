@@ -1,0 +1,35 @@
+state={
+	id=644
+	name="STATE_644"
+	manpower = 3215437
+	resources={
+		rubber = 16 #was: 24
+	}
+
+	state_category = rural
+
+
+	history= {
+		owner = INS
+		add_core_of = GOW
+		victory_points = {
+			10009 2
+		}
+		victory_points = {
+			4453 1
+		}
+
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			10009 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1547 4218 4255 4453 7165 7406 9972 10009 10179 10193 11992 12100 
+	}
+
+	local_supplies=0.0 
+}

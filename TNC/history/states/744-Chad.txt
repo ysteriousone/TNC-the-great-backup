@@ -1,0 +1,26 @@
+state={
+	id=744
+	name="STATE_744"
+
+	history={
+		owner = RKA
+		add_core_of = CHA
+		victory_points = {
+			2019 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1440 1837 1939 2019 3056 3114 4782 4858 7720 8932 12763 12835 
+	}
+	manpower=1442456
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=3.0 
+}

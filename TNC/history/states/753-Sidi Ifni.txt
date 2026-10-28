@@ -1,0 +1,29 @@
+
+state={
+	id=753
+	name="STATE_753" # Sidi Ifni
+	manpower = 11043
+	
+	state_category = pastoral
+
+	history={
+		victory_points = {
+			12488 1
+		}
+
+		owner = SPR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+			12488 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		12488
+	}
+
+	local_supplies=0.0 
+}

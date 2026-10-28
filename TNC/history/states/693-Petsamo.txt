@@ -1,0 +1,31 @@
+state={
+	id=693
+	name="STATE_693" #PETSAMO
+	manpower = 2371
+
+	state_category = enclave
+
+	history={
+		owner = FIN
+
+		victory_points = { #Petsamo
+			8920 1
+		}
+
+		buildings = {
+			infrastructure = 1 #MM: Was 2
+			8920 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FIN
+		add_core_of = SMI
+
+	}
+	
+	provinces={
+		5871 6042 8920 10842 
+	}
+
+	local_supplies=0.0 
+}

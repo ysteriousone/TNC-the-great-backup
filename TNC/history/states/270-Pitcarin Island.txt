@@ -10,13 +10,13 @@ state=
 		owner = ENG
 		buildings = {
 			infrastructure = 1
-			1280 = {
+			1259 = {
 				naval_base = 1
 			}
 		}
 	}
 	provinces={
-		1280
+		1259
 	}
 
 	local_supplies=0.0 

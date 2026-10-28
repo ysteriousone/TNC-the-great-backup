@@ -1,0 +1,26 @@
+state = {
+	id=951
+	name = "STATE_951"
+	
+	state_category = rural
+	manpower = 216959
+	
+	history = {
+		owner = BRM
+		add_core_of = BRM
+
+		buildings = {
+			infrastructure = 0
+		}
+
+		victory_points = {
+			7711 1 # Kyaingtong
+		}
+	}
+
+	provinces = {
+		4094 7222 7711 7774 
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

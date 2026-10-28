@@ -1,6 +1,6 @@
 
 state = {
-	id = 39
+	id=39
 	name = "STATE_39" # (South Tyrol) Alto Adige
 	manpower = 298290 # was 641650 before Trentino split
 	
@@ -12,7 +12,7 @@ state = {
 
 	history = {
 		victory_points = { #Bolzano
-			11598 1
+			11298 1
 		}
 		owner = GER
 		buildings = {
@@ -25,7 +25,7 @@ state = {
 	}
 
 	provinces = {
-		656 6675 9630 11598 11615
+		656 6534 9410 11298 11315
 	}
 
 	local_supplies = 0.0 

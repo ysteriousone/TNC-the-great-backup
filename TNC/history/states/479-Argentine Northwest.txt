@@ -1,0 +1,33 @@
+state = {
+	id=479
+	name = "STATE_479" # Tucuman
+	manpower = 1141311
+	
+	state_category = town
+
+	history = {
+
+		owner = ARG
+		add_core_of = ARG
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			7997 5 
+		}
+
+		victory_points = {
+			12933 2 
+		}
+
+	}
+
+	provinces = {
+		7976 7997 12933 12934
+	}
+
+	local_supplies = 0.0 
+}

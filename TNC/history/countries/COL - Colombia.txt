@@ -1,4 +1,4 @@
-﻿capital = 306
+capital = 305
 set_cosmetic_tag =  GCO_UNIFIED
 oob = "COL_1936"
 if = {

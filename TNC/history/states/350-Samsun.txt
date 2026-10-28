@@ -1,0 +1,27 @@
+
+state={
+	id=350
+	name="STATE_350"
+	manpower = 1151863
+	state_category = rural
+
+	history={
+		owner = TUR
+		victory_points = {
+			11581 10
+		}
+		buildings = {
+			infrastructure = 2
+			11581 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		933 960 975 3867 3897 9680 9695 11581 11594 
+	}
+
+	local_supplies=0.0 
+}

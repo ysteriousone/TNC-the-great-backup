@@ -6,7 +6,7 @@ state={
 	history={
 		owner = RKO
 		victory_points = {
-			9221 1 
+			9001 1 
 		}
 		victory_points = {
 			592 1 #Voru
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		592 6178 6408 9221 9485 
+		592 6037 6267 9001 9265 
 	}
 	manpower=225840
 	buildings_max_level_factor=1.000

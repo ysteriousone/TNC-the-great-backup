@@ -1,0 +1,30 @@
+state = {
+	id=976
+	name = "STATE_976" # San'in
+	manpower = 1111000
+	state_category = rural
+
+	history = { 
+
+		owner = JPN
+		add_core_of = JPN
+
+		buildings = {
+
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+		victory_points = {
+			9823 1 # Tottori
+		}
+
+	}
+
+	provinces = {
+		1155 1177 6906 6992 9823 
+	}
+
+	local_supplies = 0.0 
+}

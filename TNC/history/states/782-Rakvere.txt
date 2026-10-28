@@ -1,0 +1,32 @@
+
+state={
+	id=782
+	name="STATE_782"
+
+	history={
+		owner = RKO
+		victory_points = {
+			4527 1 #Narva
+		}
+		victory_points = {
+			10827 1 #Rakvere
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			4527 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = EST
+
+	}
+
+	provinces={
+		4527 5958 8860 10757 10827 11143 12752 
+	}
+	manpower=150560
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,43 @@
+state = {
+	id=919
+	name = "STATE_919"
+	manpower = 1300000
+	
+	state_category = town
+	
+	resources = {
+		steel = 24 # Steel + replacement of copper
+	}
+
+	history = {
+
+		owner = CHL
+		add_core_of = CHL
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			4982 = {
+				naval_base = 1
+			}
+			5029 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			4982 2
+		}
+
+		victory_points = {
+			5029 1
+		}
+
+	}
+
+	provinces = {
+		4982 5029 12545 12579 12921
+	}
+
+	local_supplies = 0.0 
+}

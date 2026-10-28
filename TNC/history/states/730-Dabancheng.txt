@@ -1,0 +1,32 @@
+state = {
+	id=730
+	name = "STATE_730"
+	manpower = 700000
+	state_category = rural
+
+	history = {
+
+		owner = KUM
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = KUM
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+
+		victory_points = {
+			4590 2 # Hami
+		}
+
+	}
+
+	local_supplies = 0.0 
+	buildings_max_level_factor = 1.000
+	provinces = {
+		1792 4590 4729 7537 10549 12176 12250 12323 
+	}
+
+}

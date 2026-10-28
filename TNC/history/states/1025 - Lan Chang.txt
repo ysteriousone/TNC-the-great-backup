@@ -1,0 +1,28 @@
+state = {
+	id=1025
+	name = "STATE_1025"
+	manpower = 214000
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = SIA
+		add_core_of = LAO
+
+		victory_points = {
+			10068 1 # Xayabuli  
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces = {
+		10068 10185 10092 
+	}
+
+	local_supplies = 0.0 
+}

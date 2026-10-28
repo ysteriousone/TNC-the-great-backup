@@ -1,0 +1,38 @@
+state = {
+	id=659
+	name = "STATE_659"
+	manpower = 45900
+	
+	state_category = pastoral
+	
+	resources = {
+		tungsten = 3 # was: 4
+		steel = 2 # was: 2
+	}
+
+	history = {
+
+		owner = PAR
+		add_core_of = PAR
+		add_core_of = BOL
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			2129 1 
+		}
+
+		victory_points = {
+			5025 1
+		}
+		
+	}
+	
+	provinces = {
+		2129 2143 5025 7984 10673 
+	}
+
+	local_supplies = 0.0 
+}

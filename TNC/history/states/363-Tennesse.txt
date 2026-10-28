@@ -1,0 +1,33 @@
+
+state={
+	id=363
+	name="STATE_363"
+	manpower = 2616555
+	
+	state_category = city
+	
+	resources={
+		steel=60 # was: 112
+		coal = 5 # initial distribution = with infra 11.2 / 1280 total
+	}
+
+
+	history={
+		owner = TSE
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 3
+		}
+		add_core_of = TSE
+		victory_points = {
+			12153 3 
+		}
+
+	}
+
+	provinces={
+		913 1712 1933 7423 7596 7602 7807 7870 10024 10340 10382 10535 10610 12153 12322 
+	}
+
+	local_supplies=0.0 
+}

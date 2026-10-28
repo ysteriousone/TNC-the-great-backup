@@ -1,0 +1,49 @@
+state = {
+	id=566
+	name = "STATE_566"
+	manpower = 11755600
+	state_category = town
+
+	resources = {
+		tungsten = 15 
+	}
+
+	history = {
+
+		owner = RNG
+		add_core_of = RNG
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			6925 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+			4114 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+
+		victory_points = { 
+			4114 3 # Fuzhou 
+		}
+
+		victory_points = { 
+			6925 1 # Xiamen 
+		}
+
+
+	}
+
+	provinces = {
+		1005 1090 1129 1154 1179 3982 3997 4035 4088 4114 6884 6925 6949 6978 9782 9784 9810 9822 9835 9849 9856 11678 11741 11766 
+	}
+
+	local_supplies = 0.0 
+}

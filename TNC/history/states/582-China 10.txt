@@ -1,0 +1,40 @@
+state = {
+	id=582
+	name = "STATE_582" # South Chahar
+	manpower = 1470000
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = MEN
+		add_core_of = MEN
+		add_core_of = CHI
+		add_core_of = PRC
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				add_core_of = HBC
+			}
+		}
+
+		buildings = {
+			infrastructure = 2 #was 3
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			10130 2 # Zhangbei
+		}
+
+	}
+
+	provinces = {
+		828 952 1456 4389 4500 7356 7479 10130 11452 13003
+	}
+
+	local_supplies = 0.0 
+}

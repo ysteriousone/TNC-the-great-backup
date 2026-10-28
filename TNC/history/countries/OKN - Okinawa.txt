@@ -1,4 +1,4 @@
-﻿capital = 526 #Naha
+capital = 497 #Naha
 
 # Starting tech
 set_technology = {

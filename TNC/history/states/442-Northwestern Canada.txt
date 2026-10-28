@@ -1,0 +1,26 @@
+state={
+	id=442
+	name="STATE_442"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+			10273 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		917 1381 1753 1826 4564 5262 10273 12160 12223 
+	}
+	manpower=27681
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=3.000
+}

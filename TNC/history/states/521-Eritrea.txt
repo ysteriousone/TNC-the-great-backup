@@ -1,0 +1,38 @@
+state=
+{
+	id=521
+	name="STATE_521"
+	manpower = 600600
+	resources = {
+		steel = 2
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = ERI
+		victory_points = { #Massaua
+			12409 1
+		}
+		victory_points = { #Asmara
+			12874 3
+		}
+		victory_points = { #Biscia
+			12372 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			12409 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		4891 4916 4955 7835 12372 12409 12874 12875
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,45 @@
+state = {
+	id=407
+	name = "STATE_407"
+	state_category = rural
+	manpower = 918619
+
+	resources = {
+		oil = 10 # was: 12
+	}
+
+	history = {
+
+		owner = PER
+		add_core_of = PER
+
+		victory_points = {
+			7899 3 
+		}
+
+		victory_points = {
+			7781 3 
+		}
+
+		victory_points = {
+			12465 1
+		}
+		
+		buildings = {
+			infrastructure = 1
+			7781 = {
+				naval_base = 4
+			}
+			12465 = {
+				naval_base = 2
+			}
+		}
+		
+	}
+
+	provinces = {
+		4841 4848 7781 7899 10516 10586 12420 12465 12493 12936
+	}
+
+	local_supplies = 0.0 
+}

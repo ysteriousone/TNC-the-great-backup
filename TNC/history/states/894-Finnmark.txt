@@ -1,0 +1,38 @@
+state = {
+	id=894
+	name = "STATE_894"
+
+	manpower = 142100 # 355251
+	
+	state_category = pastoral
+	
+	resources = {
+		tungsten = 5
+	}
+
+	history = {
+		
+		victory_points = {
+			8896 1
+		}
+		
+		owner = NOR
+		add_core_of = NOR
+		add_core_of = SMI
+		
+		buildings = {
+			infrastructure = 1
+			
+			8896 = {
+				naval_base = 3
+			}
+		}
+		
+	}
+
+	provinces = {
+		22 64 76 128 2928 2949 2973 5874 5951 8823 8845 8869 8896 8908 8971 10734 10763 10777 10804 10869 
+	}
+
+	local_supplies = 0.000
+}

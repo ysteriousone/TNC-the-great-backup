@@ -1,0 +1,41 @@
+state = {
+	id=477
+	name = "STATE_477" # Antofagasta
+	manpower = 423605
+	
+	state_category = town
+
+	resources = {
+		tungsten = 42 # In replacement of Nitrate
+		coal = 1 # initial distribution = with infra 1.6 / 6 total
+	}
+
+	history = {
+
+		owner = PRU
+		add_claim_by = PRU
+		add_core_of = CHL
+		add_claim_by = BOL
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			12619 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			12619 10
+		}
+
+	}
+
+	provinces = {
+		5007 5031 12619 12925 12926 12928
+	}
+
+	local_supplies = 0.0 
+}

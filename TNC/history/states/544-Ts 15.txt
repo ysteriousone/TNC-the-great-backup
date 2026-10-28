@@ -1,0 +1,26 @@
+state={
+	id=544
+	name="STATE_544" # Zlatoust
+	manpower = 556677
+	
+	state_category = pastoral
+	resources={
+		chromium=23 # was: 32
+	}
+
+	history={
+		victory_points = {
+			10067 1
+		}
+		owner = ZLT
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ZLT
+}
+	provinces={
+		237 278 361 3213 4644 7150 9895 10067 10923 11007 
+	}
+
+}

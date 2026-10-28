@@ -76,10 +76,10 @@ faction_goal_building_up_guam = {
 		FROM = { tag = USA}
 	}
 	cancel = { 
-		FROM = { NOT = { controls_state = 638 } }
+		FROM = { NOT = { controls_state = 609 } }
 	}
 	completed = {
-		638 = { naval_base > 2 }
+		609 = { naval_base > 2 }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -1583,10 +1583,10 @@ faction_goal_develop_mexican_oil = {
 	}
 	visible = {
 		OR = {
-			480 = { is_controlled_by_ROOT_or_ally = yes }
-			479 = {	is_controlled_by_ROOT_or_ally = yes }
-			477 = {	is_controlled_by_ROOT_or_ally = yes }
-			476 = {	is_controlled_by_ROOT_or_ally = yes }	
+			451 = { is_controlled_by_ROOT_or_ally = yes }
+			450 = {	is_controlled_by_ROOT_or_ally = yes }
+			448 = {	is_controlled_by_ROOT_or_ally = yes }
+			447 = {	is_controlled_by_ROOT_or_ally = yes }	
 		}
 	}
 	available = {
@@ -1594,25 +1594,25 @@ faction_goal_develop_mexican_oil = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		480 = { is_controlled_by_ROOT_or_ally = yes }
-		479 = {	is_controlled_by_ROOT_or_ally = yes }
-		477 = {	is_controlled_by_ROOT_or_ally = yes }
-		476 = {	is_controlled_by_ROOT_or_ally = yes }
+		451 = { is_controlled_by_ROOT_or_ally = yes }
+		450 = {	is_controlled_by_ROOT_or_ally = yes }
+		448 = {	is_controlled_by_ROOT_or_ally = yes }
+		447 = {	is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
-		480 = {
+		451 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		479 = {
+		450 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		477 = {
+		448 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		476 = {
+		447 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -1624,10 +1624,10 @@ faction_goal_develop_mexican_oil = {
 			every_state = {
 				limit = {
 					OR = {
-						state = 480
-						state = 479
-						state = 477
-						state = 476
+						state = 451
+						state = 450
+						state = 448
+						state = 447
 					}
 				}
 				add_resource = {
@@ -1642,10 +1642,10 @@ faction_goal_develop_mexican_oil = {
 		modifier = {
 			add = 1 # State owners should care more
 			OR = {
-				controls_state = 480
-				controls_state = 479
-				controls_state = 477
-				controls_state = 476
+				controls_state = 451
+				controls_state = 450
+				controls_state = 448
+				controls_state = 447
 			}
 		}
 		modifier = {
@@ -1676,7 +1676,7 @@ faction_goal_develop_curacao_oil = {
 		
 	}
 	visible = {
-		695 = { is_controlled_by_ROOT_or_ally = yes }
+		666 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 		FROM = {
@@ -1685,7 +1685,7 @@ faction_goal_develop_curacao_oil = {
 		}
 	}
 	completed = {
-		695 = {
+		666 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -1694,7 +1694,7 @@ faction_goal_develop_curacao_oil = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_curacao_oil } }
-			695 = {
+			666 = {
 				add_resource = {
 				    type = oil
 				    amount = 14
@@ -1706,7 +1706,7 @@ faction_goal_develop_curacao_oil = {
 		base = 1 # Everyone should always kiiiinda care about oil
 		modifier = {
 			add = 1 # State owners should care more
-			controls_state = 695
+			controls_state = 666
 		}
 		modifier = {
 			add = -1 # If the alliance is doing well with fuel avoid taking this...
@@ -1738,8 +1738,8 @@ faction_goal_develop_venezuelan_oil = {
 	}
 	visible = {
 		OR = {
-			489 = { is_controlled_by_ROOT_or_ally = yes }
-			307 = {	is_controlled_by_ROOT_or_ally = yes }
+			460 = { is_controlled_by_ROOT_or_ally = yes }
+			306 = {	is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
@@ -1747,15 +1747,15 @@ faction_goal_develop_venezuelan_oil = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		489 = { is_controlled_by_ROOT_or_ally = yes }
-		307 = {	is_controlled_by_ROOT_or_ally = yes }
+		460 = { is_controlled_by_ROOT_or_ally = yes }
+		306 = {	is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
-		489 = {
+		460 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		307 = {
+		306 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -1767,8 +1767,8 @@ faction_goal_develop_venezuelan_oil = {
 			every_state = {
 				limit = {
 					OR = {
-						state = 489
-						state = 307
+						state = 460
+						state = 306
 					}
 				}
 				add_resource = {
@@ -1783,8 +1783,8 @@ faction_goal_develop_venezuelan_oil = {
 		modifier = {
 			add = 1 # State owners should care more
 			OR = {
-				controls_state = 489
-				controls_state = 307
+				controls_state = 460
+				controls_state = 306
 			}
 		}
 		modifier = {
@@ -1815,7 +1815,7 @@ faction_goal_develop_guyanan_bauxite = {
 		
 	}
 	visible = {
-		687 = { is_controlled_by_ROOT_or_ally = yes }
+		658 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 		FROM = {
@@ -1825,7 +1825,7 @@ faction_goal_develop_guyanan_bauxite = {
 
 	}
 	completed = {
-		687 = {
+		658 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -1834,7 +1834,7 @@ faction_goal_develop_guyanan_bauxite = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_guyanan_bauxite } }
-			687 = {
+			658 = {
 				add_resource = {
 				    type = aluminium
 				    amount = 14
@@ -1846,7 +1846,7 @@ faction_goal_develop_guyanan_bauxite = {
 		base = 0
 		modifier = {
 			add = 1 # State owners should care more
-			controls_state = 687
+			controls_state = 658
 		}
 		modifier = {
 			add = 1 # If entire alliance is low on aluminium they should be incentivized to developing more
@@ -1887,7 +1887,7 @@ faction_goal_develop_suriname_bauxite = {
 		
 	}
 	visible = {
-		309 = { is_controlled_by_ROOT_or_ally = yes }
+		308 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 		FROM = {
@@ -1897,7 +1897,7 @@ faction_goal_develop_suriname_bauxite = {
 
 	}
 	completed = {
-		309 = {
+		308 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -1906,7 +1906,7 @@ faction_goal_develop_suriname_bauxite = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_suriname_bauxite } }
-			309 = {
+			308 = {
 				add_resource = {
 				    type = aluminium
 				    amount = 14
@@ -1918,7 +1918,7 @@ faction_goal_develop_suriname_bauxite = {
 		base = 0
 		modifier = {
 			add = 1 # State owners should care more
-			controls_state = 309
+			controls_state = 308
 		}
 		modifier = {
 			add = 1 # If entire alliance is low on aluminium they should be incentivized to developing more
@@ -1960,8 +1960,8 @@ faction_goal_develop_lappland_metals = {
 	}
 	visible = {
 		OR = {
-			666 = { is_controlled_by_ROOT_or_ally = yes }
-			918 = {	is_controlled_by_ROOT_or_ally = yes }
+			637 = { is_controlled_by_ROOT_or_ally = yes }
+			887 = {	is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
@@ -1969,15 +1969,15 @@ faction_goal_develop_lappland_metals = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		666 = { is_controlled_by_ROOT_or_ally = yes }
-		918 = {	is_controlled_by_ROOT_or_ally = yes }
+		637 = { is_controlled_by_ROOT_or_ally = yes }
+		887 = {	is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
-		666 = {
+		637 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		918 = {
+		887 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -1986,7 +1986,7 @@ faction_goal_develop_lappland_metals = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_lappland_metals } }
-			666 = {
+			637 = {
 				add_resource = {
 				    type = tungsten
 				    amount = 14
@@ -2000,7 +2000,7 @@ faction_goal_develop_lappland_metals = {
 				    amount = 8
 				}
 			}
-			918 = {
+			887 = {
 				add_resource = {
 				    type = tungsten
 				    amount = 10
@@ -2021,8 +2021,8 @@ faction_goal_develop_lappland_metals = {
 		modifier = {
 			add = 1 # State owners should care more
 			OR = {
-				controls_state = 666
-				controls_state = 918
+				controls_state = 637
+				controls_state = 887
 			}
 		}
 		modifier = {
@@ -2172,7 +2172,7 @@ faction_goal_develop_baku_oil_fields = {
 		OR = {
 			229 = { is_controlled_by_ROOT_or_ally = yes }
 			232 = {	is_controlled_by_ROOT_or_ally = yes }
-			821 = { is_controlled_by_ROOT_or_ally = yes }
+			790 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
@@ -2182,7 +2182,7 @@ faction_goal_develop_baku_oil_fields = {
 		}
 		229 = { is_controlled_by_ROOT_or_ally = yes }
 		232 = {	is_controlled_by_ROOT_or_ally = yes }
-		821 = { is_controlled_by_ROOT_or_ally = yes }
+		790 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
 		229 = {
@@ -2193,7 +2193,7 @@ faction_goal_develop_baku_oil_fields = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		821 = {
+		790 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -2206,7 +2206,7 @@ faction_goal_develop_baku_oil_fields = {
 				limit = {
 					OR = {
 						state = 232
-						state = 821
+						state = 790
 					}
 				}
 				add_resource = {
@@ -2257,9 +2257,9 @@ faction_goal_develop_iraqi_oil = {
 	}
 	visible = {
 		OR = {
-			291 = { is_controlled_by_ROOT_or_ally = yes }
-			676 = {	is_controlled_by_ROOT_or_ally = yes }
-			1010 = { is_controlled_by_ROOT_or_ally = yes }	
+			290 = { is_controlled_by_ROOT_or_ally = yes }
+			647 = {	is_controlled_by_ROOT_or_ally = yes }
+			967 = { is_controlled_by_ROOT_or_ally = yes }	
 		}
 	}
 	available = {
@@ -2267,20 +2267,20 @@ faction_goal_develop_iraqi_oil = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		291 = { is_controlled_by_ROOT_or_ally = yes }
-		676 = {	is_controlled_by_ROOT_or_ally = yes }
-		1010 = { is_controlled_by_ROOT_or_ally = yes }	
+		290 = { is_controlled_by_ROOT_or_ally = yes }
+		647 = {	is_controlled_by_ROOT_or_ally = yes }
+		967 = { is_controlled_by_ROOT_or_ally = yes }	
 	}
 	completed = {
-		291 = {
+		290 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		676 = {
+		647 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1010 = {
+		967 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -2289,19 +2289,19 @@ faction_goal_develop_iraqi_oil = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_iraqi_oil } }
-			291 = {
+			290 = {
 				add_resource = {
 				    type = oil
 				    amount = 6
 				}
 			}
-			676 = {
+			647 = {
 				add_resource = {
 				    type = oil
 				    amount = 4
 				}
 			}
-			1010 = {
+			967 = {
 				add_resource = {
 				    type = oil
 				    amount = 2
@@ -2344,9 +2344,9 @@ faction_goal_develop_persian_oil = {
 	}
 	visible = {
 		OR = {
-			411 = { is_controlled_by_ROOT_or_ally = yes }
-			412 = {	is_controlled_by_ROOT_or_ally = yes }
-			413 = { is_controlled_by_ROOT_or_ally = yes }	
+			406 = { is_controlled_by_ROOT_or_ally = yes }
+			407 = {	is_controlled_by_ROOT_or_ally = yes }
+			408 = { is_controlled_by_ROOT_or_ally = yes }	
 		}
 	}
 	available = {
@@ -2354,20 +2354,20 @@ faction_goal_develop_persian_oil = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		411 = { is_controlled_by_ROOT_or_ally = yes }
-		412 = {	is_controlled_by_ROOT_or_ally = yes }
-		413 = { is_controlled_by_ROOT_or_ally = yes }
+		406 = { is_controlled_by_ROOT_or_ally = yes }
+		407 = {	is_controlled_by_ROOT_or_ally = yes }
+		408 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
-		411 = {
+		406 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		412 = {
+		407 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		413 = {
+		408 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -2376,19 +2376,19 @@ faction_goal_develop_persian_oil = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_persian_oil } }
-			411 = {
+			406 = {
 				add_resource = {
 				    type = oil
 				    amount = 6
 				}
 			}
-			412 = {
+			407 = {
 				add_resource = {
 				    type = oil
 				    amount = 4
 				}
 			}
-			413 = {
+			408 = {
 				add_resource = {
 				    type = oil
 				    amount = 8
@@ -2431,10 +2431,10 @@ faction_goal_develop_chinese_metals = {
 	}
 	visible = {
 		OR = {
-			592 = { is_controlled_by_ROOT_or_ally = yes }
-			593 = {	is_controlled_by_ROOT_or_ally = yes }
-			594 = { is_controlled_by_ROOT_or_ally = yes }
-			599 = { is_controlled_by_ROOT_or_ally = yes }
+			563 = { is_controlled_by_ROOT_or_ally = yes }
+			564 = {	is_controlled_by_ROOT_or_ally = yes }
+			565 = { is_controlled_by_ROOT_or_ally = yes }
+			570 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
@@ -2442,25 +2442,25 @@ faction_goal_develop_chinese_metals = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		592 = { is_controlled_by_ROOT_or_ally = yes }
-		593 = {	is_controlled_by_ROOT_or_ally = yes }
-		594 = { is_controlled_by_ROOT_or_ally = yes }
-		599 = { is_controlled_by_ROOT_or_ally = yes }
+		563 = { is_controlled_by_ROOT_or_ally = yes }
+		564 = {	is_controlled_by_ROOT_or_ally = yes }
+		565 = { is_controlled_by_ROOT_or_ally = yes }
+		570 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
-		592 = {
+		563 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		593 = {
+		564 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		594 = {
+		565 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		599 = {
+		570 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -2469,7 +2469,7 @@ faction_goal_develop_chinese_metals = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_chinese_metals } }
-			592 = {
+			563 = {
 				add_resource = {
 				    type = tungsten
 				    amount = 4
@@ -2483,7 +2483,7 @@ faction_goal_develop_chinese_metals = {
 				    amount = 2
 				}
 			}
-			593 = {
+			564 = {
 				add_resource = {
 				    type = tungsten
 				    amount = 6
@@ -2497,7 +2497,7 @@ faction_goal_develop_chinese_metals = {
 				    amount = 2
 				}
 			}
-			594 = {
+			565 = {
 				add_resource = {
 				    type = tungsten
 				    amount = 4
@@ -2511,7 +2511,7 @@ faction_goal_develop_chinese_metals = {
 				    amount = 2
 				}
 			}
-			599 = {
+			570 = {
 				add_resource = {
 				    type = tungsten
 				    amount = 6
@@ -2532,10 +2532,10 @@ faction_goal_develop_chinese_metals = {
 		modifier = {
 			add = 1 # State owners should care more
 			OR = {
-				controls_state = 592
-				controls_state = 593
-				controls_state = 594
-				controls_state = 599
+				controls_state = 563
+				controls_state = 564
+				controls_state = 565
+				controls_state = 570
 			}
 		}
 		modifier = {
@@ -2622,16 +2622,16 @@ faction_goal_develop_malayan_riches = {
 	}
 	visible = {
 		OR = {
-			333 = { is_controlled_by_ROOT_or_ally = yes }
-			336 = {	is_controlled_by_ROOT_or_ally = yes }
-			1021 = { is_controlled_by_ROOT_or_ally = yes }
-			1024 = { is_controlled_by_ROOT_or_ally = yes }
-			1059 = { is_controlled_by_ROOT_or_ally = yes }
-			1060 = { is_controlled_by_ROOT_or_ally = yes }
-			1063 = { is_controlled_by_ROOT_or_ally = yes }
-			1064 = { is_controlled_by_ROOT_or_ally = yes }
-			1062 = { is_controlled_by_ROOT_or_ally = yes }
-			1061 = { is_controlled_by_ROOT_or_ally = yes }
+			328 = { is_controlled_by_ROOT_or_ally = yes }
+			331 = {	is_controlled_by_ROOT_or_ally = yes }
+			977 = { is_controlled_by_ROOT_or_ally = yes }
+			980 = { is_controlled_by_ROOT_or_ally = yes }
+			1015 = { is_controlled_by_ROOT_or_ally = yes }
+			1016 = { is_controlled_by_ROOT_or_ally = yes }
+			1019 = { is_controlled_by_ROOT_or_ally = yes }
+			1020 = { is_controlled_by_ROOT_or_ally = yes }
+			1018 = { is_controlled_by_ROOT_or_ally = yes }
+			1017 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
@@ -2639,55 +2639,55 @@ faction_goal_develop_malayan_riches = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		333 = { is_controlled_by_ROOT_or_ally = yes }
-		336 = {	is_controlled_by_ROOT_or_ally = yes }
-		1021 = { is_controlled_by_ROOT_or_ally = yes }
-		1024 = { is_controlled_by_ROOT_or_ally = yes }
-		1059 = { is_controlled_by_ROOT_or_ally = yes }
-		1060 = { is_controlled_by_ROOT_or_ally = yes }
-		1063 = { is_controlled_by_ROOT_or_ally = yes }
-		1064 = { is_controlled_by_ROOT_or_ally = yes }
-		1062 = { is_controlled_by_ROOT_or_ally = yes }
-		1061 = { is_controlled_by_ROOT_or_ally = yes }
+		328 = { is_controlled_by_ROOT_or_ally = yes }
+		331 = {	is_controlled_by_ROOT_or_ally = yes }
+		977 = { is_controlled_by_ROOT_or_ally = yes }
+		980 = { is_controlled_by_ROOT_or_ally = yes }
+		1015 = { is_controlled_by_ROOT_or_ally = yes }
+		1016 = { is_controlled_by_ROOT_or_ally = yes }
+		1019 = { is_controlled_by_ROOT_or_ally = yes }
+		1020 = { is_controlled_by_ROOT_or_ally = yes }
+		1018 = { is_controlled_by_ROOT_or_ally = yes }
+		1017 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
-		333 = {
+		328 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		336 = {
+		331 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1021 = {
+		977 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1024 = {
+		980 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1059 = {
+		1015 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1060 = {
+		1016 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1063 = {
+		1019 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1064 = {
+		1020 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1062 = {
+		1018 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1061 = {
+		1017 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -2696,7 +2696,7 @@ faction_goal_develop_malayan_riches = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_malayan_riches } }
-			333 = {
+			328 = {
 				add_resource = {
 				    type = oil
 				    amount = 2
@@ -2710,7 +2710,7 @@ faction_goal_develop_malayan_riches = {
 				    amount = 1
 				}
 			}
-			1059 = {
+			1015 = {
 				add_resource = {
 				    type = oil
 				    amount = 2
@@ -2724,7 +2724,7 @@ faction_goal_develop_malayan_riches = {
 				    amount = 1
 				}
 			}
-			336 = {
+			331 = {
 				add_resource = {
 				    type = aluminium
 				    amount = 4
@@ -2742,7 +2742,7 @@ faction_goal_develop_malayan_riches = {
 				    amount = 4
 				}
 			}
-			1062 = {
+			1018 = {
 				add_resource = {
 				    type = aluminium
 				    amount = 4
@@ -2760,7 +2760,7 @@ faction_goal_develop_malayan_riches = {
 				    amount = 4
 				}
 			}
-			1021 = {
+			977 = {
 				add_resource = {
 				    type = aluminium
 				    amount = 3
@@ -2774,7 +2774,7 @@ faction_goal_develop_malayan_riches = {
 				    amount = 4
 				}
 			}
-			1024 = {
+			980 = {
 				add_resource = {
 				    type = rubber
 				    amount = 8
@@ -2787,10 +2787,10 @@ faction_goal_develop_malayan_riches = {
 		modifier = {
 			add = 1 # State owners should care more
 			OR = {
-				controls_state = 333
-				controls_state = 336
-				controls_state = 1021
-				controls_state = 1024
+				controls_state = 328
+				controls_state = 331
+				controls_state = 977
+				controls_state = 980
 			}
 		}
 		modifier = {
@@ -2917,11 +2917,11 @@ faction_goal_develop_indonesian_riches = {
 	}
 	visible = {
 		OR = {
-			334 = { is_controlled_by_ROOT_or_ally = yes }
-			335 = {	is_controlled_by_ROOT_or_ally = yes }
-			667 = {	is_controlled_by_ROOT_or_ally = yes }
-			672 = { is_controlled_by_ROOT_or_ally = yes }
-			673 = { is_controlled_by_ROOT_or_ally = yes }
+			329 = { is_controlled_by_ROOT_or_ally = yes }
+			330 = {	is_controlled_by_ROOT_or_ally = yes }
+			638 = {	is_controlled_by_ROOT_or_ally = yes }
+			643 = { is_controlled_by_ROOT_or_ally = yes }
+			644 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
@@ -2929,30 +2929,30 @@ faction_goal_develop_indonesian_riches = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		334 = { is_controlled_by_ROOT_or_ally = yes }
-		335 = {	is_controlled_by_ROOT_or_ally = yes }
-		667 = {	is_controlled_by_ROOT_or_ally = yes }
-		672 = { is_controlled_by_ROOT_or_ally = yes }
-		673 = { is_controlled_by_ROOT_or_ally = yes }
+		329 = { is_controlled_by_ROOT_or_ally = yes }
+		330 = {	is_controlled_by_ROOT_or_ally = yes }
+		638 = {	is_controlled_by_ROOT_or_ally = yes }
+		643 = { is_controlled_by_ROOT_or_ally = yes }
+		644 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
-		334 = {
+		329 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		335 = {
+		330 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		667 = {
+		638 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		672 = {
+		643 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		673 = {
+		644 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -2961,7 +2961,7 @@ faction_goal_develop_indonesian_riches = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_indonesian_riches } }
-			334 = {
+			329 = {
 				add_resource = {
 				    type = oil
 				    amount = 3
@@ -2975,7 +2975,7 @@ faction_goal_develop_indonesian_riches = {
 				    amount = 2
 				}
 			}
-			335 = {
+			330 = {
 				add_resource = {
 				    type = oil
 				    amount = 4
@@ -2985,13 +2985,13 @@ faction_goal_develop_indonesian_riches = {
 				    amount = 48
 				}
 			}
-			667 = {
+			638 = {
 				add_resource = {
 				    type = rubber
 				    amount = 6
 				}
 			}
-			672 = {
+			643 = {
 				add_resource = {
 				    type = oil
 				    amount = 5
@@ -3009,7 +3009,7 @@ faction_goal_develop_indonesian_riches = {
 				    amount = 3
 				}
 			}
-			673 = {
+			644 = {
 				add_resource = {
 				    type = rubber
 				    amount = 10
@@ -3022,11 +3022,11 @@ faction_goal_develop_indonesian_riches = {
 		modifier = {
 			add = 1 # State owners should care more
 			OR = {
-				controls_state = 334
-				controls_state = 335
-				controls_state = 667
-				controls_state = 672
-				controls_state = 673
+				controls_state = 329
+				controls_state = 330
+				controls_state = 638
+				controls_state = 643
+				controls_state = 644
 			}
 		}
 		modifier = {
@@ -3155,13 +3155,13 @@ faction_goal_expand_newfoundland_bases = {
 		
 	}
 	visible = {
-		331 = { is_controlled_by_ROOT_or_ally = yes }
+		326 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 		
 	}
 	completed = {
-		331 = {
+		326 = {
 			air_base > 1
 			any_province_building_level = {
 				province = {
@@ -3179,7 +3179,7 @@ faction_goal_expand_newfoundland_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 331
+				controls_state = 326
 			}
 			add_faction_initiative = 1
 		}
@@ -3236,13 +3236,13 @@ faction_goal_expand_bermuda_bases = {
 		
 	}
 	visible = {
-		696 = { is_controlled_by_ROOT_or_ally = yes }
+		667 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 		
 	}
 	completed = {
-		696 = {
+		667 = {
 			air_base > 1
 			any_province_building_level = {
 				province = {
@@ -3260,7 +3260,7 @@ faction_goal_expand_bermuda_bases = {
 		every_faction_member = {
 			visible_when_empty = yes
 			limit = {
-				controls_state = 696
+				controls_state = 667
 			}
 			add_faction_initiative = 1
 		}
@@ -3318,26 +3318,26 @@ faction_goal_expand_bahamas_bases = {
 	}
 	visible = {
 		OR = {
-			690 = { is_controlled_by_ROOT_or_ally = yes }
-			693 = { is_controlled_by_ROOT_or_ally = yes }
+			661 = { is_controlled_by_ROOT_or_ally = yes }
+			664 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
-		690 = { is_controlled_by_ROOT_or_ally = yes }
-		693 = { is_controlled_by_ROOT_or_ally = yes }
+		661 = { is_controlled_by_ROOT_or_ally = yes }
+		664 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
 		any_state = {
 			OR = {
-				state = 690
-				state = 693
+				state = 661
+				state = 664
 			}
 			air_base > 1
 		}
 		any_state = {
 			OR = {
-				state = 690
-				state = 693
+				state = 661
+				state = 664
 			}
 			any_province_building_level = {
 				province = {
@@ -3356,8 +3356,8 @@ faction_goal_expand_bahamas_bases = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 690
-					controls_state = 693
+					controls_state = 661
+					controls_state = 664
 				}
 			}
 			add_faction_initiative = 1
@@ -3415,13 +3415,13 @@ faction_goal_fortify_panama_canal = {
 		
 	}
 	visible = {
-		685 = { is_controlled_by_ROOT_or_ally = yes }
+		656 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		685 = {
+		656 = {
 			air_base > 7
 			any_province_building_level = {
 				province = {
@@ -3446,9 +3446,9 @@ faction_goal_fortify_panama_canal = {
 			}
 		}
 		OR = {
-			divisions_in_state = { state = 685 size > 0 }
+			divisions_in_state = { state = 656 size > 0 }
 			any_allied_country = {
-				divisions_in_state = { state = 685 size > 0 }
+				divisions_in_state = { state = 656 size > 0 }
 			}
 		}
 	}
@@ -3459,21 +3459,21 @@ faction_goal_fortify_panama_canal = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 685
+				controls_state = 656
 			}
 			add_faction_initiative = 1
 		}
-		685 = {
+		656 = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 7617
+				province = 7425
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 7617
+				province = 7425
 				instant_build = yes
 			}
 		}
@@ -3511,13 +3511,13 @@ faction_goal_expand_trinidad_bases = {
 		
 	}
 	visible = {
-		691 = { is_controlled_by_ROOT_or_ally = yes }
+		662 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		691 = {
+		662 = {
 			air_base > 1
 			any_province_building_level = {
 				province = {
@@ -3535,7 +3535,7 @@ faction_goal_expand_trinidad_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 691
+				controls_state = 662
 			}
 			add_faction_initiative = 1
 		}
@@ -3593,13 +3593,13 @@ faction_goal_expand_azores_bases = {
 		
 	}
 	visible = {
-		698 = { is_controlled_by_ROOT_or_ally = yes }
+		669 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		698 = {
+		669 = {
 			air_base > 2
 			any_province_building_level = {
 				province = {
@@ -3617,7 +3617,7 @@ faction_goal_expand_azores_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 698
+				controls_state = 669
 			}
 			add_faction_initiative = 1
 		}
@@ -3755,13 +3755,13 @@ faction_goal_expand_faroese_bases = {
 		
 	}
 	visible = {
-		337 = { is_controlled_by_ROOT_or_ally = yes }
+		332 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		337 = {
+		332 = {
 			air_base > 1
 			any_province_building_level = {
 				province = {
@@ -3779,7 +3779,7 @@ faction_goal_expand_faroese_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 337
+				controls_state = 332
 			}
 			add_faction_initiative = 1
 		}
@@ -3895,13 +3895,13 @@ faction_goal_fortify_danish_belts = {
 	visible = {
 		OR = {
 			37 = { is_controlled_by_ROOT_or_ally = yes }
-			911 = { is_controlled_by_ROOT_or_ally = yes }
+			880 = { is_controlled_by_ROOT_or_ally = yes }
 			99 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
 		37 = { is_controlled_by_ROOT_or_ally = yes }
-		911 = { is_controlled_by_ROOT_or_ally = yes }
+		880 = { is_controlled_by_ROOT_or_ally = yes }
 		99 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
@@ -3917,7 +3917,7 @@ faction_goal_fortify_danish_belts = {
 					level > 0
 				}
 			}
-			911 = {
+			880 = {
 				any_province_building_level = {
 					province = {
 						id = 3325
@@ -3939,12 +3939,12 @@ faction_goal_fortify_danish_belts = {
 			OR = {
 				AND = {
 					divisions_in_state = { state = 37 size > 1 }
-					divisions_in_state = { state = 911 size > 0 }
+					divisions_in_state = { state = 880 size > 0 }
 					divisions_in_state = { state = 99 size > 1 }
 				}
 				any_allied_country = {
 					divisions_in_state = { state = 37 size > 1 }
-					divisions_in_state = { state = 911 size > 0 }
+					divisions_in_state = { state = 880 size > 0 }
 					divisions_in_state = { state = 99 size > 1 }
 				}
 			}
@@ -3959,7 +3959,7 @@ faction_goal_fortify_danish_belts = {
 			limit = {
 				OR = {
 					controls_state = 37
-					controls_state = 911
+					controls_state = 880
 					controls_state = 99
 				}
 			}
@@ -3969,21 +3969,21 @@ faction_goal_fortify_danish_belts = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 6287
+				province = 6146
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 3260
+				province = 3193
 				instant_build = yes
 			}
 		}
-		911 = {
+		880 = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 3325
+				province = 3258
 				instant_build = yes
 			}
 		}
@@ -3997,7 +3997,7 @@ faction_goal_fortify_danish_belts = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 3277
+				province = 3210
 				instant_build = yes
 			}
 		}
@@ -4110,13 +4110,13 @@ faction_goal_fortify_gibraltar = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 4135
+				province = 4056
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 4135
+				province = 4056
 				instant_build = yes
 			}
 		}
@@ -4405,7 +4405,7 @@ faction_goal_fortify_bosporus = {
 		
 	}
 	visible = {
-		797 = { is_controlled_by_ROOT_or_ally = yes }
+		766 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
@@ -4413,7 +4413,7 @@ faction_goal_fortify_bosporus = {
 	completed = {
 		custom_trigger_tooltip = {
             tooltip = fortify_bosporus_tooltip
-			797 = {
+			766 = {
 				any_province_building_level = {
 					province = {
 						id = 9833
@@ -4432,9 +4432,9 @@ faction_goal_fortify_bosporus = {
 				}
 			}
 			OR = {
-				divisions_in_state = { state = 797 size > 1 }
+				divisions_in_state = { state = 766 size > 1 }
 				any_allied_country = {
-					divisions_in_state = { state = 797 size > 1 }
+					divisions_in_state = { state = 766 size > 1 }
 				}
 			}
 		}
@@ -4446,11 +4446,11 @@ faction_goal_fortify_bosporus = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 797
+				controls_state = 766
 			}
 			add_faction_initiative = 1
 		}
-		797 = {
+		766 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4459,25 +4459,25 @@ faction_goal_fortify_bosporus = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 9833
+				province = 9613
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 9833
+				province = 9613
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 11829
+				province = 11529
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 11829
+				province = 11529
 				instant_build = yes
 			}
 		}
@@ -4511,18 +4511,18 @@ faction_goal_fortify_dardanelles = {
 	}
 	visible = {
 		OR = {
-			340 = { is_controlled_by_ROOT_or_ally = yes }
-			341 = { is_controlled_by_ROOT_or_ally = yes }
+			335 = { is_controlled_by_ROOT_or_ally = yes }
+			336 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
-		340 = { is_controlled_by_ROOT_or_ally = yes }
-		341 = { is_controlled_by_ROOT_or_ally = yes }
+		335 = { is_controlled_by_ROOT_or_ally = yes }
+		336 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
 		custom_trigger_tooltip = {
             tooltip = fortify_dardanelles_tooltip
-			340 = {
+			335 = {
 				any_province_building_level = {
 					province = {
 						id = 6864
@@ -4538,7 +4538,7 @@ faction_goal_fortify_dardanelles = {
 					level > 0
 				}
 			}
-			341 = {
+			336 = {
 				any_province_building_level = {
 					province = {
 						id = 849
@@ -4556,12 +4556,12 @@ faction_goal_fortify_dardanelles = {
 			}
 			OR = {
 				AND = {
-					divisions_in_state = { state = 797 size > 0 }
-					divisions_in_state = { state = 341 size > 0 }
+					divisions_in_state = { state = 766 size > 0 }
+					divisions_in_state = { state = 336 size > 0 }
 				}
 				any_allied_country = {
-					divisions_in_state = { state = 797 size > 0 }
-					divisions_in_state = { state = 341 size > 0 }
+					divisions_in_state = { state = 766 size > 0 }
+					divisions_in_state = { state = 336 size > 0 }
 				}
 			}
 		}
@@ -4574,13 +4574,13 @@ faction_goal_fortify_dardanelles = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 340
-					controls_state = 341
+					controls_state = 335
+					controls_state = 336
 				}
 			}
 			add_faction_initiative = 1
 		}
-		340 = {
+		335 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4589,17 +4589,17 @@ faction_goal_fortify_dardanelles = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 6864
+				province = 6723
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 6864
+				province = 6723
 				instant_build = yes
 			}
 		}
-		341 = {
+		336 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4654,7 +4654,7 @@ faction_goal_fortify_suez_canal = {
 		
 	}
 	visible = {
-		446 = { is_controlled_by_ROOT_or_ally = yes }
+		417 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
@@ -4662,7 +4662,7 @@ faction_goal_fortify_suez_canal = {
 	completed = {
 		custom_trigger_tooltip = {
             tooltip = fortify_suez_tooltip
-			446 = {
+			417 = {
 				any_province_building_level = {
 					province = {
 						id = 12049
@@ -4685,9 +4685,9 @@ faction_goal_fortify_suez_canal = {
 				}
 			}
 			OR = {
-				divisions_in_state = { state = 446 size > 3 }
+				divisions_in_state = { state = 417 size > 3 }
 				any_allied_country = {
-					divisions_in_state = { state = 446 size > 3 }
+					divisions_in_state = { state = 417 size > 3 }
 				}
 			}
 		}
@@ -4699,11 +4699,11 @@ faction_goal_fortify_suez_canal = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 446
+				controls_state = 417
 			}
 			add_faction_initiative = 1
 		}
-		446 = {
+		417 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4712,49 +4712,49 @@ faction_goal_fortify_suez_canal = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 12049
+				province = 11734
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 12049
+				province = 11734
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 4073
+				province = 3999
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 4073
+				province = 3999
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 1155
+				province = 1144
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 1155
+				province = 1144
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 9947
+				province = 9725
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 9947
+				province = 9725
 				instant_build = yes
 			}
 		}
@@ -4788,13 +4788,13 @@ faction_goal_expand_gulf_of_aden_bases = {
 		
 	}
 	visible = {
-		992 = { is_controlled_by_ROOT_or_ally = yes }
+		950 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		992 = {
+		950 = {
 			air_base > 2
 			any_province_building_level = {
 				province = {
@@ -4812,7 +4812,7 @@ faction_goal_expand_gulf_of_aden_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 992
+				controls_state = 950
 			}
 			add_faction_initiative = 1
 		}
@@ -4870,18 +4870,18 @@ faction_goal_fortify_strait_of_hormuz = {
 	}
 	visible = {
 		OR = {
-			412 = { is_controlled_by_ROOT_or_ally = yes }
-			1013 = { is_controlled_by_ROOT_or_ally = yes }
+			407 = { is_controlled_by_ROOT_or_ally = yes }
+			969 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 	}
 	available = {
-		412 = { is_controlled_by_ROOT_or_ally = yes }
-		1013 = { is_controlled_by_ROOT_or_ally = yes }
+		407 = { is_controlled_by_ROOT_or_ally = yes }
+		969 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	completed = {
 		custom_trigger_tooltip = {
             tooltip = fortify_strait_of_hormuz_tooltip
-			412 = {
+			407 = {
 				any_province_building_level = {
 					province = {
 						id = 7982
@@ -4897,7 +4897,7 @@ faction_goal_fortify_strait_of_hormuz = {
 					level > 0
 				}
 			}
-			1013 = {
+			969 = {
 				any_province_building_level = {
 					province = {
 						id = 13369
@@ -4915,12 +4915,12 @@ faction_goal_fortify_strait_of_hormuz = {
 			}
 			OR = {
 				AND = {
-					divisions_in_state = { state = 412 size > 0 }
-					divisions_in_state = { state = 1013 size > 0 }
+					divisions_in_state = { state = 407 size > 0 }
+					divisions_in_state = { state = 969 size > 0 }
 				}
 				any_allied_country = {
-					divisions_in_state = { state = 412 size > 0 }
-					divisions_in_state = { state = 1013 size > 0 }
+					divisions_in_state = { state = 407 size > 0 }
+					divisions_in_state = { state = 969 size > 0 }
 				}
 			}
 		}
@@ -4933,13 +4933,13 @@ faction_goal_fortify_strait_of_hormuz = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 412
-					controls_state = 1013
+					controls_state = 407
+					controls_state = 969
 				}
 			}
 			add_faction_initiative = 1
 		}
-		412 = {
+		407 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4948,17 +4948,17 @@ faction_goal_fortify_strait_of_hormuz = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 7982
+				province = 7781
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 7982
+				province = 7781
 				instant_build = yes
 			}
 		}
-		1013 = {
+		969 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4967,13 +4967,13 @@ faction_goal_fortify_strait_of_hormuz = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 13369
+				province = 12993
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 13369
+				province = 12993
 				instant_build = yes
 			}
 		}
@@ -5033,22 +5033,13 @@ faction_goal_expand_ceylonese_bases = {
 		
 	}
 	visible = {
-		422 = { is_controlled_by_ROOT_or_ally = yes }
+		
 	}
 	available = {
 
 	}
 	completed = {
-		422 = {
-			air_base > 4
-			any_province_building_level = {
-				province = {
-					all_provinces = yes
-				}
-				building = naval_base
-				level > 6
-			}
-		}
+		
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -5057,7 +5048,7 @@ faction_goal_expand_ceylonese_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 422
+
 			}
 			add_faction_initiative = 1
 		}
@@ -5114,13 +5105,13 @@ faction_goal_expand_singapore_naval_base = {
 		
 	}
 	visible = {
-		1021 = { is_controlled_by_ROOT_or_ally = yes }
+		977 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		1021 = {
+		977 = {
 			air_base > 7
 			any_province_building_level = {
 				province = {
@@ -5145,11 +5136,11 @@ faction_goal_expand_singapore_naval_base = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 1021
+				controls_state = 977
 			}
 			add_faction_initiative = 1
 		}
-		1021 = {
+		977 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5214,7 +5205,7 @@ faction_goal_fortify_manila_bay = {
 		
 	}
 	visible = {
-		327 = { is_controlled_by_ROOT_or_ally = yes }
+		322 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
@@ -5222,7 +5213,7 @@ faction_goal_fortify_manila_bay = {
 	completed = {
 		custom_trigger_tooltip = {
 			tooltip = fortify_manila_tooltip
-			327 = {
+			322 = {
 				air_base > 7
 				any_province_building_level = {
 					province = {
@@ -5248,11 +5239,11 @@ faction_goal_fortify_manila_bay = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 327
+				controls_state = 322
 			}
 			add_faction_initiative = 1
 		}
-		327 = {
+		322 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5261,7 +5252,7 @@ faction_goal_fortify_manila_bay = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 10265
+				province = 10011
 				instant_build = yes
 			}
 		}
@@ -5293,7 +5284,7 @@ faction_goal_fortify_okinawa = {
 		
 	}
 	visible = {
-		526 = { is_controlled_by_ROOT_or_ally = yes }
+		497 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
@@ -5301,7 +5292,7 @@ faction_goal_fortify_okinawa = {
 	completed = {
 		custom_trigger_tooltip = {
 			tooltip = fortify_okinawa_tooltip
-			526 = {
+			497 = {
 				air_base > 4
 				anti_air_building > 0
 				any_province_building_level = {
@@ -5321,11 +5312,11 @@ faction_goal_fortify_okinawa = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 526
+				controls_state = 497
 			}
 			add_faction_initiative = 1
 		}
-		526 = {
+		497 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5334,7 +5325,7 @@ faction_goal_fortify_okinawa = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 11932
+				province = 11629
 				instant_build = yes
 			}
 		}
@@ -5370,13 +5361,13 @@ faction_goal_fortify_iwo_jima = {
 		
 	}
 	visible = {
-		645 = { is_controlled_by_ROOT_or_ally = yes }
+		616 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		645 = {
+		616 = {
 			air_base > 2
 			anti_air_building > 0
 			any_province_building_level = {
@@ -5395,11 +5386,11 @@ faction_goal_fortify_iwo_jima = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 645
+				controls_state = 616
 			}
 			add_faction_initiative = 1
 		}
-		645 = {
+		616 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5408,7 +5399,7 @@ faction_goal_fortify_iwo_jima = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 13025
+				province = 12650
 				instant_build = yes
 			}
 		}
@@ -5444,13 +5435,13 @@ faction_goal_expand_caroline_islands_bases = {
 		
 	}
 	visible = {
-		684 = { is_controlled_by_ROOT_or_ally = yes }
+		655 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		684 = {
+		655 = {
 			air_base > 4
 			any_province_building_level = {
 				province = {
@@ -5468,7 +5459,7 @@ faction_goal_expand_caroline_islands_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 684
+				controls_state = 655
 			}
 			add_faction_initiative = 1
 		}
@@ -5525,13 +5516,13 @@ faction_goal_expand_guadalcanal_bases = {
 		
 	}
 	visible = {
-		634 = { is_controlled_by_ROOT_or_ally = yes }
+		605 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		634 = {
+		605 = {
 			air_base > 1
 			any_province_building_level = {
 				province = {
@@ -5549,7 +5540,7 @@ faction_goal_expand_guadalcanal_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 634
+				controls_state = 605
 			}
 			add_faction_initiative = 1
 		}
@@ -5616,13 +5607,13 @@ faction_goal_expand_wake_island_bases = {
 		
 	}
 	visible = {
-		632 = { is_controlled_by_ROOT_or_ally = yes }
+		603 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		632 = {
+		603 = {
 			air_base > 1
 			any_province_building_level = {
 				province = {
@@ -5640,7 +5631,7 @@ faction_goal_expand_wake_island_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 632
+				controls_state = 603
 			}
 			add_faction_initiative = 1
 		}
@@ -5697,13 +5688,13 @@ faction_goal_expand_midway_island_bases = {
 		
 	}
 	visible = {
-		631 = { is_controlled_by_ROOT_or_ally = yes }
+		602 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	available = {
 
 	}
 	completed = {
-		631 = {
+		602 = {
 			air_base > 1
 			any_province_building_level = {
 				province = {
@@ -5721,7 +5712,7 @@ faction_goal_expand_midway_island_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 631
+				controls_state = 602
 			}
 			add_faction_initiative = 1
 		}

@@ -1,0 +1,42 @@
+state = {
+	id=481
+	name = "STATE_481"
+	manpower = 1497169
+
+	resources = {
+		oil = 2
+		rubber = 3
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = ARG
+		add_core_of = ARG
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			10707 2 
+		}
+
+		victory_points = {
+			12589 1 
+		}
+
+		victory_points = {
+			1416 3
+		}
+		
+	}
+
+	provinces = {
+		1416 7968 8019 10240 10643 10707 12108 12589 
+	}
+
+	local_supplies = 0.0 
+}

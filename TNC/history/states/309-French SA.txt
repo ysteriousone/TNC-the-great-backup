@@ -1,0 +1,29 @@
+
+state={
+	id=309
+	name="STATE_309"
+	manpower = 47341
+
+	state_category = pastoral
+
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = CAY
+		buildings = {
+			infrastructure = 1
+			12512 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12512 1 
+		}
+	}
+
+	provinces={
+		4818 12512 
+	}
+
+	local_supplies=0.0 
+}

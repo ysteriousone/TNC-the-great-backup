@@ -1,0 +1,25 @@
+
+state={
+	id=538
+	name="STATE_538" # Bratsk
+	manpower = 410183
+	state_category = rural
+	
+	resources={
+		aluminium=26 # was: 34
+	}
+
+	history={
+		owner = MAO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MAO
+	}
+
+	provinces={
+		1689 1757 1767 1830 4636 4694 7518 7574 7607 7646 7680 7706 10274 10287 10295 10389 10424 12175 
+	}
+
+	local_supplies=0.0 
+}

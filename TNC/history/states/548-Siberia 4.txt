@@ -1,0 +1,26 @@
+
+state = { 
+	id=548 # Surgut
+	manpower = 29299
+	name = "STATE_548"
+	resources = {
+		oil=13 # was: 14
+	}
+	
+	state_category = pastoral
+
+	history = {
+		owner = OTH
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OTH
+		add_core_of = OVO
+	}
+
+	provinces = {
+		1680 1722 1738 1810 4616 4657 4703 7490 7586 7642 7686 10258 10286 10388 10417 12166 12194 12226 12291 12324 
+	}
+
+	local_supplies = 0.0 
+}

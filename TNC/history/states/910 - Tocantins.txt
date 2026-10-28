@@ -1,0 +1,30 @@
+
+state = {
+	id=910
+	name = "STATE_910"
+	manpower = 1662200
+	
+	state_category = rural
+
+	history = {
+
+		owner = BRA
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 0
+		}
+
+		victory_points = {
+			5012 1 
+		}
+
+	}
+
+	provinces = {
+		2102 5012 12905 12906
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
+}

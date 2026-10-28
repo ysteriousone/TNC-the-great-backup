@@ -1,0 +1,37 @@
+state={
+	id=647
+	name="STATE_647"
+	manpower = 1182741
+	
+	state_category = town
+	
+	resources={
+		oil = 8 # was: 10
+	}
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9869 5 
+		}
+		victory_points = {
+			3848 3 
+		}
+		victory_points = {
+			6685 1
+		}
+		add_core_of = IRQ
+		add_core_of = KUR
+		add_core_of = ASY
+	}
+	
+	provinces={
+		1558 1889 3848 4888 6685 7904 9869 10513 10521 10525 12032 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,35 @@
+state = {
+	id=891
+	name = "STATE_891"
+	manpower = 396425
+	state_category = town
+	resources = {
+		aluminium = 5
+	}
+	
+
+	history = {
+		victory_points = {
+			9076 3 
+		}
+		
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			9076 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+		2982 3062 5931 8876 8976 9076 10876 11067 10801
+	}
+
+	local_supplies = 0.000
+}

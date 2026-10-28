@@ -62,9 +62,9 @@ focus_tree = {
 			}
 			SHL = {
 				transfer_state = 58
-				transfer_state = 909
+				transfer_state = 878
 				remove_state_core = 58
-				remove_state_core = 909
+				remove_state_core = 878
 				set_cosmetic_tag = AUS_german_confederation_puppet
 			}
 			MEK = {
@@ -85,29 +85,29 @@ focus_tree = {
 			SIL = {
 				transfer_state = 66
 				transfer_state = 67
-				transfer_state = 762
+				transfer_state = 732
 				remove_state_core = 66
 				remove_state_core = 67
-				remove_state_core = 762
+				remove_state_core = 732
 				set_cosmetic_tag = AUS_german_confederation_puppet
 			}
 			EPR = {
 				transfer_state = 86
 				transfer_state = 87
-				transfer_state = 807
+				transfer_state = 776
 				transfer_state = 85
 				transfer_state = 98
 				transfer_state = 5
-				transfer_state = 763
+				transfer_state = 733
 				transfer_state = 188
 				transfer_state = 97
 				remove_state_core = 86
 				remove_state_core = 87
-				remove_state_core = 807
+				remove_state_core = 776
 				remove_state_core = 85
 				remove_state_core = 98
 				remove_state_core = 5
-				remove_state_core = 763
+				remove_state_core = 733
 				remove_state_core = 188
 				remove_state_core = 97
 				set_cosmetic_tag = AUS_german_confederation_puppet
@@ -141,7 +141,7 @@ focus_tree = {
 		}
 		completion_reward = { 
 			AUS = {
-				transfer_state = 972
+				transfer_state = 941
 				puppet = RKH
 			}
 			RKH = {

@@ -1,0 +1,22 @@
+
+state={
+	id=420
+	name="STATE_420" # El Agheila
+	manpower = 40431
+	
+	state_category = wasteland
+
+	history={
+		owner = SME
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LBA
+	}
+
+	provinces={
+		1040 1184 3976 3986 9814 9878 11770 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,31 @@
+
+state = {
+	id=622
+	name = "STATE_622" # Ufa
+	manpower = 2552075
+
+	state_category = city
+
+	history = {
+		owner = URL
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1257 5
+		}
+		victory_points = {
+			4259 1 
+		}
+		add_core_of = URL
+		add_core_of = BSK
+	}
+
+	provinces = {
+		273 291 1240 1257 1284 3222 4195 4259 6105 6144 7076 7132 7236 7249 7261 9129 9976 9900 11796 11809 11847 
+	}
+
+	local_supplies = 0.0 
+}

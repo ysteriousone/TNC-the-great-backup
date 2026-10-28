@@ -1,0 +1,36 @@
+
+state={
+	id=491
+	name="STATE_491"
+	resources={
+		steel = 0 #removed 22 in TAOG, historically not a producer of any scale.
+		tungsten = 8 #starting amount divided better in TAOG
+	}
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			7474 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			7474 5 
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		1201 1380 1391 1399 1421 1445 2073 4314 4337 4357 4381 7272 7294 7474 10020 10030 10056 10243 11785 11916 11955 11974 11988 12000 12151 
+	}
+	manpower=5000 #PreTAOG 13000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}

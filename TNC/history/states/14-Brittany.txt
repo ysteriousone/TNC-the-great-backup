@@ -9,19 +9,19 @@ state={
 	history={
 		owner = FRA
 		victory_points = {
-			3552 20
+			3484 20
 		}
 		victory_points = {
-			6536 5
+			6395 5
 		}
 		victory_points = {
-			9495 1
+			9275 1
 		}
 		buildings = {
 			infrastructure = 3
 			dockyard = 5
 			air_base = 5
-			3552 = {
+			3484 = {
 				naval_base = 10
 				naval_headquarters = {
 					level = 1
@@ -32,11 +32,11 @@ state={
 				naval_supply_hub = 1
 				coastal_bunker = 1
 			}
-			6536 = {
+			6395 = {
 				naval_base = 4
 				coastal_bunker = 1
 			}
-			9510 = {
+			9290 = {
 				naval_base = 1
 			}
 		}
@@ -50,7 +50,7 @@ state={
 	}
 
 	provinces={
-		542 3552 3758 6536 6548 6572 9495 9510 9525 11508 
+		542 3484 3690 6395 6407 6431 9275 9290 9305 11208 
 	}
 
 	local_supplies=0.0 

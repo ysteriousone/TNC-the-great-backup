@@ -13,10 +13,10 @@ state={
 	history={
 		owner = RKU
 		victory_points = {
-			11437 10 
+			11137 10 
 		}
 		victory_points = {
-			11561 1
+			11261 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		453 472 486 6423 9419 9433 9463 9479 11422 11437 11452 11561 
+		453 472 486 6282 9199 9213 9243 9259 11122 11137 11152 11261 
 	}
 
 	local_supplies=0.0 

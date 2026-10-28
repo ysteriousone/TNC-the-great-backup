@@ -1,0 +1,26 @@
+state={
+	id=402
+	name="STATE_402"
+
+	history={
+		owner = NPL
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = NPL
+		victory_points = {
+			11237 1
+		}
+	}
+
+	provinces={
+		432 468 470 508 545 566 576 1269 1296 3337 3339 3399 3434 3447 3470 4257 6350 6384 6410 6423 6447 7255 9242 9267 9293 9306 9308 9318 9329 11157 11172 11173 11180 11182 11210 11224 11237 11238 11252 
+	}
+	manpower=268572
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

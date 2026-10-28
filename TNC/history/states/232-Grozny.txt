@@ -1,5 +1,5 @@
 state = {
-	id = 232
+	id=232
 	name = "STATE_232" #Dagestan
 	manpower = 1358292
 	
@@ -18,11 +18,11 @@ state = {
 		}
 
 		victory_points = {
-			6701 3 # Makhachkala
+			6560 3 # Makhachkala
 		}
 
 		victory_points = {
-			7624 1 # Derbent
+			7431 1 # Derbent
 		}
 
 		add_core_of = DAG
@@ -30,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		683 700 712 728 1450 3668 3682 3711 4463 6701 6730 6748 7554 7624 9645 11632 
+		683 700 712 728 1417 3600 3614 3643 4358 6560 6589 6607 7365 7431 9425 11332 
 	}
 
 	local_supplies = 0.0 

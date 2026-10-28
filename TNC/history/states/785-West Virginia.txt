@@ -1,0 +1,28 @@
+state={
+	id=785
+	name="STATE_785"
+	state_category = town
+	history={
+		owner = WVG
+		add_core_of = WVG
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			air_base = 3
+		}
+		victory_points = {
+			7397 3
+		}
+	}
+	provinces={
+		801 3873 3907 4514 6709 6817 6830 7280 7397 7452 9703 10171 11588 
+	}
+	manpower=1901974
+
+	resources = {
+		coal = 88 #initial distribution = with infra 248 / 1280 total
+	}
+
+	buildings_max_level_factor=1.000
+	state_category = town
+}

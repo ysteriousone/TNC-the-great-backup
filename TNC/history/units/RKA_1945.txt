@@ -1,4 +1,4 @@
-﻿
+
 division_template = {
 	name = "Shock Troopers"
 	division_names_group = RKA_INF_01
@@ -20,7 +20,7 @@ units = {
 		division_name = {
 			is_name_ordered = no
 		}
-		location = 2196
+		location = 2130
 		division_template = "Shock Troopers"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
@@ -31,7 +31,7 @@ division = {
 		division_name = {
 			is_name_ordered = no
 		}
-		location = 2196
+		location = 2130
 		division_template = "Shock Troopers"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
@@ -42,7 +42,7 @@ division = {
 		division_name = {
 			is_name_ordered = no
 		}
-		location = 2115
+		location = 2049
 		division_template = "Shock Troopers"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4

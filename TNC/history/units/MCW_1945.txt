@@ -1,4 +1,4 @@
-﻿
+
 division_template = {
 	name = "Russian Partisans"
 	division_names_group = PARTISAN_INF_01
@@ -44,7 +44,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9301
+		location = 9081
 		division_template = "Russian Partisans"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -66,7 +66,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3072
+		location = 3005
 		division_template = "Russian Partisans"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -78,7 +78,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6252
+		location = 6111
 		division_template = "Russian Partisans"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -90,7 +90,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6262
+		location = 6121
 		division_template = "Russian Partisans"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -114,7 +114,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3358
+		location = 3291
 		division_template = "Russian Partisans"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -126,7 +126,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9378
+		location = 9158
 		division_template = "Russian Partisans"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -138,7 +138,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6380
+		location = 6239
 		division_template = "Russian Partisans-Tanks"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -150,7 +150,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6380
+		location = 6239
 		division_template = "Russian Partisans-Tanks"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -162,7 +162,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6380
+		location = 6239
 		division_template = "Russian Partisans-Tanks"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8

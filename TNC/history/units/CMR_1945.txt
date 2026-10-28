@@ -18,7 +18,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 8034
+		location = 7826
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -30,7 +30,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 8034
+		location = 7826
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -42,7 +42,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 2080
+		location = 2018
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -54,7 +54,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 7963
+		location = 7763
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -66,7 +66,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 4889
+		location = 4774
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -78,7 +78,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 1992
+		location = 1938
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -90,7 +90,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 10831
+		location = 10541
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -102,7 +102,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11194
+		location = 10894
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -114,7 +114,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9137
+		location = 8917
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -126,7 +126,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 10831
+		location = 10541
 		division_template = "Pan African Patriots"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

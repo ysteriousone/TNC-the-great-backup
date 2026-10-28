@@ -1,0 +1,25 @@
+state={
+	id=1103
+	name="STATE_1103"
+	provinces={
+		4835 12453 12525 
+	}
+	history = {
+
+		owner = NGA
+		add_core_of = NGA
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 1
+
+
+		}
+
+	}
+	manpower=1238998
+	state_category = rural
+	buildings_max_level_factor=1
+	local_supplies=0
+}

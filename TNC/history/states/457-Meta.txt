@@ -1,0 +1,22 @@
+
+state={
+	id=457
+	name="STATE_457"
+	manpower = 213160
+	
+	state_category = pastoral
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		1841 1950 4899 10512 12378 12413 12460 
+	}
+
+	local_supplies=0.0 
+}

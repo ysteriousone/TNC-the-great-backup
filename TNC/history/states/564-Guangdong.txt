@@ -1,0 +1,52 @@
+state = {
+	id=564
+	name = "STATE_564"
+
+	manpower = 12700000
+	state_category = town
+
+	resources = {
+		tungsten = 15 # was: 20
+		steel = 15 # was: 20
+		chromium = 3 # was: 4
+	}
+
+	history = {
+
+		owner = GDC
+		add_core_of = GXC
+		add_core_of = GDC
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = { 
+			9717 1 # Shantou
+		}
+
+		victory_points = { 
+			6957 1 # Shenzhen
+		}
+
+		victory_points = { 
+			9747 2 # Kukong
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			9717 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+
+	}
+
+	provinces = {
+		1074 1112 1150 1187 3979 4084 4124 6921 6957 6988 7025 9717 9747 9753 9770 9845 9881 11702 11776 
+	}
+
+	local_supplies = 1.0 
+}

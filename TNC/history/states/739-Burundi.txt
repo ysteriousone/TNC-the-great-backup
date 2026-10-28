@@ -1,0 +1,31 @@
+state = {
+	id=739
+	name = "STATE_739" # Burundi
+	
+	state_category = pastoral
+	manpower = 2145731
+
+	history = {
+
+		owner = RKA
+		
+		add_core_of = BRD
+
+		victory_points = {
+			2154 1
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces = {
+		2154 12987
+	}
+	
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
+}

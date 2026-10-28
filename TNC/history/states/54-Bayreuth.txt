@@ -1,5 +1,5 @@
 state = {
-	id = 54
+	id=54
 	name = "STATE_54"
 	manpower = 2508159
 
@@ -17,15 +17,15 @@ state = {
 		add_core_of = BAY
 
 		victory_points = {
-			11544 10 # Nuremberg
+			11244 10 # Nuremberg
 		}
 
 		victory_points = {
-			6421 2 # Coburg
+			6280 2 # Coburg
 		}
 
 		victory_points = {
-			9557 2 # Würtzburg
+			9337 2 # Würtzburg
 		}
 
 		buildings = {
@@ -41,7 +41,7 @@ state = {
 	}
 
 	provinces = {
-		561 3474 6421 6594 9416 9557 9572 11404 11417 11529 11544 13116 
+		561 3406 6280 6453 9196 9337 9352 11104 11117 11229 11244 12741 
 	}
 
 	local_supplies = 0.0 

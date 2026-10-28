@@ -1,0 +1,48 @@
+
+state={
+	id=488
+	name="STATE_488"
+	resources={
+		steel = 6 #down from 8 in TAOG
+		chromium = 4
+	}
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			industrial_complex = 5
+			air_base = 3
+			7603 = {
+				naval_base = 4
+				coastal_bunker = 1
+
+			}
+
+		}
+
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3 #Added 1 from 1936
+				industrial_complex = 6 #Added 1 from 1936
+				dockyard = 1 #Added 1 from 1936
+			}
+		}
+
+		victory_points = {
+			7603 20 
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		1713 2064 2089 4662 4677 7560 7603 7616 10278 10306 10347 10362 12228 12557 
+	}
+	manpower=1850000 #pre-TAOG 2219500
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=0.0 
+}

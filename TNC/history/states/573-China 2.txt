@@ -1,0 +1,48 @@
+state={
+	id=573
+	name="STATE_573"
+	resources={
+		tungsten=6.000
+	}
+
+	history={
+
+		owner = HNN
+		add_core_of = HNN
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 2 #was: 3 was: 5
+			industrial_complex = 1 #was 2
+			arms_factory = 1 #was 2
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 3 #was: 6
+				air_base = 1
+				arms_factory = 1
+			}
+
+		}
+
+		victory_points = {
+			6947 5 # Changsha 
+		}
+
+		victory_points = {
+			12011 1 # Hengyang 
+		}
+
+	}
+
+	provinces={
+		1415 1595 4047 4374 4518 6947 7005 7314 7470 9757 9772 10072 10111 10242 11617 11705 11737 11973 12011 12037 12136 12765 12768 
+	}
+	manpower=20293700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

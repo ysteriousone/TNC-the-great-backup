@@ -1,4 +1,4 @@
-﻿capital = 48
+capital = 48
 
 #TROOPS
 oob = "BUL_1936" #VANILLA & DLC
@@ -151,14 +151,14 @@ if = { #DLC
 	round_variable = BUL_march_destination
 	48 = { set_state_flag = BUL_initial_bulgarian_state_flag }
 	212 = { set_state_flag = BUL_initial_bulgarian_state_flag }
-	801 = { set_state_flag = BUL_initial_bulgarian_state_flag }
+	770 = { set_state_flag = BUL_initial_bulgarian_state_flag }
 	211  = { set_state_flag = BUL_initial_bulgarian_state_flag }
 	77 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
-	803 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	772 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 	106 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
-	731 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	702 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 	184 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
-	971 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	940 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 
 	#International Relations
 	add_opinion_modifier = { 

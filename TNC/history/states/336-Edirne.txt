@@ -1,0 +1,44 @@
+
+state= {
+	id=336
+	name="STATE_336"
+	manpower = 363947
+	resources={
+
+	}
+	
+	state_category = town
+
+	history= {
+		owner = GRE
+		add_core_of = GRE
+		victory_points = {
+			11542 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			849 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = TUR
+
+		1936.1.1.1 = { 
+			if = {
+				limit = { has_dlc = "Battle for the Bosporus" }
+				set_demilitarized_zone = yes
+			}
+		}
+
+		1936.11.9.1 = {
+			set_demilitarized_zone = no
+		}
+	}
+	provinces=
+	{
+ 922 3811 3825 6754 11542 	}
+
+	local_supplies=0.0 
+}

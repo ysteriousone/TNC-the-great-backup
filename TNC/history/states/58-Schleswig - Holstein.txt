@@ -1,5 +1,5 @@
 state = {
-	id = 58
+	id=58
 	name = "STATE_58"
 	manpower = 3095630 
 	state_category = large_city
@@ -12,11 +12,11 @@ state = {
 		add_core_of = PRE
 
 		victory_points = {
-			6389 10 # Kiel
+			6248 10 # Kiel
 		}
 		
 		victory_points = {
-			9347 20 # Hamburg
+			9127 20 # Hamburg
 		}
 
 		buildings = {
@@ -24,7 +24,7 @@ state = {
 			arms_factory = 1
 			dockyard = 6
 			air_base = 5
-			6389 = {
+			6248 = {
 				naval_base = 8	
 			}
 		}
@@ -40,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		3368 6257 6389 9320 9347 11331 
+		3301 6116 6248 9100 9127 11031 
  	}
 
 	local_supplies = 0.0 

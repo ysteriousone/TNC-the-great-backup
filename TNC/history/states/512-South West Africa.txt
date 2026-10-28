@@ -1,0 +1,29 @@
+
+state={
+	id=512
+	name="STATE_512"
+	manpower = 254100
+	state_category = pastoral
+
+	history={
+		owner = RKA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4765 1 
+		}
+		add_core_of = SAF
+		add_core_of = NMB
+
+	}
+
+	provinces={
+		2141 4765 7575 
+	}
+	
+	buildings_max_level_factor=1.000
+	
+	local_supplies=0.000
+}

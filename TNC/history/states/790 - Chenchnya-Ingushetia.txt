@@ -1,0 +1,29 @@
+
+state = {
+	id=790
+	name = "STATE_790"
+	manpower = 731985
+	
+	state_category = rural
+	
+	resources={
+		oil = 9 # was split from Dagestan which had 19 oil, and retained 10
+	}
+
+	history = {
+		owner = RKK
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3604 5 
+		}
+		add_core_of = CIN
+	}
+
+	provinces = {
+		666 670 1422 3599 3604 6548
+	}
+
+	local_supplies=0.0 
+}

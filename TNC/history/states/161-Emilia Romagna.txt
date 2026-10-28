@@ -1,6 +1,6 @@
 
 state = {
-	id = 161
+	id=161
 	name = "STATE_161"
 	manpower = 3202401
 	
@@ -13,13 +13,13 @@ state = {
 	history = {
 		owner = ITA
 		victory_points = { #Bologna
-			6606 5
+			6465 5
 		}
 		victory_points = { #Ferrara
-			6793 3
+			6652 3
 		}
 		victory_points = { #Parma
-			9752 1
+			9532 1
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
@@ -34,7 +34,7 @@ state = {
 	}
 
 	provinces = {
-		782 3773 3976 6606 6790 6793 6985 9752 9924 
+		782 3705 3908 6465 6649 6652 6844 9532 9704 
 	}
 
 	local_supplies = 0.0 

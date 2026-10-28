@@ -1,0 +1,45 @@
+state = {
+	id=451
+	name = "STATE_451"
+	manpower = 827826
+	
+	state_category = large_town
+	
+	resources = {
+		oil = 8
+		coal = 3 # initial distribution = with infra 3.6 / 4 total
+		#steel=4 sent to Mexico City
+	}
+
+	history = {
+
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = RIG
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			12468 10
+		}
+		victory_points = {
+			10490 5
+		}
+		#victory_points = {
+		#	1999 3
+		#}
+		victory_points = {
+			12447 1
+		}
+
+	}
+
+	provinces = {
+		1999 2039 7773 10461 10469 10490 10518 12447 12468 
+	}
+	local_supplies = 0.0 
+}

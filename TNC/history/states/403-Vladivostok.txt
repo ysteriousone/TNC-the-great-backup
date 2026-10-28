@@ -1,0 +1,36 @@
+
+state = {
+	id=403
+	name = "STATE_403"
+	manpower = 841465
+	resources = {
+		chromium=20 # was: 28
+	}
+	
+	state_category = town
+
+	history={
+		owner = VLA
+		victory_points = {
+			957 15
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			air_base = 5
+			957 = {
+				naval_base = 8
+				coastal_bunker = 3
+				naval_supply_hub = 1
+			}
+		}
+		add_core_of = FER
+		add_core_of = VLA
+	}
+
+	provinces = {
+		664 681 810 837 957 3627 3655 3671 3685 3719 3743 3747 3775 3909 5286 6543 6545 6574 6692 6697 6820 6848 9419 9421 9542 9675 9706 11324 11326 11329 11343 11445 11450 11465 11477 11579 11604 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=380
+	name="STATE_380"
+	manpower = 953785
+	
+	state_category = town
+
+	history={
+		owner = ORE
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 6
+			11883 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = ORE
+		victory_points = {
+			3445 1 
+		}
+
+	}
+
+	provinces={
+		505 528 1383 3403 3445 4188 4235 4253 4284 4712 7220 7526 7669 9908 9937 10046 10350 11195 11433 11856 11883 11946 12205 
+	}
+
+	local_supplies=0.0 
+}

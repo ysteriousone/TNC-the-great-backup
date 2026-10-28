@@ -1,4 +1,4 @@
-﻿capital = 613 # Shanghai 
+capital = 584 # Shanghai 
 
 country_event = { id = china.1 days = 1940 }
 

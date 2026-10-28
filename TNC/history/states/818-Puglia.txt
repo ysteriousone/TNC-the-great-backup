@@ -1,0 +1,52 @@
+
+state = {
+	id=818
+	name = "STATE_818"
+	manpower = 2642000 
+	state_category = city
+	history = {
+		owner = TTS
+		victory_points = { #Bari
+			9564 3
+		}
+		victory_points = { #Brindisi
+			11688 3
+		}
+		victory_points = { #Taranto
+			11537 15 
+		}
+		victory_points = { #Foggia
+			883 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 4
+			air_base = 5
+			11537 = { #Taranto
+				naval_base = 10
+				naval_headquarters = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+			9564 = { #Bari
+				naval_base = 3
+			}
+		}
+		add_core_of = ITA
+		add_core_of = TTS
+
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+			}
+		}
+	}
+	provinces = {
+		883	6702 6798 6839 6838 9564 11537 11688
+	}
+	local_supplies = 0.000
+}

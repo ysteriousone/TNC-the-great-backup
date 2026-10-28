@@ -1,0 +1,49 @@
+state={
+	id=352
+	name="STATE_352"
+	resources={
+		steel=12 # was: 20.000
+	}
+
+	state_category = metropolis
+
+
+	history={
+		owner = NEE
+		buildings = {
+			infrastructure = 4 #was: 7
+			arms_factory = 1
+			industrial_complex = 5
+			dockyard = 4
+			air_base = 10
+			6591 = {
+				naval_base = 8
+
+			}
+			9612 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = NEE
+		victory_points = {
+			6591 20 
+		}
+		victory_points = {
+			12114 1 
+		}
+		victory_points = {
+			9612 1 
+		}
+
+	}
+
+	provinces={
+		715 718 733 905 908 1261 1315 1576 3642 3644 3647 3664 3838 4199 4341 6578 6591 6768 7277 7436 9455 9612 9627 9630  9995 10058 10208 11530 11875 11893 12114 12783 
+	}
+	manpower=8404713
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

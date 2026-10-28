@@ -1,0 +1,36 @@
+
+state={
+	id=473
+	name="STATE_473"
+	manpower = 2959600
+	
+	resources = {
+		coal = 8 # initial distribution = with infra 3.2 / 3 total	#boosted by 6 to reduce US import necessity
+	}
+
+	state_category = town
+
+	history={
+		owner = URG
+		add_core_of = URG
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 2
+			10176 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			10176 3 
+		}
+
+	}
+
+	provinces={
+		1504 1543 1556 4332 4463 4477 4492 4971 7390 7402 7444 10176 12054 
+	}
+
+	local_supplies=0.0 
+}

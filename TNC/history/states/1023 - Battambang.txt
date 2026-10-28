@@ -1,0 +1,32 @@
+state = { 
+	id=1023
+	name = "STATE_1023"
+	manpower = 1122000
+
+	history = {
+
+		owner = SIA
+		add_core_of = CAM
+
+		victory_points = {
+			4165 1 # Battambang
+		}
+
+		victory_points = {
+			10196 1 # Angkor 
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		4165 9893 9931 10196 12115 12103 
+	}
+
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

@@ -17,7 +17,7 @@ Malaysian_insurgency_peace_cat = {
 		}
 
 		complete_effect = {
-	transfer_state = 1065
+	transfer_state = 1021
 	every_state = {
 	limit = {
 	is_core_of = MAL
@@ -47,16 +47,16 @@ Malaysian_insurgency_peace_cat = {
 
 		available = {
 	original_tag = MAL
-	controls_state = 1060
-	controls_state = 336
+	controls_state = 1016
+	controls_state = 331
 		}
 
 		complete_effect = {
     white_peace = BML
 	
 	MAL = {
-	transfer_state = 1060
-	transfer_state = 336
+	transfer_state = 1016
+	transfer_state = 331
 	set_cosmetic_tag = MAL_free
 	country_event = {
 	id = proxywin.3
@@ -94,7 +94,7 @@ Balkan_war_peace_cat = {
 
 		available = {
     TUR = {
-	controls_state = 797
+	controls_state = 766
 		}
 
 }
@@ -103,11 +103,11 @@ Balkan_war_peace_cat = {
 	white_peace = TUR
 	 }
 	TUR = {
-	transfer_state = 797
-	transfer_state = 341
-	transfer_state = 340
-	transfer_state = 339
-	transfer_state = 342
+	transfer_state = 766
+	transfer_state = 336
+	transfer_state = 335
+	transfer_state = 334
+	transfer_state = 337
 	transfer_state = 164
 		}
 	}
@@ -154,7 +154,7 @@ Balkan_war_peace_cat = {
 	transfer_state = 184
 	 }
 	ROM = {
-	transfer_state =77
+	transfer_state = 77
 	 }
 	play_song = "Belisarius"
 	}
@@ -176,8 +176,8 @@ Balkan_war_peace_cat = {
 		available = {
     BUL = {
 	controls_state = 46
-	controls_state = 341
-	controls_state = 970
+	controls_state = 336
+	controls_state = 939
 		}
 }
 		complete_effect = {
@@ -188,9 +188,9 @@ Balkan_war_peace_cat = {
    annex_country = {
    target = YUG
     }
-	transfer_state =934
+	transfer_state = 903
 	transfer_state = 44
-	transfer_state = 805
+	transfer_state = 774
 	
 	 }
 	every_state = {
@@ -201,9 +201,9 @@ Balkan_war_peace_cat = {
 	 }
 	 
 	BUL = {
-	transfer_state = 731
-	transfer_state = 971
-	transfer_state = 341
+	transfer_state = 702
+	transfer_state = 940
+	transfer_state = 336
 	 }
 	
 	}
@@ -228,12 +228,12 @@ Balkan_war_peace_cat = {
 
 		available = {
     SAF = {
-	controls_state = 893
-	controls_state = 541
-	controls_state = 894
-	controls_state = 895
-	controls_state = 544
-	controls_state = 542
+	controls_state = 862
+	controls_state = 512
+	controls_state = 863
+	controls_state = 864
+	controls_state = 515
+	controls_state = 513
 		}
 
 }
@@ -248,24 +248,24 @@ Balkan_war_peace_cat = {
 	 }
 	  }
 	SAF = {
-	transfer_state = 893
-	transfer_state = 541
-	transfer_state = 894
-	transfer_state = 895
-	transfer_state = 544
-	transfer_state = 542
+	transfer_state = 862
+	transfer_state = 512
+	transfer_state = 863
+	transfer_state = 864
+	transfer_state = 515
+	transfer_state = 513
 	country_event = {
 	id = proxywin.2
 	days = 2
 	 }
 		
 	ZIM = {
-	transfer_state = 545
+	transfer_state = 516
 	 }
 	 
 	MZB = {
-	transfer_state = 896
-	transfer_state = 897
+	transfer_state = 865
+	transfer_state = 866
 	 }
 	 
 	set_autonomy = {
@@ -306,7 +306,7 @@ Liberation_Success = {
 
 		available = {
     PHI = {
-	controls_state = 282
+	controls_state = 281
 		}
 }
 		complete_effect = {
@@ -357,7 +357,7 @@ Failed_Liberation = {
 
 		available = {
     JPN = {
-	controls_state = 1146
+	controls_state = 1103
 	has_war = yes
 		}
 }
@@ -366,7 +366,7 @@ Failed_Liberation = {
 	white_peace =  JPN
 	 }
  JPN = {
- transfer_state = 1149
+ transfer_state = 1106
  country_event = {
  id = proxywin.1
   }
@@ -396,7 +396,7 @@ Phillipine_victory = {
 
 		available = {
     PSR = {
-	controls_state = 327
+	controls_state = 322
 	has_war = yes
 		}
 }
@@ -413,7 +413,7 @@ Phillipine_victory = {
    }
   }
   JPN = {
-  transfer_state = 1146
+  transfer_state = 1103
   country_event = {
   id = proxywin.1
    }
@@ -440,7 +440,7 @@ WW3_categories = {
 			FRA = {
 				controls_state = 8
 				controls_state = 42
-				controls_state = 978
+				controls_state = 947
 				controls_state = 51
 				controls_state = 28
 				NOT = {
@@ -454,7 +454,7 @@ WW3_categories = {
 			FRA = {
 				controls_state = 8
 				controls_state = 42
-				controls_state = 978
+				controls_state = 947
 				controls_state = 51
 				controls_state = 28
 				NOT = {
@@ -472,7 +472,7 @@ WW3_categories = {
 				transfer_state = 8
 				transfer_state = 42
 				transfer_state = 51
-				transfer_state = 978
+				transfer_state = 947
 				transfer_state = 28
 				annex_country = {
 					target = RKB
@@ -496,7 +496,7 @@ WW3_categories = {
 			FRA = {
 				controls_state = 8
 				controls_state = 42
-				controls_state = 978
+				controls_state = 947
 				controls_state = 51
 				controls_state = 28
 				controls_state = 35
@@ -513,7 +513,7 @@ WW3_categories = {
 			FRA = {
 				controls_state = 8
 				controls_state = 42
-				controls_state = 978
+				controls_state = 947
 				controls_state = 51
 				controls_state = 28
 				controls_state = 35
@@ -534,7 +534,7 @@ WW3_categories = {
 				transfer_state = 8
 				transfer_state = 42
 				transfer_state = 51
-				transfer_state = 978
+				transfer_state = 947
 				transfer_state = 28
 				transfer_state = 35
 				transfer_state = 7
@@ -563,8 +563,8 @@ Bolivia_wins = {
 		available = {
 		original_tag = BOL
 			BOL = {
-				controls_state = 302
-				controls_state = 951
+				controls_state = 301
+				controls_state = 920
 				has_war = yes
 			}
 		}
@@ -575,8 +575,8 @@ Bolivia_wins = {
 				white_peace = BOL
 			}
 			BOL = {
-				transfer_state = 302
-				transfer_state = 951
+				transfer_state = 301
+				transfer_state = 920
 			country_event = {
 	id = proxywin.2
 	days = 2

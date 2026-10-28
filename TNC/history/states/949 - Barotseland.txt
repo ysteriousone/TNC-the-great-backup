@@ -1,0 +1,34 @@
+state = {
+	id=949
+	name = "STATE_949" # Barotseland
+	
+	state_category = rural
+	manpower = 690043
+
+	resources = {
+		chromium = 16
+		tungsten = 4
+	}
+
+	history = {
+
+		owner = RKA
+		add_core_of = ZAM
+		add_core_of = BAR
+
+		victory_points = {
+			697 1 # Mongu
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		697 7676 10263 12329
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
+}

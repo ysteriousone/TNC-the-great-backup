@@ -1,4 +1,4 @@
-﻿capital = 327 # Manila
+capital = 322 # Manila
 
 set_stability = 0.4
 set_war_support = 0.4

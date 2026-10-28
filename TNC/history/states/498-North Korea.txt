@@ -1,0 +1,44 @@
+state = {
+	id=498
+	name = "STATE_498"
+	manpower = 4516134 # was 6774200
+	state_category = town
+
+	resources = {
+		steel = 8 # was: 30
+		tungsten = 8 # was: 52 - moved 10 to South Korea and the Sangdong province
+	}
+
+	history = {
+
+		owner = KOR
+		add_core_of = KOR
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1002 = {
+				naval_base = 2
+			}
+		}
+		
+		victory_points = {
+			3981 3 # Pyongyang
+		}	
+
+		victory_points = {
+			11535 1 # Shingishū
+		}	
+
+		victory_points = {
+			1002 1 # Kaishū
+		}	
+		
+	}
+
+	provinces = {
+		912 1002 3844 3981 4030 6822 6924 7001 7016 9570 9575 9698 9756 9832 11528 11535 11596 11614 11726 
+	}
+
+	local_supplies = 0.0 
+}

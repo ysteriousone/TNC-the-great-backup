@@ -1,0 +1,28 @@
+
+state={
+	id=631
+	name="STATE_631"
+	manpower = 1136921
+	
+	state_category = pastoral
+	resources={
+		rubber=3 # was: 4
+	}
+	history={
+		owner = RKA
+		add_core_of = CAR
+		victory_points = {
+			12464 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1923 3098 4949 7866 10808 12368 12464 10712
+	}
+
+	local_supplies=2.0 
+}

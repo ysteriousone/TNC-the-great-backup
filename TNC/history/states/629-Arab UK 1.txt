@@ -1,0 +1,35 @@
+state = {
+	id=629
+	name = "STATE_629"
+	manpower = 170200
+	resources = {
+		oil = 5 # was: 6
+	}
+	
+	state_category = pastoral
+
+
+	history = {
+		
+		owner = ENG
+		add_core_of = UAE
+
+		victory_points = {
+			7760 1 # Abu Dhabi
+		}
+
+		buildings = {
+			infrastructure = 1
+			7760 = {
+				naval_base = 3
+			}
+		}
+
+	}
+
+	provinces = {
+		1988 7760 7891 10606 
+	}
+
+	local_supplies = 4.0 
+}

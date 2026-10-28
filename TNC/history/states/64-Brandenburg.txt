@@ -1,5 +1,5 @@
 state = {
-	id = 64
+	id=64
 	name = "STATE_64"
 	manpower = 7265029
 	buildings_max_level_factor = 1
@@ -13,15 +13,15 @@ state = {
 		add_core_of = PRE
 
 		victory_points = {
-			6521 50 # Berlin
+			6380 50 # Berlin
 		}
 
 		victory_points = {
-			3522 5 # Magdeburg
+			3454 5 # Magdeburg
 		}
 
 		victory_points = {
-			9496 1 # Seelow
+			9276 1 # Seelow
 		}
 
 		buildings = {
@@ -30,7 +30,7 @@ state = {
 			industrial_complex = 4
 			anti_air_building = 2
 			air_base = 6
-            6521 = {
+            6380 = {
                 landmark_berlin_reichstag = {
                     level = 1
                     allowed = {
@@ -38,7 +38,7 @@ state = {
                     }
                 }
             }
-            3499 = {
+            3431 = {
                 land_facility = 1 #Representing Kommersdorf's Research Facilities
             }
 		}
@@ -55,7 +55,7 @@ state = {
 	}
 
 	provinces = {
-		375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+		375 478 3300 3431 3454 6346 6380 9208 9236 9276 9340 10919 11059 11115 11144 11205 
 	}
 
 	local_supplies = 0.0 

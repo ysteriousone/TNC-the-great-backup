@@ -1,0 +1,27 @@
+state = {
+	id=485
+	name = "STATE_485" # Algerian Desert
+	manpower = 207733
+	
+	state_category = wasteland
+	impassable = yes
+	force_link_ownership_to = 484 # Tlemcen
+
+	history = {
+
+		owner = NFA
+		add_core_of = NFA
+		add_core_of = ALG
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces = {
+		1042 1091 1854 1908 1989 4788 4907 4959 6898 7852 7865 7874 10455 10472 12362 12475 12481 
+	}
+
+	local_supplies = 0.0 
+}

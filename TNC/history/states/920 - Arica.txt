@@ -1,0 +1,39 @@
+state = {
+	id=920
+	name = "STATE_920"
+	manpower = 340000
+	
+	state_category = rural
+
+	resources = {
+		tungsten = 14 # In replacement of Nitrate
+	}
+
+	history = {
+
+		owner = PRU
+		add_core_of = CHL
+		add_claim_by = PRU
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 1
+		}
+		
+		victory_points = {
+			4992 2
+		}
+
+		victory_points = {
+			7998 1
+		}
+
+	}
+
+	provinces = {
+		4992 7998 8012 12927
+	}
+
+	local_supplies = 0.0 
+}

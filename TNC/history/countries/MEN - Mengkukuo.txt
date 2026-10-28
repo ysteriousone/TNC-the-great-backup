@@ -1,4 +1,4 @@
-﻿capital = 1043 # Pailingmiao
+capital = 999 # Pailingmiao
 
 oob = "MEN_1936"
 
@@ -156,7 +156,7 @@ IF = {
 	set_country_flag = MEN_moved_capital_to_zhangbei
 
 	set_capital = {
-		state = 611
+		state = 582
 		remember_old_capital = yes
 	}
 
@@ -172,8 +172,8 @@ IF = {
 
 	set_cosmetic_tag = MEN_mengjiang_autonomy
 
-	add_state_core = 616
-	add_state_core = 1040
+	add_state_core = 587
+	add_state_core = 996
 
 	add_ideas = MEN_true_mongol_state
 	

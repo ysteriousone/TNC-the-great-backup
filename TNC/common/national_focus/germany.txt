@@ -464,7 +464,7 @@ hidden_effect = {
 		create_entity = {
 			entity = nuke_entity
 			id = 0401447
-			province = 3544
+			province = 3476
 			scale = .90
 			min_zoom = -1
 		}

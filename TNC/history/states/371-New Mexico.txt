@@ -1,0 +1,35 @@
+
+state={
+	id=371
+	name="STATE_371"
+	manpower = 423316
+	
+	state_category = rural
+	
+	resources={
+		oil=14 # was: 20
+		aluminium=30 # was: 52
+		coal = 5 # initial distribution = with infra 8.4 / 1280 total
+	}
+
+
+	history={
+		owner = CSA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = USA
+		victory_points = {
+			4855 1
+		}
+	}
+
+	provinces={
+		1921 2037 3799 3815 4855 4913 7859 10367 10370 10574 10614 12204 12336 12369 12429 
+	}
+	
+
+	local_supplies=0.0 
+}

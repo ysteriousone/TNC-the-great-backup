@@ -1,0 +1,25 @@
+
+state={
+	id=784
+	name="STATE_784"
+
+	history={
+		owner = RKO
+		victory_points = {
+			6088 1 #Panevezys
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		530 6088 6235 9026 9154 9218 10926 11198 
+	}
+	manpower=161450
+	buildings_max_level_factor=1.000
+	state_category=town
+}

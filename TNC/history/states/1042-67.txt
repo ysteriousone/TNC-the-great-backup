@@ -1,0 +1,14 @@
+state={
+	id=1042
+	name="STATE_1042"
+	provinces={
+		5266 13251 13296 13297 13298 13299 13300 13301 13302 
+	}
+	manpower = 5000
+	history={
+		owner = SPR
+		add_core_of = MOR
+	}
+	state_category = rural
+	local_supplies=0
+}

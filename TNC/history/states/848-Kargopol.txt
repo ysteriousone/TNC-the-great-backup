@@ -1,0 +1,30 @@
+
+state = {
+	id=848
+	name = "STATE_848" # Kargopol
+	manpower = 210177
+	
+	state_category = rural
+
+	history = {
+		owner = RKM
+		victory_points = {
+			138 1 
+		}
+		buildings = {
+			infrastructure = 1
+			
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces = {
+		3 18 26 72 89 127 138 2964 3019 5893 5910 5934 5968 8967 10771 10837 10878
+	}
+
+	local_supplies = 0.0 
+}

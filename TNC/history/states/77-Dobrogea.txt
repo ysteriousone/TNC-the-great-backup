@@ -8,7 +8,7 @@ state={
 
 	history={
 		victory_points = {
-			11597 1
+			11297 1
 		}
 		owner = BUL
 		buildings = {
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		9614 11597 
+		9394 11297 
 	}
 
 	local_supplies=1.0 

@@ -1,0 +1,57 @@
+state = {
+	id=499
+	name = "STATE_499" # North Kyushu
+	manpower = 6046000 # was 9069000
+
+	state_category = city # was large_city
+
+	resources = {
+		chromium = 32 # was: 88, then 52
+		coal = 15 # initial distribution
+	}
+
+	history = {
+
+		owner = JPN
+		add_core_of = JPN
+
+		buildings = {
+			infrastructure = 4 #was: 7
+			air_base = 3
+			dockyard = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+		victory_points = {
+			1024 10 # Kokura
+		}
+
+
+		victory_points = {
+			6959 5 # Fukuoka
+		}
+
+		victory_points = {
+			11623 5 # Kumamoto
+		}
+
+		1939.1.1 = {
+			buildings = {
+				dockyard = 4
+				industrial_complex = 2
+				6959 = {
+					naval_facility = 1 # Sasebo Naval Arsenal
+				}
+			}
+		}
+
+	}
+
+	provinces = {
+		1024 1147 3957 4083 6959 9783 9791 9855 11623 
+	}
+
+	local_supplies = 10.0 
+}

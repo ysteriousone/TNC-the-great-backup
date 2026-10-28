@@ -1,0 +1,41 @@
+state = {
+	id=1026
+	name = "STATE_1026"
+	manpower = 60000 #PreTAOG 40000
+
+	history = {
+
+		owner = AST
+		add_core_of = PNG 
+		add_core_of = BOU  
+		add_core_of = SOL   
+
+		buildings = {
+			infrastructure = 1
+			4142 = {
+				naval_base = 1
+			}
+			9983 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			9983 2 # Buka 
+		}
+
+		victory_points = {
+			4142 1 # Buin 
+		}
+
+	}
+
+	provinces = {
+		1333 4142 4282 9983 
+	}
+	
+	buildings_max_level_factor = 1
+	state_category = small_island
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=743
+	name="STATE_743" # Cameroon
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = CMR
+		add_core_of = CMR
+		victory_points = {
+			2018 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			5898 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		2018 4908 4923 5898 7763 8917 10894 
+	}
+
+	local_supplies=0.0 
+}

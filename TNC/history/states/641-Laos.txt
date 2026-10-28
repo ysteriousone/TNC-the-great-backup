@@ -1,0 +1,32 @@
+state = {
+	id=641
+	name = "STATE_641"
+	manpower = 1114000
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = NAP
+		add_core_of = LAO
+
+		victory_points = {
+			1431 3 # Vientiane 
+		}
+
+		victory_points = {
+			4501 2 # Luang Prabang 
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces = {
+		1336 1362 1431 1473 1485 4174 4246 4431 4457 4501 6929 6953 7059 7183 9738 9948 9987 10064 10223 11994 12051 12089  
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=464
+	name="STATE_464"
+	manpower = 2826781
+	resources={
+		oil=15 # was: 20
+		coal =6 # initial distribution = with infra 2.8 / 2 total	#increased to reduce reliance on USA
+	}
+	
+	state_category = town
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 4
+			12428 = {
+				naval_base = 5
+			}
+			7847 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = COL
+		victory_points = {
+			1966 1 
+		}
+		victory_points = {
+			12428 5 
+		}
+
+	}
+
+	provinces={
+		1888 1966 2022 4850 7847 10221 10572 12355 12428 12477 12501 
+	}
+
+	local_supplies=0.0 
+}

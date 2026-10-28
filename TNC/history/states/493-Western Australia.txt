@@ -1,0 +1,36 @@
+state={
+	id=493
+	name="STATE_493"
+
+	resources = {
+		coal = 2 #added in TAOG
+	}
+
+	history={
+		owner = WST
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			1607 = {
+				naval_base = 1
+				coastal_bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			1607 10 
+		}
+		add_core_of = WST
+
+	}
+
+	provinces={
+		1464 1476 1503 1607 2091 4517 4531 4986 5030 5035 7269 7388 7416 7911 8009 8024 10650 10671 10683 11985 
+	}
+	manpower = 310000 #Pre-TAOG 317200 
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

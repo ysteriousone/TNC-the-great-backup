@@ -1,5 +1,5 @@
 state = {
-	id = 55
+	id=55
 	name = "STATE_55"
 	manpower = 3798235
 
@@ -23,12 +23,12 @@ state = {
 			industrial_complex = 2
 
 			# Edersee Dam
-			11533 = { dam = 1 }
+			11233 = { dam = 1 }
 
 		}
 
 		victory_points = {
-			6488 20 # Frankfurt
+			6347 20 # Frankfurt
 		}
 
 		victory_points = {
@@ -36,11 +36,11 @@ state = {
 		}
 
 		victory_points = {
-			6444 2 # Wiesbaden
+			6303 2 # Wiesbaden
 		}
 
 		victory_points = {
-			11560 2 # Mainz
+			11260 2 # Mainz
 		}
 
 		1939.1.1 = {
@@ -54,7 +54,7 @@ state = {
 	}
 
 	provinces = {
-		564 589 3397 3524 3574 6444 6488 6549 9486 9524 9547 11445 11533 11560 
+		564 589 3330 3456 3506 6303 6347 6408 9266 9304 9327 11145 11233 11260 
 	}
 
 	local_supplies = 15.0 

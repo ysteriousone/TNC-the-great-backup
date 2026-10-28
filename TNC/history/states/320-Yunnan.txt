@@ -1,0 +1,59 @@
+state={
+	id=320
+	name="STATE_320"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			1297 10 # Kunming
+		}
+
+		victory_points = {
+			4395 1 # Mengzi
+		}
+
+		victory_points = {
+			11929 1 # Pu'er
+		}
+
+		victory_points = {
+			4939 1 # Zhenxiong
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+					}
+				}
+				CHI = {
+					transfer_state = PREV
+				}
+			}
+		}
+
+	}
+
+	provinces={
+		1107 1160 1182 1297 1355 1487 1608 4110 4395 4939 7263 7414 7815 10083 10496 11929 11947 12474
+	}
+	manpower=10994500
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=3.0 
+}

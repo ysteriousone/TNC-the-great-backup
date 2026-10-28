@@ -1,0 +1,25 @@
+state=
+{
+	id=310
+	name="STATE_310"
+	manpower = 51000
+	
+	state_category = pastoral
+	history=
+	{
+		add_core_of = BLZ
+		owner = CAN
+		victory_points = {
+			2015 1 
+		}
+		buildings = {
+			infrastructure = 2
+			2015 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces= { 2015 }
+
+	local_supplies=0.0 
+}

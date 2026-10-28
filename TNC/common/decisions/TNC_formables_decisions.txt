@@ -14,19 +14,19 @@ formable_nations = {
 		}
 
 		available = {
-	controls_state = 819
-	controls_state = 817
-	controls_state =  612
-	controls_state = 611
-	controls_state = 1043
-	controls_state = 621
-	controls_state = 330
-	controls_state = 818
-	controls_state = 820
-	controls_state = 564
-	controls_state = 566
-	controls_state = 567
-	controls_state = 329
+	controls_state = 788
+	controls_state = 786
+	controls_state = 583
+	controls_state = 582
+	controls_state = 999
+	controls_state = 592
+	controls_state = 325
+	controls_state = 787
+	controls_state = 789
+	controls_state = 535
+	controls_state = 537
+	controls_state = 538
+	controls_state = 324
 		}
 		
 	complete_effect = {

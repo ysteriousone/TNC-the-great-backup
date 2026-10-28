@@ -1,0 +1,29 @@
+state = {
+	id=627
+	name = "STATE_627"
+	manpower = 80000
+	
+	state_category = rural
+	
+	history = {
+		
+		owner = IRQ
+		add_core_of = KUW
+		victory_points = {
+			7872 1 # Kuwait City
+		}
+
+		buildings = {
+			infrastructure = 2
+			7872 = {
+				naval_base = 4
+			}
+		}
+
+	}
+	provinces = {
+		7872 12990 12991
+	}
+
+	local_supplies = 0.0 
+}

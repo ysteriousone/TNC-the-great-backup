@@ -1,0 +1,48 @@
+state={
+	id=578
+	name="STATE_578"
+	manpower=34289800
+	
+	state_category = town
+	
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = RNG
+		add_core_of = RNG
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 2 #was: 5/ 3
+			industrial_complex = 1 #Was 2
+		}
+
+		victory_points = {
+			9735 2 # Zhengzhou 
+		}
+
+		victory_points = {
+			7462 1 # Kaifeng 
+		}
+
+		victory_points = {
+			11628 1 # Luoyang 
+		}
+
+		1938.10.25 = {		
+			buildings = {
+				industrial_complex = 3 #was 4
+				infrastructure = 4 #was: 8
+				air_base = 2
+				arms_factory = 2
+			} 			
+		}
+	}
+
+	provinces = {
+		1003 1130 1561 3987 3993 4065 4411 4438 4494 6791 6928 6936 6973 7274 7320 7351 7378 7462 9735 9768 9861 10098 10164 10175 11628 11700 12082 
+	}
+
+	local_supplies=2.0 #was 3 
+}

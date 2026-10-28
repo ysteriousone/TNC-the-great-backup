@@ -1,0 +1,31 @@
+
+state={
+	id=384
+	name="STATE_384"
+	manpower = 680844
+	state_category = rural
+	resources={
+		steel=17 # was: 24
+		oil=7 # was: 10
+		coal = 12 # initial distribution = with infra 25.2 / 1280 total
+	}
+
+	history={
+		owner = DKT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = DKT
+		victory_points = {
+			1790 1 
+		}
+
+	}
+
+	provinces={
+		1706 1790 1824 3651 4645 4658 6581 7681 10410 10434 12218 12337 
+	}
+
+	local_supplies=9.0 
+}

@@ -1,0 +1,34 @@
+
+state = {
+	id=909
+	name = "STATE_909"
+	manpower = 463559
+	
+	state_category = pastoral
+	
+	resources = {
+		rubber = 4 
+	}
+
+	history = {
+
+		owner = ACR
+		add_core_of = ACR
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			12902 2 
+		}
+		
+	}
+
+	provinces = {
+		12902 12903 12904
+	}
+
+	local_supplies = 0.0 
+}

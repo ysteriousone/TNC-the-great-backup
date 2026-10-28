@@ -1,5 +1,5 @@
 state = {
-	id = 34
+	id=34
 	name = "STATE_34"
 	manpower = 3043170 # was 3381300, 10% was split off to the Ardennes (980)
 	resources={
@@ -15,15 +15,15 @@ state = {
 		add_core_of = BEL
 
 		victory_points = {
-			3516 5 # Namur
+			3448 5 # Namur
 		}
 
 		victory_points = {
-			11519 10 # Liege
+			11219 10 # Liege
 		}
 
 		victory_points = {
-			9536 3 # Charleroi
+			9316 3 # Charleroi
 		}
 
 		buildings = {
@@ -36,7 +36,7 @@ state = {
 	}
 
 	provinces = {
-		3516 9536 11519 13081 
+		3448 9316 11219 12706 
 	}
 
 	local_supplies = 14.0 

@@ -1,0 +1,29 @@
+
+state={
+	id=607
+	name="STATE_607"
+	manpower = 180000
+	
+	state_category = small_island
+
+	history={
+		owner = ENG
+		add_core_of = FIJ
+		buildings = {
+			infrastructure = 2
+			4198 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			4198 1 
+		}
+	}
+	
+	provinces={
+		4198 7134 11835 
+	}
+
+	local_supplies=0.0 
+}

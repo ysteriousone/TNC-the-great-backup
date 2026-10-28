@@ -1,0 +1,32 @@
+state={
+	id=517
+	name="STATE_517"
+	
+	state_category = rural
+	resources={
+		rubber=2 # was: 2
+	}
+	history={
+		owner = RKA
+		victory_points = {
+			2130 1
+		}
+		buildings = {
+			infrastructure = 2
+			2130 = {
+				naval_base = 2
+
+			}
+
+		}
+			add_core_of = TZN
+	}
+
+	provinces={
+		2110 2130 2140 2215 2242 4090 5040 5084 7925 7963 7964 7982 7986 10554 10632 10688 10717 12536 12569 12592 
+	}
+	manpower=5299000
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

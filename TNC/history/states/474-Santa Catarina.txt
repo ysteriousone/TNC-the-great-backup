@@ -1,0 +1,39 @@
+
+state = {
+	id=474
+	name = "STATE_474"
+	manpower = 961350 # Was split with Parana from 1922700
+	
+
+	resources = {
+		coal = 1 # initial distribution = with infra 1.4 / 3 total
+	}
+
+	state_category = rural
+
+	history = {
+
+		owner = URG
+		add_core_of = URG
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 2 #was: 5, then 3
+		}
+
+		victory_points = {
+			4439 2 
+		}
+
+		victory_points = {
+			10137 1 
+		}
+		
+	}
+
+	provinces = {
+		1493 4439 10137 12120 
+	}
+
+	local_supplies = 0.0 
+}

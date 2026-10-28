@@ -1,5 +1,5 @@
 state = {
-	id = 61
+	id=61
 	name = "STATE_61"
 	manpower = 836353
 
@@ -17,7 +17,7 @@ state = {
 		}
 
 		victory_points = {
-			11305 3 # Lübeck
+			11005 3 # Lübeck
 		}
 
 		buildings = {
@@ -33,7 +33,7 @@ state = {
 	}
 
 	provinces={
-		268 293 321 9294 11276 11305 
+		268 293 321 9074 10976 11005 
 	}
 
 	local_supplies=3.0 

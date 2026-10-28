@@ -1,0 +1,39 @@
+
+state={
+	id=368
+	name="STATE_368"
+	manpower = 3629365
+	
+	state_category = large_city
+	
+	resources={
+		aluminium=12 # was: 18
+		coal = 5 # initial distribution = with infra 8 / 1280 total
+	}
+
+
+	history={
+		owner = MSY
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 5
+		}
+		add_core_of = MSY
+		victory_points = {
+			4458 10 
+		}
+		victory_points = {
+			10442 10 
+		}
+		victory_points = {
+			10104 1 
+		}
+
+	}
+
+	provinces={
+		1409 1488 1498 1525 1578 4345 4432 4458 7265 7415 10070 10104 10124 10241 10442 12007 12022 12117 
+	}
+
+	local_supplies=7.0 
+}

@@ -1,0 +1,15 @@
+state={
+	id=1047
+	name="STATE_1047"
+	provinces={
+		8626 8652 13304 13310 13312 13313 13314 13315 13316 13319 13326 13329 13332 13334 13338 13350 13351 
+	}
+	manpower = 5000
+	history={
+		owner = SPR
+		add_core_of = SPR
+		add_core_of = CAT
+	}
+	state_category = rural
+	local_supplies=0
+}

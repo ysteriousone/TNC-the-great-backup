@@ -1,0 +1,39 @@
+state = {
+	id=427
+	name = "STATE_427" # Aswan
+	manpower = 4224516
+	
+	state_category = rural
+	
+	history = {
+		
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 2
+
+			# Aswan Low Dam
+			11689 = { dam = 1 }
+
+		}
+
+		victory_points = {
+			11754 3 # Luxor
+		}
+
+		victory_points = {
+			11667 1 # Asyut
+		}
+
+		victory_points = {
+			11689 1 # Aswan
+		}
+
+	}
+	provinces = {
+		1027 1061 1140 1191 6887 6927 6991 9798 9860 10553 11667 11689 11729 11754 12414 
+	}
+
+	local_supplies = 0.0 
+}

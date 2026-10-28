@@ -1,0 +1,26 @@
+state={
+	id=703
+	name="STATE_703"
+
+	history={
+		add_core_of = KYR
+		owner = KYR
+		victory_points = {
+			12235 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1450 1629 1779 1997 4140 4225 4293 4362 4654 4807 4930 10140 10255 10385 12030 12163 12233 12235 12772 
+	}
+	manpower = 1430000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=0.0 
+}

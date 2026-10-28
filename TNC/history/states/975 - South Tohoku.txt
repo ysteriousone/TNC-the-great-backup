@@ -1,0 +1,39 @@
+state = {
+	id=975
+	name = "STATE_975" # South Tohoku
+	manpower = 2796521 # Unified tohoku is about 6575000 
+	state_category = town # was large_city
+	resources = {
+		steel = 5
+		coal = 1 #initial distribution
+	}
+
+	history = {
+
+		owner = JPN
+		add_core_of = JPN
+
+		buildings = {
+		
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+
+		}
+		
+		victory_points = {
+			7014 15 # Sendai
+		}
+
+		victory_points = {
+			4040 2 # Fukushima
+		}
+
+	}
+
+	provinces = {
+		1023 3994 4044 4073 4040 7014
+	}
+
+	local_supplies = 9.0 
+}

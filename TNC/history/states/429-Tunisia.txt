@@ -1,0 +1,38 @@
+
+state={
+	id=429
+	name="STATE_429"
+	manpower = 1982940
+	state_category = town
+	resources={
+		steel=31 #was 14 # was: 8
+	}
+
+	history={
+		owner = FRA
+		add_core_of = TUN
+		victory_points = {
+			11662 10 
+		}
+		victory_points = {
+			9767 1 
+		}
+		victory_points = {
+			11620 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 8
+			9767 = {
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces={
+		1036 1045 3990 4051 4082 6931 7008 7023 9767 9854 11620 11662 
+	}
+
+	local_supplies=0.0 
+}

@@ -11,10 +11,10 @@ state={
 
 	history={
 		victory_points = {
-			11430 5
+			11130 5
 		}
 		victory_points = {
-			3458 5
+			3390 5
 		}
 		#victory_points = {
 		#	562 3
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		562 3458 3497 3586 6416 11430 11532 
+		562 3390 3429 3518 6275 11130 11232 
 	}
 
 	local_supplies=0.0 

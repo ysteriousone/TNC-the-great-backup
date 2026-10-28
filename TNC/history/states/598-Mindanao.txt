@@ -1,0 +1,36 @@
+state = {
+	id=598
+	name = "STATE_598"
+	manpower = 815609 
+
+	state_category = rural
+
+	history = {
+
+		owner = PSR
+		add_core_of = PSR
+		add_core_of = PHI
+
+		buildings = {
+
+			infrastructure = 2
+
+			4156 = {
+				naval_base = 2
+			}
+
+		}
+	set_demilitarized_zone = yes
+
+		victory_points = {
+			4156 5 # Davao
+		}
+		
+	}
+
+	provinces = {
+		1217 1378 4156 4180 7118 7262 10066 11795 11834   
+	}
+
+	local_supplies = 0.0 
+}

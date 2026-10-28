@@ -1,0 +1,36 @@
+state = {
+	id=559
+	name = "STATE_559" # Semipalatinsk
+	
+	state_category = rural
+	
+	resources = {
+		chromium = 10 
+	}
+
+	history = {
+		owner = KRA
+		add_core_of = KAZ
+		add_core_of = KRA
+
+		victory_points = {
+			12246 2 # Seipalatinsk
+		}
+		#victory_points = {
+		#	7177 1 # Kurchatov
+		#}
+
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+
+	provinces = {
+		1266 1703 1772 1818 4547 4560 4753 7177 7694 9917 9968 10034 10309 10335 10378 12083 12216 12246 12287 12776 
+	}
+	manpower = 429213
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
+}

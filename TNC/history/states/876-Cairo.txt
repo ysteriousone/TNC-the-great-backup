@@ -1,0 +1,36 @@
+state={
+	id=876
+	name="STATE_876"
+	manpower = 6454865
+	state_category=town
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 5
+			
+
+		}
+		victory_points = {
+			6870 20 
+		}
+		
+		victory_points = {
+			3927 5 
+		}
+		
+		victory_points = {
+			1065 3 
+		}
+		add_core_of = EGY
+
+	}
+	provinces={
+		992 1065 3927 3984 4064 6870 6966 7031 9777 9800 11694 
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

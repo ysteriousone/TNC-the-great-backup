@@ -1,0 +1,47 @@
+state = {
+	id=724
+	name = "STATE_724"
+	provinces = {
+		1836 4428 4773 7105 10217 10529 11148 12380 12451 13004
+	}
+	manpower = 400000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	history = {
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			12380 10 #Was 3 when it was Lanzhou, but should be Xining, the capital of Xibei 
+		}
+
+		victory_points = {
+			11148 1 # Labrang
+		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+			}
+		}
+	}
+
+	local_supplies = 0.0 
+}

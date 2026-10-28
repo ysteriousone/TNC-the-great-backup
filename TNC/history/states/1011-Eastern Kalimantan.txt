@@ -1,0 +1,47 @@
+state={
+	id=1011
+	name="STATE_1011"
+	resources={
+		oil = 29 #was: 17 #2025-12-12: was: 15 #2026-02-03: was: 54
+		rubber = 16 #was: 39, 2026-02-03: was: 25
+		coal = 11
+	}
+
+	history={
+		owner = INS
+		add_core_of = GOW
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			synthetic_refinery = 1
+			10063 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			11790 2 # Banjarmasin 
+		}
+
+		victory_points = {
+			11897 3 # Balikpapan 
+		}
+
+		victory_points = {
+			10063 1 # Tanjung Selor 
+		}
+
+		victory_points = {
+			7235 1 # Tarakan
+		}
+
+	}
+
+	provinces={
+		11945 9897 11790 7129 1209 1385 10012 11897 7182 9986 7071 7131 9932 11920 11869 1234 9935 4152 10063 4231 1376 7235 11913
+	}
+	manpower = 1412581
+	state_category = rural
+
+	local_supplies=0.0 
+}

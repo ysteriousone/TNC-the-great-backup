@@ -1,0 +1,29 @@
+state={
+	id=1004
+	name="STATE_1004"
+	resources={
+		rubber = 7
+		oil = 9
+		coal = 7
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			10116 5
+		}
+	}
+
+	provinces={
+		12073 7194 12004 10090 1427 4342 10247 8141 10116 1497 13019 1397 13021 11805 9947 11855
+	}
+	manpower = 2952394
+	state_category = rural
+
+	local_supplies=0.0 
+}

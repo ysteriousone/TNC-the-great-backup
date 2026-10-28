@@ -1,0 +1,40 @@
+
+state={
+	id=452
+	name="STATE_452" # Durango
+	manpower = 1255094
+	
+	resources = {
+		coal = 1 # initial distribution = with infra 1.4 / 4 total - includes Sonora and Chihauha
+	}
+
+	state_category = rural
+	
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			7848 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = MEX
+		victory_points = {
+			7722 10
+		}
+		#victory_points = {
+		#	7848 10
+		#}
+		#victory_points = {
+		#	10599 5
+		#}
+	}
+
+	provinces={
+		1896 4830 7722 7801 7848 10561 10578 10599 12440 
+	}
+	
+
+	local_supplies=6.0 
+}

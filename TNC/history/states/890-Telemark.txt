@@ -1,0 +1,23 @@
+state = {
+	id=890
+	name = "STATE_890" # Telemark
+	manpower = 141502 # 1410219
+	state_category = rural
+	
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		victory_points = {
+			6010 1
+		}
+		buildings = {
+			industrial_complex = 1 
+			infrastructure = 3
+		}
+	}
+	provinces={
+		100 2992 3027 5939 6043 8817 8984 10729 8954 6010
+	}
+
+	local_supplies = 0.000
+}

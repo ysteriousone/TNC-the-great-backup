@@ -11,7 +11,7 @@ state={
 
 	history={
 		owner = SWI
-		victory_points = { 9620 15 }
+		victory_points = { 9400 15 }
 		victory_points = { 663 10 }
 		buildings = {
 			infrastructure = 4
@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		663 9620 11590 11604 11623
+		663 9400 11290 11304 11323
 	}
 
 	local_supplies=0.0 

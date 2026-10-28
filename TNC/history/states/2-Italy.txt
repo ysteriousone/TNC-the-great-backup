@@ -1,5 +1,5 @@
 state = {
-	id = 2
+	id=2
 	name = "STATE_2" # Latium
 	manpower = 2781971
 	
@@ -7,24 +7,24 @@ state = {
 
 	history = {
 		owner = ITA
-		victory_points = { 9904 40 } #Rome
-		victory_points = { 11846 2 } #Anzio (was 5)
-		victory_points = { 13413 1 } #Ostia
+		victory_points = { 9684 40 } #Rome
+		victory_points = { 11546 2 } #Anzio (was 5)
+		victory_points = { 13037 1 } #Ostia
 		buildings = {
 			infrastructure = 4
 			air_base = 8
 			arms_factory = 1
 			industrial_complex = 4
-			11751 = {
+			11451 = {
 				naval_base = 5
 			}
-			11846 = {
+			11546 = {
 				naval_base = 2
 			}
-			13413 = {
+			13037 = {
 				naval_base = 1
 			}
-            9904 = {
+            9684 = {
                 landmark_colosseum = {
                     level = 1
                     allowed = {
@@ -44,7 +44,7 @@ state = {
 	}
 
 	provinces = {
-		923 6862 9794 9904 11751 11846 11882 13413 
+		923 6721 9574 9684 11451 11546 11582 13037 
  	}
 
 	local_supplies = 0.0 

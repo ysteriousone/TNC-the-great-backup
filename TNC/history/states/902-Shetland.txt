@@ -1,0 +1,28 @@
+state = {
+	id=902
+	name = "STATE_902"
+	manpower = 18000
+	
+	state_category = tiny_island
+
+	resources = {
+	}
+
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = SCO
+
+		buildings = {
+			infrastructure = 1	
+			6055 = {
+				naval_base = 1	
+			}
+		}
+		
+	}
+
+	provinces = { 6055 }
+
+	local_supplies = 0.0 
+}

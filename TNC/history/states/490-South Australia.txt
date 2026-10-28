@@ -1,0 +1,31 @@
+
+state={
+	id=490
+	name="STATE_490"
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 1
+			12535 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			12535 15 
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		1727 2153 5043 5057 5071 5085 7377 7946 7967 8001 10625 10627 12535 12543 12549 12794 12795 
+	}
+	manpower=550000 #PreTAOG 200800
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=0.0 
+}

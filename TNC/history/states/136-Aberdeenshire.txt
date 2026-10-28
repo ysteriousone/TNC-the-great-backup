@@ -17,7 +17,7 @@ state={
 			200 5 #Aberdeen
 		}
 		victory_points = {
-			3150 1 #Dundee
+			3083 1 #Dundee
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		200 3150 9161 11055 11136 11207 11306 
+		200 3083 8941 10755 10836 10907 11006 
 	}
 
 	local_supplies=0.0 

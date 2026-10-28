@@ -1,4 +1,4 @@
-﻿division_template = {
+division_template = {
 	name = "División de Infanteria"		# Infantry Division - Reserve division called to full strength in time of war
 	division_names_group = SPAN_INF_02
 
@@ -32,7 +32,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 5230 # La Paz
+		location = 5090 # La Paz
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -43,7 +43,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 10938 # Cochabamba
+		location = 10638 # Cochabamba
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -54,7 +54,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		location = 2160 # Santa Cruz
+		location = 2094 # Santa Cruz
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -65,7 +65,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 4
 		}
-		location = 2174 # Tarija
+		location = 2108 # Tarija
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -73,7 +73,7 @@ units = {
 	}
 	division= {	
 		name = "División de Caballería"
-		location = 5230 # La Paz
+		location = 5090 # La Paz
 		division_template = "División de Caballería"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3

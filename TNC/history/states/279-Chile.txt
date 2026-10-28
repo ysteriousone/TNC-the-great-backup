@@ -1,5 +1,5 @@
 state = {
-	id = 279
+	id=279
 	name = "STATE_279" # Santiago
 	manpower = 2635146 # Was 3935146
 	
@@ -22,7 +22,7 @@ state = {
 			industrial_complex = 3 # was 5
 			dockyard = 2
 			air_base = 3
-			8222 = {
+			8003 = {
 				naval_base = 5
 				coastal_bunker = 2
 			}
@@ -36,25 +36,25 @@ state = {
 		}
 
 		victory_points = {
-			8194 3
+			7975 3
 		}
 
 		victory_points = {
-			8222 5
+			8003 5
 		}
 
 		victory_points = {
-			12984 2
+			12609 2
 		}
 
 		victory_points = {
-			8251 1
+			8032 1
 		}
 
 	}
 
 	provinces = {
-		650 5191 8194 8222 8229 8251 12984 
+		650 5051 7975 8003 8010 8032 12609 
 	}
 
 	local_supplies = 0.0 

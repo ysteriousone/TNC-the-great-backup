@@ -1,0 +1,37 @@
+
+state={
+	id=448
+	name="STATE_448"
+	manpower = 1951460
+	
+	state_category = town
+	
+	resources={
+		oil=9
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			12446 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = MEX
+		victory_points = {
+			12446 5
+		}
+		victory_points = {
+			7875 10
+		}
+	}
+
+	provinces={
+		7867 7875 10456 12446 
+	}
+	
+
+	local_supplies=0.0 
+}

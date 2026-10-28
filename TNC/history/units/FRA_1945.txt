@@ -1,4 +1,4 @@
-﻿##### Division Templates #####
+##### Division Templates #####
 
 division_template = {
 	name = "Citizenry"
@@ -168,7 +168,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11804
+		location = 11504
 		division_template = "Brigade de Chars de Combat" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -178,7 +178,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3838
+		location = 3770
 		division_template = "Brigade de Chars de Combat" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -188,7 +188,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 13779
+		location = 13403
 		division_template = "Brigade de Chars de Combat" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -198,7 +198,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3671
+		location = 3603
 		division_template = "Brigade de Chars de Combat" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -208,7 +208,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 6449
+		location = 6308
 		division_template = "Brigade de Chars de Combat" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -218,7 +218,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9523
+		location = 9303
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -227,7 +227,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9523
+		location = 9303
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -236,7 +236,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9523
+		location = 9303
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -245,7 +245,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9523
+		location = 9303
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -265,7 +265,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11969
+		location = 11662
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -274,7 +274,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11969
+		location = 11662
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -283,26 +283,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9994
-		division_template = "Division d'Infanterie" 	# Frontline, best equipment
-		start_experience_factor = 0.3
-	}
-	
-	division= {	# 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 7005
-		division_template = "Division d'Infanterie" 	# Frontline, best equipment
-		start_experience_factor = 0.3
-	}
-	division= {	# 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 11921
+		location = 9767
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -312,7 +293,26 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3552
+		location = 6864
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11620
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	
+	division= {	# 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3484
 		division_template = "Division d'Infanterie Motorisée" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -321,7 +321,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3552
+		location = 3484
 		division_template = "Division d'Infanterie Motorisée" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -330,7 +330,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3594
+		location = 3526
 		division_template = "Division d'Infanterie Motorisée" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -340,7 +340,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3681
+		location = 3613
 		division_template = "Division d'Infanterie Motorisée" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -350,7 +350,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4992
+		location = 4868
 		division_template = "Division d'Infanterie Motorisée" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -359,7 +359,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3987
+		location = 3919
 		division_template = "Brigade Coloniale" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -368,7 +368,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4163
+		location = 4082
 		division_template = "Brigade Coloniale" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -378,7 +378,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11573
+		location = 11273
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -397,7 +397,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9745
+		location = 9525
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -416,7 +416,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3764
+		location = 3696
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}

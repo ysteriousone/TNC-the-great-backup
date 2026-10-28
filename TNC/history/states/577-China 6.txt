@@ -1,0 +1,42 @@
+state={
+	id=577
+	name="STATE_577"
+	resources={
+		steel=11.000
+	}
+
+	history={
+
+		owner = ANH
+		add_core_of = ANH
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 2 #was 4
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			7062 1 # Hefei 
+		}
+
+		victory_points = {
+			1079 1 # Anqing 
+		}
+
+		#victory_points = {
+		#	9716 1 # Jinjiazhai 
+		#} 
+
+	}
+
+	provinces={
+		1079 4005 4078 4121 6892 6944 7062 7443 9716 9736 9780 9789 9808 9831 9844 11615 11685 11723 11745 
+	}
+	manpower=18265400
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=1.0 
+}

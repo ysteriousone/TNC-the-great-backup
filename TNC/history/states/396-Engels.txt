@@ -1,0 +1,30 @@
+
+state = {
+	id=396
+	name = "STATE_396" #Balakovo
+	manpower = 309530
+	
+	state_category = rural
+	
+	resources = {
+		steel = 10 # was: 40, then 24 but split
+		tungsten = 10 # was: 34, then 16 but split
+	}
+
+	history = {
+		owner = RKM
+		add_core_of = BLK
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			6361 1
+		}
+	}
+
+	provinces = {
+		410 452 499 3422 3483 6198 6289 6332 6361 6433 9117 9227 9253 9357 11021 11121 11158 
+	}
+
+	local_supplies = 7.0 
+}

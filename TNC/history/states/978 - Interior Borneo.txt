@@ -1,0 +1,33 @@
+state = {
+	id=978
+	name = "STATE_978"
+
+	manpower = 8600
+
+	impassable = yes 
+	force_link_ownership_to = 329 # Kalimantan
+
+	resources = {
+	}
+	
+	state_category = enclave
+
+	history = {
+
+		owner = INS
+		add_core_of = INS
+		add_core_of = GOW 
+		add_core_of = POK  
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces = {
+		1213 1987 2104 2118 2156 4242 5036 5086 7244 8002 
+	}
+
+	local_supplies = 0.0 
+}

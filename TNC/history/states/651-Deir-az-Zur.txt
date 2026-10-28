@@ -1,0 +1,33 @@
+state={
+	id=651
+	name="STATE_651"
+	manpower = 324110
+	
+	state_category = wasteland
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		victory_points = {
+			3874 1
+		}
+		victory_points = {
+			1511 1
+		}
+		victory_points = {
+			6742 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+		add_core_of = KUR
+	}
+
+
+	provinces={
+		901 1511 1538 1564 1590 1956 3874 6742 7325 10117 10587 11979 12098 
+	}
+
+	local_supplies=4.0 
+}

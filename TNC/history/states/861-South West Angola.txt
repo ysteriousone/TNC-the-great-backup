@@ -1,0 +1,25 @@
+state={
+	id=861
+	name="STATE_861"
+	manpower = 960000
+	state_category = pastoral
+
+	history={
+		owner = RKA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10666 1 
+		}
+		add_core_of = ANG
+
+	}
+
+	provinces={
+		7919 7983 10666 12050 12583 12610 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

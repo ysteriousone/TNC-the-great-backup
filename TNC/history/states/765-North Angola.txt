@@ -1,0 +1,25 @@
+state={
+	id=765
+	name="STATE_765"
+	history={
+		owner = RKA
+		buildings = {
+			infrastructure = 1
+			2049 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			2049 1 
+		}
+		add_core_of = ANG
+	}
+	provinces={
+		2049 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

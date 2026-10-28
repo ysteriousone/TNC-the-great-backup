@@ -1,0 +1,40 @@
+state = {
+	id=425
+	name = "STATE_425" #Palestine
+	manpower = 933142
+	
+	state_category = rural
+
+	history = {
+
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = PAL
+		add_core_of = ISR
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 2
+			4123 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			1082 3 # Jerusalem
+		}
+		victory_points = {
+			4123 1 # Tel Aviv
+		}
+		victory_points = {
+			1062 1 # Nazareth
+		}
+		
+	}
+
+	provinces = {
+		1014 1062 1082 1186 4014 4123 6956 7021 11663 1
+	}
+
+	local_supplies = 0.0 
+}

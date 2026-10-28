@@ -1,0 +1,29 @@
+state = {
+	id=952
+	name = "STATE_952"
+	
+	state_category = rural
+	manpower = 136693
+	
+	history = {
+	
+		owner = SIA
+		add_core_of = BRM
+
+		victory_points = {
+			1375 1 # Moulmein
+		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1275 1294 1357 1375 1386 4189 4204 4243 4309 7128 7258 9967 11804 11909 11924 11957 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,28 @@
+
+state = {
+	id=608
+	name = "STATE_608" #Kamchatka
+
+	history = {
+		owner = VLA
+		buildings = {
+			infrastructure = 1
+			11880 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = VLA
+		add_core_of = FER
+	}
+
+	provinces = {
+		1777 1793 1817 4614 7682 11880 12174 
+	}
+	manpower = 48831
+	buildings_max_level_factor = 1
+	state_category = "pastoral"
+
+	local_supplies = 0.0 
+}

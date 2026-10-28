@@ -1,0 +1,30 @@
+
+state={
+	id=515
+	name="STATE_515"
+	manpower = 1226000
+	history={
+		owner = RKA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8026 = {
+				naval_base = 1
+			}
+
+		}
+		victory_points = {
+			8026 1 
+		}
+		add_core_of = MZB
+
+	}
+
+	provinces={
+		2127 5037 5072 8026 
+	}
+
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

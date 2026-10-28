@@ -1,0 +1,30 @@
+
+state={
+	id=543
+	name="STATE_543" # Chelyabinsk
+	manpower = 2074932
+	
+	resources = {
+		coal = 8 # initial distribution
+	}
+	state_category = town
+
+	history={
+		owner = ROA
+		victory_points = {
+			9072 5
+		}
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+
+		}
+		add_core_of = ROA
+	}
+
+	provinces={
+		1216 1271 1273 1304 1729 4157 7119 9072 9926 9963 10267 11786 11833 11952 12236 
+	}
+
+	local_supplies=0.0 
+}

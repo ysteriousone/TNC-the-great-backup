@@ -1,0 +1,30 @@
+state=
+{
+	id=597
+	name="STATE_597"
+	manpower = 192257
+	
+	state_category = pastoral
+	
+	history=
+	{
+		owner = PHI
+		buildings = {
+			infrastructure = 2
+			4326 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PHI
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+			}
+		}
+	}
+	provinces={
+		4326 7239 9903 
+	}
+
+	local_supplies=0.0 
+}

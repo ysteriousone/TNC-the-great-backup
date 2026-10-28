@@ -1,0 +1,14 @@
+state={
+	id=1097
+	name="STATE_1097"
+	provinces={
+		13224 13226 13229 13230 13231 13232 13234 13235 13236 
+	}
+	manpower = 5000
+	history={
+		owner = TTS
+		add_core_of = TTS
+	}
+	state_category = rural
+	local_supplies=0
+}

@@ -1,0 +1,29 @@
+state = {
+	id=735
+	name = "STATE_735"
+	manpower = 51600
+	state_category = pastoral
+
+	history = {
+		
+		owner = ENG
+		add_core_of = QAT
+
+		victory_points = {
+			7842 1 # Doha
+		}
+
+		buildings = {
+			infrastructure = 1
+			7842 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		7842
+	}
+
+	local_supplies = 0.0 
+}

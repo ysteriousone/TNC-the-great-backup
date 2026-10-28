@@ -1,0 +1,26 @@
+state={
+	id=767
+	name="STATE_767"
+	provinces={
+		919 3739 3794 3896 11526 11544 
+	}
+	manpower = 531172
+	
+	state_category = rural
+
+	history= {
+		owner = TUR
+		victory_points = {
+			3794 3
+		}
+		victory_points = {
+			919 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+	}
+
+	local_supplies=0.0 
+}

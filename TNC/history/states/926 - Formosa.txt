@@ -1,0 +1,35 @@
+state = {
+	id=926
+	name = "STATE_926"
+	manpower = 500000
+	
+	state_category = pastoral
+	
+	resources = {
+		tungsten = 5
+		steel = 2
+	}
+
+	history = {
+
+		owner = ARG
+		add_core_of = ARG
+		add_claim_by = BOL
+		add_claim_by = PAR
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			12547 1 
+		}
+		
+	}
+
+	provinces = {
+		10644 12547 12568
+	}
+
+	local_supplies = 0.0 
+}

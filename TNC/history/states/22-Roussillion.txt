@@ -15,7 +15,7 @@ state={
 	history={
 		owner = FRA
 		victory_points = {
-			9898 1 
+			9678 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		752 760 3751 6770 6960 6962 9723 9898 11709 11711 11877 
+		752 760 3683 6629 6819 6821 9503 9678 11409 11411 11577 
 	}
 
 	local_supplies=12.0 

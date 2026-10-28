@@ -1,0 +1,44 @@
+
+state={
+	id=283
+	name="STATE_283" # Wellington 
+	manpower = 449918 # was 899836
+	
+	resources = {
+		coal = 1
+	}
+	state_category = city
+	
+	history = {
+
+		owner = AST
+		add_core_of = NZL
+
+		buildings = {
+			infrastructure = 3 
+			industrial_complex = 2
+			air_base = 1
+			
+			1768 = {
+				naval_base = 2
+			}
+
+		}
+
+		victory_points = {
+			1768 10 # Wellington
+		}
+
+		victory_points = {
+			12256 1 # New Plymouth
+		}
+		
+		
+	}
+
+	provinces = {
+		1755 1768 4690 7497 7588 7631 12256 12269 
+	}
+
+	local_supplies=0.0 
+}

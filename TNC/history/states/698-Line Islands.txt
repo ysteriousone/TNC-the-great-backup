@@ -1,0 +1,29 @@
+state={
+	id=698
+	name="STATE_698"
+	manpower=5367
+	state_category = small_island
+
+	history={
+		owner = CAN
+		add_core_of = HAW
+		buildings = {
+			infrastructure = 1
+			12673 = {
+				naval_base = 1
+			}
+			12674 = {
+				naval_base = 1
+			}
+			12678 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		12673 12674 12678 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,28 @@
+state = {
+	id=650
+	name = "STATE_650"
+	manpower = 511000
+
+	history = {
+
+		owner = IRQ
+		add_core_of = SAU
+
+		victory_points = {
+			12403 2 
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces = {
+		1975 4860 4962 7735 10471 10545 12403 
+	}
+	
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

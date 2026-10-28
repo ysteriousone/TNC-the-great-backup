@@ -1,0 +1,39 @@
+state = {
+	id=509
+	name = "STATE_509"
+	resources = {
+		rubber = 5.000
+	}
+
+	state_category = pastoral
+	manpower = 1693974
+
+	history = {
+
+		owner = RKA
+		add_core_of = COG
+
+		victory_points = {
+			988 2 # Coquilhatville
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		1939.1.1 = {
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+		}
+
+	}
+
+	provinces = {
+		988 7060 7732 7839 9837 10588 10651 12388 12459 
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 1.000
+}

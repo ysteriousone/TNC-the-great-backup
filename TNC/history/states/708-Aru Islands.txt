@@ -1,0 +1,36 @@
+state = {
+	id=708
+	name = "STATE_708"
+
+	history={
+
+		owner = INS
+		add_core_of = TNE
+
+		victory_points = {
+			4467 1 # Dobo  
+		}
+
+		buildings = {
+
+			4467 = {
+				naval_base = 1
+			}
+
+			13024 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	provinces = {
+		4467 13024
+	}
+	manpower = 36146
+	buildings_max_level_factor = 1	
+	state_category = "small_island"
+
+	local_supplies = 0.0 
+}

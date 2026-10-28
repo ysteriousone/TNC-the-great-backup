@@ -1,0 +1,36 @@
+
+state={
+	id=444
+	name="STATE_444"
+	manpower = 638165
+	resources={
+		oil=1 # was: 2
+		coal=4 # initial distribtuion = with infra 6.4 / 36 total
+	}
+	
+	state_category = town
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			1379 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = CAN
+		victory_points = {
+			1379 15 
+		}
+	}
+
+	provinces={
+		1300 1365 1379 1691 1812 4250 4288 4313 4325 4756 4763 7482 7558 7566 7625 7657 9978 10005 10018 10369 11902 12230 
+	}
+
+	local_supplies=4.0 
+}

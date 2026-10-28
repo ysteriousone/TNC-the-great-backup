@@ -1,0 +1,44 @@
+
+state={
+	id=289
+	name="STATE_289"
+	manpower = 744000
+	
+	
+	state_category = rural
+	
+	resources={
+		steel=40 #was:23 was: 20 . Changed to 23 (from 15) due to Portugal Setup
+	}
+
+	history={
+		owner = SPR
+		add_core_of = MOR
+		add_core_of = RIF
+		victory_points = {
+			9724 3
+		}
+		victory_points = {
+			11781 2
+		}
+		victory_points = {
+			11769 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			11781 = {
+				naval_base = 3
+			}
+			9724 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+		4117 7056 9724 9875 11769 11781 
+	}
+
+	local_supplies = 0.0 
+}

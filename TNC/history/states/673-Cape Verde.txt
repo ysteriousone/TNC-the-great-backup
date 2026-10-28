@@ -1,0 +1,31 @@
+state = {
+	id=673
+	name = "STATE_673"
+	manpower = 150600
+	
+	state_category = small_island
+
+	history = { 
+
+		owner = POR
+		add_core_of = CBV
+
+		victory_points = {
+			12639 1 # Praia
+		}
+
+		buildings = {
+			infrastructure = 2
+			12639 ={
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces = {
+		12639 
+	}
+
+	local_supplies = 0.0 
+}

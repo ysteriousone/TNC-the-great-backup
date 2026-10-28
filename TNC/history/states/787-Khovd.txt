@@ -1,0 +1,23 @@
+state={
+	id=787
+	name="STATE_787"
+	provinces={
+		1728 4637 4663 7578 7613 7648 7674 10264 10288 10394 12172 12347 
+	}
+
+	history={
+		owner = MAO
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			7648 1 #Ulaangom
+		}
+		add_core_of = MON
+		add_core_of = MAO
+	}
+	manpower=149000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

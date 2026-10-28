@@ -1,0 +1,26 @@
+
+state={
+	id=385
+	name="STATE_385"
+	manpower = 692849
+	state_category = rural
+
+	history={
+		owner = SKT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SKT
+		victory_points = {
+			1701 1 
+		}
+
+	}
+
+	provinces={
+		1701 1829 3682 4725 4766 7550 7576 7666 10294 10320 12272 12319 
+	}
+
+	local_supplies=0.0 
+}

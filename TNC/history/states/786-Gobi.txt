@@ -1,0 +1,22 @@
+state={
+	id=786
+	name="STATE_786"
+	provinces={
+		1677 1735 1741 1807 1809 4541 4615 4672 4742 4744 7554 7557 7611 7668 10283 10285 10300 10357 10359 10414 10420 10429 12191 12193 12196 12264 12266 12321 12338 
+	}
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12264 1 #Sainshand
+		}
+		add_core_of = MON
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

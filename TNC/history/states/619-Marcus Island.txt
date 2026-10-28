@@ -1,0 +1,21 @@
+state = {
+	id=619
+	name = "STATE_619"
+	state_category = tiny_island
+	manpower = 42
+	history = {
+		owner = JPN
+		add_core_of = JPN
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			12651 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	provinces = { 12651 }
+
+	local_supplies = 0.0 
+}

@@ -1,6 +1,6 @@
 
 state = {
-	id = 162
+	id=162
 	name = "STATE_162"
 	manpower = 3084933
 	
@@ -9,16 +9,16 @@ state = {
 	history = {
 		owner = ITA
 		victory_points = {
-			9907 3 
+			9687 3 
 		}
 		victory_points = {
-			6973 1 
+			6832 1 
 		}
 		victory_points = {
-			11833 1 
+			11533 1 
 		}
 		victory_points = {
-			6946 1 
+			6805 1 
 		}
 		buildings = {
 			infrastructure = 4 #was: 8
@@ -26,10 +26,10 @@ state = {
 			industrial_complex = 1
 			dockyard = 3
 			air_base = 2
-			6973 = {
+			6832 = {
 				naval_base = 10
 			}
-			11833 = {
+			11533 = {
 				naval_base = 4
 			}
 		}
@@ -44,7 +44,7 @@ state = {
 	}
 
 	provinces = {
-		910 1616 3885 6875 6946 6973 9750 9879 9907 11833 11889 
+		910 1573 3817 6734 6805 6832 9530 9659 9687 11533 11589 
 	}
 
 	local_supplies = 0.0 

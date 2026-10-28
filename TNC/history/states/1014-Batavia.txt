@@ -1,0 +1,36 @@
+state={
+	id=1014
+	name="STATE_1014" # Batavia/Jakarta
+	manpower = 3845381
+	
+	state_category = large_city
+	
+	resources={
+		
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			7205 25
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+			air_base = 1
+			7205 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		7205 11918 4307
+	}
+
+	local_supplies=5.0 
+}

@@ -1,0 +1,32 @@
+state = {
+	id=508
+	name = "STATE_508"
+	manpower = 331943 # was 295196
+	resources = {
+		#oil = 3 # was: 4 - The only oil on Sakhalin seem to have been in the northern part, held by Soviet
+		coal = 2 #initial distribution
+	}
+	
+	state_category = rural
+
+	history = {
+	
+		owner = VLA
+		add_core_of = VLA
+		add_core_of = JPN
+		add_core_of = ANU
+		
+		buildings = {
+			infrastructure = 2
+			12102 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12102 1 # Toyohara
+		}
+	}
+
+	provinces = { 1299 1774 12102 }
+	local_supplies = 0.0 
+}

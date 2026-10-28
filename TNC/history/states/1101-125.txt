@@ -1,0 +1,14 @@
+state={
+	id=1101
+	name="STATE_1101"
+	provinces={
+		13044 13054 
+	}
+	manpower = 5000
+	history={
+		owner = FIU
+		add_core_of = FIU
+	}
+	state_category = rural
+	local_supplies=0
+}

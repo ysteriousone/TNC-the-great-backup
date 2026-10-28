@@ -1,0 +1,31 @@
+state = {
+	id=437
+	name = "STATE_437"
+	manpower = 8860
+	resources = {
+		aluminium = 4.000
+	}
+
+	history = {
+
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+			3623 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces = {
+		490 1666 3141 3623 6599 7190 7618 9930 11823 12787 12791 12806 12809 12811 12821 12938
+	}
+	
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,58 @@
+state = {
+	id=567
+	name = "STATE_567"
+	manpower = 21230700
+	state_category = town
+
+	history = {
+
+		owner = RNG
+		add_core_of = RNG
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		victory_points = { 
+			9750 1 # Ningbo
+		}
+
+		victory_points = { 
+			7034 1 # Hangzhou
+		}
+
+		victory_points = { 
+			1054 1 # Wenzhou
+		}
+
+		victory_points = { 
+			7019 1 # Quzhou
+		}
+		
+		buildings = {
+
+			infrastructure = 2
+			air_base = 1 # Ningbo Lishe Airbase
+
+			7034 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+			9750 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+			1054 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+		1054 1092 1156 1181 3943 3972 4024 6914 6937 6993 7019 7034 9723 9749 9750 9786 9826 9851 9864 11619 11644 11683 11743 
+	}
+
+	local_supplies = 0.0 
+}

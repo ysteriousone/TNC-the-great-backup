@@ -1,0 +1,37 @@
+state= { 
+	id=825
+	name = "STATE_825"
+	
+	history = {
+
+		owner = IRQ
+		add_core_of = IRQ
+		add_core_of	= SAU
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			12511 = {
+				naval_base = 5
+			}
+		}
+
+		victory_points = {
+			12511 1 
+		}
+
+		victory_points = {
+			4909 5
+		}
+	}
+	manpower = 500000
+	state_category = pastoral
+
+	provinces = {
+		1874 2026 4909 7862 10506 12511 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+
+}

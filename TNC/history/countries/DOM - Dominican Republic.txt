@@ -1,4 +1,4 @@
-﻿capital = 319
+capital = 318
 country_event = { id = proxy.1 days = 600 }
 oob = "DOM_1936"
 

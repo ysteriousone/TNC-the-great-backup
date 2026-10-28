@@ -1,0 +1,31 @@
+
+state={
+	id=365
+	name="STATE_365"
+	manpower = 2009820
+	
+	state_category = city
+
+	history={
+		owner = MSI
+		victory_points = {
+			4359 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			4359 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = MSI
+	}
+
+	provinces={
+		1572 4359 4404 4454 4536 7279 7473 7893 10142 10178 10475 11417 11990 12085 
+	}
+	
+
+	local_supplies=0.0 
+}

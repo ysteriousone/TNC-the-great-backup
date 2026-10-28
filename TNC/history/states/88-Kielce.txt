@@ -9,13 +9,13 @@ state={
 	history={
 		owner = GEN
 		victory_points = {
-			9427 20 
+			9207 20 
 		}
 		victory_points = {
 			442 3 
 		}
 		victory_points = {
-			9494 1
+			9274 1
 		}
 		buildings = {
 			infrastructure = 3
@@ -29,7 +29,7 @@ state={
 	}
 
 	provinces={
-		417 442 466 3410 3434 6499 6522 9412 9427 9494 11398 11413 11507 13205 
+		417 442 466 3343 3367 6358 6381 9192 9207 9274 11098 11113 11207 12830 
 	}
 	manpower=3692800
 	buildings_max_level_factor=1.000

@@ -1,0 +1,40 @@
+state = {
+	id=974
+	name = "STATE_974" # South Kyushu
+	manpower = 3023000
+
+	state_category = rural
+
+	resources = {
+		chromium = 20
+	}
+
+	history = {
+
+		owner = JPN
+		add_core_of = JPN
+
+		buildings = {
+
+			infrastructure = 2
+			dockyard = 1
+			industrial_complex = 1
+			
+		}
+
+		victory_points = {
+			4027 15 # Kagoshima
+		}
+
+		victory_points = {
+			1019 2 # Miyazaki
+		}
+
+	}
+
+	provinces = {
+		1019 1170 4027 4116 7022 11646 11695 11720 
+	}
+
+	local_supplies = 10.0 
+}

@@ -1,0 +1,31 @@
+state = {
+	id=851
+	name = "STATE_851" # Pavlodar
+	
+	state_category = rural
+	
+	resources = {
+		chromium = 6 
+	}
+
+	history = {
+		owner = KRA
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KRA
+		victory_points = {
+			7513 1
+		}
+	}
+
+	provinces = {
+		1833 4556 4571 7147 7513 9954 9984 10355 12268
+	}
+	manpower = 230210
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
+}

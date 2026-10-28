@@ -1,0 +1,27 @@
+state={
+	id=670
+	name="STATE_670"
+	manpower = 21056
+	
+	state_category = wasteland
+
+	history={
+		owner = SPR
+		add_core_of = WES
+		buildings = {
+			infrastructure = 1
+			7830 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7830 1
+		}
+	}
+	
+	provinces={
+		4804 4886 7778 7830 7894 10581
+	}
+
+	local_supplies=0.0 
+}

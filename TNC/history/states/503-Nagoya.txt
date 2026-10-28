@@ -1,0 +1,48 @@
+state = {
+	id=503
+	name = "STATE_503" # Tokai
+	manpower = 7174000 # was 6174000
+	state_category = large_city
+
+	history = {
+
+		owner = JPN
+		add_core_of = JPN
+
+		buildings = {
+			infrastructure = 4 #was: 7
+			arms_factory = 1
+			dockyard = 1
+			industrial_complex = 2
+
+			# Ōi Dam
+			3996 = { dam = 1 }
+
+		}
+		
+		victory_points = {
+			6938 3 # Shizuoka
+		}
+		
+		victory_points = {
+			9885 25 # Nagoya
+		}
+
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 3
+				9885 = {
+					air_facility = 1 # Mitsubishi Arnsenals 
+				}
+			}
+		}
+
+	}
+
+	provinces = {
+		3996 4091 6938 7003 7030 9863 9885 11755 11778 
+	}
+
+	local_supplies = 0.0 
+}

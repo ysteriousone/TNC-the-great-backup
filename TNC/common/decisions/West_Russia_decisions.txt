@@ -11,44 +11,44 @@ West_Russian_unification_cat = {
 		
 		highlight_states = {
 			highlight_state_targets = {
-		state = 825
-		state = 581
+		state = 794
+		state = 552
 		state = 262
-		state = 397
-		state = 398
-		state = 573
-		state = 400
-		state = 833
+		state = 392
+		state = 393
+		state = 544
+		state = 395
+		state = 802
 		state = 249
-		state = 399
-		state = 651
+		state = 394
+		state = 622
 		state = 251
-		state = 652
-		state = 582
-		state = 407
-		state = 406
+		state = 623
+		state = 553
+		state = 402
+		state = 401
 		
 	}
 	
 	 }
 
 		available = {
-		controls_state = 825
-		controls_state = 581
+		controls_state = 794
+		controls_state = 552
 		controls_state = 262
-		controls_state = 397
-		controls_state = 398
-		controls_state = 573
-		controls_state = 400
-		controls_state = 833
+		controls_state = 392
+		controls_state = 393
+		controls_state = 544
+		controls_state = 395
+		controls_state = 802
 		controls_state = 249
-		controls_state = 399
-		controls_state = 651
+		controls_state = 394
+		controls_state = 622
 		controls_state = 251
-		controls_state = 652
-		controls_state = 582
-		controls_state = 407
-		controls_state = 406
+		controls_state = 623
+		controls_state = 553
+		controls_state = 402
+		controls_state = 401
 		}
 
 		complete_effect = {

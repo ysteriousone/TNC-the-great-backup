@@ -14,20 +14,20 @@ state={
 		owner = SPR
 		add_core_of = CAT
 		victory_points = {
-			9764 30
+			9544 30
 		}
 		victory_points = {
-			6966 1
+			6825 1
 		}
 		victory_points = {
-			6927 1
+			6786 1
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 2
-			9764 = {
+			9544 = {
 				naval_base = 4
 			}
 		}
@@ -35,7 +35,7 @@ state={
 	}
 
 	provinces={
-		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 
+		854 872 897 3830 3831 6671 6695 6724 6786 6825 9544 9577 9604 11479 
 	}
 
 	local_supplies=0.0 

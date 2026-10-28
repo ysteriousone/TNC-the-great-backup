@@ -1,0 +1,26 @@
+
+state = {
+	id=531
+	name = "STATE_531" # Nikolayevsk
+	manpower = 97663
+	
+	state_category = rural
+	resources={
+		steel=18 # was: 24
+	}
+
+	history={
+		owner = UKR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UKR
+		add_core_of = FER
+	}
+
+	provinces = {
+		1678 1726 1761 1796 3596 4202 4730 7553 7675 9439 10296 10302 10315 12211 12221 12290 
+	}
+
+	local_supplies = 0.0 
+}

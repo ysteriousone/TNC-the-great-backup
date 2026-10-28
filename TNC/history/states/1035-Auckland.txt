@@ -1,0 +1,49 @@
+
+state = {
+	id=1035
+	name = "STATE_1035" # Auckland
+	manpower = 449918
+	
+	resources = {
+		coal = 1
+	}
+	state_category = city
+	
+	history = {
+
+		owner = AST
+		add_core_of = NZL
+
+		buildings = {
+			infrastructure = 3 
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+
+			4435 = {
+				naval_base = 3
+			}
+
+		}
+		
+		victory_points = {
+			4435 5 # Auckland 
+		}
+
+		victory_points = {
+			7691 1 # Hamilton 
+		}
+
+		victory_points = {
+			4604 1 # Tauranga 
+		}
+
+		
+	}
+
+	provinces = {
+		4503 10071 10107 4435 1526 12023 12316 7691 4604 10435 7547 4634 1667 1700 10334 1740 
+	}
+
+	local_supplies=0.0 
+}

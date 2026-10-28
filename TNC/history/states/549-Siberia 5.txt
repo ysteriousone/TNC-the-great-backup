@@ -1,0 +1,29 @@
+
+state={
+	id=549
+	name="STATE_549" # Tomsk
+	manpower = 609304
+
+	resources = {
+		coal = 16 #initial distribution
+	}
+	
+	state_category = rural
+
+	history={
+		owner = SOL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOL
+		victory_points = {
+			7594 1
+		}
+	}
+
+	provinces={
+		1628 1672 1719 1778 4567 4653 4713 7461 7594 7598 7653 7665 10254 10338 10342 10398 10411 11849 12162 12188 12251 
+	}
+
+	local_supplies=0.0 
+}

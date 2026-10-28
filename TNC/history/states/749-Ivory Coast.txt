@@ -1,0 +1,28 @@
+
+state={
+	id=749
+	name="STATE_749" # Ivory Coast
+	manpower = 3850734
+	
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = IVO
+		victory_points = {
+			10520 1
+		}
+		buildings = {
+			infrastructure = 2
+			10520 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		4887 4937 7856 7903 10483 10520
+	}
+
+	local_supplies=1.0 
+}

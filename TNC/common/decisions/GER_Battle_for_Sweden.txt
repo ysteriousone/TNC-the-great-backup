@@ -107,7 +107,7 @@ Arm_Sapmi_people = {
 		complete_effect = {
     add_manpower = -10000
 	
-	666 = {
+	637 = {
 	set_demilitarized_zone = yes
 	 }
 	 }

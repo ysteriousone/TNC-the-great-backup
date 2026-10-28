@@ -1,4 +1,4 @@
-﻿capital = 302
+capital = 301
 
 oob = "BOL_1945"
 every_core_state = {

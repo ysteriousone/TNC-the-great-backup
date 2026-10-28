@@ -1,0 +1,52 @@
+state={
+	id=687
+	name="STATE_687"
+	resources={
+		steel=27.000
+		chromium = 4
+		tungsten = 4
+		oil = 3 #Japan extracted 1m barrels annually from Manhuria
+		coal = 11
+	}
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 5
+			11464 = {
+				naval_base = 3
+
+			}
+			11508 = {
+				landmark_great_wall_section = {
+				    level = 1
+				    allowed = {
+				        has_dlc = "No Compromise, No Surrender"
+				    }
+				}
+			}
+		}
+		victory_points = {
+			11471 3
+		}
+		victory_points = {
+			11464 1 
+		}
+
+	}
+
+	provinces={
+		836 846 892 964 987 3715 3771 3781 3827 3902 6663 6719 6769 6777 6810 6840 9561 9568 9615 9634 9665 11464 11471 11508 11515 
+	}
+	manpower=10264620
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=0.0 
+}

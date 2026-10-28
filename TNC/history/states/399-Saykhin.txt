@@ -1,0 +1,27 @@
+state = {
+	id=399
+	name = "STATE_399" # Kyzyl Orda
+
+	history = {
+		owner = KAZ
+		victory_points = {
+			7405 1
+		}
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KAZ
+
+	}
+
+	provinces = {
+		        4466 4523 4572 7215 7367 7405 7408 7463 7582 9906 10089 10100 10181 10233 10326 11991 12001 12055  
+	}
+	manpower = 447020
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 0.0 
+}

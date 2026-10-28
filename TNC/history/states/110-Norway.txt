@@ -1,6 +1,6 @@
 
 state = {
-	id = 110
+	id=110
 	name = "STATE_110"
 	manpower = 1057185
 	
@@ -12,10 +12,10 @@ state = {
 
 	history = {
 		victory_points = {
-			6115 13 
+			5974 13 
 		}
 		victory_points = {
-			11151 2
+			10851 2
 		}
 		
 		owner = NOR
@@ -25,7 +25,7 @@ state = {
 			industrial_complex = 2
 			dockyard = 1
 			air_base = 4
-			6115 = {
+			5974 = {
 				naval_base = 6
 				coastal_bunker = 3
 			}
@@ -34,7 +34,7 @@ state = {
 	}
 
 	provinces={
-		14 3007 3171 6115 9103 11078 11151 11184  
+		14 2940 3104 5974 8883 10778 10851 10884  
 	}
 
 	local_supplies=0.0 

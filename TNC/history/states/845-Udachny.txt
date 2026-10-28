@@ -1,0 +1,29 @@
+state = {
+	id=845 
+	name = "STATE_845" #Udachny
+
+	history = {
+		owner = FER
+
+		#victory_points = {
+		#	5944 1  #Udachny was founded in 1955
+		#}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = FER
+		add_core_of = YAK
+
+	}
+
+	provinces = {
+		1676 2786 3117 5944 12685 
+	}
+	manpower = 12182
+	buildings_max_level_factor = 1
+	state_category = "wasteland"
+
+	local_supplies = 0.0 
+}

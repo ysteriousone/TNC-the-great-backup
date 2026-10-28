@@ -1,0 +1,46 @@
+state = {
+	id=1018
+	name = "STATE_1018"
+	manpower = 546200
+	
+	state_category = town
+	
+	resources = {
+		tungsten = 30 
+		aluminium = 4 
+		rubber = 77 
+	}
+
+	history = {
+
+		owner = SIA
+		add_core_of = MAL
+
+		victory_points = {
+			7159 1 # Kota Bharu
+		}
+
+		victory_points = {
+			11872 1 # Kuala Terengganu 
+		}
+
+		buildings = {
+
+			infrastructure = 1
+			dockyard = 1
+			arms_factory = 1
+
+			7159 = {
+				naval_base = 1
+			}
+
+		}
+		
+	}
+
+	provinces = {
+		7159 9977 13034 1324 4260 11872 
+	}
+
+	local_supplies = 0.0 
+}

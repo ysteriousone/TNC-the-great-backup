@@ -1,4 +1,4 @@
-﻿##### Division Templates #####
+##### Division Templates #####
 division_template = {
 	name = "Division Coloniale"		
 	division_names_group = FRA_COL_01
@@ -83,7 +83,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10803
+		location = 10520
 		division_template = "Division Coloniale" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -92,7 +92,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10803
+		location = 10520
 		division_template = "Division Coloniale" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -101,17 +101,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10762
-		division_template = "Division Coloniale" 	# Frontline, best equipment
-		start_experience_factor = 0.3
-	}
-	
-division= {	# 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 5070
+		location = 10483
 		division_template = "Division Coloniale" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -121,7 +111,7 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 5013
+		location = 4937
 		division_template = "Division Coloniale" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -131,7 +121,17 @@ division= {	#
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10803
+		location = 4887
+		division_template = "Division Coloniale" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	
+division= {	# 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10520
 		division_template = "Division d'Infanterie Motorisée" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}

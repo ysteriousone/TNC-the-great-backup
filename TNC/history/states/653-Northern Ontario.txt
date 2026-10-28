@@ -1,0 +1,36 @@
+state = {
+	id=653
+	name = "STATE_653"
+	
+	state_category = rural
+	manpower = 139059
+	
+	resources = {
+		steel = 8 # was: 12.000
+		aluminium = 9 # was: 14.000
+		coal = 2 # initial distribution = with infra 3.2 / 36 total
+	}
+
+	history = {
+
+		owner = CAN
+		add_core_of = CAN
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			7703 1 
+		}
+
+	}
+
+	provinces = {
+		602 777 1278 1723 1736 4661 4670 4755 4761 6369 7192 7599 7703 9247 9260 9520 10346 10443 11271 11943 12234 12353 12719 12784 12786 
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
+}

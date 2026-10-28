@@ -1,4 +1,4 @@
-﻿
+
 division_template = {
 	name = "Prison Inmates"
 	division_names_group = PARTISAN_INF_01
@@ -28,7 +28,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6398
+		location = 6257
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -40,7 +40,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6398
+		location = 6257
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -52,7 +52,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6398
+		location = 6257
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -63,7 +63,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6398
+		location = 6257
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -74,19 +74,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6398
-		division_template = "Prison Inmates"
-		start_experience_factor = 1
-		start_equipment_factor = 0.8
-
-	}
-	
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 3346
+		location = 6257
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -98,7 +86,19 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3199
+		location = 3279
+		division_template = "Prison Inmates"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3132
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -134,7 +134,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3580
+		location = 3512
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -146,7 +146,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3580
+		location = 3512
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8
@@ -158,7 +158,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3580
+		location = 3512
 		division_template = "Prison Inmates"
 		start_experience_factor = 1
 		start_equipment_factor = 0.8

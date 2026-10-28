@@ -1,0 +1,42 @@
+state = {
+	id=432
+	name = "STATE_432"
+
+	resources = {
+		chromium = 12.000 #added due to portugal setup
+		coal = 3 #initial distribution
+	}
+
+	manpower = 3197719
+	
+	state_category = rural
+	
+	history = {
+
+		owner = SPR
+		add_core_of = MOR
+
+		victory_points = {
+			6923 10 # Casablanca
+		}
+
+		victory_points = {
+			9836 2 # Rabat
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+			6923 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+		989 1075 1104 1180 4010 4022 4060 6923 6950 6965 7018 9785 9793 9836 11640 11679 11727 
+	}
+
+	local_supplies = 0.0 
+}

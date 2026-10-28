@@ -1,0 +1,32 @@
+
+state={
+	id=423
+	name="STATE_423"
+	manpower = 52556
+	
+	state_category = wasteland
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = {
+			9828 2 # Mersa Matruh
+		}
+
+		victory_points = {
+			9764 1 #Sidi Barrani
+		}
+
+		add_core_of = EGY
+	}
+
+	provinces={
+		6932 9764 9828 11610 11661 4944 11721 11773 6995 
+	}
+
+
+	local_supplies=9.0 
+}

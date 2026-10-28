@@ -1,4 +1,4 @@
-﻿capital = 1035 # Nanjing
+capital = 991 # Nanjing
 
 IF = {
 	limit = {
@@ -277,73 +277,73 @@ IF = {
 
 }
 
-600 = { #Jiangxi
+571 = { #Jiangxi
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-749 = { #Huangshan
+719 = { #Huangshan
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-606 = { #Anhui
+577 = { #Anhui
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-607 = { #Henan
+578 = { #Henan
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-620 = { #Hubei
+591 = { #Hubei
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-602 = { #Hunan
+573 = { #Hunan
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-750 = { #Changde
+720 = { #Changde
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-744 = { #Xian
+714 = { #Xian
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-605 = { #Sichuan
+576 = { #Sichuan
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-748 = { #Zunyi
+718 = { #Zunyi
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-603 = { #Guizhu
+574 = { #Guizhu
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-615 = { #Shanxi
+586 = { #Shanxi
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-622 = { #Shaanxi
+593 = { #Shaanxi
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-325 = { #Yunnan
+320 = { #Yunnan
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-747 = { #Dali
+717 = { #Dali
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-1032 = { #Yanan
+988 = { #Yanan
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-283 = { #Gansu
+282 = { #Gansu
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
 #598 = { #Jiangsu
 #	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 #}
-753 = { #Gannan
+723 = { #Gannan
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-599 = { #Guangxi 
+570 = { #Guangxi 
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-1045 = { #Guyuan  
+1001 = { #Guyuan  
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-616 = { #Ningxia   
+587 = { #Ningxia   
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
-1044 = { #Wuwei    
+1000 = { #Wuwei    
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
 }
 IF = {
@@ -581,7 +581,7 @@ IF = {
 
 	set_variable = { CHI_economic_support_cic_amount = 100 } #CiC to Subject Warlords
 
-	613 = { #Shanghai
+	584 = { #Shanghai
 		add_dynamic_modifier = { modifier = CHI_shanghai_international_settlement }
 	}
 
@@ -613,7 +613,7 @@ IF = {
 ###################################
 
 
-613 = {  #Shanghai
+584 = {  #Shanghai
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -621,7 +621,7 @@ IF = {
 	}
 }
 
-608 = { #Beijing
+579 = { #Beijing
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -629,7 +629,7 @@ IF = {
 	}
 }
 
-615 = { #Shanxi
+586 = { #Shanxi
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -637,7 +637,7 @@ IF = {
 	}
 }
 
-715 = { #Liaobei
+686 = { #Liaobei
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -645,7 +645,7 @@ IF = {
 	}
 }
 
-1036 = { #Wuhan
+992 = { #Wuhan
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -653,7 +653,7 @@ IF = {
 	}
 }
 
-716 = { #Liaoning
+687 = { #Liaoning
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -661,7 +661,7 @@ IF = {
 	}
 }
 
-1035 = {  #Nanjing
+991 = {  #Nanjing
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -669,7 +669,7 @@ IF = {
 	}
 }
 
-613 = {  #Shanghai
+584 = {  #Shanghai
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -677,7 +677,7 @@ IF = {
 	}
 }
 
-596 = {  #Zhejiang
+567 = {  #Zhejiang
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS
@@ -685,7 +685,7 @@ IF = {
 	}
 }
 
-600 = {  #Jiangxi
+571 = {  #Jiangxi
 	add_to_array = {
 	    array = ROOT.mio_locations
 	    value = THIS

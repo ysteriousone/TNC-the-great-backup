@@ -1,0 +1,25 @@
+state = {
+	id=546
+	name = "STATE_546" # Kirensk
+	manpower = 146494
+	
+	state_category = wasteland
+
+	history = {
+
+		owner = FER
+		add_core_of = FER
+		add_core_of = EVE
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+
+	provinces = {
+		1746 4589 4623 7531 7633 10282 10353 10413 12183 12260 12320 12333 12684 
+	}
+
+	local_supplies = 5.0 
+}

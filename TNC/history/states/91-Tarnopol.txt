@@ -8,10 +8,10 @@ state={
 	history={
 		owner = GEN
 		victory_points = {
-			11479 3
+			11179 3
 		}
 		#victory_points = {
-		#	3483 5
+		#	3415 5
 		#}
 		buildings = {
 			infrastructure = 3
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		438 491 536 3483 3562 9454 9468 9558 11427 11479 
+		438 491 536 3415 3494 9234 9248 9338 11127 11179 
 	}
 
 	local_supplies=0.0 

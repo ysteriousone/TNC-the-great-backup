@@ -1,0 +1,27 @@
+state = {
+	id=1030
+	name = "STATE_1030"
+
+	state_category = wasteland
+	manpower = 10000
+
+	impassable = yes
+	force_link_ownership_to = 839 # Northwest Australia 
+
+	history = {
+
+		owner = WST
+		add_core_of = WST
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces = {
+		2067 2111 2120 7915 7936 10200 12529 12537 12551 
+	}
+
+	local_supplies = 0.0 
+}

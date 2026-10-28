@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # ostland Events
 ###########################
 
@@ -22,7 +22,7 @@ country_event = {
         }
 	}
  EST = {
- transfer_state = 812
+ transfer_state = 781
  declare_war_on = {
   target = RKO
   type = annex_everything
@@ -32,8 +32,8 @@ country_event = {
 
 UBD = {
 transfer_state = 190
-transfer_state = 809
-transfer_state = 814
+transfer_state = 778
+transfer_state = 783
  declare_war_on = {
  target = RKO
  type = annex_everything
@@ -44,7 +44,7 @@ LEN = {
 transfer_state = 208
  }
 LAT = {
-transfer_state = 810
+transfer_state = 779
 transfer_state = 12
 declare_war_on = {
 target = RKO

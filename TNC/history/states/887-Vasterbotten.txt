@@ -1,0 +1,34 @@
+state = { 
+	id=887
+	name = "STATE_887" # Västerbotten
+	manpower = 315105
+	state_category = rural
+	resources = {
+		tungsten = 35
+		steel = 39
+		chromium = 15
+	}
+
+	history = {
+		victory_points = {
+			5991 2
+		}
+		victory_points = {
+			109 1
+		}
+		owner = SWE
+		add_core_of = SWE
+		add_core_of = SMI
+		
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 1 was 1
+		}
+	}
+
+	provinces = {
+		11 109 118 145 182 184 2936 2977 2995 3033 3046 3071 3106 5883 5942 5991 6011 6020 6059 8873 8875 8914 8923 8955 8991 9000 10726 10758 10767 10769 10812 10852 10890 10901 
+	}
+
+	local_supplies=0.000
+}

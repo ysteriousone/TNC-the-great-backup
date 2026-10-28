@@ -1,0 +1,35 @@
+
+state={
+	id=525
+	name="STATE_525"
+	manpower = 547797
+	
+	state_category = rural
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+
+		victory_points = {
+			4033 5 # Damascus 
+		}
+
+		victory_points = {
+			4380 1 # As-Suwayda  
+		}
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		add_core_of = SYR	
+
+	}
+
+
+	provinces={
+		1071 4033 4380 4441 7027 
+	}
+
+	local_supplies=2.0 
+}

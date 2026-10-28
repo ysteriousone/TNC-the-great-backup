@@ -1,0 +1,30 @@
+
+state={
+	id=419
+	name="STATE_419"
+	manpower = 469136
+	
+	state_category = town
+
+	history={
+		owner = SME
+		
+		victory_points = {
+			1138 10 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 6
+			1138 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = LBA
+	}
+
+	provinces={
+		1110 1138 1176 4112 6920 7050 9755 11725 
+	}
+
+	local_supplies=0.0 
+}

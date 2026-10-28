@@ -1,5 +1,5 @@
 state = {
-	id = 217
+	id=217
 	name = "STATE_217"
 	manpower = 1135070
 	
@@ -11,7 +11,7 @@ state = {
 		add_core_of = STL
 
 		victory_points = {
-			3529 30 # Stalingrad
+			3461 30 # Stalingrad
 		}
 
 		buildings = {
@@ -33,7 +33,7 @@ state = {
 	}
 
 	provinces = {
-		498 520 3503 3529 3555 6503 6527 6541 9459 9474 9504 9530 11447 11474 11484 
+		498 520 3435 3461 3487 6362 6386 6400 9239 9254 9284 9310 11147 11174 11184 
 	}
 
 	local_supplies = 7.0 

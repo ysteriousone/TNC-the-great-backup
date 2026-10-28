@@ -1,5 +1,5 @@
 state = {
-	id = 101
+	id=101
 	name = "STATE_101"
 	manpower = 18000
 	resources = {
@@ -13,7 +13,7 @@ state = {
 		owner = CAN
 		buildings = {
 			infrastructure = 1
-			12512 ={
+			12164 ={
 				naval_base = 1
 			}
 		}
@@ -21,12 +21,12 @@ state = {
 		add_core_of = GRN
 
 		victory_points = { #Nuuk
-			12512 1
+			12164 1
 		}
 	}
 
 	provinces = {
-		10245 10636 12512 13058 13066 
+		9994 10361 12164 12683 12691 
 	}
 	local_supplies = 0.0 
 }

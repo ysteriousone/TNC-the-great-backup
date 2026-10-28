@@ -1,5 +1,5 @@
 state = {
-	id = 147
+	id=147
 	name = "STATE_147" #SALLA
 	manpower = 4630
 	
@@ -23,7 +23,7 @@ state = {
 	}
 
 	provinces = {
-		197 9158 11085 	
+		197 8938 10785 	
 	}
 
 	local_supplies = 0.0 

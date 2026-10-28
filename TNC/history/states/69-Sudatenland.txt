@@ -1,5 +1,5 @@
 state = {
-	id = 69
+	id=69
 	name = "STATE_69"
 	manpower = 2476250 # was 2830000
 	
@@ -12,19 +12,19 @@ state = {
 	history = {
 
 		victory_points = {
-			3585 3
+			3517 3
 		}
 
 		victory_points = {
-			11432 1
+			11132 1
 		}
 
 		victory_points = {
-			6470 1
+			6329 1
 		}
 
 		victory_points = {
-			11401 3
+			11101 3
 		}
 
 		owner = GER
@@ -44,16 +44,16 @@ state = {
 			469 = {
 				bunker = 1
 			}
-			3585 = {
+			3517 = {
 				bunker = 1
 			}
-			6470 = {
+			6329 = {
 				bunker = 1
 			}
-			9555 = {
+			9335 = {
 				bunker = 1
 			}
-			11432 = {
+			11132 = {
 				bunker = 1
 			}
 
@@ -68,7 +68,7 @@ state = {
 	}
 
 	provinces = {
-		424 469 3418 3585 6470 9555 11401 11414 11432 	
+		424 469 3351 3517 6329 9335 11101 11114 11132 	
 	}
 	local_supplies = 0.0 
 

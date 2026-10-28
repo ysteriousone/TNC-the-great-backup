@@ -1,0 +1,34 @@
+state = {
+	id=606
+	name = "STATE_606"
+	resources = {
+		chromium = 90 # was: 178.000
+	}
+	
+	state_category = small_island
+
+	history = {
+
+		owner = FRA
+		add_core_of = TAH
+
+		victory_points = {
+			4182 1 # Noumea 
+		}
+
+		buildings = {
+			infrastructure = 2
+			4182 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1245 4147 4182 7100 9916 11811 
+	}
+	manpower = 31876
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
+}

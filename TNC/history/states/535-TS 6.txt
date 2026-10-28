@@ -1,0 +1,35 @@
+
+state={
+	id=535
+	name="STATE_535" # Ulan Ude
+	manpower = 370893
+	state_category = rural
+	resources={
+		steel=10 # was: 20
+		chromium=12 # was: 34
+		tungsten=10 # was: 28
+		aluminium=4 # was: 8
+	}
+
+	history={
+		owner = MAO
+		victory_points = {
+			7640 2 
+		}
+		victory_points = {
+			12296 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MAO
+		add_core_of = BYA
+	}
+
+	provinces={
+		1650 1716 1764 4602 4652 4721 4723 7541 7621 7640 10249 10253 10268 10383 12158 12227 12296 12777
+	}
+
+	local_supplies=0.0 
+}

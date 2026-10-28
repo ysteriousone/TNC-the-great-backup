@@ -1,0 +1,50 @@
+state = {
+	id=717
+	name = "STATE_717"
+	
+	manpower = 1000000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	history = {
+
+		owner = YUN
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			7765 3 # Dali 
+		}
+
+		victory_points = {
+			10571 1 # Heshun  
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+		}
+
+	}
+
+	provinces = {
+		4448 4821 4883 7765 7775 7907 10145 10571 12427 12523 
+	}
+
+	local_supplies = 0.0 
+}

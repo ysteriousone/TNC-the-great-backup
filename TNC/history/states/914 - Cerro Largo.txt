@@ -1,0 +1,35 @@
+
+state = {
+	id=914
+	name = "STATE_914"
+	manpower = 500230
+	
+	state_category = town
+	
+	resources = {
+		steel = 2
+	}
+
+	history = { 
+
+		owner = URG
+		add_core_of = URG
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+		}
+
+		victory_points = {
+			1596 1
+		}
+
+	}
+
+	provinces = {
+		1596 1609 10084 12134
+	}
+
+	local_supplies = 0.0 
+}

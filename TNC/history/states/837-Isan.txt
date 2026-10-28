@@ -1,0 +1,31 @@
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		1332 1499 1510 4405 4470 7328 7409 10118 10156 10168 11868 11931 12021 12033 12047 12060 12075 12087 
+	}
+	history = {
+		owner = SIA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			10168 1 
+		}
+
+		victory_points = {
+			12021 1 
+		}
+
+		victory_points = {
+			10156 1 
+		}
+		
+		add_core_of = SIA
+	}
+	manpower=4772823 
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

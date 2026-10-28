@@ -6,7 +6,7 @@ state={
 	history={
 		owner = ENG
 		victory_points = {
-			3379 5 
+			3312 5 
 		}
 		victory_points = {
 			385 1 # Londonderry
@@ -17,7 +17,7 @@ state={
 			industrial_complex = 2
 			air_base = 1
 			dockyard = 2
-			3379 = {
+			3312 = {
 				naval_base = 4
 			}
 		}
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		276 385 3217 3242 3329 3379 11257 
+		276 385 3150 3175 3262 3312 10957 
 	}
 	manpower=1198537
 	buildings_max_level_factor=1

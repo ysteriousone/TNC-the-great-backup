@@ -1,0 +1,35 @@
+
+state={
+	id=349
+	name="STATE_349"
+	manpower = 1031129
+	
+	state_category = town
+
+	history={
+		owner = TUR
+		
+		victory_points = {
+			9712 15
+		}
+		victory_points = {
+			10199 5
+		}
+		victory_points = {
+			3911 3 
+		}
+		buildings = {
+			infrastructure = 2
+			9712 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		789 3646 3911 6835 6850 7270 9666 9712 10135 10199 11453 11553
+	}
+
+	local_supplies=0.0 
+}

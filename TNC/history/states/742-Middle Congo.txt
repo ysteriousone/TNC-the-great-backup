@@ -1,0 +1,39 @@
+
+state = {
+	id=742
+	name = "STATE_742" # Middle Congo (Brazzaville)
+
+	manpower = 746415
+	state_category = pastoral
+	resources = {
+		rubber = 2
+	}
+
+	history = {
+
+		owner = RKA
+		add_core_of = RCG
+
+		victory_points = {
+			7974 3 #Brazzaville
+		}
+
+		victory_points = {
+			12600 1 #Loango
+		}
+
+		buildings = {
+			infrastructure = 2
+			12600 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces = {
+		2126 3042 5867 7974 12600 
+	}
+
+	local_supplies = 0.0 
+}

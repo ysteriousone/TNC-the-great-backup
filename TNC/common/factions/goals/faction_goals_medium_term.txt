@@ -39,9 +39,9 @@ faction_goal_undo_versailles = {
 				controls_state = 85
 				controls_state = 86
 				controls_state = 188
-				controls_state = 762
-				controls_state = 807
-				controls_state = 912
+				controls_state = 732
+				controls_state = 776
+				controls_state = 881
 			}
 			any_allied_country = {
 				original_tag = GER
@@ -52,14 +52,14 @@ faction_goal_undo_versailles = {
 				controls_state = 85
 				controls_state = 86
 				controls_state = 188
-				controls_state = 762
-				controls_state = 807
-				controls_state = 912
+				controls_state = 732
+				controls_state = 776
+				controls_state = 881
 			}
 		}
 		42 = { is_demilitarized_zone = no }
 		51 = { is_demilitarized_zone = no }
-		978 = { is_demilitarized_zone = no }
+		947 = { is_demilitarized_zone = no }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -165,8 +165,8 @@ faction_goal_secure_north_africa = {
 	}
 	completed = {
 		AND = {
-			446 = {  is_controlled_by_ROOT_or_ally = yes } # Suez
-			448 = {  is_controlled_by_ROOT_or_ally = yes } # Tripoli
+			417 = {  is_controlled_by_ROOT_or_ally = yes } # Suez
+			419 = {  is_controlled_by_ROOT_or_ally = yes } # Tripoli
 			116 = {  is_controlled_by_ROOT_or_ally = yes } # Malta
 		}
 		OR = {
@@ -370,16 +370,16 @@ faction_goal_imperial_glory = {
 		count_triggers = {
 			amount = 3 # Add triggers to count below
 			
-			1021 = { is_controlled_by_ROOT_or_ally = yes } # Singapore
+			977 = { is_controlled_by_ROOT_or_ally = yes } # Singapore
 			118 = { is_controlled_by_ROOT_or_ally = yes } # Gibraltar
 			116 = { is_controlled_by_ROOT_or_ally = yes } # Malta
 			IF = {
-				limit = { 286 = { OWNER = { is_in_faction_with = ROOT } } }
-				286 = { is_controlled_by_ROOT_or_ally = yes } # Saigon if France joins
+				limit = { 285 = { OWNER = { is_in_faction_with = ROOT } } }
+				285 = { is_controlled_by_ROOT_or_ally = yes } # Saigon if France joins
 			}
 			IF = {
-				limit = { 335 = { OWNER = { is_in_faction_with = ROOT } } }
-				335 = { is_controlled_by_ROOT_or_ally = yes } # East Indies
+				limit = { 330 = { OWNER = { is_in_faction_with = ROOT } } }
+				330 = { is_controlled_by_ROOT_or_ally = yes } # East Indies
 			}
 		}
 	}
@@ -541,15 +541,15 @@ faction_goal_control_the_chinese_coast = {
 		}
 		count_triggers = {
 			amount = 5
-			1033 = { is_controlled_by_ROOT_or_ally = yes }
-			592 = {	is_controlled_by_ROOT_or_ally = yes }
-			593 = {	is_controlled_by_ROOT_or_ally = yes }
-			595 = {	is_controlled_by_ROOT_or_ally = yes }
-			596 = {	is_controlled_by_ROOT_or_ally = yes }
-			613 = {	is_controlled_by_ROOT_or_ally = yes }
-			1034 = { is_controlled_by_ROOT_or_ally = yes }
-			598 = {	is_controlled_by_ROOT_or_ally = yes }
-			597 = {	is_controlled_by_ROOT_or_ally = yes }
+			989 = { is_controlled_by_ROOT_or_ally = yes }
+			563 = {	is_controlled_by_ROOT_or_ally = yes }
+			564 = {	is_controlled_by_ROOT_or_ally = yes }
+			566 = {	is_controlled_by_ROOT_or_ally = yes }
+			567 = {	is_controlled_by_ROOT_or_ally = yes }
+			584 = {	is_controlled_by_ROOT_or_ally = yes }
+			990 = { is_controlled_by_ROOT_or_ally = yes }
+			569 = {	is_controlled_by_ROOT_or_ally = yes }
+			568 = {	is_controlled_by_ROOT_or_ally = yes }
 		}
 		
 	}
@@ -557,15 +557,15 @@ faction_goal_control_the_chinese_coast = {
 		NOT = {
 			count_triggers = {
 				amount = 5
-				1033 = { is_controlled_by_ROOT_or_ally = yes }
-				592 = {	is_controlled_by_ROOT_or_ally = yes }
-				593 = {	is_controlled_by_ROOT_or_ally = yes }
-				595 = {	is_controlled_by_ROOT_or_ally = yes }
-				596 = {	is_controlled_by_ROOT_or_ally = yes }
-				613 = {	is_controlled_by_ROOT_or_ally = yes }
-				1034 = { is_controlled_by_ROOT_or_ally = yes }
-				598 = {	is_controlled_by_ROOT_or_ally = yes }
-				597 = {	is_controlled_by_ROOT_or_ally = yes }
+				989 = { is_controlled_by_ROOT_or_ally = yes }
+				563 = {	is_controlled_by_ROOT_or_ally = yes }
+				564 = {	is_controlled_by_ROOT_or_ally = yes }
+				566 = {	is_controlled_by_ROOT_or_ally = yes }
+				567 = {	is_controlled_by_ROOT_or_ally = yes }
+				584 = {	is_controlled_by_ROOT_or_ally = yes }
+				990 = { is_controlled_by_ROOT_or_ally = yes }
+				569 = {	is_controlled_by_ROOT_or_ally = yes }
+				568 = {	is_controlled_by_ROOT_or_ally = yes }
 			}
 		}
 	}
@@ -612,15 +612,15 @@ faction_goal_control_the_chinese_coast = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 1033
-					state = 592
-					state = 593
-					state = 595
-					state = 596
-					state = 613
-					state = 1034
-					state = 598
-					state = 597
+					state = 989
+					state = 563
+					state = 564
+					state = 566
+					state = 567
+					state = 584
+					state = 990
+					state = 569
+					state = 568
 				}
 			}
 			add_building_construction = {
@@ -861,9 +861,9 @@ faction_goal_control_the_chinese_capitals = {
 		}
 	}
 	completed = {
-		608 = { is_controlled_by_ROOT_or_ally = yes }
-		1035 = { is_controlled_by_ROOT_or_ally = yes }
-		592 = { is_controlled_by_ROOT_or_ally = yes }
+		579 = { is_controlled_by_ROOT_or_ally = yes }
+		991 = { is_controlled_by_ROOT_or_ally = yes }
+		563 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -1098,7 +1098,7 @@ faction_goal_the_two_seas = {
 		has_naval_control = 9
 		has_naval_control = 30
 		OR = {
-			807 = { 
+			776 = { 
 				naval_base > 7 
 				is_controlled_by_ROOT_or_ally = yes 
 			}
@@ -2025,10 +2025,10 @@ faction_goal_control_mexican_oil = {
 
 	}
 	completed = {
-		480 = { is_controlled_by_ROOT_or_ally = yes }
-		479 = {	is_controlled_by_ROOT_or_ally = yes }
-		477 = {	is_controlled_by_ROOT_or_ally = yes }
-		476 = {	is_controlled_by_ROOT_or_ally = yes }		
+		451 = { is_controlled_by_ROOT_or_ally = yes }
+		450 = {	is_controlled_by_ROOT_or_ally = yes }
+		448 = {	is_controlled_by_ROOT_or_ally = yes }
+		447 = {	is_controlled_by_ROOT_or_ally = yes }		
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2038,10 +2038,10 @@ faction_goal_control_mexican_oil = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 480
-					controls_state = 479
-					controls_state = 477
-					controls_state = 476
+					controls_state = 451
+					controls_state = 450
+					controls_state = 448
+					controls_state = 447
 				}
 			}
 			add_faction_initiative = 1
@@ -2049,10 +2049,10 @@ faction_goal_control_mexican_oil = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 480
-					state = 479
-					state = 477
-					state = 476
+					state = 451
+					state = 450
+					state = 448
+					state = 447
 				}
 			}
 			if = {
@@ -2071,7 +2071,7 @@ faction_goal_control_mexican_oil = {
 		base = 1 # Everyone should always kiiiinda care about oil
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			479 = {
+			450 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2108,7 +2108,7 @@ faction_goal_control_mexican_oil = {
 		modifier = {
 			add = 5 # Massive boost in case low fuel and already at war anyway
 			fuel_ratio < 0.1
-			479 = {
+			450 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2149,7 +2149,7 @@ faction_goal_control_curacao_oil = {
 
 	}
 	completed = {
-		695 = { is_controlled_by_ROOT_or_ally = yes }	
+		666 = { is_controlled_by_ROOT_or_ally = yes }	
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2158,11 +2158,11 @@ faction_goal_control_curacao_oil = {
 		every_allied_country = {
 			visible_when_empty = yes
 			limit = {
-				controls_state = 695
+				controls_state = 666
 			}
 			add_faction_initiative = 1
 		}
-		695 = {
+		666 = {
 			if = {
 				limit = {
 					infrastructure < 5
@@ -2179,7 +2179,7 @@ faction_goal_control_curacao_oil = {
 		base = 1 # Everyone should always kiiiinda care about oil
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			695 = {
+			666 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2216,7 +2216,7 @@ faction_goal_control_curacao_oil = {
 		modifier = {
 			add = 5 # Massive boost in case low fuel and already at war anyway
 			fuel_ratio < 0.1
-			695 = {
+			666 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2257,8 +2257,8 @@ faction_goal_control_venezuelan_oil = {
 
 	}
 	completed = {
-		489 = { is_controlled_by_ROOT_or_ally = yes }
-		307 = {	is_controlled_by_ROOT_or_ally = yes }	
+		460 = { is_controlled_by_ROOT_or_ally = yes }
+		306 = {	is_controlled_by_ROOT_or_ally = yes }	
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2268,8 +2268,8 @@ faction_goal_control_venezuelan_oil = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 489
-					controls_state = 307
+					controls_state = 460
+					controls_state = 306
 				}
 			}
 			add_faction_initiative = 1
@@ -2277,8 +2277,8 @@ faction_goal_control_venezuelan_oil = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 489
-					state = 307
+					state = 460
+					state = 306
 				}
 			}
 			if = {
@@ -2297,7 +2297,7 @@ faction_goal_control_venezuelan_oil = {
 		base = 1 # Everyone should always kiiiinda care about oil
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			307 = {
+			306 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2334,7 +2334,7 @@ faction_goal_control_venezuelan_oil = {
 		modifier = {
 			add = 5 # Massive boost in case low fuel and already at war anyway
 			fuel_ratio < 0.1
-			307 = {
+			306 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2375,7 +2375,7 @@ faction_goal_control_guyanan_bauxite = {
 
 	}
 	completed = {
-		687 = { is_controlled_by_ROOT_or_ally = yes }
+		658 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2384,11 +2384,11 @@ faction_goal_control_guyanan_bauxite = {
 		every_allied_country = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 687
+				controls_state = 658
 			}
 			add_faction_initiative = 1
 		}
-		687 = {
+		658 = {
 			if = {
 				limit = {
 					infrastructure < 5
@@ -2405,7 +2405,7 @@ faction_goal_control_guyanan_bauxite = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			687 = {
+			658 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2467,7 +2467,7 @@ faction_goal_control_suriname_bauxite = {
 
 	}
 	completed = {
-		309 = { is_controlled_by_ROOT_or_ally = yes }
+		308 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2476,11 +2476,11 @@ faction_goal_control_suriname_bauxite = {
 		every_allied_country = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 309
+				controls_state = 308
 			}
 			add_faction_initiative = 1
 		}
-		309 = {
+		308 = {
 			if = {
 				limit = {
 					infrastructure < 5
@@ -2497,7 +2497,7 @@ faction_goal_control_suriname_bauxite = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			309 = {
+			308 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2559,8 +2559,8 @@ faction_goal_control_lappland_metals = {
 		
 	}
 	completed = {
-		666 = { is_controlled_by_ROOT_or_ally = yes }
-		918 = {	is_controlled_by_ROOT_or_ally = yes }	
+		637 = { is_controlled_by_ROOT_or_ally = yes }
+		887 = {	is_controlled_by_ROOT_or_ally = yes }	
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2570,8 +2570,8 @@ faction_goal_control_lappland_metals = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 666
-					controls_state = 918
+					controls_state = 637
+					controls_state = 887
 				}
 			}
 			add_faction_initiative = 1
@@ -2579,8 +2579,8 @@ faction_goal_control_lappland_metals = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 666
-					state = 918
+					state = 637
+					state = 887
 				}
 			}
 			if = {
@@ -2599,7 +2599,7 @@ faction_goal_control_lappland_metals = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			918 = {
+			887 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2801,7 +2801,7 @@ faction_goal_control_baku_oil_fields = {
 	completed = {
 		229 = { is_controlled_by_ROOT_or_ally = yes }
 		232 = {	is_controlled_by_ROOT_or_ally = yes }
-		821 = { is_controlled_by_ROOT_or_ally = yes }
+		790 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2813,7 +2813,7 @@ faction_goal_control_baku_oil_fields = {
 				OR = {
 					controls_state = 229
 					controls_state = 232
-					controls_state = 821
+					controls_state = 790
 				}
 			}
 			add_faction_initiative = 1
@@ -2823,7 +2823,7 @@ faction_goal_control_baku_oil_fields = {
 				OR = {
 					state = 229
 					state = 232
-					state = 821
+					state = 790
 				}
 			}
 			if = {
@@ -2842,7 +2842,7 @@ faction_goal_control_baku_oil_fields = {
 		base = 1 # Everyone should always kiiiinda care about oil
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			479 = {
+			450 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2879,7 +2879,7 @@ faction_goal_control_baku_oil_fields = {
 		modifier = {
 			add = 5 # Massive boost in case low fuel and already at war anyway
 			fuel_ratio < 0.1
-			479 = {
+			450 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -2920,9 +2920,9 @@ faction_goal_control_iraqi_oil = {
 
 	}
 	completed = {
-		291 = { is_controlled_by_ROOT_or_ally = yes }
-		676 = {	is_controlled_by_ROOT_or_ally = yes }
-		1010 = { is_controlled_by_ROOT_or_ally = yes }	
+		290 = { is_controlled_by_ROOT_or_ally = yes }
+		647 = {	is_controlled_by_ROOT_or_ally = yes }
+		967 = { is_controlled_by_ROOT_or_ally = yes }	
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2932,9 +2932,9 @@ faction_goal_control_iraqi_oil = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 291
-					controls_state = 676
-					controls_state = 1010
+					controls_state = 290
+					controls_state = 647
+					controls_state = 967
 				}
 			}
 			add_faction_initiative = 1
@@ -2942,9 +2942,9 @@ faction_goal_control_iraqi_oil = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 291
-					state = 676
-					state = 1010
+					state = 290
+					state = 647
+					state = 967
 				}
 			}
 			if = {
@@ -2963,7 +2963,7 @@ faction_goal_control_iraqi_oil = {
 		base = 1 # Everyone should always kiiiinda care about oil
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			479 = {
+			450 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3000,7 +3000,7 @@ faction_goal_control_iraqi_oil = {
 		modifier = {
 			add = 5 # Massive boost in case low fuel and already at war anyway
 			fuel_ratio < 0.1
-			479 = {
+			450 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3041,9 +3041,9 @@ faction_goal_control_persian_oil = {
 
 	}
 	completed = {
-		411 = { is_controlled_by_ROOT_or_ally = yes }
-		412 = {	is_controlled_by_ROOT_or_ally = yes }
-		413 = { is_controlled_by_ROOT_or_ally = yes }	
+		406 = { is_controlled_by_ROOT_or_ally = yes }
+		407 = {	is_controlled_by_ROOT_or_ally = yes }
+		408 = { is_controlled_by_ROOT_or_ally = yes }	
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -3053,9 +3053,9 @@ faction_goal_control_persian_oil = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 411
-					controls_state = 412
-					controls_state = 413
+					controls_state = 406
+					controls_state = 407
+					controls_state = 408
 				}
 			}
 			add_faction_initiative = 1
@@ -3063,9 +3063,9 @@ faction_goal_control_persian_oil = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 411
-					state = 412
-					state = 413
+					state = 406
+					state = 407
+					state = 408
 				}
 			}
 			if = {
@@ -3084,7 +3084,7 @@ faction_goal_control_persian_oil = {
 		base = 1 # Everyone should always kiiiinda care about oil
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			479 = {
+			450 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3121,7 +3121,7 @@ faction_goal_control_persian_oil = {
 		modifier = {
 			add = 5 # Massive boost in case low fuel and already at war anyway
 			fuel_ratio < 0.1
-			479 = {
+			450 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3161,10 +3161,10 @@ faction_goal_control_chinese_metals = {
 		
 	}
 	completed = {
-		592 = { is_controlled_by_ROOT_or_ally = yes }
-		593 = {	is_controlled_by_ROOT_or_ally = yes }
-		594 = { is_controlled_by_ROOT_or_ally = yes }
-		599 = { is_controlled_by_ROOT_or_ally = yes }		
+		563 = { is_controlled_by_ROOT_or_ally = yes }
+		564 = {	is_controlled_by_ROOT_or_ally = yes }
+		565 = { is_controlled_by_ROOT_or_ally = yes }
+		570 = { is_controlled_by_ROOT_or_ally = yes }		
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -3174,10 +3174,10 @@ faction_goal_control_chinese_metals = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 592
-					controls_state = 593
-					controls_state = 594
-					controls_state = 599
+					controls_state = 563
+					controls_state = 564
+					controls_state = 565
+					controls_state = 570
 				}
 			}
 			add_faction_initiative = 1
@@ -3185,10 +3185,10 @@ faction_goal_control_chinese_metals = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 592
-					state = 593
-					state = 594
-					state = 599
+					state = 563
+					state = 564
+					state = 565
+					state = 570
 				}
 			}
 			if = {
@@ -3207,7 +3207,7 @@ faction_goal_control_chinese_metals = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			599 = {
+			570 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3299,16 +3299,16 @@ faction_goal_control_malayan_riches = {
 		
 	}
 	completed = {
-		333 = { is_controlled_by_ROOT_or_ally = yes }
-		336 = {	is_controlled_by_ROOT_or_ally = yes }
-		1021 = { is_controlled_by_ROOT_or_ally = yes }
-		1024 = { is_controlled_by_ROOT_or_ally = yes }
-		1059 = { is_controlled_by_ROOT_or_ally = yes }
-		1060 = { is_controlled_by_ROOT_or_ally = yes }
-		1063 = { is_controlled_by_ROOT_or_ally = yes }
-		1064 = { is_controlled_by_ROOT_or_ally = yes }
-		1062 = { is_controlled_by_ROOT_or_ally = yes }
-		1061 = { is_controlled_by_ROOT_or_ally = yes }
+		328 = { is_controlled_by_ROOT_or_ally = yes }
+		331 = {	is_controlled_by_ROOT_or_ally = yes }
+		977 = { is_controlled_by_ROOT_or_ally = yes }
+		980 = { is_controlled_by_ROOT_or_ally = yes }
+		1015 = { is_controlled_by_ROOT_or_ally = yes }
+		1016 = { is_controlled_by_ROOT_or_ally = yes }
+		1019 = { is_controlled_by_ROOT_or_ally = yes }
+		1020 = { is_controlled_by_ROOT_or_ally = yes }
+		1018 = { is_controlled_by_ROOT_or_ally = yes }
+		1017 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -3318,16 +3318,16 @@ faction_goal_control_malayan_riches = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 333
-					controls_state = 336
-					controls_state = 1021
-					controls_state = 1024
-					controls_state = 1059
-					controls_state = 1060
-					controls_state = 1063
-					controls_state = 1064
-					controls_state = 1062
-					controls_state = 1061
+					controls_state = 328
+					controls_state = 331
+					controls_state = 977
+					controls_state = 980
+					controls_state = 1015
+					controls_state = 1016
+					controls_state = 1019
+					controls_state = 1020
+					controls_state = 1018
+					controls_state = 1017
 				}
 			}
 			add_faction_initiative = 1
@@ -3335,16 +3335,16 @@ faction_goal_control_malayan_riches = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 333
-					state = 336
-					state = 1021
-					state = 1024
-					state = 1059
-					state = 1060
-					state = 1063
-					state = 1064
-					state = 1062
-					state = 1061
+					state = 328
+					state = 331
+					state = 977
+					state = 980
+					state = 1015
+					state = 1016
+					state = 1019
+					state = 1020
+					state = 1018
+					state = 1017
 				}
 			}
 			if = {
@@ -3363,7 +3363,7 @@ faction_goal_control_malayan_riches = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			366 = {
+			361 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3479,11 +3479,11 @@ faction_goal_control_indonesian_riches = {
 		
 	}
 	completed = {
-		334 = { is_controlled_by_ROOT_or_ally = yes }
-		335 = {	is_controlled_by_ROOT_or_ally = yes }
-		667 = {	is_controlled_by_ROOT_or_ally = yes }
-		672 = { is_controlled_by_ROOT_or_ally = yes }
-		673 = { is_controlled_by_ROOT_or_ally = yes }		
+		329 = { is_controlled_by_ROOT_or_ally = yes }
+		330 = {	is_controlled_by_ROOT_or_ally = yes }
+		638 = {	is_controlled_by_ROOT_or_ally = yes }
+		643 = { is_controlled_by_ROOT_or_ally = yes }
+		644 = { is_controlled_by_ROOT_or_ally = yes }		
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -3493,11 +3493,11 @@ faction_goal_control_indonesian_riches = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 334
-					controls_state = 335
-					controls_state = 667
-					controls_state = 672
-					controls_state = 673
+					controls_state = 329
+					controls_state = 330
+					controls_state = 638
+					controls_state = 643
+					controls_state = 644
 				}
 			}
 			add_faction_initiative = 1
@@ -3505,11 +3505,11 @@ faction_goal_control_indonesian_riches = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 334
-					state = 335
-					state = 667
-					state = 672
-					state = 673
+					state = 329
+					state = 330
+					state = 638
+					state = 643
+					state = 644
 				}
 			}
 			if = {
@@ -3528,7 +3528,7 @@ faction_goal_control_indonesian_riches = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			672 = {
+			643 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3642,7 +3642,7 @@ faction_goal_control_newfoundland_bases = {
 
 	}
 	completed = {
-		331 = { is_controlled_by_ROOT_or_ally = yes }
+		326 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -3651,11 +3651,11 @@ faction_goal_control_newfoundland_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 331
+				controls_state = 326
 			}
 			add_faction_initiative = 1
 		}
-		331 = {
+		326 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -3681,7 +3681,7 @@ faction_goal_control_newfoundland_bases = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			331 = {
+			326 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3772,7 +3772,7 @@ faction_goal_control_bermuda = {
 
 	}
 	completed = {
-		696 = { is_controlled_by_ROOT_or_ally = yes }
+		667 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -3781,11 +3781,11 @@ faction_goal_control_bermuda = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 696
+				controls_state = 667
 			}
 			add_faction_initiative = 1
 		}
-		696 = {
+		667 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -3811,7 +3811,7 @@ faction_goal_control_bermuda = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			331 = {
+			326 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -3902,8 +3902,8 @@ faction_goal_control_bahamas_bases = {
 
 	}
 	completed = {
-		690 = { is_controlled_by_ROOT_or_ally = yes }
-		693 = { is_controlled_by_ROOT_or_ally = yes }
+		661 = { is_controlled_by_ROOT_or_ally = yes }
+		664 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -3913,13 +3913,13 @@ faction_goal_control_bahamas_bases = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 690
-					controls_state = 693
+					controls_state = 661
+					controls_state = 664
 				}
 			}
 			add_faction_initiative = 1
 		}
-		690 = {
+		661 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -3934,10 +3934,10 @@ faction_goal_control_bahamas_bases = {
 				type = naval_base
 				level = 1
 				instant_build = yes
-				province = 10254
+				province = 10002
 			}
 		}
-		693 = {
+		664 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -3954,7 +3954,7 @@ faction_goal_control_bahamas_bases = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			331 = {
+			326 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -4043,7 +4043,7 @@ faction_goal_control_panama_canal = {
 				}
 			}
 			AND = {
-				685 = { is_controlled_by = USA }
+				656 = { is_controlled_by = USA }
 				has_war_with = USA
 				any_collection_element = {
 					collection = {
@@ -4063,7 +4063,7 @@ faction_goal_control_panama_canal = {
 
 	}
 	completed = {
-		685 = { is_controlled_by_ROOT_or_ally = yes }
+		656 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -4072,11 +4072,11 @@ faction_goal_control_panama_canal = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 685
+				controls_state = 656
 			}
 			add_faction_initiative = 1
 		}
-		685 = {
+		656 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4099,13 +4099,13 @@ faction_goal_control_panama_canal = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 7617
+				province = 7425
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 7617
+				province = 7425
 				instant_build = yes
 			}
 		}
@@ -4114,7 +4114,7 @@ faction_goal_control_panama_canal = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			685 = {
+			656 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -4186,7 +4186,7 @@ faction_goal_control_trinidad = {
 
 	}
 	completed = {
-		691 = { is_controlled_by_ROOT_or_ally = yes }
+		662 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -4195,11 +4195,11 @@ faction_goal_control_trinidad = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 691
+				controls_state = 662
 			}
 			add_faction_initiative = 1
 		}
-		691 = {
+		662 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4225,7 +4225,7 @@ faction_goal_control_trinidad = {
 		base = 1
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			691 = {
+			662 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -4322,7 +4322,7 @@ faction_goal_control_azores = {
 
 	}
 	completed = {
-		698 = { is_controlled_by_ROOT_or_ally = yes }
+		669 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -4331,11 +4331,11 @@ faction_goal_control_azores = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 698
+				controls_state = 669
 			}
 			add_faction_initiative = 1
 		}
-		698 = {
+		669 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4361,7 +4361,7 @@ faction_goal_control_azores = {
 		base = 1
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			698 = {
+			669 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -4596,7 +4596,7 @@ faction_goal_control_faroe_islands = {
 
 	}
 	completed = {
-		337 = { is_controlled_by_ROOT_or_ally = yes }
+		332 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -4605,11 +4605,11 @@ faction_goal_control_faroe_islands = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 337
+				controls_state = 332
 			}
 			add_faction_initiative = 1
 		}
-		337 = {
+		332 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -4635,7 +4635,7 @@ faction_goal_control_faroe_islands = {
 		base = 1
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			337 = {
+			332 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -4832,7 +4832,7 @@ faction_goal_control_danish_belts = {
 	}
 	completed = {
 		37 = { is_controlled_by_ROOT_or_ally = yes }
-		911 = { is_controlled_by_ROOT_or_ally = yes }
+		880 = { is_controlled_by_ROOT_or_ally = yes }
 		99 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
@@ -4844,7 +4844,7 @@ faction_goal_control_danish_belts = {
 			limit = {
 				OR = {
 					controls_state = 37
-					controls_state = 911
+					controls_state = 880
 					controls_state = 99
 				}
 			}
@@ -4859,21 +4859,21 @@ faction_goal_control_danish_belts = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 2
-				province = 6287
+				province = 6146
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 2
-				province = 3260
+				province = 3193
 				instant_build = yes
 			}
 		}
-		911 = {
+		880 = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 2
-				province = 3325
+				province = 3258
 				instant_build = yes
 			}
 		}
@@ -4898,7 +4898,7 @@ faction_goal_control_danish_belts = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 2
-				province = 3277
+				province = 3210
 				instant_build = yes
 			}
 		}
@@ -5100,13 +5100,13 @@ faction_goal_control_gibraltar = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 4135
+				province = 4056
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 4135
+				province = 4056
 				instant_build = yes
 			}
 		}
@@ -5559,7 +5559,7 @@ faction_goal_control_bosporus = {
 
 	}
 	completed = {
-		797 = { is_controlled_by_ROOT_or_ally = yes }
+		766 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -5568,11 +5568,11 @@ faction_goal_control_bosporus = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 797
+				controls_state = 766
 			}
 			add_faction_initiative = 1
 		}
-		797 = {
+		766 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5581,43 +5581,43 @@ faction_goal_control_bosporus = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 9833
+				province = 9613
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 9833
+				province = 9613
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 11829
+				province = 11529
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 11829
+				province = 11529
 				instant_build = yes
 			}
 		}
 		IF = {
 			limit = {
-				347 = { is_controlled_by_ROOT_or_ally = yes }
+				342 = { is_controlled_by_ROOT_or_ally = yes }
 			}
-			347 = {
+			342 = {
 				add_building_construction = {
 					type = coastal_bunker
 					level = 1
-					province = 11811
+					province = 11511
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
 					level = 1
-					province = 11811
+					province = 11511
 					instant_build = yes
 				}
 			}
@@ -5627,7 +5627,7 @@ faction_goal_control_bosporus = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			797 = {
+			766 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -5685,8 +5685,8 @@ faction_goal_control_dardanelles = {
 
 	}
 	completed = {
-		340 = { is_controlled_by_ROOT_or_ally = yes }
-		341 = { is_controlled_by_ROOT_or_ally = yes }
+		335 = { is_controlled_by_ROOT_or_ally = yes }
+		336 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -5696,13 +5696,13 @@ faction_goal_control_dardanelles = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 340
-					controls_state = 341
+					controls_state = 335
+					controls_state = 336
 				}
 			}
 			add_faction_initiative = 1
 		}
-		340 = {
+		335 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5711,17 +5711,17 @@ faction_goal_control_dardanelles = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 6864
+				province = 6723
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 6864
+				province = 6723
 				instant_build = yes
 			}
 		}
-		341 = {
+		336 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5751,7 +5751,7 @@ faction_goal_control_dardanelles = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			340 = {
+			335 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -5811,7 +5811,7 @@ faction_goal_control_suez_canal = {
 
 	}
 	completed = {
-		446 = { is_controlled_by_ROOT_or_ally = yes }
+		417 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -5820,11 +5820,11 @@ faction_goal_control_suez_canal = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 446
+				controls_state = 417
 			}
 			add_faction_initiative = 1
 		}
-		446 = {
+		417 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5834,36 +5834,36 @@ faction_goal_control_suez_canal = {
 				type = naval_base
 				level = 1
 				instant_build = yes
-				province = 12049
+				province = 11734
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 12049
+				province = 11734
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 12049
+				province = 11734
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = naval_base
 				level = 1
 				instant_build = yes
-				province = 4073
+				province = 3999
 			}
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 4073
+				province = 3999
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 4073
+				province = 3999
 				instant_build = yes
 			}
 		}
@@ -5872,7 +5872,7 @@ faction_goal_control_suez_canal = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			446 = {
+			417 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -5931,7 +5931,7 @@ faction_goal_control_gulf_of_aden_bases = {
 
 	}
 	completed = {
-		992 = { is_controlled_by_ROOT_or_ally = yes }
+		950 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -5940,11 +5940,11 @@ faction_goal_control_gulf_of_aden_bases = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 992
+				controls_state = 950
 			}
 			add_faction_initiative = 1
 		}
-		992 = {
+		950 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -5970,7 +5970,7 @@ faction_goal_control_gulf_of_aden_bases = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			992 = {
+			950 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -6049,8 +6049,8 @@ faction_goal_control_strait_of_hormuz = {
 
 	}
 	completed = {
-		412 = { is_controlled_by_ROOT_or_ally = yes }
-		1013 = { is_controlled_by_ROOT_or_ally = yes }
+		407 = { is_controlled_by_ROOT_or_ally = yes }
+		969 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6060,13 +6060,13 @@ faction_goal_control_strait_of_hormuz = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 412
-					controls_state = 1013
+					controls_state = 407
+					controls_state = 969
 				}
 			}
 			add_faction_initiative = 1
 		}
-		412 = {
+		407 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -6089,17 +6089,17 @@ faction_goal_control_strait_of_hormuz = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 7982
+				province = 7781
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 7982
+				province = 7781
 				instant_build = yes
 			}
 		}
-		1013 = {
+		969 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -6122,13 +6122,13 @@ faction_goal_control_strait_of_hormuz = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 13369
+				province = 12993
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
 				level = 1
-				province = 13369
+				province = 12993
 				instant_build = yes
 			}
 		}
@@ -6137,7 +6137,7 @@ faction_goal_control_strait_of_hormuz = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			1013 = {
+			969 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -6225,7 +6225,7 @@ faction_goal_control_ceylon = {
 
 	}
 	completed = {
-		422 = { is_controlled_by_ROOT_or_ally = yes }
+		
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6234,41 +6234,17 @@ faction_goal_control_ceylon = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 422
+
 			}
 			add_faction_initiative = 1
 		}
-		422 = {
-			add_building_construction = {
-				type = anti_air_building
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = air_base
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = naval_base
-				level = 1
-				instant_build = yes
-				province = {
-					all_provinces = yes
-					limit_to_naval_base = yes
-				}
-			}
-		}
+		
 	}
 	ai_will_do = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			422 = {
-				owner = {
-					has_war_with = ROOT
-				}
-			}
+			
 		}
 		modifier = {
 			add = 2 # If convoys being threatened try to secure the supply lines better
@@ -6349,7 +6325,7 @@ faction_goal_control_singapore = {
 
 	}
 	completed = {
-		1021 = { is_controlled_by_ROOT_or_ally = yes }
+		977 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6358,11 +6334,11 @@ faction_goal_control_singapore = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 1021
+				controls_state = 977
 			}
 			add_faction_initiative = 1
 		}
-		1021 = {
+		977 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -6388,7 +6364,7 @@ faction_goal_control_singapore = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			1021 = {
+			977 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -6473,7 +6449,7 @@ faction_goal_control_manila = {
 
 	}
 	completed = {
-		327 = { is_controlled_by_ROOT_or_ally = yes }
+		322 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6482,11 +6458,11 @@ faction_goal_control_manila = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 327
+				controls_state = 322
 			}
 			add_faction_initiative = 1
 		}
-		327 = {
+		322 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -6509,7 +6485,7 @@ faction_goal_control_manila = {
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
-				province = 10265
+				province = 10011
 				instant_build = yes
 			}
 		}
@@ -6518,7 +6494,7 @@ faction_goal_control_manila = {
 		base = 1
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			327 = {
+			322 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -6573,7 +6549,7 @@ faction_goal_control_okinawa = {
 
 	}
 	completed = {
-		526 = { is_controlled_by_ROOT_or_ally = yes }
+		497 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6582,11 +6558,11 @@ faction_goal_control_okinawa = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 526
+				controls_state = 497
 			}
 			add_faction_initiative = 1
 		}
-		526 = {
+		497 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -6612,7 +6588,7 @@ faction_goal_control_okinawa = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			526 = {
+			497 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -6666,7 +6642,7 @@ faction_goal_control_iwo_jima = {
 
 	}
 	completed = {
-		645 = { is_controlled_by_ROOT_or_ally = yes }
+		616 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6675,11 +6651,11 @@ faction_goal_control_iwo_jima = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 645
+				controls_state = 616
 			}
 			add_faction_initiative = 1
 		}
-		645 = {
+		616 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -6705,7 +6681,7 @@ faction_goal_control_iwo_jima = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			645 = {
+			616 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -6761,7 +6737,7 @@ faction_goal_control_caroline_islands = {
 
 	}
 	completed = {
-		684 = { is_controlled_by_ROOT_or_ally = yes }
+		655 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6770,11 +6746,11 @@ faction_goal_control_caroline_islands = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 684
+				controls_state = 655
 			}
 			add_faction_initiative = 1
 		}
-		684 = {
+		655 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -6789,7 +6765,7 @@ faction_goal_control_caroline_islands = {
 				type = naval_base
 				level = 1
 				instant_build = yes
-				province = 2489
+				province = 2423
 			}
 		}
 	}
@@ -6797,7 +6773,7 @@ faction_goal_control_caroline_islands = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			684 = {
+			655 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -6896,7 +6872,7 @@ faction_goal_control_guadalcanal = {
 
 	}
 	completed = {
-		634 = { is_controlled_by_ROOT_or_ally = yes }
+		605 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6905,11 +6881,11 @@ faction_goal_control_guadalcanal = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 634
+				controls_state = 605
 			}
 			add_faction_initiative = 1
 		}
-		634 = {
+		605 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -6924,7 +6900,7 @@ faction_goal_control_guadalcanal = {
 				type = naval_base
 				level = 1
 				instant_build = yes
-				province = 1269
+				province = 1250
 			}
 		}
 	}
@@ -6932,7 +6908,7 @@ faction_goal_control_guadalcanal = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			634 = {
+			605 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -7026,7 +7002,7 @@ faction_goal_control_wake_island = {
 
 	}
 	completed = {
-		632 = { is_controlled_by_ROOT_or_ally = yes }
+		603 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -7035,11 +7011,11 @@ faction_goal_control_wake_island = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 632
+				controls_state = 603
 			}
 			add_faction_initiative = 1
 		}
-		632 = {
+		603 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -7065,7 +7041,7 @@ faction_goal_control_wake_island = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			632 = {
+			603 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -7162,7 +7138,7 @@ faction_goal_control_midway_island = {
 
 	}
 	completed = {
-		631 = { is_controlled_by_ROOT_or_ally = yes }
+		602 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -7171,11 +7147,11 @@ faction_goal_control_midway_island = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 631
+				controls_state = 602
 			}
 			add_faction_initiative = 1
 		}
-		631 = {
+		602 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -7201,7 +7177,7 @@ faction_goal_control_midway_island = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			631 = {
+			602 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -7298,7 +7274,7 @@ faction_goal_control_hawaii = {
 
 	}
 	completed = {
-		629 = { is_controlled_by_ROOT_or_ally = yes }
+		600 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -7307,11 +7283,11 @@ faction_goal_control_hawaii = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 629
+				controls_state = 600
 			}
 			add_faction_initiative = 1
 		}
-		629 = {
+		600 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -7337,7 +7313,7 @@ faction_goal_control_hawaii = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			629 = {
+			600 = {
 				owner = {
 					has_war_with = ROOT
 				}
@@ -7441,7 +7417,7 @@ faction_goal_control_attu_island = {
 
 	}
 	completed = {
-		650 = { is_controlled_by_ROOT_or_ally = yes }
+		621 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -7450,11 +7426,11 @@ faction_goal_control_attu_island = {
 		every_faction_member = { 
 			visible_when_empty = yes
 			limit = {
-				controls_state = 650
+				controls_state = 621
 			}
 			add_faction_initiative = 1
 		}
-		650 = {
+		621 = {
 			add_building_construction = {
 				type = anti_air_building
 				level = 1
@@ -7480,7 +7456,7 @@ faction_goal_control_attu_island = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			650 = {
+			621 = {
 				owner = {
 					has_war_with = ROOT
 				}

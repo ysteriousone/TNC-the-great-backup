@@ -1,0 +1,33 @@
+
+state={
+	id=406
+	name="STATE_406" # Isfahan
+	manpower = 663954
+	resources={
+		oil=12 # was: 14
+		chromium=7
+		steel=2
+	}
+	state_category = town
+	
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1969 1 
+		}
+		victory_points = {
+			4812 1 
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1969 4812 4862 4934 7863 12401 
+	}
+
+	local_supplies=0.0 
+}

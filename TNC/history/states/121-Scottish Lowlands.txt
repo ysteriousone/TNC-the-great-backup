@@ -9,14 +9,14 @@ state={
 	history={
 		add_core_of = SCO
 		owner = ENG
-		victory_points = { 9392 10 }
-		victory_points = { 6300 1 }
+		victory_points = { 9172 10 }
+		victory_points = { 6159 1 }
 		buildings = {
 			infrastructure = 4 #was: 7
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 3
-			6300 = {
+			6159 = {
 				naval_base = 5
 			}
 		}
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		159 6300 9314 9383 9392 11378 
+		159 6159 9094 9163 9172 11078 
 	}
 
 	local_supplies=0.0 

@@ -1,0 +1,33 @@
+state = {
+	id=921
+	name = "STATE_921"
+	manpower = 283605
+	
+	state_category = town
+
+	history = {
+
+		owner = CHL
+		add_core_of = CHL
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			#dockyard = 1
+			5088 = {
+				naval_base = 2
+			}
+		}
+
+		victory_points = {
+			5088 2
+		}
+
+	}
+
+	provinces = {
+		5052 5088 10700 12539
+	}
+
+	local_supplies = 0.0 
+}

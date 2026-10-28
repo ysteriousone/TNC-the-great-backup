@@ -1,0 +1,19 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		1490 2125 7981 10649 10669 10697 10711 12573 12587 12601 12615 
+	}
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		owner = WST
+		add_core_of = WST
+		add_core_of = AST
+	}
+	state_category = pastoral
+	manpower=105000#PreTAOG 50000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

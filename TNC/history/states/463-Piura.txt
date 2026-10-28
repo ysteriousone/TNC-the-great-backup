@@ -1,0 +1,46 @@
+state = {
+	id=463
+	name = "STATE_463"
+	manpower = 1601278
+
+	resources = {
+		tungsten = 6
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = PRU
+		add_core_of = PRU
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			12912 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			2144 5 
+		}
+
+		victory_points = {
+			12912 1
+		}
+
+		victory_points = {
+			12910 1
+		}
+
+	}
+
+	provinces = {
+		2116 2144 2159 5062 12578 12800 12910 12912
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
+}

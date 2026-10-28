@@ -1,0 +1,47 @@
+state = {
+	id=987
+	name = "STATE_987"
+	manpower = 3761368
+	
+	state_category = rural
+
+	resources = {
+	}
+
+	history = {
+
+		owner = KOR
+		add_core_of = KOR
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+			7020 = {
+				naval_base = 3
+			}
+		}
+
+		victory_points = {
+			9877 1 # Seishū
+		}
+
+		victory_points = {
+			11670 1 # Taiden
+		}
+
+		victory_points = {
+			4048 1 # Zenshū
+		}
+
+		victory_points = {
+			9872 1 # Kōshū
+		}
+
+	}
+
+	provinces = {
+		1165 4048 7020 7047 9872 9877 11645 11670 11684 11767  
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,39 @@
+state = {
+	id=713
+	name = "STATE_713"
+	manpower = 385000
+	state_category = large_town
+	
+	
+	history = {
+
+		owner = LON
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			9773 5 # Qingdao
+		}
+
+		buildings = {
+
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 1
+
+			9773 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+			}
+
+		}
+
+	}
+
+	provinces = {
+		9773
+	}
+
+	local_supplies = 0.0 
+}

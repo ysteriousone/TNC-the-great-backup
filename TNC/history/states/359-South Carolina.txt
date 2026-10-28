@@ -1,0 +1,31 @@
+
+state={
+	id=359
+	name="STATE_359"
+	manpower = 1738764
+	
+	state_category = city
+
+	history={
+		owner = SLA
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			7045 = {
+				naval_base = 2
+
+			}
+		}
+		add_core_of = SLA
+		victory_points = {
+			7045 1 
+		}
+
+	}
+
+	provinces={
+		1452 1509 3925 4385 4539 6871 6981 7045 7339 9799 9815 11625 
+	}
+
+	local_supplies=0.0 
+}

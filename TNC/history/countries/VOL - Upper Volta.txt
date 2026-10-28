@@ -1,4 +1,4 @@
-﻿capital = 778
+capital = 748
 country_event = {
 id = ffr.1
 days = 1450

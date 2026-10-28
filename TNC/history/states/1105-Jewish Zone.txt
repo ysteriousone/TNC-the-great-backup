@@ -1,0 +1,28 @@
+state={
+	id=1105
+	name="STATE_1105"
+	provinces={
+		2134 7961 12581 
+	}
+		state_category = rural
+	
+	history={
+		add_core_of = MAD
+		add_core_of = ISR
+		owner = RKA
+		victory_points = {
+			4989 1
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			5082 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	manpower=100000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

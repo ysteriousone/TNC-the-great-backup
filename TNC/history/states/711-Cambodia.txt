@@ -1,0 +1,40 @@
+state = { 
+	id=711
+	name = "STATE_711"
+	manpower = 4245000
+
+	history = {
+
+		owner = NAP
+		add_core_of = CAM
+
+		victory_points = {
+			7200 3 # Phnom Penh  
+		}
+
+		victory_points = {
+			7250 1 # Kompong Saom
+		}
+
+		victory_points = {
+			4212 2 # Siem Reap
+		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1 
+			7250 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1301 1328 1577 4212 4237 4264 4484 4526 5096 7149 7200 7225 7250 7451 9956 10031 10057 11842 11864 11927 11953 12129 13035 
+	}
+
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

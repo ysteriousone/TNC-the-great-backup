@@ -1,4 +1,4 @@
-﻿capital = 608 # Beiping
+capital = 579 # Beiping
 
 oob = "HBC_1936_sea"
 

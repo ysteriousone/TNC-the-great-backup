@@ -1,0 +1,23 @@
+
+state = {
+	id=793
+	name = "STATE_793" # Yamalia
+	manpower = 21974
+	
+	state_category = pastoral
+
+	history = {
+		owner = OTH
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OTH
+		add_core_of = YAM
+	}
+
+	provinces = {
+		96 1683 1711 3348 4647 7614 10261 10289 12169 12197 
+	}
+
+	local_supplies = 0.0 
+}

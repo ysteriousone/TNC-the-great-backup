@@ -1,0 +1,35 @@
+
+state={
+	id=372
+	name="STATE_372"
+	manpower = 435572
+	
+	state_category = rural
+	
+	resources={
+		steel=20 # was: 40
+		oil=5 # was: 10
+		aluminium=8 # was: 16
+	}
+
+	history={
+		owner = CSA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
+		add_core_of = USA
+		victory_points = {
+			853 3 
+		}
+
+	}
+
+	provinces={
+		850 853 1747 3766 4682 6756 7552 7626 7721 7897 10298 10503 11514 12408 
+	}
+
+	local_supplies=8.0 
+}

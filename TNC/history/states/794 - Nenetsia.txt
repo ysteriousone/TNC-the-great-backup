@@ -1,0 +1,33 @@
+
+state = {
+	id=794
+	name = "STATE_794" # Nenets
+	manpower = 21795
+	
+	state_category = rural
+	
+	resources = {
+		oil = 7 # was: 8
+	}
+
+	history = {
+		victory_points = {
+			105 1 
+		}
+		owner = KOM
+		buildings = {
+			infrastructure = 1
+			12182 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = KOM
+	}
+
+	provinces = {
+		105 198 3080 5899 6051 8985 9959 10747 10819 12182
+	}
+
+	local_supplies = 0.0 
+}

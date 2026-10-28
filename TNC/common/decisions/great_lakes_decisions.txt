@@ -10,20 +10,20 @@ USA_reunification_great_lakes_cat = {
 		}
 
 		available = {
-			394 = { is_controlled_by = ROOT }
-			395 = { is_controlled_by = ROOT }
-			396 = { is_controlled_by = ROOT }
+			389 = { is_controlled_by = ROOT }
+			390 = { is_controlled_by = ROOT }
+			391 = { is_controlled_by = ROOT }
 			261 = {is_controlled_by = ROOT }
-			393 = {is_controlled_by = ROOT }
+			388 = {is_controlled_by = ROOT }
 		}
 
 		complete_effect = {
 	    ROOT = {
-		add_state_core = 394
-		add_state_core = 395
-		add_state_core = 396
+		add_state_core = 389
+		add_state_core = 390
+		add_state_core = 391
 		add_state_core = 261
-		add_state_core = 393
+		add_state_core = 388
 			set_cosmetic_tag = Great_Lakes
 		}
 

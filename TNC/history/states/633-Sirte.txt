@@ -1,0 +1,22 @@
+state={
+	id=633
+	name="STATE_633"
+	manpower = 13213
+	
+	state_category = wasteland
+	
+	
+	history={
+		owner = SME
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LBA
+	}
+	
+	provinces={
+		4118 6930 6983 7858 12698 
+	}
+
+	local_supplies=0.0 
+}

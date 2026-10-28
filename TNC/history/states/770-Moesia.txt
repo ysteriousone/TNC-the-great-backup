@@ -1,0 +1,33 @@
+state={
+	id=770
+	name="STATE_770"
+	manpower = 1218780
+
+	state_category=rural
+
+	history={
+		owner = BUL
+		victory_points = { #Ruse
+			9392 3
+		}
+		victory_points = { #Pleven
+			3728 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex =1
+
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		3728 3751 3884 6701 9390 9392 
+	}
+#	resources={
+#		oil=1
+#	}
+
+	local_supplies=0.0 
+}

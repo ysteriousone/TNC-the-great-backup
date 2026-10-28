@@ -1,0 +1,27 @@
+state={
+	id=327
+	name="STATE_327"
+	
+	state_category = wasteland
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+
+			12155 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		1395 1739 4606 4673 12155 12790 12805 
+	}
+	manpower=22179
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

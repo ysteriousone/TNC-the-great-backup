@@ -1,0 +1,33 @@
+
+state={
+	id=408
+	name="STATE_408"
+	manpower = 797356
+	resources={
+		oil=28 # was: 42
+	}
+	
+	state_category = rural
+	
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3 #was: 5
+			4879 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7753 1 
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1873 4879 4953 7753 
+	}
+
+	local_supplies=0.0 
+}

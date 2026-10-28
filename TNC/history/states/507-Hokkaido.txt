@@ -1,0 +1,43 @@
+
+state = {
+	id=507
+	name = "STATE_507"
+	manpower = 3012000 # was 2812000
+
+	resources = {
+		steel = 18 #Took half of Tohoku's steel
+		coal = 10 #initial distribution
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = VLA
+		add_core_of = VLA
+		add_core_of = JPN
+		add_core_of = EZO
+		add_core_of = ANU
+
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = {
+			10173 15 # Sapporo
+		}
+		victory_points = {
+			12078 5 # Asahikawa
+		}
+		victory_points = {
+			3894 2 # Hakodate
+		}
+
+	}
+
+	provinces = {
+		1477 1597 3894 4464 4532 7344 7403 10173 10238 12013 12078 12145 
+	}
+
+	local_supplies = 0.0 
+}

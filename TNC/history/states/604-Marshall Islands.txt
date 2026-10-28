@@ -1,0 +1,59 @@
+
+state={
+	id=604
+	name="STATE_604"
+	manpower=52517
+	
+	state_category = small_island
+
+	history={
+		owner = ENG
+		add_core_of = FSM
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			12665 = {
+				naval_base = 1
+
+			}
+			12666 = {
+				naval_base = 3
+
+			}
+			12668 = {
+				naval_base = 1
+
+			}
+			12671 = {
+				naval_base = 1
+
+			}
+			1001 = {
+				naval_base = 1
+			}
+			12664 = {
+				naval_base = 1
+			}
+			12670 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12666 3 
+		}
+		victory_points = {
+			12671 1 
+		}
+
+		strategic_province_location = {
+			natural_harbor = 13041
+		}
+
+	}
+
+	provinces={
+		1001 12664 12665 12666 12667 12668 12669 12670 12671 
+	}
+
+	local_supplies=0.0 
+}

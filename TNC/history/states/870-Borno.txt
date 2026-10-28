@@ -1,0 +1,25 @@
+state = {
+	id=870
+	name = "STATE_870"
+	manpower = 166240
+	state_category = pastoral
+
+	history = {
+
+		owner = SOK
+		add_core_of = NGA
+		add_core_of = SOK
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}  
+
+	provinces = {
+		4873 4901 7892 10532 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

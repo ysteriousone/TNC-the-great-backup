@@ -1,0 +1,25 @@
+state = {
+	id=615
+	name = "STATE_615" # Kolyma
+
+	history = {
+		owner = YAK
+		victory_points = {
+			1773 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = YAK
+
+	}
+
+	provinces = {
+		1773 3936 4145 4351 12244 12686
+	}
+	manpower = 13090
+	buildings_max_level_factor = 1
+	state_category = "wasteland"
+
+	local_supplies = 0.0 
+}

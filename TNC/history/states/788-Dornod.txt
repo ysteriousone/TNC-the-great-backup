@@ -1,0 +1,22 @@
+state={
+	id=788
+	name="STATE_788"
+	provinces={
+		1697 1822 4678 4759 7628 7689 10303 10372 10433 12185 12209 12281 12317 
+	}
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12209 1 #Choibalsan
+		}
+		add_core_of = MON
+	}
+	manpower=88250
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

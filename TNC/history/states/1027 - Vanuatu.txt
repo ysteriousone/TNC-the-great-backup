@@ -1,0 +1,36 @@
+state = {
+	id=1027
+	name = "STATE_1027"
+	resources = {
+	}
+	
+	state_category = small_island
+
+	history = {
+
+		owner = FRA
+		add_core_of = VAN
+
+		victory_points = {
+			11799 1 # Port Vila 
+		}
+
+		buildings = {
+			infrastructure = 2
+			11799 = {
+				naval_base = 1
+			}
+			4161 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1220 4161 11799 
+	}
+	manpower = 21876
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
+}

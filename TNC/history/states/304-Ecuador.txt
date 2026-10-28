@@ -1,0 +1,47 @@
+
+state = {
+	id=304
+	name = "STATE_304"
+	manpower = 2000000
+
+	resources = {
+		oil = 2 # was: 2
+	}
+	
+	state_category = city
+
+	history = {
+
+		owner = ECU
+		add_core_of = ECU
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 1
+			8033 = {
+				naval_base = 4
+			}
+		}
+		
+		victory_points = {
+			12435 10
+		}
+
+		victory_points = {
+			8033 5
+		}
+
+		victory_points = {
+			4981 2
+		}
+
+	}
+
+	provinces = {
+		4920 4981 7838 7864 8033 10592 10720 12435 
+	}
+
+	local_supplies = 0.0 
+}

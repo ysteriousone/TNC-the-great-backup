@@ -1,0 +1,30 @@
+
+state={
+	id=542
+	name="STATE_542" # Omsk
+	manpower = 1317157
+	
+	state_category = town
+	history={
+		owner = TUK
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			10421 3 
+		}
+		add_core_of = TUK
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		1663 1754 1789 4586 7605 10293 10351 10421 12198 12232 12304 
+	}
+
+	local_supplies=8.0 
+}

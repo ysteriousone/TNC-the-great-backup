@@ -1,5 +1,5 @@
 state = {
-	id = 8
+	id=8
 	name = "STATE_8"
 	
 	state_category = town
@@ -21,13 +21,13 @@ state = {
 			industrial_complex = 3
 		}
 		victory_points = { 
-			6583 5 # Luxembourg City
+			6442 5 # Luxembourg City
 		}
 		
 	}
 
 	provinces = {
-		6583 13375
+		6442 12999
 	}
 
 	local_supplies = 0.0 

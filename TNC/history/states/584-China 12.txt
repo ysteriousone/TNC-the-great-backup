@@ -1,0 +1,36 @@
+state = {
+	id=584
+	name = "STATE_584" # Shanghai
+	manpower = 6180392
+	
+	state_category = large_city
+	
+	history = {
+
+		owner = LON
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			air_base = 6
+			dockyard = 1
+			arms_factory = 2
+			6872 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		
+		victory_points = {
+			6872 5 # Shanghai
+		}
+	}
+
+	provinces = {
+		6872 9803 11736 11759 
+	}
+
+	local_supplies = 0.0 
+}

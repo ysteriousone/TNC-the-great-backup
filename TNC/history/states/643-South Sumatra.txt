@@ -1,0 +1,40 @@
+state = { #South Sumatra
+	id=643
+	name = "STATE_643"
+	manpower = 2834381
+	
+	state_category = rural
+	
+	resources = {
+		rubber = 54 #was: 98 #26-02-03: was: 78
+		oil = 15 #was: 13 #2025-12-12: was: 11 #26-02-03: was: 19
+	}
+
+	history = {
+
+		owner = INS
+		add_core_of = INS
+		
+		victory_points = {
+			10061 10
+		}
+		
+		victory_points = {
+			4266 2
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11840 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		7257 10036 4285 11935 11816 9907 10061 1373 11960 4190 11840 1319 4266 4229 11881 7140 1254 1292 1228
+	}
+
+	local_supplies = 0.0 
+}

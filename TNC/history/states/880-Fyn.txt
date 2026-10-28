@@ -1,0 +1,38 @@
+state = {
+	id=880
+	name = "STATE_880"
+	manpower = 497073
+	state_category = town
+
+	history = {
+		owner = GER
+		add_core_of = DEN
+		victory_points = {
+			3258 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			3258 = {
+				naval_base = 3
+			}
+		}
+		1939.1.1 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				dockyard = 1
+				fuel_silo = 1
+				3258 = {
+					naval_base = 3
+				}
+			}
+		}
+	}
+	provinces = {
+		3258 3307 12884
+	}
+	
+	local_supplies = 0.000
+}

@@ -1,0 +1,19 @@
+state = {
+	id=855
+	name = "STATE_855"
+	manpower = 661102
+	state_category = pastoral
+	history = {
+		owner = EGY
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1865 4802 10466 10504 12492 12513 
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

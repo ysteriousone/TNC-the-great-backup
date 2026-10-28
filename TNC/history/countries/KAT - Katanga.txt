@@ -1,4 +1,4 @@
-﻿capital = 889 # Elisabethville
+capital = 858 # Elisabethville
 
 oob = "COG_1936"
 

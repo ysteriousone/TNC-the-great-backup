@@ -14,14 +14,14 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			6682 1 
+			6541 1 
 		}
 		add_core_of = ROM
 		add_core_of = TRA
 	}
 
 	provinces={
-		696 6682 6697 9640 
+		696 6541 6556 9420 
 	}
 
 	local_supplies=0.0 

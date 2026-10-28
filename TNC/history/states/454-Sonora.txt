@@ -1,0 +1,38 @@
+
+state={
+	id=454
+	name="STATE_454"
+	manpower = 303987
+	
+	state_category = rural
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			4793 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = MEX
+		#victory_points = {
+		#	4857 3
+		#}
+		#victory_points = {
+		#	4793 1
+		#}
+		#victory_points = {
+		#	4938 1
+		#}
+		victory_points = {
+			10486 5
+		}
+	}
+
+	provinces={
+		2008 4793 4857 4938 7806 7825 10486 10556 12466 12838
+	}
+	
+
+	local_supplies=0.0 
+}

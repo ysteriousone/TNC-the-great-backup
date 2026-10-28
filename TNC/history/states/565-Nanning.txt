@@ -1,0 +1,48 @@
+state = {
+	id=565
+	name = "STATE_565"
+	manpower = 3275000
+	state_category = town
+	resources = {
+		tungsten = 11 # was: 14
+		steel = 8 # was: 10
+		chromium = 3 # was: 4
+	}
+
+	history = {
+
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+		victory_points = { 
+			6984 10 # Nanning
+		}
+
+		victory_points = { 
+			10188 1 # Bose
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				remove_core_of = GXC
+				CHI = { transfer_state = PREV }
+			}
+		}
+	}
+
+	provinces = {
+		 1436 1581 3958 4003 4011 4043 4096 4515 4542 6901 6984 7456 10188 9818 11675 11711 
+	}
+
+	local_supplies = 1.0 
+}

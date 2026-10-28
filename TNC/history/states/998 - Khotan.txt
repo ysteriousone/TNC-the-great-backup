@@ -1,0 +1,36 @@
+state = {
+	id=998
+	name = "STATE_998"
+	manpower = 380000
+	state_category = wasteland
+
+	history = {
+
+		owner = KHM
+		add_core_of = KHM
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			4853 3 # Hotan
+		}
+
+		victory_points = {
+			1920 1 # Yecheng 
+		}
+		
+		}
+
+	provinces = {
+		1894 1920 4853 7895 10055 10611  
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 1.0 
+}

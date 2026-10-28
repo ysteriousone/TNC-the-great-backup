@@ -1,0 +1,23 @@
+state = {
+	id=935
+	name = "STATE_935"
+
+	manpower = 8962
+	state_category = wasteland
+	
+
+	impassable = yes
+	force_link_ownership_to = 907 # Para
+	
+	history = {
+		owner = BRA
+		add_core_of = BRA
+	}
+
+	provinces = {
+		7953 
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	
+}

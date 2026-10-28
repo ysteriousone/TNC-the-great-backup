@@ -1,5 +1,5 @@
 state = {
-	id = 120
+	id=120
 	name = "STATE_120"
 	manpower = 247873
 	
@@ -15,21 +15,21 @@ state = {
 		add_core_of = SCO
 		owner = ENG
 		victory_points = {
-			6062 1 #Skye/Stornoway
+			5921 1 #Skye/Stornoway
 		}
 		victory_points = {
 			284 1 #Oban
 		}
 		victory_points = {
-			9075 1 #Inverness
+			8856 1 #Inverness
 		}
-		victory_points = { 11064 1 }
+		victory_points = { 10764 1 }
 		buildings = {
 			infrastructure = 2
 			anti_air_building = 2
 			industrial_complex = 1
 			air_base = 1
-			11064 = {
+			10764 = {
 				naval_base = 8
 				naval_supply_hub = 1	
 			}
@@ -38,7 +38,7 @@ state = {
 	}
 
 	provinces = { 
-		131 284 3159 3178 3373 6046 6062 6104 6205 9075 9090 11064 11161 11266 13269 13270
+		131 284 3092 3111 3306 5905 5921 5963 6064 8856 8870 10764 10861 10966 12893 12894
 	}
 
 	local_supplies=0.0 

@@ -1,0 +1,49 @@
+state = {
+	id=945
+	name = "STATE_945"
+	manpower = 1500000
+	
+	state_category = city
+	
+	resources = {
+		steel = 15 # was: 8
+		aluminium = 1 # was: 1
+		coal = 1 #initial distribution /5 total
+	}
+
+	history = {
+
+		owner = GER
+		add_core_of = GER
+		add_core_of = AUS
+
+		buildings = {
+			infrastructure = 3 
+			industrial_complex = 2
+		}
+
+		victory_points = {
+			9428 5 
+		}
+
+		victory_points = {
+			3605 3
+		}
+
+		victory_points = {
+			11312 2
+		}
+
+		#1938.3.12 = {
+		#	owner = GER
+		#	controller = GER
+		#	add_core_of = GER
+		#}
+	}
+
+	provinces = {
+		653 3605 3606 6546 9426 9428 9430 9459 11312 
+	}
+
+	local_supplies = 0.0 
+}

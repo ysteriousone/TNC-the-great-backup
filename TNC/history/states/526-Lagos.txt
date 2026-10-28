@@ -1,0 +1,30 @@
+
+state={
+	id=526
+	name="STATE_526" #Kuril Islands
+	manpower = 15000 
+	
+	state_category = tiny_island
+
+	history={
+		owner = VLA
+		add_core_of = VLA
+		add_core_of = ANU
+		add_core_of = JPN
+		buildings = {
+			infrastructure = 2
+			1371 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1371 1480 12662 
+	}
+
+	local_supplies=0.0 
+}

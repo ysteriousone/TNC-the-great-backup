@@ -1,0 +1,46 @@
+state = {
+	id=640
+	name = "STATE_640"
+	manpower = 314300
+
+	state_category = rural
+
+	resources = {
+		oil = 1
+	}
+
+	history = {
+
+		owner = AST
+		add_core_of = AST
+		add_core_of = PNG
+		add_core_of = WPG
+		set_resistance = 0
+		set_compliance = 5
+
+		victory_points = {
+			12031 2 # Hollandia
+		}
+
+		victory_points = {
+			4363 1 # Sorong
+		}
+
+		buildings = {
+		
+			infrastructure = 1
+
+			12031 = {
+				naval_base = 2
+			}
+
+		}
+
+	}
+
+	provinces = {
+		1508 4363 4403 4416 4443 7104 7300 7324 7341 7353 7380 7394 10103 10129 10166 10690 11978 12031 12045 
+	}
+
+	local_supplies = 1.0 
+}

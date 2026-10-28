@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Free French Events
 ###########################
 
@@ -20,7 +20,7 @@ country_event = {
    target = VOL 
    transfer_troops = yes
    }
-   add_state_core = 778
+   add_state_core = 748
     }
 
 }

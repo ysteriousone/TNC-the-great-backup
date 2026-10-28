@@ -1,0 +1,37 @@
+
+state={
+	id=334
+	name="STATE_334"
+	manpower = 1401889
+	resources={
+		chromium=50 # was: 86
+	}
+	
+	state_category = large_town
+
+	history={
+		owner = GRE
+		
+		victory_points = {
+			4034 15
+		}
+		victory_points = {
+			928 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			4034 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		928 3859 4034 6851 6977 9701 9709 9806 11548 11598 
+	}
+
+	local_supplies=8.0 
+}

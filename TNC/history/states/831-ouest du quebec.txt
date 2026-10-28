@@ -1,0 +1,24 @@
+state = {
+	id=831
+	name = "STATE_831"
+	manpower = 80000
+	state_category = rural
+	
+	history = {
+
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	
+	provinces = {
+		983 1318 1718 3843 7253 7679 9997 10425 11382 11602 11878 11941 
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

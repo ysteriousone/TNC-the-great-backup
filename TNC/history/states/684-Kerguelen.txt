@@ -1,0 +1,22 @@
+state={
+	id=684
+	name="STATE_684"
+	manpower=96
+	state_category = tiny_island
+
+	history={
+		owner = FFR
+		buildings = {
+			infrastructure = 1
+			2099 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		2099 
+	}
+
+	local_supplies=0.0 
+}

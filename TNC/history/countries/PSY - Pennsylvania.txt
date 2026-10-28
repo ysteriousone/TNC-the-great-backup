@@ -1,4 +1,4 @@
-﻿capital = 736 
+capital = 706 
 set_stability = 0.2 # Was one of the countries in roughest internal shape at this point in time, coup happens not even 2 months into the game
 set_war_support = 0.6 # Was 0.8, but will make you have to scale up with Militarism a bit
 

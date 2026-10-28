@@ -1,0 +1,35 @@
+state = {
+	id=896
+	name = "STATE_896" #HÄME
+
+	manpower = 404500
+	
+	state_category = rural
+	
+	history = {
+		owner = FIN
+		add_core_of = FIN
+
+		victory_points = { #Tampere
+			3070 3
+		}
+
+		victory_points = { #Lahti
+			67 2
+		}
+
+		victory_points = { #Hämeenlinna
+			8947 1
+		}
+	
+		buildings = {
+			infrastructure = 1 #MM: Was 2
+		}
+	}
+
+	provinces = {
+		2958 3070 5906 6022 8940 8947 10766 10872 12725 12727 12728 12731 12732 67
+	}
+
+	local_supplies = 0.0
+}

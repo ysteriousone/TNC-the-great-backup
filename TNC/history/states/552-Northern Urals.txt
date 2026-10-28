@@ -1,0 +1,28 @@
+
+state = {
+	id=552
+	name = "STATE_552"
+	manpower = 48831
+	
+	state_category = pastoral
+	
+	resources = {
+		chromium = 40 # was: 44
+		aluminium = 27 # was: 30
+	}
+
+	history = {
+		owner = KOM
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KOM
+	}
+
+	provinces = {
+		10276 10402 10798 12052 12154 
+	}
+
+	local_supplies = 0.0 
+}

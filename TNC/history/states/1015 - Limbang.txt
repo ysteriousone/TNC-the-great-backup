@@ -1,0 +1,39 @@
+state = {
+	id=1015
+	name = "STATE_1015"
+
+	manpower = 89800
+
+	resources = {
+		oil = 1
+		coal = 2 
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = BRN
+		add_core_of = MAL
+		add_core_of = SAR
+		add_core_of = BRN 
+
+		victory_points = {
+			13002 1 # Limbang
+		}
+
+		buildings = {
+
+			infrastructure = 1
+
+		}
+		
+	}
+
+	provinces = {
+		10015 13001 13002 
+	}
+
+	local_supplies = 0.0 
+}
+

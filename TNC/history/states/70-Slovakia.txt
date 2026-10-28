@@ -1,6 +1,5 @@
 state = {
-
-	id = 70
+	id=70
 
 	name = "STATE_70"
 
@@ -21,7 +20,7 @@ state = {
 			industrial_complex = 3
 			arms_factory = 2
 			air_base = 3
-			3484 = {
+			3416 = {
 				landmark_bojnice_castle = {
 					level = 1
 					allowed = {
@@ -33,11 +32,11 @@ state = {
 		}
 
 		victory_points = {
-			9692 10 # Bratislava
+			9472 10 # Bratislava
 		}
 
 		victory_points = {
-			11539 5 # Zilina
+			11239 5 # Zilina
 		}
 
 		victory_points = {
@@ -55,7 +54,7 @@ state = {
 	}
 
 	provinces = {
-		541 3484 3537 9539 9692 11522 11539 
+		541 3416 3469 9319 9472 11222 11239 
 	}
 
 	local_supplies = 3.0 

@@ -1,0 +1,26 @@
+state = {
+	id=756
+	name = "STATE_756" # Mauritanian Desert
+	manpower = 124200
+	
+	state_category = wasteland
+	impassable = yes
+	force_link_ownership_to = 528 # Mauritania
+
+	history = {
+
+		owner = NFA
+		add_core_of = MRT
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces = {
+		1851 1912 7743 7827 10492 10499 10548
+	}
+
+	local_supplies = 0.0 
+}

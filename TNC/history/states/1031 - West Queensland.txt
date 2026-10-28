@@ -1,0 +1,27 @@
+state = {
+	id=1031
+	name = "STATE_1031"
+
+	state_category = wasteland
+	manpower = 12000
+
+	impassable = yes
+	force_link_ownership_to = 842 # Southwest Queensland
+
+	history = {
+
+		owner = AST
+		add_core_of = AST
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces = {
+		2139 5066 7987 10073 10636 10655 12796
+	}
+
+	local_supplies = 0.0 
+}

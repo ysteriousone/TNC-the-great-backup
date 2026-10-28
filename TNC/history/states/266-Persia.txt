@@ -18,7 +18,7 @@ state={
 			industrial_complex = 2
 			air_base = 3
 			
-			10837 = {
+			10547 = {
                 landmark_sadabad_complex = {
                     level = 1
                     allowed = {
@@ -28,16 +28,16 @@ state={
 			}
 		}
 		victory_points = {
-			10837 10 # Tehran 
+			10547 10 # Tehran 
 		}
 		victory_points = {
-			7602 2 # Esterabad 
+			7410 2 # Esterabad 
 		}
 		add_core_of = PER
 	}
 
 	provinces={
-		4580 7602 10385 10768 10837 
+		4468 7410 10119 10489 10547 
 	}
 
 	local_supplies=5.0 

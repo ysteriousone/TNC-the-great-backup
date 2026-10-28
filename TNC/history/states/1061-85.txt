@@ -1,0 +1,14 @@
+state={
+	id=1061
+	name="STATE_1061"
+	provinces={
+		1419 5540 13260 13277 13279 13280 13281 13288 
+	}
+	manpower = 5000
+	history={
+		owner = SME
+		add_core_of = SME
+	}
+	state_category = rural
+	local_supplies=0
+}

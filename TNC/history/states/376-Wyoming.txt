@@ -1,0 +1,27 @@
+
+state={
+	id=376
+	name="STATE_376"
+	manpower = 225564
+
+	resources = {
+		coal = 7 #initial distributionn = with infra 12.6 / 1280 total
+	}
+
+	state_category = rural
+	
+	history={
+		owner = WYO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = WYO
+	}
+
+	provinces={
+		1769 4498 4609 4680 4706 7493 7619 7692 10365 10436 12213 12285 12303 
+	}
+	
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,49 @@
+state = {
+	id=941
+	name = "STATE_941"
+	manpower = 353750
+	
+	state_category = town
+	
+	resources = {
+		steel = 2
+	}
+	
+	history = {
+
+		owner = GER
+		add_core_of = GER
+		add_core_of = CZE
+
+		victory_points = {
+			557 1
+		}
+
+		buildings = {
+		
+			infrastructure = 3
+			anti_air_building = 1
+
+			5143 = {
+				bunker = 1
+			}
+
+			# Vranov Dam
+			11225 = { dam = 1 }
+
+		}
+
+		#1938.9.30 = {
+		#	owner = GER
+		#	controller = GER
+		#	add_core_of = GER
+		#}
+
+	}
+
+	provinces = {
+		543 557 5143 7661 11225
+	}
+	local_supplies = 0.0 
+
+}

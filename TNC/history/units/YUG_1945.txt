@@ -1,4 +1,4 @@
-﻿division_template = {
+division_template = {
 	name = "Pesadijska Divizija"	# Infantry Division	
 	# Note: infantry divisions were all at low reserve levels even just prior to Axis 
 	#	invasion of 1941
@@ -73,7 +73,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11586
+		location = 11286
 		division_template = "Tenkovski Bataljon"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -86,7 +86,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 9602
+		location = 9382
 		division_template = "Tenkovski Bataljon"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -98,7 +98,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11856
+		location = 11556
 		division_template = "Pesadijska Divizija"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -137,7 +137,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 9874
+		location = 9654
 		division_template = "Pesadijska Divizija"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3

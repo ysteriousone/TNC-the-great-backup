@@ -1,4 +1,4 @@
-﻿capital = 480 #Monterrey, Coahuila
+capital = 451 #Monterrey, Coahuila
 
 oob = "MEX_1936"
 

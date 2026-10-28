@@ -1,0 +1,37 @@
+state = {
+	id=553
+	name = "STATE_553"
+	resources = {
+		steel = 40.000
+		oil = 6.000
+	}
+
+	history = {
+
+		owner = URL
+
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+
+		add_core_of = URL
+
+		victory_points = {
+			10003 3 # Magnitogorsk
+		}
+		victory_points = {
+			4221 1 # Beloretsk
+		}
+
+	}
+
+	provinces = {
+		1311 1377 4132 4175 4179 4221 4286 4311 7115 7158 7198 7223 9939 9949 9974 10003 11873 
+	}
+
+	manpower = 1044991
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
+}

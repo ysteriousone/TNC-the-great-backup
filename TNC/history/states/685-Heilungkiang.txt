@@ -1,0 +1,39 @@
+state={
+	id=685
+	name="STATE_685"
+
+	history = {
+
+		owner = MAK
+		add_core_of = MAK
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+
+		victory_points = {
+			12138 1 # Ulanhot
+		}
+
+		victory_points = {
+			7652 1 # Mohe
+		}
+
+		victory_points = {
+			1647 2 # Aihui/Heihe 
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		1468 1507 1546 1600 1647 1686 1801 4400 4480 4535 4695 4762 7338 7391 7421 7572 7637 7652 7677 7698 7701 10102 10113 10400 10423 12138 12200 12270 
+	}
+	manpower=3694191
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,45 @@
+state={
+	id=695
+	name="STATE_695"
+	manpower = 2169465
+	
+	state_category = town
+	
+	resources={
+		rubber=40 # was: 70
+		tungsten = 6
+		chromium = 10
+	}
+
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			11901 = {
+				naval_base = 1
+			}
+			4275 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7075 1 
+		}
+		victory_points = {
+			4275 1 
+		}
+
+		victory_points = {
+			11901 1 
+		}
+		add_core_of = SIA
+	}
+	
+	provinces={
+		1258 1260 1287 1314 1340 1366 4208 4222 4275 7075 9912 9914 11810 11874 11901 11951 
+	}
+
+	local_supplies=1 
+}

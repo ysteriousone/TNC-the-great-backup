@@ -9,20 +9,20 @@ state={
 
 	history={
 		victory_points = {
-			9809 3 
+			9589 3 
 		}
 		victory_points = {
-			9821 1
+			9601 1
 		}
 		owner = YUG
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			9809 = {
+			9589 = {
 				naval_base = 1
 			}
-			9821 = {
+			9601 = {
 				naval_base = 1
 			}
 		}
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		937 6913 9809 9821 11858 
+		937 6772 9589 9601 11558 
 	}
 	manpower=895500
 	buildings_max_level_factor=1.000

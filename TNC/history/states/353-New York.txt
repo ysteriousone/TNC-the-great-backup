@@ -1,0 +1,45 @@
+state={
+	id=353
+	name="STATE_353"
+	resources={
+		steel=13 # was: 24.000
+	}
+	
+	state_category = megalopolis
+
+	history={
+		owner = NYC
+		buildings = {
+			infrastructure = 4 #was: 8
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 3
+			air_base = 10
+			3810 = {
+				naval_base = 6
+                landmark_statue_of_liberty = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+			}
+		}
+		add_core_of = NYC
+		victory_points = {
+			3810 30.0 
+		}
+		victory_points = {
+			11354 3 
+		}
+
+	}
+
+	provinces={
+		598 706 734 859 1404 3534 3634 3665 3679 3738 3810 3826 6566 6576 6637 6654 6770 6775 9444 9453 9473 9488 9501 9534 9554 10115 11350 11354 11360 11362 11365 11380 11422 12782 
+	}
+	manpower=12588061
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

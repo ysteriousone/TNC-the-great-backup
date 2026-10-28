@@ -1,0 +1,25 @@
+state={
+	id=660
+	name="STATE_660"
+	manpower = 1075000
+	
+	state_category = town
+
+	history={
+		add_core_of = JAM
+		owner = CAN
+		victory_points = {
+			11968 1 
+		}
+		buildings = {
+			infrastructure = 2
+			11968 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={ 11968 12131 }
+
+	local_supplies=0.0 
+}

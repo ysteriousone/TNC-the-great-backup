@@ -1,6 +1,6 @@
 
 state = {
-	id = 111
+	id=111
 	name = "STATE_111" # UUSIMA
 	manpower = 559000
 	
@@ -10,15 +10,15 @@ state = {
 		owner = FIN
 		add_core_of = FIN
 		victory_points = { #Helsinki
-			11105 15 
+			10805 15 
 		}
 
 		victory_points = { #Porvoo
-			6009 1 
+			5868 1 
 		}
 
 		victory_points = { #Hanko
-			11211 1 
+			10911 1 
 		}
 
 		buildings = {
@@ -26,7 +26,7 @@ state = {
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 3
-			11105 = {
+			10805 = {
 				naval_base = 5
 				coastal_bunker = 2
 			}
@@ -34,7 +34,7 @@ state = {
 	}
 
 	provinces={
-		204 3161 6009 6108 6144 9129 11105 11211 
+		204 3094 5868 5967 6003 8909 10805 10911 
 	}
 
 	local_supplies=0.0 

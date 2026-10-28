@@ -1,5 +1,5 @@
 state = {
-	id = 216
+	id=216
 	name = "STATE_216"
 	manpower = 229564
 	
@@ -11,7 +11,7 @@ state = {
 		add_core_of = FIN
 
 		victory_points = {
-			11159 1 # Petrozavodsk/Äänislinna
+			10859 1 # Petrozavodsk/Äänislinna
 		}
 
 		buildings = {
@@ -19,14 +19,14 @@ state = {
 			air_base = 3
 
 			# Lower Svir Hydroelectric Station
-			11153 = { dam = 1 }
+			10853 = { dam = 1 }
 
 		}
 		
 	}
 
 	provinces = {
-		40 90 92 2356 2994 3033 3084 3144 6057 6070 6094 6106 6172 9078 9118 9231 11092 11150 11153 11159 13194 13198 
+		40 90 92 2290 2927 2966 3017 3077 5916 5929 5953 5965 6031 8859 8898 9011 10792 10850 10853 10859 12819 12823 
 	}
 	
 	buildings_max_level_factor=1.000

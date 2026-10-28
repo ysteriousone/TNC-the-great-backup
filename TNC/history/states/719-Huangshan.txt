@@ -1,0 +1,25 @@
+state={
+	id=719
+	name="STATE_719"
+	provinces={
+		 1117 1142 1159 4029 4092 6866 6954 9812 11634 11707 
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = RNG
+		add_core_of = RNG
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			11707 1
+		}
+
+	}
+
+	local_supplies=0.0 
+}

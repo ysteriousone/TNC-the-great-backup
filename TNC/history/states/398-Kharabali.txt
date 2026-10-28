@@ -1,0 +1,25 @@
+
+state={
+	id=398
+	name="STATE_398" # Tyumen
+	manpower = 939067
+	
+	state_category = rural
+
+	history={
+		owner = TUK
+		victory_points = {
+			4710 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUK
+	}
+
+	provinces={
+		1359 1834 3404 4126 4545 4640 4666 4710 6646 7486 7579 7638 7651 9292 10325 10384 10395 12049 12173 
+	}
+
+	local_supplies=3.0 
+}

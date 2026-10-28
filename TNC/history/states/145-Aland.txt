@@ -10,12 +10,12 @@ state=
 		owner = FIN
 		
 		victory_points = { #Mariehman
-			9228 1
+			9008 1
 		}
 
 		buildings = {
 			infrastructure = 2 #MM: Was 3
-			9228 = {
+			9008 = {
 				naval_base = 1
 			}
 		}
@@ -23,7 +23,7 @@ state=
 	}
 	
 	provinces=	{
-		9228
+		9008
 	}
 
 	local_supplies=0.0 

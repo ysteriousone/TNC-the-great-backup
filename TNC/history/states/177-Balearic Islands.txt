@@ -1,5 +1,5 @@
 state = {
-	id = 177
+	id=177
 	name = "STATE_177"
 	manpower = 365500
 	
@@ -8,7 +8,7 @@ state = {
 	history = {
 
 		victory_points = {
-			9793 1
+			9573 1
 		}
 
 		owner = SPR
@@ -18,16 +18,16 @@ state = {
 		buildings = {
 			infrastructure = 3 #was: 6
 			air_base = 1
-			9793 = {
+			9573 = {
 				naval_base = 2
 			}
-			7114 = {
+			6963 = {
 				naval_base = 1
 			}
 		}
 		
 	}
 	
-	provinces = { 7114 9793 9845 }
+	provinces = { 6963 9573 9625 }
 	local_supplies = 0.0 
 }

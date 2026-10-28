@@ -1,0 +1,45 @@
+state={
+	id=638
+	name="STATE_638"
+	resources={
+	}
+
+	history={
+		owner = INS
+		add_core_of = TNE
+		buildings = {
+			infrastructure = 1
+			13011 = {
+				naval_base = 1
+			}
+			11905 = {
+				naval_base = 1
+			}
+			13008 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			13011 1
+		}
+
+		victory_points = {
+			13015 1
+		}
+
+		victory_points = {
+			11905 1
+		}
+
+	}
+
+	provinces={
+		7126 9944 11838 11891 11905 13011 13013 13014 13015 13012 13008 13016
+	}
+	manpower=973854
+	buildings_max_level_factor=1
+	state_category = rural
+
+	local_supplies=3.0 
+}

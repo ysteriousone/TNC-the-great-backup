@@ -1,0 +1,27 @@
+
+state = {
+	id=545
+	name = "STATE_545" # Yakutsk
+	manpower = 407866
+	
+	state_category = pastoral
+
+	history={
+		owner = FER
+		victory_points = {
+			10366 1
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = FER
+		add_core_of = YAK
+	}
+
+	provinces = {
+		1702 1749 1806 1832 4612 4638 4684 4707 4741 7551 7570 7622 7649 7693 10314 10333 10366 10392 10426 10439 12217 12263 12275 12346 
+	}
+
+	local_supplies = 0.0 
+}

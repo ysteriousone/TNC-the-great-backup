@@ -1,0 +1,32 @@
+
+state={
+	id=367
+	name="STATE_367"
+	manpower = 1854481
+	
+	state_category = town
+	
+	resources={
+		aluminium=14 # was: 20
+	}
+
+
+	history={
+		owner = AKN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = AKN
+		victory_points = {
+			12142 1 
+		}
+
+	}
+
+	provinces={
+		1469 1601 4340 4456 4485 4512 7298 7354 7395 10091 10204 12113 12142 12419 
+	}
+
+	local_supplies=9.0 
+}

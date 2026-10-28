@@ -1,4 +1,4 @@
-﻿capital = 291 # Baghdad
+capital = 290 # Baghdad
 
 oob = "IRQ_1936"
 
@@ -212,15 +212,15 @@ IF = {
 	}
 
 	# Kurdish Resistance
-	676 = {
+	647 = {
 		add_dynamic_modifier = { modifier = KUR_resistance_modifier }
 	}
 
 	# Unhappy and Autonomous Shia Tribes 
-	1010 = {
+	967 = {
 		add_dynamic_modifier = { modifier = IRQ_shia_resistance_modifier }
 	}
-	675 = {
+	646 = {
 		add_dynamic_modifier = { modifier = IRQ_shia_resistance_modifier }
 	}
 

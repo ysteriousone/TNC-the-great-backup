@@ -1,0 +1,26 @@
+state = {
+	id=752
+	name = "STATE_752" # Tombouctou
+	manpower = 79243
+	
+	state_category = wasteland
+	impassable = yes
+	force_link_ownership_to = 867 # Gao
+
+	history = {
+
+		owner = NFA
+		add_core_of = MLI
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces = {
+		1108 2007 10450 10575
+	}
+
+	local_supplies = 0.0 
+}

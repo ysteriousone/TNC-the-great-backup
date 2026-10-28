@@ -1,0 +1,41 @@
+
+state={
+	id=456
+	name="STATE_456"
+	manpower = 1598311
+	
+	state_category = rural
+
+	resources={
+		steel=4 #was 2
+	}
+
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			7824 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = MEX
+		victory_points = {
+			10454 5
+		}
+		victory_points = {
+			4772 3
+		}
+		victory_points = {
+			7824 1
+		}
+	}
+
+	provinces={
+		4772 4933 7824 10454 10542 
+	}
+	
+
+	local_supplies=0.0 
+}

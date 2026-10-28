@@ -1,0 +1,48 @@
+
+state={
+	id=355
+	name="STATE_355"
+	manpower = 9631346
+	
+	state_category = megalopolis
+	
+	resources={
+		steel = 44 # was: 80
+		coal = 160 # initial distribution = with infra 432 / 1280 total
+	}
+
+
+	history={
+		owner = PSY
+		buildings = {
+			infrastructure = 4 #was: 8
+			industrial_complex = 5
+			dockyard = 7
+			air_base = 2
+			6704 = {
+				naval_base = 8
+
+			}
+		}
+		add_core_of = PSY
+		victory_points = {
+			6704 20
+		}
+		victory_points = {
+			11500 15
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 6
+				dockyard = 8
+			}
+		}
+
+	}
+
+	provinces={
+		702 822 847 862 880 891 894 3619 3629 3734 3756 3779 3782 3812 3829 6564 6704 6728 6731 6744 6758 9442 9569 9584 9600 9616 11348 11458 11469 11485 11489 11499 11500 11517 12063 
+	}
+
+	local_supplies=0.0 
+}

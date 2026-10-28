@@ -1,6 +1,6 @@
 
 state = {
-	id = 44
+	id=44
 	name = "STATE_44"
 	resources = {
 		aluminium = 1.000
@@ -11,26 +11,26 @@ state = {
 	history = {
 		owner = GRE
 		victory_points = {
-			9914 5 
+			9694 5 
 		}
 		victory_points = {
-			11767 2 
+			11467 2 
 		}
 		victory_points = {
-			13255 2
+			12879 2
 		}
 		victory_points = {
-			6900 2
+			6759 2
 		}
 		buildings = {
 			infrastructure = 2 
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 3
-			11767 = {
+			11467 = {
 				naval_base = 4
 			}
-			13255 = {
+			12879 = {
 				naval_base = 2
 			}
 
@@ -41,7 +41,7 @@ state = {
 	}
 
 	provinces = {
-		3448 3884 6900 9875 9914 11767 13255 
+		3381 3816 6759 9655 9694 11467 12879 
 	}
 	manpower = 493867
 	buildings_max_level_factor = 1.000

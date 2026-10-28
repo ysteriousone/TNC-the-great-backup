@@ -1,0 +1,39 @@
+state = {
+	id=995
+	name = "STATE_995" # South Chahar
+	manpower = 367500
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = HBC
+		add_core_of = HBC
+		add_core_of = MEN
+		add_core_of = CHI
+		add_core_of = PRC
+
+
+		buildings = {
+			infrastructure = 1 #was 2
+			1548 = {
+				landmark_great_wall_section = {
+				    level = 1
+				    allowed = {
+				        has_dlc = "No Compromise, No Surrender"
+				    }
+				}
+			}
+		}
+		
+		victory_points = {
+			6763 3 # Kalgan #was 4
+		}
+	}
+
+	provinces = {
+		1128 1548 6763 9556
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,29 @@
+state={
+	id=397
+	name="STATE_397"
+	resources={
+		chromium=15.000
+	}
+
+	history={
+		owner = ROA
+		victory_points = {
+			7169 1
+		}
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1204 1229 1293 1345 1398 4143 4168 4205 4210 4213 4278 4280 4296 4469 4525 7082 7144 7166 7169 7181 7196 7231 7299 9890 9920 10001 10010 11788 11854 11898 11906 11922 11959 
+	}
+	manpower=282245
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

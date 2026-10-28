@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Proxy Wars
 ###########################
 
@@ -440,7 +440,7 @@ country_event = {
 	# The Town keeps sinking
 		name = proxy.6.a
 	PHI = {
-    transfer_state = 1149
+    transfer_state = 1106
 	 
 	}
 	PSR = {
@@ -457,7 +457,7 @@ country_event = {
   type = annex_everything
    }
    
-  	1149 = {
+  	1106 = {
 		create_unit = {
 						division = "name = \"Rebel Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 						owner = PHI

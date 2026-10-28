@@ -1,0 +1,33 @@
+state = {
+	id=1024
+	name = "STATE_1024"
+	manpower = 284000
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = NAP
+		add_core_of = LAO
+		add_core_of = CPS
+
+		victory_points = {
+			1550 1 # Champasak 
+		}
+
+		victory_points = {
+			1524 2 # Pakse 
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces = {
+		1348 1550 1524 1537 4445 7246 10182 11882 
+	}
+
+	local_supplies = 0.0 
+}

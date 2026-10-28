@@ -1,0 +1,30 @@
+state={
+	id=657
+	name="STATE_657"
+	manpower = 1543913
+	
+	state_category = rural
+
+	history={
+		add_core_of = PUE
+		owner = PUE
+		victory_points = {
+			1408 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+			1408 = {
+				naval_base = 3
+
+			}
+		}
+	}
+
+	provinces={
+		1408 4075 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+state = {
+	id=433
+	name = "STATE_433"
+	manpower = 1865552
+	
+	state_category = wasteland
+
+	history = {
+
+		owner = SPR
+		add_core_of = MOR
+
+		victory_points = {
+			4031 3 # Marrakesh
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1097 1141 1192 1935 3952 4031 4074 4817 4915 7046 7710 7758 7837 9870 
+	}
+
+	local_supplies = 0.0 
+}

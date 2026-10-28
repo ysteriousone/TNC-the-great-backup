@@ -1,0 +1,34 @@
+
+state = {
+	id=404
+	name = "STATE_404"
+	manpower = 295605
+	resources = {
+		chromium = 9 # was: 12
+	}
+	
+	state_category = rural
+
+	history = {
+		owner = VLA
+		victory_points = {
+			11862 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+			9384 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FER
+		add_core_of = VLA
+	}
+
+	provinces = {
+		725 739 753 1249 1302 1320 1369 1470 3688 3895 4305 4727 6633 7087 7101 7141 7672 9369 9384 9513 9529 10195 11275 11419 11815 11862 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,27 @@
+state={
+	id=664
+	name="STATE_664"
+	manpower = 15000
+	
+	state_category = tiny_island
+
+	history={
+		add_core_of = BAH
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+			10170 = {
+				naval_base = 1
+			}
+			1478 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		1478 10170 
+	}
+
+	local_supplies=0.0 
+}

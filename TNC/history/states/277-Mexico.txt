@@ -20,15 +20,15 @@ state={
 		}
 		add_core_of = MEX
 		victory_points = {
-			1965 25
+			1915 25
 		}
 		victory_points = {
-			2008 10
+			1951 10
 		}
 	}
 
 	provinces={
-		1965 2008 2011 7913 12755 
+		1915 1951 1954 7715 12400 
 	}
 	
 

@@ -1,0 +1,24 @@
+state={
+	id=680
+	name="STATE_680"
+	manpower = 126703
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			2122 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		2122 
+	}
+
+	local_supplies=0.0 
+}

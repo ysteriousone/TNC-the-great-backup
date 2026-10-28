@@ -10,10 +10,10 @@ state=
 	history= {
 		owner = ENG
 		victory_points = {
-			9303 3 #Galway
+			9083 3 #Galway
 		}
 		victory_points = {
-			11371 1 #Sligo
+			11071 1 #Sligo
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -23,7 +23,7 @@ state=
 
 	provinces=
 	{
-337 3396 9255 9303 9321 9369 11238 11287 11371 	}
+337 3329 9035 9083 9101 9149 10938 10987 11071 	}
 
 	local_supplies=13.0 
 }

@@ -1,0 +1,26 @@
+state={
+	id=623
+	name="STATE_623"
+	resources={
+		steel=20.000
+	}
+
+	history={
+		owner = URL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = URL
+
+	}
+
+	provinces={
+		227 1195 1236 1325 1351 3198 3263 3290 3318 3418 3495 4230 4232 6238 6283 6374 7171 9200 9225 10040 11133 11807 11912 11936 11962 
+	}
+	manpower=1225870
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=0.0 
+}

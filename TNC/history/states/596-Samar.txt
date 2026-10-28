@@ -1,0 +1,22 @@
+state=
+{
+	id=596
+	name="STATE_596"
+	manpower = 1213592
+	
+	state_category = town
+
+	history=
+	{
+		owner = PHI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PHI
+	}
+	provinces={
+		1208 1290 1317 4183 4277 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state = {
+	id=912
+	name = "STATE_912"
+	manpower = 4603600
+	
+	state_category = town
+	
+	resources = {
+		steel = 1
+	}
+
+	history = {
+
+		owner = BRA
+		add_core_of = BRA
+
+		victory_points = {
+			10699 5
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			10699 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+
+	provinces = {
+		2087 7977 10699
+	}
+
+	local_supplies = 0.0 
+}

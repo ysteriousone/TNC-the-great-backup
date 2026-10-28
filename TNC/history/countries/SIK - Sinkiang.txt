@@ -1,4 +1,4 @@
-﻿capital = 617
+capital = 588
 
 set_variable = { CHI_warlord_army_political_power_gain = 0 }
 set_variable = { CHI_warlord_army_army_core_attack_factor = 0 }
@@ -40,7 +40,7 @@ if = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	760 = {
+	730 = {
 		add_dynamic_modifier = { modifier = SIK_state_autonomous_prefecture }
 	}
 	recruit_character = SIK_ishaq_musonov
@@ -93,7 +93,7 @@ if = {
 		limit = {
 			has_dlc = "No Compromise, No Surrender"
 		}
-		760 = {
+		730 = {
 			remove_dynamic_modifier = { modifier = SIK_state_autonomous_prefecture }
 		}
 		remove_ideas = {

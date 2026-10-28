@@ -1,0 +1,32 @@
+state = {
+	id=555
+	name = "STATE_555"
+
+	history = {
+	
+		owner = TMS
+		
+		victory_points = {
+			11995 2
+		}
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		
+		add_core_of = TMS
+
+	}
+
+	provinces = {
+		756 1551 1588 4376 4440 4452 4487 4840 4877 7290 7304 7371 7374 7441 7725 7884 9385 10093 10094 10138 10146 10237 10465 11995 12020 12143 
+	}
+	manpower = 931458
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 4.0 
+	
+}

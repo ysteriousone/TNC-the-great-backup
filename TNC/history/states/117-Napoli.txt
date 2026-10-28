@@ -1,6 +1,6 @@
 
 state = {
-	id = 117
+	id=117
 	name = "STATE_117" # Campania
 	manpower = 4240000 # (Campania 3697k + Basilicato 543k )  # was 5333611 before Puglia state was added
 	
@@ -36,7 +36,7 @@ state = {
 	}
 
 	provinces = {
-		819 851 955 3958 3968 6972 9826 11803 9856
+		819 851 955 3890 3900 6831 9606 11503 9636
 	}
 
 	local_supplies = 13.0 

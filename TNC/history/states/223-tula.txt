@@ -10,7 +10,7 @@ state={
 		owner = RKM
 		add_core_of = MCW
 		victory_points = {
-			6262 3 
+			6121 3 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		212 261 300 3236 3250 3292 3376 6262 6315 6333 6396 9366 11242 11347 
+		212 261 300 3169 3183 3225 3309 6121 6174 6192 6255 9146 10942 11047 
 	}
 
 	local_supplies=0.0 

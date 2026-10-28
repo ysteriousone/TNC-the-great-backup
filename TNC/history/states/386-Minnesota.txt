@@ -1,0 +1,30 @@
+
+state={
+	id=386
+	name="STATE_386"
+	manpower = 2563952
+	state_category = city
+
+	resources={
+		steel=110 # was: 208
+	}
+
+	history={
+		owner = MIN
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 3
+		}
+		add_core_of = MIN
+		victory_points = {
+			1820 5 
+		}
+
+	}
+
+	provinces={
+		1673 1688 1820 1821 4550 4693 6611 6626 6686 7348 7700 9660 10343 10444 11367 12202 12229 12240 12249 12345 
+	}
+
+	local_supplies=0.0 
+}

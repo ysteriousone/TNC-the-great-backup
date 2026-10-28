@@ -1,0 +1,29 @@
+
+state={
+	id=959
+	name="STATE_959"
+	manpower = 390139
+	
+	state_category = rural
+
+	history={
+		owner = PER
+		victory_points = {
+			4827 5
+		}
+		victory_points = {
+			4961 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PER
+		add_core_of = KUR
+	}
+
+	provinces={
+		4827 9596 4961 12416
+	}
+
+	local_supplies=0.0 
+}

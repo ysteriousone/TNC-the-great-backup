@@ -1,0 +1,30 @@
+
+state = {
+	id=903
+	name = "STATE_903"
+	resources = {
+		aluminium = 1.000
+        chromium = 1.000
+        coal = 1 # initial distribution = with infra 1.4 / 1 total
+	}
+
+	history = {
+		owner = GRE
+        victory_points = {
+            9560 3 
+        }
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+		}
+		add_core_of = ALB
+
+	}
+
+	provinces = {
+		3828 9560 11462
+	}
+	manpower = 246933
+	state_category = rural
+	local_supplies = 5.000
+}

@@ -1,0 +1,29 @@
+state = {
+	id=789
+	name = "STATE_789"
+	provinces = {
+		1643 1745 1788 4768 7481 7522 12231 12301 
+	}
+
+	history = {
+		owner = MAO
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			7522 2 #Darkhan, was in 1791 before
+		}
+		victory_points = {
+			7481 1 #Erdenet, was in 1834 before
+		}
+
+		add_core_of = MON
+		add_core_of = MAO
+	}
+	manpower = 88200
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,5 +1,5 @@
 state = {
-	id = 5
+	id=5
 	name = "STATE_5"
 	manpower = 1238108
 	state_category = town
@@ -11,11 +11,11 @@ state = {
 		add_core_of = PRE
 
 		victory_points = {
-			6375 3 # Allenstein
+			6234 3 # Allenstein
 		}
 
 		#victory_points = {
-		#	11386 1 # Lyck
+		#	11086 1 # Lyck
 		#}
 		
 		buildings = {
@@ -25,7 +25,7 @@ state = {
 	}
 
 	provinces={
-		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+		266 3284 3313 6234 6261 9107 9126 9152 9178 10945 11086 
 	}
 
 	local_supplies=12.0 
