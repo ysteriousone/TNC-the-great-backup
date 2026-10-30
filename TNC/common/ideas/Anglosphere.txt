@@ -13,6 +13,20 @@ ideas = {
 				consumer_goods_factor = 0.4
 			}
 		}
+		
+	ENG_Aftermath_of_the_Employment_Act = {
+			allowed = {
+				always = yes
+			}
+			picture = TNC_RUS_regional
+			modifier = {
+	
+				conscription_factor = 0.1
+				construction_speed = -0.30
+				consumer_goods_factor = 0.3
+				monthly_manpower = 4000
+			}
+		}
 	}
 
 }

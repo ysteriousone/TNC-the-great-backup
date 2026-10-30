@@ -3,6 +3,50 @@
 ###########################
 
 add_namespace = USA_reg
+add_namespace = USA_kiy
+
+# Johnny is not gonna come marching home but we sure as hell are gonna make him
+country_event = {
+	id = USA_kiy.1
+	title = USA_kiy.1.t
+	desc = USA_kiy.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # AURA
+		name = USA_kiy.1.a  
+	USA = {
+	create_faction = "American Front of National Liberty"
+	add_to_faction = NYC
+	add_to_faction = PSY
+	add_to_faction = NJS
+	add_to_faction = VIR
+	add_to_faction = WVG
+	add_to_faction = NLA
+	add_to_faction = SLA
+	add_to_faction = GGR
+	add_to_faction = FLR
+	add_to_faction = ALA
+	add_to_faction = MSI
+	add_to_faction = LNG
+	add_to_faction = AKN
+	add_to_faction = TSE
+	add_to_faction = KFC
+	add_to_faction = IND
+	add_to_faction = ILL
+	add_to_faction = OHO
+	add_to_faction = MHG
+	add_to_faction = WSC
+	 }
+	 
+play_song = "Battle Hymn of the Republic"
+
+
+}
+
+
+}
 
 
 	country_event = { #never heard of a west us but whatever

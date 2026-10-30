@@ -3,19 +3,14 @@ MAL_UK = {
     color_ui = rgb { 255 73 121 }
 }
 
+ENG_Corcossa = {
+ color = rgb { 53 53 11 }
+ color_ui = rgb { 53 53 11 }
+  }
+
 GER_RK = {
     color = rgb { 0 0 0 }
     color_ui = rgb { 0 0 0 }
-}
-
-AUS_south_gemrany = {
-	color = rgb { 224  228  255 }
-	color_ui = rgb { 224  228  255 }
-}
-
-AUS_german_confederation_puppet = {
-	color = rgb { 218 217 219 }
-	color_ui = rgb { 218 217 219 }
 }
 
 FRA_anarchy = {

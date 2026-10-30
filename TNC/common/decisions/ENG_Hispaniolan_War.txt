@@ -1,0 +1,76 @@
+Hispaniola_war_cat = {
+
+	Cement_Trujilos_regime = {
+		icon = generic_industry
+		cost = 10
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+		fascism > 1
+   NOT = {
+   country_exists = HAI
+    }
+		}
+
+		complete_effect = {
+	DOM = {
+	country_event = {
+	id = proxywin.4
+	 }
+	  }
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	God_and_Trujilo = {
+		icon = generic_industry
+		cost = 150
+		fire_only_once = no
+		days_re_enable = 50
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	Sending_Aid = {
+		icon = generic_industry
+		cost = 150
+		fire_only_once = yes
+
+		visible = {
+    always = yes
+		}
+
+		available = {
+		}
+
+		complete_effect = {
+		add_manpower = -4000
+		DOM = {
+		add_manpower = 5000
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

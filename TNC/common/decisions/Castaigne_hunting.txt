@@ -1,0 +1,50 @@
+the_search_for_the_castaignes_cat = {
+
+	Search_for_Louis = {
+		icon = generic_industry
+		cost = 150
+		fire_only_once = yes
+
+		visible = {
+    has_completed_focus = ENG_Tracking_The_Castaignes
+		}
+
+		available = {
+	always = yes
+		}
+
+		complete_effect = {
+	USA = {
+	country_event = {
+	id = USA_kiy
+	days = 30
+	 }
+	  }
+	  declare_war_on = {
+	  target = NYC
+	  type = annex_everything
+	   }
+	 declare_war_on = {
+	  target = PSY
+	  type = annex_everything
+	   }
+	 declare_war_on = {
+	  target = USA
+	  type = annex_everything
+	   }
+	   	  declare_war_on = {
+	  target = NJS
+	  type = annex_everything
+	   }
+declare_war_on = {
+	  target = WVG
+	  type = annex_everything
+	   }
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+}

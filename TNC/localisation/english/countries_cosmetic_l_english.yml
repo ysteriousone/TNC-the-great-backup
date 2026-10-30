@@ -1,4 +1,9 @@
 ﻿l_english:
+ ENG_Corcossa: "Domain of Corcossa"
+ ENG_Corcossa_DEF: "The Domain of Corcossa"
+ ENG_Corcossa_ADJ: "01010100 01001000 01001001 01010011 00100000 01001001 01010011 00100000 01000001 01001110 00100000 01001001 01001100 01001100 01010101 01010011 01001001 01001111 01001110"
+
+
  West_Russia_yay: "West Russian Union"
  West_Russia_yay_DEF: "The West Russian Union"
  West_Russia_yay_ADJ: "West Russian"
@@ -21,7 +26,6 @@
  Europe_Russia_yay_communism: "Russian SSR"
  Europe_Russia_yay_communism_DEF: "The Russian SSR"
 
- AUS_south_germany:0 "Empire of South Germany"
 
  Cascadia_united_neutrality: "Cascadia Home Base"
  Cascadia_united_neutrality_DEF: "The Cascadian Military Home Base"

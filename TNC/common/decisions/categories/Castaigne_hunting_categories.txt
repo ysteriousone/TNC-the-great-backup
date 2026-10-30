@@ -1,0 +1,16 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+the_search_for_the_castaignes_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+	tag = ENG
+	}
+}

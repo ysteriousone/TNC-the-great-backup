@@ -13,11 +13,755 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 7
 			tag = ENG
 		}
 	}
 	default = no
+	
+	
+	focus = {
+		id = ENG_A_Colony_in_Tatters
+		
+		icon = GFX_focus_eng_decolonization
+		x = 6
+		y = 7
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+   available = {
+   BML = {
+   has_war = yes
+    }
+	 }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Aiding_our_Men
+		
+		icon = GFX_focus_eng_decolonization
+		x = 0
+		y = 1
+	prerequisite = {
+	focus = ENG_A_Colony_in_Tatters
+	 }
+	relative_position_id = ENG_A_Colony_in_Tatters
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+   available = {
+   BML = {
+   has_war = yes
+    }
+	 }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Headquaters_Singapore
+		
+		icon = GFX_focus_eng_decolonization
+		x = 1
+		y = 2
+	prerequisite = {
+	focus = ENG_Aiding_our_Men
+	 }
+	relative_position_id = ENG_A_Colony_in_Tatters
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+   available = {
+   BML = {
+   has_war = yes
+    }
+	 }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Aces_From_Penang
+		
+		icon = GFX_focus_eng_decolonization
+		x = -1
+		y = 2
+	prerequisite = {
+	focus = ENG_Aiding_our_Men
+	 }
+	relative_position_id = ENG_A_Colony_in_Tatters
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+   available = {
+   BML = {
+   has_war = yes
+    }
+	 }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Mosleys_Greatest_Failure
+		
+		icon = GFX_focus_eng_decolonization
+		x = 1
+		y = 3
+	prerequisite = {
+	focus = ENG_Aiding_our_Men
+	 }
+	relative_position_id = ENG_A_Colony_in_Tatters
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+   available = {
+  NOT = {
+  country_exists = BML
+  
+}
+	 }
+	mutually_exclusive = {
+	focus = ENG_The_Anglosphere_Survives
+	 }
+		completion_reward = {
+		add_popularity = {
+				ideology = fascism
+				popularity = -0.5
+			}
+		}
+	}
+	
+	focus = {
+		id = ENG_The_Anglosphere_Survives
+		
+		icon = GFX_focus_eng_decolonization
+		x = -1
+		y = 3
+	prerequisite = {
+	focus = ENG_Aiding_our_Men
+	 }
+	relative_position_id = ENG_A_Colony_in_Tatters
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+   available = {
+  NOT = {
+  country_exists = MAL
+  
+}
+	 }
+mutually_exclusive = {
+focus = ENG_Mosleys_Greatest_Failure
+ }
+		completion_reward = {
+		add_popularity = {
+				ideology = fascism
+				popularity = 0.5
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_The_1949_Election
+		
+		icon = GFX_focus_eng_decolonization
+		x = 6
+		y = 15
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+   available = {
+ date > 1949.11.1
+  
+}
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_The_Kings_Party
+		
+		icon = GFX_focus_eng_decolonization
+		x = 7
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_1949_Election
+	prerequisite = {
+	focus = ENG_The_1949_Election
+	 }
+   available = {
+ neutrality > 0.6
+  
+}
+		completion_reward = {
+	   set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		}
+	}
+	
+focus = {
+		id = ENG_The_Royal_Reform_Plan
+		
+		icon = GFX_focus_eng_decolonization
+		x = -4
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Kings_Party
+	 }
+   available = {
+ neutrality > 0.6
+  
+}
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Restore_Parliament
+		
+		icon = GFX_focus_eng_decolonization
+		x = -4
+		y = 2
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Royal_Reform_Plan
+	 }
+   available = {
+ neutrality > 0.6
+  
+}
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_A_United_Empire
+		
+		icon = GFX_focus_eng_decolonization
+		x = -4
+		y = 3
+		cost = 13
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Restore_Parliament
+	 }
+   available = {
+ neutrality > 0.6
+  
+}
+		completion_reward = {
+	add_state_core = 700
+	add_state_core = 701
+	add_state_core = 903
+	add_state_core = 905
+	add_state_core = 269
+	add_state_core = 906
+		}
+	}
+	
+focus = {
+		id = ENG_A_Dip_in_Literature
+		
+		icon = GFX_focus_eng_decolonization
+		x = 4
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Kings_Party
+	 }
+   available = {
+ burgundian_ideas > 0.1
+  
+}
+		completion_reward = {
+		add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.1
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_The_Subject_of_Chambers
+		
+		icon = GFX_focus_eng_decolonization
+		x = 4
+		y = 2
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_A_Dip_in_Literature
+	 }
+   available = {
+ burgundian_ideas > 0.1
+  
+}
+		completion_reward = {
+		add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.1
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_The_Con_of_Isolationism
+		
+		icon = GFX_focus_eng_decolonization
+		x = 4
+		y = 3
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Subject_of_Chambers
+	 }
+   available = {
+ burgundian_ideas > 0.1
+  
+}
+		completion_reward = {
+		add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.1
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_Continue_Down_The_Road
+		
+		icon = GFX_focus_eng_decolonization
+		x = 6
+		y = 2
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_A_Dip_in_Literature
+	 }
+   available = {
+ burgundian_ideas > 0.5
+  
+}
+		completion_reward = {
+		add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.1
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_The_Maddening_Play
+		
+		icon = GFX_focus_eng_decolonization
+		x = 6
+		y = 3
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Continue_Down_The_Road
+	 }
+   available = {
+ burgundian_ideas > 0.1
+  
+}
+		completion_reward = {
+		add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.1
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_A_Dip_into_the_Lake_of_Hali
+		
+		icon = GFX_focus_eng_decolonization
+		x = 5
+		y = 4
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Maddening_Play
+	focus = ENG_The_Con_of_Isolationism
+	 }
+   available = {
+ burgundian_ideas > 0.1
+  
+}
+		completion_reward = {
+		add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.3
+			}
+		}
+	}
+	
+focus = {
+		id = ENG_The_Rise_of_Hastur
+		
+		icon = GFX_focus_eng_decolonization
+		x = 5
+		y = 5
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_A_Dip_into_the_Lake_of_Hali
+	 }
+   available = {
+ burgundian_ideas > 0.6
+  
+}
+		completion_reward = {
+		country_event = {
+		id = eng_kiy.1
+		days = 1
+		 }
+set_politics = {
+			ruling_party = burgundian_ideas
+			elections_allowed = no
+		}
+		}
+	}
+	
+focus = {
+		id = ENG_Setting_Our_Sights_for_the_Summoning
+		
+		icon = GFX_focus_eng_decolonization
+		x = 5
+		y = 6
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Rise_of_Hastur
+	 }
+	allow_branch = {
+		has_government_type = burgundian_ideas
+		 }
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Pave_the_Way_to_Unite_the_Two_Suns
+		
+		icon = GFX_focus_eng_decolonization
+		x = 1
+		y = 7
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Setting_Our_Sights_for_the_Summoning
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_The_Yellow_Sign
+		
+		icon = GFX_focus_eng_decolonization
+		x = 8
+		y = 7
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Setting_Our_Sights_for_the_Summoning
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Tracking_The_Castaignes
+		
+		icon = GFX_focus_eng_decolonization
+		x = 7
+		y = 8
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Yellow_Sign
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Our_Own_problematic_Family_Member
+		
+		icon = GFX_focus_eng_decolonization
+		x = 9
+		y = 8
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Yellow_Sign
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Battle_Blackshirt_Influence
+		
+		icon = GFX_focus_eng_decolonization
+		x = 0
+		y = 2
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_A_Dip_in_Literature
+	focus = ENG_The_Royal_Reform_Plan
+	 }
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_The_Battle_for_Cable_Street
+		
+		icon = GFX_focus_eng_decolonization
+		x = -2
+		y = 3
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Battle_Blackshirt_Influence
+	 }
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Ally_BUF_Moderates
+		
+		icon = GFX_focus_eng_decolonization
+		x = -2
+		y = 4
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Battle_Blackshirt_Influence
+	 }
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Ally_IRA_Remnants
+		
+		icon = GFX_focus_eng_decolonization
+		x = 2
+		y = 4
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Battle_Blackshirt_Influence
+	 }
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_The_Blackshirts_Eradicated
+		
+		icon = GFX_focus_eng_decolonization
+		x = 0
+		y = 5
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	available = {
+	fascism < 0.01
+	 }
+	prerequisite = {
+	focus = ENG_Ally_BUF_Moderates
+	 }
+	 
+	prerequisite = {
+	focus = ENG_Ally_IRA_Remnants
+	 }
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Finalize_a_New_Anglosphere
+		
+		icon = GFX_focus_eng_decolonization
+		x = -3
+		y = 6
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	available = {
+	neutrality > 0.6
+	NOT = {
+	has_government =  burgundian_ideas
+	 }
+	 }
+	prerequisite = {
+	focus = ENG_The_Blackshirts_Eradicated
+	 }
+	 
+	prerequisite = {
+	focus = ENG_A_United_Empire
+	 }
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Constitutionalism
+		
+		icon = GFX_focus_eng_decolonization
+		x = 2
+		y = 3
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Battle_Blackshirt_Influence
+	 }
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Moseleys_Second_Cabinet
+		
+		icon = GFX_focus_eng_decolonization
+		x = -7
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_1949_Election
+	prerequisite = {
+	focus = ENG_The_1949_Election
+	 }
+   available = {
+ fascism > 0.6
+  
+}
+		completion_reward = {
+	   set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+		}
+	}
+	
+focus = {
+		id = ENG_No_Majority
+		
+		icon = GFX_focus_eng_decolonization
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_1949_Election
+	prerequisite = {
+	focus = ENG_The_1949_Election
+	 }
+   available = {
+ fascism < 0.6
+ neutrality < 0.6
+  
+}
+		completion_reward = {
+		}
+	}
 
 
 	focus = {
@@ -26,12 +770,16 @@ focus_tree = {
 		icon = GFX_focus_eng_decolonization
 		x = 6
 		y = 0
-		cost = 10
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
 
 		completion_reward = {
+	country_event = {
+	id = eng_domestic.1
+	days = 2
+	 }
 		}
 	}
 	
@@ -54,6 +802,425 @@ focus_tree = {
 	add_ideas = {
 	ENG_Post_War_Chaos
 	 }
+		}
+	}
+	
+	focus = {
+		id = ENG_Inside_the_Circus
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 17
+		y = 2
+	prerequisite = {
+	focus = ENG_Recover_from_our_Losses
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_The_BUF_goons
+		
+		icon = GFX_BUF_Goons
+		x = -3
+		y = 1
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_Inside_the_Circus
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = ENG_A_Circus_with_3_Jesters
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -3
+		y = 2
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_The_BUF_goons
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_The_Headmaster
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -4
+		y = 3
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_A_Circus_with_3_Jesters
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_And_his_Pupils
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -2
+		y = 3
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_A_Circus_with_3_Jesters
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_God_help_the_King
+		
+		icon = GFX_God_Help_the_King
+		x = 3
+		y = 1
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_Inside_the_Circus
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Uniting_The_Parties
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 0
+		y = 3
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_God_help_the_King
+	focus = ENG_The_BUF_goons
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Loyalty_to_the_State
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -1
+		y = 4
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_Uniting_The_Parties
+	 }
+	mutually_exclusive = {
+	focus = ENG_Our_Oath_to_the_King
+	  }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	add_popularity = {
+	ideology = fascism
+	popularity = 0.02
+	 }
+	 
+	add_popularity = {
+	ideology = burgundian_ideas
+	popularity = 0.02
+	 }
+
+		}
+	}
+	
+	focus = {
+		id = ENG_Diversify_Pariliament
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -1
+		y = 5
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_Loyalty_to_the_State
+	focus = ENG_Our_Oath_to_the_King
+	 }
+	mutually_exclusive = {
+	focus = ENG_A_Stacked_House
+	  }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+	add_popularity = {
+	ideology = democratic
+	popularity = 0.04
+	 }
+	add_popularity = {
+	ideology = libtardism
+	popularity = 0.04
+	 }	 
+	 
+	add_popularity = {
+	ideology = Popular_Socialism
+	popularity = 0.04
+	 }
+	add_popularity = {
+	ideology = conservative_democratic
+	popularity = 0.02
+	 }
+	 
+	add_popularity = {
+	ideology = neutrality
+	popularity = 0.04
+	 }
+		}
+	}
+	
+	focus = {
+		id = ENG_A_Stacked_House
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 1
+		y = 5
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_Loyalty_to_the_State
+	focus = ENG_Our_Oath_to_the_King
+	 }
+	mutually_exclusive = {
+	focus = ENG_Diversify_Pariliament
+	  }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_The_Worker_and_the_King
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 1
+		y = 6
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_A_Stacked_House
+	focus = ENG_Diversify_Pariliament
+	 }
+	mutually_exclusive = {
+	focus = ENG_Enemies_Everywhere
+	  }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Enemies_Everywhere
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = -1
+		y = 6
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_A_Stacked_House
+	focus = ENG_Diversify_Pariliament
+	 }
+	mutually_exclusive = {
+	focus = ENG_The_Worker_and_the_King
+	  }
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Our_Oath_to_the_King
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 1
+		y = 4
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_Uniting_The_Parties
+	 }
+	 
+	mutually_exclusive  = {
+	focus = ENG_Loyalty_to_the_State
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		add_popularity = {
+	ideology = neutrality
+	popularity = 0.02
+	 }
+		}
+	}
+	
+	focus = {
+		id = ENG_A_Divided_Family
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 2
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_God_help_the_King
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_A_Dubious_Letter
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 3
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_A_Divided_Family
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Going_Mad
+		
+		icon = GFX_Going_Mad
+		x = 2
+		y = 2
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_God_help_the_King
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_A_Break_from_Politics
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 2
+		y = 3
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_Going_Mad
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_Hope_for_the_Best
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 3
+		y = 4
+	relative_position_id = ENG_Inside_the_Circus
+	prerequisite = {
+	focus = ENG_A_Break_from_Politics
+	 }
+	 
+	prerequisite = {
+	focus = ENG_A_Dubious_Letter
+	 }
+	 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
 		}
 	}
 	
@@ -113,6 +1280,19 @@ focus_tree = {
 		}
 
 		completion_reward = {
+	custom_effect_tooltip = ENG_Ireland_Force_tt
+	113 = {
+	set_demilitarized_zone = yes
+	 }
+	 135 = {
+	 set_demilitarized_zone = yes
+	  }
+	 134 = {
+	 set_demilitarized_zone = yes
+	  }
+	 1153 = {
+	 set_demilitarized_zone = yes
+	  }
 		}
 	}
 	
@@ -170,6 +1350,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+	
 		}
 	}
 	
@@ -292,7 +1473,7 @@ available = {
 		id = ENG_Propose_The_Free_Housing_Act
 		
 		icon = GFX_focus_generic_cryptologic_bomb
-		x = 10
+		x = 7
 		y = 5
 	prerequisite = {
 	focus = ENG_Propose_the_BUF_Bonus_Act
@@ -544,6 +1725,12 @@ focus = {
 		}
 
 		completion_reward = {
+	NFA = {
+	add_manpower = 5000
+	 }
+	 ENG = {
+	 add_manpower = -5000
+	  }
 		}
 	}
 	

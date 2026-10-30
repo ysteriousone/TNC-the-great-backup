@@ -18,6 +18,21 @@ SpriteType = {
 	}
 	
 	SpriteType = {
+	name = "GFX_God_Help_the_King"
+	texturefile = "gfx/interface/goals/God_Help_the_King.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_BUF_Goons"
+	texturefile = "gfx/interface/goals/BUF_Goons.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Going_Mad"
+	texturefile = "gfx/interface/goals/Going_Mad.dds"			
+	}
+	
+	SpriteType = {
 	name = "GFX_RKA_Marking_our_Enemies"
 	texturefile = "gfx/interface/goals/Marking_our_Enemies.dds"			
 	}

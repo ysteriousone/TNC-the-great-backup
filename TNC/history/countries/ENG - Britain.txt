@@ -519,6 +519,16 @@ set_popularities = {
 			traits = {
 			}
 		}
+		
+	create_country_leader = {
+			name = "HMS George VI"
+			desc = ""
+			picture = George_VI.dds		
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+			}
+		}
 
 
 create_faction_from_template = { template = faction_template_axis
@@ -575,7 +585,6 @@ recruit_character = ENG_john_cunningham
 recruit_character = ENG_charles_forbes
 recruit_character = ENG_algernon_willis
 recruit_character = ENG_arthur_power
-recruit_character = ENG_horatio_dundas
 recruit_character = ENG_edmund_ironside
 recruit_character = ENG_david_stirling
 recruit_character = ENG_james_somerville

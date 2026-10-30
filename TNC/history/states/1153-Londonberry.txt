@@ -1,0 +1,31 @@
+state={
+	id=1153
+	name="STATE_1153"
+	provinces={
+		276 385 11257 
+	}
+	history={
+		owner = ENG
+
+		victory_points = {
+			385 1 # Londonderry
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			dockyard = 2
+			3379 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+		add_core_of = NIR
+	}
+	manpower=143214
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category="city"
+}
