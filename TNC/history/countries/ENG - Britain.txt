@@ -529,6 +529,17 @@ set_popularities = {
 			traits = {
 			}
 		}
+		
+		
+	create_country_leader = {
+			name = "Sir Oswald Mosley"
+			desc = ""
+			picture = Portrait_Britain_Oswald_Mosley.dds		
+			expire = "1965.1.1"
+			ideology = buf_fascism
+			traits = {
+			}
+		}
 
 
 create_faction_from_template = { template = faction_template_axis
@@ -548,7 +559,6 @@ add_to_faction = POR
 add_to_faction = EGY
 
 
-recruit_character = ENG_oswald_mosley
 recruit_character = ENG_stanley_baldwin
 recruit_character = ENG_winston_churchill
 recruit_character = ENG_harry_pollitt

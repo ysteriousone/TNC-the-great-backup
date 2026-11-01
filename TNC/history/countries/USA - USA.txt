@@ -430,6 +430,26 @@ add_ideas = {
 	}
 }
 
+	create_country_leader = {
+			name = "Hildred Castaigne"
+			desc = ""
+			picture = Hildred_Castaigne.dds		
+			expire = "1965.1.1"
+			ideology = cosmic_rot
+			traits = {
+			}
+		}
+		
+	create_country_leader = {
+			name = "Louis Castaigne"
+			desc = ""
+			picture = Louis_Castaigne.dds		
+			expire = "1965.1.1"
+			ideology = oligarchism
+			traits = {
+			}
+		}
+
 recruit_character = USA_earl_browder
 recruit_character = USA_william_dudley_pelley
 recruit_character = USA_franklin_delano_roosevelt

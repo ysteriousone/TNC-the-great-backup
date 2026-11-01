@@ -10,7 +10,9 @@ Hispaniola_war_cat = {
 		}
 
 		available = {
+		DOM = {
 		fascism > 1
+		}
    NOT = {
    country_exists = HAI
     }

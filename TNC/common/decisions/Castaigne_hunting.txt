@@ -47,4 +47,103 @@ declare_war_on = {
 		}
 	}
 	
+Contacing_Hildred = {
+		icon = generic_industry
+		cost = 150
+		fire_only_once = yes
+
+		visible = {
+    has_completed_focus = ENG_Tracking_The_Castaignes
+		}
+
+		available = {
+	always = yes
+		}
+
+		complete_effect = {
+	USA = {
+	country_event = {
+	id = USA_kiy
+	days = 30
+	 }
+	  }
+	  declare_war_on = {
+	  target = FLR
+	  type = annex_everything
+	   }
+	 declare_war_on = {
+	  target = LNG
+	  type = annex_everything
+	   }
+	 declare_war_on = {
+	  target = MSI
+	  type = annex_everything
+	   }
+	   	  declare_war_on = {
+	  target = ALA
+	  type = annex_everything
+	   }
+declare_war_on = {
+	  target = GGR
+	  type = annex_everything
+	   }
+declare_war_on = {
+      target = SLA
+		}
+declare_war_on = {
+     target = NLA
+	 type = annex_everything
+	  }
+declare_war_on = {
+     target = TSE
+	 type = annex_everything
+	  }
+	  
+declare_war_on = {
+     target = VIR
+	 type = annex_everything
+	  }
+	  
+declare_war_on = {
+     target = KFC
+	 type = annex_everything
+	  }
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+}
+
+Invading_Mexico = {
+		icon = generic_industry
+		cost = 150
+		fire_only_once = yes
+
+		visible = {
+    has_completed_focus = ENG_Tracking_The_Castaignes
+		}
+
+		available = {
+	always = yes
+		}
+
+		complete_effect = {
+	  
+declare_war_on = {
+     target = MEX
+	 type = annex_everything
+	  }
+	  
+declare_war_on = {
+     target = CSA
+	 type = annex_everything
+	  }
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
 }

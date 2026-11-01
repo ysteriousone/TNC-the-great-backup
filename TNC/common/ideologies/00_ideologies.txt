@@ -669,11 +669,14 @@ Ultranationalism  = {
 			}
 		
 		social_creditism = {
-			color = { 144, 238, 144 }
+			color = { 144 238 144 }
 		}
 
 			gen_nazism = {
 			}
+			
+	buf_fascism = {
+	 }
 			
         	Dirlewanger_Thought = {
 			}			
@@ -691,14 +694,6 @@ Ultranationalism  = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
 		}
 
 		color = { 150 75 0 }
