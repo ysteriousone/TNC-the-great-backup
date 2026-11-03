@@ -66,6 +66,24 @@ country_event = {
 
 }
 
+
+# Into the Rabbit hole
+country_event = {
+	id = eng_kiy.2
+	title = eng_kiy.2.t
+	desc = eng_kiy.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan this is not funny anymore
+		name = eng_kiy.2.a  
+
+}
+
+
+}
+
 # Malayan Insurgency - Part 1
 country_event = {
 	id = eng.1

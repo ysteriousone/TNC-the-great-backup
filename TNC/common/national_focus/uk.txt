@@ -191,7 +191,7 @@ focus = {
 focus = {
 		id = ENG_The_Kings_Party
 		
-		icon = GFX_focus_eng_decolonization
+		icon = GFX_Kings_Party
 		x = 7
 		y = 1
 		cost = 7
@@ -335,6 +335,10 @@ focus = {
 				ideology = burgundian_ideas
 				popularity = 0.1
 			}
+		country_event = {
+		id = eng_kiy.2
+		days = 3
+		 }
 		}
 	}
 	
@@ -731,6 +735,37 @@ focus = {
 	  }
 
 		completion_reward = {
+	USA = {
+	transfer_state = 361
+    transfer_state = 360
+transfer_state = 358
+transfer_state = 261
+transfer_state = 816
+transfer_state = 362
+transfer_state = 363
+transfer_state = 364
+transfer_state = 365
+transfer_state = 366
+transfer_state = 367
+transfer_state = 370
+transfer_state = 371
+transfer_state = 372
+transfer_state = 373
+transfer_state = 392
+transfer_state = 391
+transfer_state = 394
+transfer_state = 393
+transfer_state = 396
+transfer_state = 369
+transfer_state = 359
+transfer_state = 368
+transfer_state = 395
+set_cosmetic_tag = USA_Corcossa	
+	}
+	   	set_autonomy = {
+		target = USA
+		autonomous_state = autonomy_puppet
+		}
 		}
 	}
 	
@@ -752,6 +787,216 @@ focus = {
 		completion_reward = {
 		}
 	}
+	
+focus = {
+		id = ENG_The_Girl_who_left_me_behind
+		
+		icon = GFX_focus_eng_decolonization
+		x = 9
+		y = 9
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Our_Own_problematic_Family_Member
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Prepare_the_Grand_Return
+		
+		icon = GFX_focus_eng_decolonization
+		x = 9
+		y = 10
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Girl_who_left_me_behind
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Dont_turn_Left
+		
+		icon = GFX_focus_eng_decolonization
+		x = 8
+		y = 11
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Prepare_the_Grand_Return
+	 }
+	 prerequisite = {
+	 focus = ENG_Establish_The_Imperial_Dynasty
+	  }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_So_Long
+		
+		icon = GFX_focus_eng_decolonization
+		x = 5
+		y = 12
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_At_the_Crossroads
+	 }
+	 prerequisite = {
+	 focus = ENG_Dont_turn_Left
+	  }
+
+		completion_reward = {
+	declare_war_on = {
+	target = CAN
+	type = annex_everything
+	 }
+		}
+	}
+	
+focus = {
+		id = ENG_The_Final_Step
+		
+		icon = GFX_focus_eng_decolonization
+		x = 5
+		y = 13
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+	available = {
+	NOT = {
+	country_exists = CAN
+	 }
+	  }
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_So_Long
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Reality_sets_in
+		
+		icon = GFX_focus_eng_decolonization
+		x = 5
+		y = 14
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_Final_Step
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_This_Cannot_be
+		
+		icon = GFX_focus_eng_decolonization
+		x = 3
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Reality_sets_in
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_I_Am_The_King
+		
+		icon = GFX_focus_eng_decolonization
+		x = 7
+		y = 15
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_Reality_sets_in
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_The_long_Quiet
+		
+		icon = GFX_Long_Quiet
+		x = 5
+		y = 16
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_This_Cannot_be
+	 }
+	prerequisite = {
+	focus = ENG_I_Am_The_King
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = ENG_Goodbye_Bertie
+		
+		icon = GFX_Goodbye_Bertie
+		x = 5
+		y = 17
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+	relative_position_id = ENG_The_Kings_Party
+	prerequisite = {
+	focus = ENG_The_long_Quiet
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+
 	
 focus = {
 		id = ENG_Battle_Blackshirt_Influence

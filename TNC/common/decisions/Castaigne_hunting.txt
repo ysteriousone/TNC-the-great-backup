@@ -16,7 +16,7 @@ the_search_for_the_castaignes_cat = {
 		complete_effect = {
 	USA = {
 	country_event = {
-	id = USA_kiy
+	id = USA_kiy.1
 	days = 30
 	 }
 	  }
@@ -63,7 +63,7 @@ Contacing_Hildred = {
 		complete_effect = {
 	USA = {
 	country_event = {
-	id = USA_kiy
+	id = USA_kiy.1
 	days = 30
 	 }
 	  }

@@ -23,6 +23,21 @@ SpriteType = {
 	}
 	
 	SpriteType = {
+	name = "GFX_Kings_Party"
+	texturefile = "gfx/interface/goals/kings_party.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Long_Quiet"
+	texturefile = "gfx/interface/goals/The_Long_Quiet.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_Goodbye_Bertie"
+	texturefile = "gfx/interface/goals/goodbye_bertie.dds"			
+	}
+	
+	SpriteType = {
 	name = "GFX_BUF_Goons"
 	texturefile = "gfx/interface/goals/BUF_Goons.dds"			
 	}
