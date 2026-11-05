@@ -147,3 +147,35 @@ declare_war_on = {
 	}
 	
 }
+
+Expand_Imperial_Dynasty_borders_to_Mexico = {
+		icon = generic_industry
+		cost = 150
+		fire_only_once = yes
+
+		visible = {
+    has_completed_focus = ENG_Tracking_The_Castaignes
+		}
+
+		available = {
+	always = yes
+		}
+
+		complete_effect = {
+	  
+declare_war_on = {
+     target = MEX
+	 type = annex_everything
+	  }
+	  
+declare_war_on = {
+     target = CSA
+	 type = annex_everything
+	  }
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+}

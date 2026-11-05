@@ -25,7 +25,7 @@ focus_tree = {
 		
 		icon = GFX_focus_eng_decolonization
 		x = 6
-		y = 7
+		y = 11
 		cost = 7
 		ai_will_do = {
 			factor = 1
@@ -203,8 +203,10 @@ focus = {
 	focus = ENG_The_1949_Election
 	 }
    available = {
+   OR  = {
  neutrality > 0.6
-  
+  burgundian_ideas > 0.4
+   }
 }
 		completion_reward = {
 	   set_politics = {
@@ -691,6 +693,7 @@ focus = {
 	 }
 
 		completion_reward = {
+	custom_effect_tooltip = ENG_corcossa_castaigne_tt
 		}
 	}
 	
@@ -1185,6 +1188,7 @@ focus = {
    available = {
  fascism < 0.6
  neutrality < 0.6
+ burgundian_ideas < 0.6
   
 }
 		completion_reward = {
@@ -1916,6 +1920,11 @@ available = {
 		}
 
 		completion_reward = {
+	country_event = {
+	id = eng_policies.4
+	days = 4
+	 }
+
 		}
 	}
 	
@@ -1923,7 +1932,7 @@ available = {
 		id = ENG_Propose_The_Colonial_Settlement_Act
 		
 		icon = GFX_focus_generic_cryptologic_bomb
-		x = 8
+		x = 11
 		y = 5
 	prerequisite = {
 	focus = ENG_Propose_the_BUF_Bonus_Act
@@ -1938,6 +1947,10 @@ available = {
 		}
 
 		completion_reward = {
+		country_event = {
+	id = ENG_policies.3
+	days = 6
+	 }
 		}
 	}
 	

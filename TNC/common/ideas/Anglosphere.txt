@@ -23,8 +23,23 @@ ideas = {
 	
 				conscription_factor = 0.1
 				construction_speed = -0.30
-				consumer_goods_factor = 0.3
+				consumer_goods_factor = 0.2
 				monthly_manpower = 4000
+			}
+		}
+		
+	ENG_Free_Housing_Act = {
+			allowed = {
+				always = yes
+			}
+			picture = TNC_RUS_regional
+			modifier = {
+	
+				consumer_goods_expected_value = 0.4
+				production_speed_industrial_complex_factor = -0.4
+				conversion_cost_mil_to_civ_factor = 0.3
+				weekly_manpower = 30
+				consumer_goods_factor = -0.12
 			}
 		}
 	}
