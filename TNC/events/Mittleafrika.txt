@@ -28,6 +28,66 @@ free_country = yes
 }
 
   }
+  
+# How to civillize Tanzania
+country_event = {
+	id = hitler.1
+	title = hitler.1.t
+	desc = hitler.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # The usual technique
+		name = hitler.1.a  
+	546 = {
+	add_manpower = -600000
+	remove_core_of = TZN
+	add_core_of = RKA
+	 }
+	 
+add_popularity = {
+				ideology = burgundian_ideas
+				popularity = 0.09
+			}
+			
+add_popularity = {
+				ideology = fascism
+				popularity = 0.09
+			}
+	 
+
+}
+
+option = { # Take it slow
+		name = hitler.1.b  
+	546 = {
+	add_core_of = RKA
+	 }
+	 
+	add_popularity = {
+				ideology = democratic
+				popularity = 0.09
+			}
+
+}
+
+option = { # The old ways
+		name = hitler.1.c  
+	546 = {
+	add_manpower = -500000
+	add_manpower = 60000
+	 }
+	540 = {
+	add_manpower = 5000000
+	 }
+	add_popularity = {
+				ideology = neutrality
+				popularity = 0.09
+			}
+}
+
+  }
  
 # The Collapse - SAW loss version
 country_event = {

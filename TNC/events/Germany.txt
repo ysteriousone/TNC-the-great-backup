@@ -96,6 +96,13 @@ dismantle_faction = yes
 	days = 60
 	}
 	 }
+RKA = {
+	leave_faction = yes
+ country_event = {
+ id = rka_saf.1
+ days = 20
+load_focus_tree = Mittleafrika_focus_post_fall
+	}
 	 
 	}
 }

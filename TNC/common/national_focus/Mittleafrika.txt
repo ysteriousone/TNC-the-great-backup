@@ -39,6 +39,8 @@
 		
 
 		completion_reward = {
+		add_political_power = 150
+		
 		}
 	}
 	
@@ -366,6 +368,12 @@ focus = {
 		
 
 		completion_reward = {
+		every_state = {
+		limit = {
+		is_core_of = SAF
+		 }
+		add_claim_by = RKA
+		 }
 		}
 	}
 	

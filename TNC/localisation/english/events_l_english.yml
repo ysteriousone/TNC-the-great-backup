@@ -48,6 +48,14 @@
  world.13.t: "A Storm Brews in Northern Russia!"
  world.13.desc: "It’s happened.n\nThe Reichskommissariat Nowgorod no longer exists as a single entity. n\nFollowing the sudden death of Führer Emil Maurice, instability has spread across the Reichskommissariat. With the Führer gone, the cracks in Alfred Rosenberg’s grip over the region have begun to show. Many opportunists have already exploited these fractures in the administration.n\nAcross Northern Russia, numerous competing factions have mobilized armed militias, seizing several parts of the region. Many of these “warlords” are attempting to consolidate power and reshape Novgorod in their own image.Can Rosenberg restore what’s been lost?"
  world.13.a: "The Reich's authority exists on paper, nowhere else..."
+ 
+ world.14.t: "Free Frances annexes Upper Volta"
+ world.14.desc: "Surprising news has come as Upper Volta has just now ceased to exist! With talks between Charles De Gaulle and the Upper Voltan government officially coming to an end, the land has been transferred fully to the Free Franch administration.\n\nAlthough this is good news for the anti-Commmunist cause, this has caused uproar in the Cameroonian Pan African State, who have issued protests and begun pre emptive training for a potential war between the Free French and themselves. It remains to be seen as how the situation develops but most agree that it is not going to go anywhere peaceful."
+ world.14.a: "A dead dream or a return?"
+ 
+ world.15.t: "The West African War"
+ world.15.desc: "The gravest fears of most have been confirmed. Yet another proxy war has been declared between the Free States of Africa under Liberia, the Federation of West African States spearheaded by Free France and the African Union.\n\nThe War began when Cameroon invaded Nigeria after a Socialist coup went haywire and the rebels requested Cameroonian aid. The interventionist rhetoric also expanded to an invasion of Sokoto, which was nominally Nigerian land. A three way proxy, Free France is supported by the Canadian Exiles, Cameroon by France and surprisingly, Liberia by the Union of the Anglosphere. Already, frontlines are being drawn and casualties are being reported. It is debated how much effort the Canadians can put into Free France as they are already overstretched in the South African War. It remains to be seen as how the war develops..."
+ world.15.a: "What a larp"
 
 # KOMI COUNTRY EVENTS
  NRRF.1.t: "Voroshilov's Exit"
@@ -162,3 +170,10 @@
  eng_kiy.2.t: "The Repairer of Reputations"
  eng_kiy.2.d: "George VI noticed a curious book lying on the shelf during his usual lonely hours. It was one he found much confusing to read. A play of sorts, written by one Robert Chambers. From the corner of his eye he could see the name; "The King in Yellow". Curiosity getting the best of him, he went and picked up the book. He opened it and started reading. Surprisingly he was familar with some of the names...n\nHildred Castaigne... One of the many guests from King Edward's old ball parties. Louis Castaigne... His brother."
  
+ 
+  # MITTLEAFRIKA EVENTS
+  hitler.1.t: "The question of Tanzania"
+  hitler.1.d: "With most of the rebellious elements of the district of Tanzania quelled, it is time to go on a civillizing mission. But old Hitler is stuck on a problem; how exactly do we go along with colonizing Dar es Salam? Part of our administration believes we should follow the European model and go towards.... Providing living space so to say. Another part believes we should take it slow and co operate with the already compliant locals and make a merger. Another segment believes we should rip off the old Kaiserreich ways and do colonial experiments. But the decision is up to the Reichskommisar."
+  hitler.1.a: "No stone left unturned."
+  hitler.1.b: "Best not to ruin the goodwill we have."
+  hitler.1.c: "Kaiserboos?"

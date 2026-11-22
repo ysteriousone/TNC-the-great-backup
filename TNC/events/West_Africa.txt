@@ -1,0 +1,83 @@
+﻿###########################
+# West African Events
+###########################
+
+add_namespace = waf
+
+# Coup of Nigeria
+country_event = {
+	id = waf.1
+	title = waf.1.t
+	desc = waf.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Ew
+		name = waf.1.a  
+   CMR = {
+   transfer_state = 1146
+   add_state_core = 1146
+     	set_autonomy = {
+		target = NGA
+		autonomous_state = autonomy_puppet
+		}
+    }
+every_state = {
+limit = {
+is_core_of = NGA
+ }
+ add_core_of = CMR
+  }
+country_event = {
+id = waf.2
+days = 20
+ }
+}
+
+
+}
+
+
+# Sokoto-Cameroon war
+country_event = {
+	id = waf.2
+	title = waf.2.t
+	desc = waf.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Ew
+		name = waf.2.a  
+   CMR = {
+ declare_war_on = {
+ target = SOK 
+ type = annex_everything
+  }
+  
+ declare_war_on = {
+ target = DAH 
+ type = annex_everything
+  }
+  
+ declare_war_on = {
+ target = TOG 
+ type = annex_everything
+  }
+ create_faction = "African Union"
+}
+
+ FFR = {
+ country_event = {
+ id = ffr.2
+ days = 3
+  }
+   }
+
+
+}
+
+ }
+
+

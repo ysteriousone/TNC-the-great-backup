@@ -241,3 +241,37 @@ news_event = {
 		name = world.13.a
 	}
 }
+
+
+# Free France annexes Upper Volta
+news_event = {
+	id = world.14
+	title = world.14.t
+	desc = world.14.desc
+	picture = GFX_news_france_annex 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.14.a
+	}
+}
+
+
+# West African War
+news_event = {
+	id = world.15
+	title = world.15.t
+	desc = world.15.desc
+	picture = GFX_news_WAW 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.15.a
+	}
+}

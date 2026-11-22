@@ -15,6 +15,16 @@ spriteType = {
 		texturefile = "gfx/event_pictures/event_Japanese_Civil_War.dds"
 	}
 	
+spriteType = {
+		name = "GFX_news_france_annex"
+		texturefile = "gfx/event_pictures/France_annex.dds"
+	}
+	
+spriteType = {
+		name = "GFX_news_WAW"
+		texturefile = "gfx/event_pictures/WAW.dds"
+	}
+	
     spriteType = {
 		name = "GFX_news_Russian_Unification_Poland"
 		texturefile = "gfx/event_pictures/event_Polish_unifcation_of_Russia.dds"

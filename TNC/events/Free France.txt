@@ -22,10 +22,46 @@ country_event = {
    }
    add_state_core = 778
     }
+ CMR = {
+ country_event = { id = waf.1
+ days = 14
+  }
+   }
+news_event = { id = world.14 days = 4 }
+
+
 
 }
 
 
 }
+
+
+# West African Alliance - Free France
+country_event = {
+	id = ffr.2
+	title = ffr.2.t
+	desc = ffr.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Degaulle mogged
+		name = ffr.2.a  
+   FFR = {
+ create_faction = "Federation of West African States"
+ transfer_state = 556
+ add_state_core = 556
+ add_to_faction = SOK
+ add_to_faction = MLI
+ add_to_faction = GHA
+ add_to_faction = DAH
+ add_to_faction = TOG
+   }
+news_event = { id = world.14 days = 4 }
+
+}
+
+ }
 
 
