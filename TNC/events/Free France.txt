@@ -58,7 +58,7 @@ country_event = {
  add_to_faction = DAH
  add_to_faction = TOG
    }
-news_event = { id = world.14 days = 4 }
+news_event = { id = world.15 days = 4 }
 
 }
 

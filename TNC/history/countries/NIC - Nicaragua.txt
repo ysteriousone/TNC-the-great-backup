@@ -94,7 +94,7 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = Ultranationalism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -103,14 +103,24 @@ set_popularities = {
 	democratic = 15
 	fascism = 5
 	communism = 10
-	neutrality = 70
+	Ultranationalism = 70
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = Ultranationalism
 		last_election = "1936.12.8"
 		election_frequency = 48
 		elections_allowed = no
 	}
 }
+
+	create_country_leader = {
+			name = "Big Boss"
+			desc = ""
+			picture = Big_Boss.dds		
+			expire = "1965.1.1"
+			ideology = Mercenary_State
+			traits = {
+			}
+		}

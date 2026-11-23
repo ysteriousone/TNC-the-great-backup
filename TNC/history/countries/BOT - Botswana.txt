@@ -89,3 +89,14 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	
+	name = "D.F Malan"
+	picture = DF_Malan.dds
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}

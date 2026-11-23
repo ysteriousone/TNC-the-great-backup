@@ -15,6 +15,10 @@ Ultranationalism  = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
+	Existential_nihlism  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
+			
 		Imperial_Cultism  = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			color = {  14 0 56}
@@ -25,6 +29,10 @@ Ultranationalism  = {
 			}
 			
 	    Gaullic_Thought  = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
+			
+	    Mercenary_State  = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 

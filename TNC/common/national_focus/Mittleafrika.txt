@@ -533,6 +533,9 @@ focus = {
 		
 
 		completion_reward = {
+	country_event = {
+	id = rka.1
+	 }
 		}
 	}
 	
@@ -595,6 +598,7 @@ focus = {
 		
 
 		completion_reward = {
+	add_manpower = 4000
 		}
 	}
 	

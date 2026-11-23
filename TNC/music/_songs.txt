@@ -34,6 +34,16 @@ music = {
 }
 
 music = {
+	song = "Paint it Black"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
 	song = "Battle Hymn of the Republic"
 	
 	chance = {

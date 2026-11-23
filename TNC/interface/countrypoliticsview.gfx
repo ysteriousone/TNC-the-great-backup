@@ -500,6 +500,11 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
+		name = "GFX_ideology_conservative_democratic_group"
+		texturefile = "gfx/interface/ideologies/conservative_democratic_group.dds"
+	}	
+	
+	spriteType = {
 		name = "GFX_ideology_communism_group"
 		texturefile = "gfx/interface/ideologies/communism_group.dds"
 	}

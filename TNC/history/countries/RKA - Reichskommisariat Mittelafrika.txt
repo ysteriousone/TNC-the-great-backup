@@ -171,6 +171,17 @@ set_popularities = {
 				
 			}
 		}
+		
+	create_country_leader = {
+			name = "Adolf Hitler?"
+			desc = "POLITICS_HITLER_DESC"
+			picture = AM_Hitler.dds		
+			expire = "1965.1.1"
+			ideology = Existential_nihlism
+			traits = {
+				
+			}
+		}
 
 add_ideas = {
 	war_economy

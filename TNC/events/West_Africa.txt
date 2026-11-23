@@ -74,6 +74,45 @@ country_event = {
  days = 3
   }
    }
+  
+ LIB = {
+ country_event = {
+ id = waf.3
+ days = 4 
+  }
+   }
+
+
+}
+
+ }
+ 
+ 
+# West African Alliance - Liberia
+country_event = {
+	id = waf.3
+	title = waf.3.t
+	desc = waf.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # What
+		name = waf.3.a  
+ LIB = {
+ create_faction = "West African Alliance"
+ add_to_faction = GNA
+ add_to_faction = SEN
+ declare_war_on = {
+ target = FFR 
+ type = annex_everything
+  }
+  declare_war_on = {
+ target = CMR 
+ type = annex_everything
+  }
+  }
+  
 
 
 }

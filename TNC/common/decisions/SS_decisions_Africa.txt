@@ -56,6 +56,15 @@ The_SS_in_Africa_cat = {
 				ideology = burgundian_ideas
 				popularity = 0.09
 			}
+	add_manpower = -9000 
+546 = {
+					create_unit = {
+						division = "name = \"SS Divisions\" division_template = \"SS Divisions\" start_experience_factor = 1"
+						owner = RKA
+						count = 2
+					
+					}					
+				}
 		}
 
 		ai_will_do = {
