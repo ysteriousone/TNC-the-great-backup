@@ -48,7 +48,7 @@ division_template = {
 	}
 }
 
-units = {
+units = { 
 
 	division = {
 		division_name = {

@@ -1,0 +1,123 @@
+﻿
+division_template = {
+	name = "Elite Infantry"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 1
+		}
+	}
+}
+division_template = {
+	name = "Regular Infantry"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry"
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }	
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12794
+		division_template = "Regular Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2012
+		division_template = "Regular Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2012
+		division_template = "Light Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12794
+		division_template = "Light Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7930
+		division_template = "Light Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}	
+
+	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SEN"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}
+}
