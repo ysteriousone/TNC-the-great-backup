@@ -275,3 +275,20 @@ news_event = {
 		name = world.15.a
 	}
 }
+
+
+# South African War
+news_event = {
+	id = world.16
+	title = world.16.t
+	desc = world.16.desc
+	picture = GFX_news_SAW 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.16.a
+	}
+}

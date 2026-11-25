@@ -342,6 +342,13 @@ country_event = {
    }
     }
 	
+  RKA = {
+  declare_war_on = {
+  target = SAF
+  type = annex_everything
+   }
+    }
+	
  }
   
  
