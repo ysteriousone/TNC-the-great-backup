@@ -74,7 +74,6 @@ add_popularity = {
 			}
 
 }
- }
   
 # How to civillize Tanzania
 country_event = {

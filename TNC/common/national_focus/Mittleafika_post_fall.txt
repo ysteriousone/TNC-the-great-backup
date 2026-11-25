@@ -304,8 +304,8 @@ focus_tree = {
 	focus = {
 		id = RKA_Pretoria_Blitz
 		icon = GFX_focus_GER_realize_mittelafrika
-		x = 29
-		y = 3
+		x = 32
+		y = 0
 
 		cost = 2
 
