@@ -27,6 +27,23 @@ spriteTypes = {
 		name = "GFX_portrait_FRA_Maurice_Gamelin"
 		texturefile = "gfx/leaders/FRA/Gamelin.dds"
 	}
+### RKA
+		spriteType = {
+		name = "GFX_portrait_RKA_Hans_Huttig"
+		texturefile = "gfx/leaders/RKA/Hans_Huttig.dds"
+	}
+
+
+		spriteType = {
+		name = "GFX_portrait_RKA_Ernst_Junger"
+		texturefile = "gfx/leaders/RKA/Ernst_Junger.dds"
+	}
+
+		spriteType = {
+		name = "GFX_portrait_RKA_Von_Epp"
+		texturefile = "gfx/leaders/RKA/Von_Epp.dds"
+	}	
+	
 	### KOM
 	
 	

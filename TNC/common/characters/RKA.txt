@@ -1,0 +1,122 @@
+characters = {
+	
+
+  ####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
+ #    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
+ #       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  
+ #       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
+ #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
+  ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
+
+
+
+
+
+
+
+   # #    #####   #    #  #   #      #        ######    ##    #####   ######  #####    ####  
+  #   #   #    #  ##  ##   # #       #        #        #  #   #    #  #       #    #  #      
+ #     #  #    #  # ## #    #        #        #####   #    #  #    #  #####   #    #   ####  
+ #######  #####   #    #    #        #        #       ######  #    #  #       #####        # 
+ #     #  #   #   #    #    #        #        #       #    #  #    #  #       #   #   #    # 
+ #     #  #    #  #    #    #        #######  ######  #    #  #####   ######  #    #   ####  
+                                                                                             
+
+	RKA_Ernst_Junger = {
+		name = "Ernst Junger"
+		portraits = {
+			army = {
+				small = GFX_portrait_RKA_Ernst_Junger
+				large = GFX_portrait_RKA_Ernst_Junger
+			}
+		}
+
+		field_marshal = {
+			traits = { trait_cautious politically_connected offensive_doctrine desert_fox }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = 0
+		}
+		
+    country_leader = {
+			ideology = oligarchism
+			traits = { media_personality }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RKA_Ernst_Junger
+				small = GFX_portrait_RKA_Ernst_Junger
+			}
+			
+		}
+	}
+	
+	RKA_Hans_Huttig = {
+		name = "Hans Huttig"
+		portraits = {
+			army = {
+				small = GFX_portrait_RKA_Hans_Huttig
+				large = GFX_portrait_RKA_Hans_Huttig
+			}
+		}
+
+		field_marshal = {
+			traits = { trait_cautious }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = 0
+		}
+		
+    country_leader = {
+			ideology = himmler_branch
+			traits = { media_personality }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RKA_Hans_Huttig
+				small = GFX_portrait_RKA_Hans_Huttig 
+			}
+			
+		}
+	}
+	
+	RKA_Von_Epp = {
+		name = "Franz Ritter von Epp"
+		portraits = {
+			army = {
+				small = GFX_portrait_RKA_Von_Epp
+				large = GFX_portrait_RKA_Von_Epp
+			}
+		}
+
+		field_marshal = {
+			traits = { trait_cautious logistics_wizard }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 9
+			planning_skill = 9
+			logistics_skill = 9
+			legacy_id = 0
+		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RKA_Von_Epp
+				small = GFX_portrait_RKA_Von_Epp 
+			}
+			
+		}
+	}
+
+
+
+}

@@ -182,6 +182,22 @@ set_popularities = {
 				
 			}
 		}
+		
+		
+	create_country_leader = {
+			name = "Albert Goring"
+			desc = "POLITICS_ALBERT_DESC"
+			picture = Albert_Goring.dds		
+			expire = "1965.1.1"
+			ideology = populism
+			traits = {
+				
+			}
+		}
+
+recruit_character = RKA_Hans_Huttig
+recruit_character = RKA_Von_Epp
+recruit_character = RKA_Ernst_Junger
 
 add_ideas = {
 	war_economy
